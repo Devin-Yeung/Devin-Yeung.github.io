@@ -86,7 +86,7 @@
 <meta property="og:site_name" content="YCG&#39;s Notes">
 <meta property="og:description" content="基本建站配置样式配置在 hexo 中支持 Mathjax第一步: 使用Kramed代替 Markedhexo 默认的渲染引擎是 marked，但是 marked 不支持 mathjax。 kramed 是在 marked 的基础上进行修改。我们在工程目录下执行以下命令来安装 kramed. 12npm uninstall hexo-renderer-marked --savenpm install">
 <meta property="article:published_time" content="2019-12-31T16:00:00.000Z">
-<meta property="article:modified_time" content="2020-04-26T00:52:02.883Z">
+<meta property="article:modified_time" content="2020-04-24T16:00:00.000Z">
 <meta property="article:author" content="YCG">
 <meta name="twitter:card" content="summary">
 
@@ -114,6 +114,17 @@
       labels: {"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}
     }
   };
+</script>
+
+<script>
+    (function(){
+        if('hexo'){
+            if (prompt('请输入查看密码') !== 'hexo'){
+                alert('密码不正确,请询问作者！');
+                history.back();
+            }
+        }
+    })();
 </script>
 
 
@@ -1093,3 +1104,5 @@
 
 </body>
 </html>
+<!-- 页面点击小红心 -->
+<script type="text/javascript" src="/js/src/love.js"></script>
