@@ -302,7 +302,7 @@
 <p>部署的时候在控制台发现依旧报错了</p>
 <figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">Uncaught <span class="built_in">ReferenceError</span>: $ is not defined?</span><br></pre></td></tr></table></figure>
 <p>经过查询，发现问题出现在jQuery的引用问题上，遂修改代码，外部引入jQuery</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">&lt;!-- 代码块复制功能 --&gt;</span><br><span class="line">&lt;script src&#x3D;&quot;http:&#x2F;&#x2F;code.jquery.com&#x2F;jquery-2.1.1.min.js&quot;&gt;&lt;&#x2F;script&gt;</span><br><span class="line">&lt;script type&#x3D;&quot;text&#x2F;javascript&quot; src&#x3D;&quot;&#x2F;js&#x2F;clipboard.min.js&quot;&gt;&lt;&#x2F;script&gt;</span><br><span class="line">&lt;script type&#x3D;&quot;text&#x2F;javascript&quot; src&#x3D;&quot;&#x2F;js&#x2F;clipboard-use.js&quot;&gt;&lt;&#x2F;script&gt;</span><br></pre></td></tr></table></figure>
+<figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">&lt;!-- 代码块复制功能 --&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">script</span> <span class="attr">src</span>=<span class="string">"https://code.jquery.com/jquery-2.1.1.min.js"</span>&gt;</span><span class="tag">&lt;/<span class="name">script</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">script</span> <span class="attr">type</span>=<span class="string">"text/javascript"</span> <span class="attr">src</span>=<span class="string">"/js/clipboard.min.js"</span>&gt;</span><span class="tag">&lt;/<span class="name">script</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">script</span> <span class="attr">type</span>=<span class="string">"text/javascript"</span> <span class="attr">src</span>=<span class="string">"/js/clipboard-use.js"</span>&gt;</span><span class="tag">&lt;/<span class="name">script</span>&gt;</span></span><br></pre></td></tr></table></figure>
 <p>部署，发现问题解决！</p>
 <p>Reference:</p>
 <p><a href="https://www.zhyong.cn/posts/ca02/" target="_blank" rel="noopener">hexo-next 添加代码块复制功能</a></p>
@@ -607,7 +607,7 @@
 
 
 <!-- 代码块复制功能 -->
-<script src="http://code.jquery.com/jquery-2.1.1.min.js"></script>
+<script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
 <script type="text/javascript" src="/js/clipboard.min.js"></script>
 <script type="text/javascript" src="/js/clipboard-use.js"></script>
 
