@@ -1,6 +1,55 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>DNA超螺旋相关问题的探究</title>
+    <url>/2020/04/25/supercoil-of-dna/</url>
+    <content><![CDATA[<p>当DNA双螺旋的轴缠绕在其自身上时，它将形成新的螺旋，这种螺旋被称为超螺旋（supercoil），对于环状DNA分子，<strong>只要不引入断裂，其拓扑学特性便不会受到DNA链变形的影响</strong>。仅通过断开或重新连接一根或两条DNA链的骨架，即可改变拓扑学特性。<br><a id="more"></a><br><img src="/2020/04/25/supercoil-of-dna/1585480896520.png" alt="1585480896520"></p>
+<p>对于闭环分子中的长度为84bp的DNA片段，如果是呈松弛构象，则会形成8个螺旋，因为对于一个B-DNA，每10.5个bp将会上升一圈，所以对于一个84bp的片段，会形成$\frac{84}{10.5}=8$个螺旋（见图24-13.a）<img src="/2020/04/25/supercoil-of-dna/1585480948998.png" alt="1585480948998"></p>
+<p>连环数(Linking number,$Lk$)是双链DNA的拓扑属性，因为当DNA弯曲或变形时，<strong>只要两条DNA链保持完整，连环数就不会改变</strong>（这就解释了为什么topo异构酶是通过”剪开”DNA链的方式改变DNA链的超螺旋情况的），在确定一条链的情况下，<strong>连环数可以定义为第二条链穿透该平面的次数</strong>。当$Lk=1$(见图24-14.a)和$LK=6$(见图24-14.b)时情况如图所示</p>
+<p><img src="/2020/04/25/supercoil-of-dna/1585480981693.png" alt="1585480981693"></p>
+<p>当分子松弛时，<strong>连环数</strong>就是<strong>碱基对的数目</strong>除以<strong>每个螺旋中碱基对的数目</strong>，即</p>
+<script type="math/tex; mode=display">
+连环数=\frac{碱基对的数目}{每个螺旋中碱基对的数目}</script><p>对于一个长达2100bp的B-DNA，每个螺旋大致上由<strong>10.5个</strong>碱基对组成。因此，在这种情况下，$Lk =\frac{2100}{10.5}=200$（见图24-15.a）要使环状DNA分子具有诸如连环数之类的拓扑特性，两条链必须完整无间断。如果任一根链断裂，则原则上可以将两条链解开并完全分开。在这种情况下，不存在拓扑键，并且$Lk$不确定（见图24-15.b）</p>
+<p><img src="/2020/04/25/supercoil-of-dna/1585481009470.png" alt="1585481009470"></p>
+<p>因此，我们可以根据连环数数的变化来描述DNA状态变化，以<strong>松弛DNA</strong>中的连环数$Lk_{0}$作为参考，如果从该DNA分子中去除两个螺旋，则$Lk =198$。该变化可用等式描述（见公式1），通常以与DNA分子的长度无关的量表示连环数的变化是方便的。这个量称为<strong>比连环差</strong>或超螺旋密度（$\sigma$），是相对于松弛DNA中存在的螺旋数而言，去除的螺旋数的量度（见公式2）</p>
+<script type="math/tex; mode=display">
+\begin{align}
+\Delta Lk &=Lk-Lk_{0} \\
+& = 198-200 = -2 \tag{1} \\
+\\
+\sigma &=\frac{\Delta Lk}{Lk_{0}} \tag{2}
+\end{align}</script><p>在图24-15.c的示例中，$\sigma= 0.01$，这意味着B-DNA中存在的$1\%$（200个中的2个）螺旋已被去除。细胞内的DNA的比连环差通常在$5\%$~$7\%$的范围内，即$\sigma = -0.05$至$-0.07$。其中负号表示连环数的变化是由于DNA的不足所致。因此，将DNA缠绕不足引起的超螺旋定义为负超螺旋。相反，在某些条件下，DNA可能会被过度缠绕，导致正超螺旋。</p>
+<p><img src="/2020/04/25/supercoil-of-dna/1585495892661.png" alt="1585495892661"></p>
+<p>通过Topo异构酶的作用断开一条DNA链，将一条链的末端绕另一条未断裂的链旋转360°，然后重新连接断裂的末端，可以将连环数改变$\pm1$。</p>
+<p>所以，DNA的拓扑学结构可以由以下方程式描述（见公式3）</p>
+<script type="math/tex; mode=display">
+L = T +W \tag{3}</script><p>其中$T$是扭转数（twisting number），指DNA双螺旋的总转数，在“松弛”状态下，即DNA不发生超螺旋，此时的$T = L$，对于一个不发生超螺旋B-DNA，其$T$值应为碱基对数/10</p>
+<p>其中$W$为缠绕数（writhing number），指超螺旋数，即$W = \Delta Lk$，当DNA为正超螺旋时，$W$为正数，当DNA为负超螺旋时，$W$为负数</p>
+<p><img src="/2020/04/25/supercoil-of-dna/1585498098090.png" alt="1585555002097"></p>
+<link rel="stylesheet" href="/css/spoiler.css" type="text/css"><script src="/js/spoiler.js" type="text/javascript" async></script>]]></content>
+      <categories>
+        <category>Biochemistry</category>
+      </categories>
+      <tags>
+        <tag>Biochemistry</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Hello World</title>
+    <url>/2020/04/24/hello-world/</url>
+    <content><![CDATA[<p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p>
+<a id="more"></a>
+<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure>
+<p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p>
+<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
+<p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p>
+<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
+<p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p>
+<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
+<p>More info: <a href="https://hexo.io/docs/one-command-deployment.html" target="_blank" rel="noopener">Deployment</a></p>
+<link rel="stylesheet" href="/css/spoiler.css" type="text/css"><script src="/js/spoiler.js" type="text/javascript" async></script>]]></content>
+  </entry>
+  <entry>
     <title>使用Hexo搭建个人Blog</title>
     <url>/2020/01/01/Hexo-NexT/</url>
     <content><![CDATA[<h1 id="基本建站配置"><a href="#基本建站配置" class="headerlink" title="基本建站配置"></a>基本建站配置</h1><h1 id="样式配置"><a href="#样式配置" class="headerlink" title="样式配置"></a>样式配置</h1><h2 id="在-Hexo-中支持-Mathjax"><a href="#在-Hexo-中支持-Mathjax" class="headerlink" title="在 Hexo 中支持 Mathjax"></a>在 Hexo 中支持 Mathjax</h2><h3 id="1-使用Kramed代替-Marked"><a href="#1-使用Kramed代替-Marked" class="headerlink" title="1.使用Kramed代替 Marked"></a>1.使用Kramed代替 Marked</h3><p><code>hexo</code> 默认的渲染引擎是 <code>marked</code>，但是 <code>marked</code> 不支持 <code>mathjax</code>。 <code>kramed</code> 是在 <code>marked</code> 的基础上进行修改。我们在工程目录下执行以下命令来安装 <code>kramed</code>.</p>
@@ -40,7 +89,6 @@
 <p><img src="data:image/gif;base64,R0lGODlhAQABAPABAP///wAAACH5BAEKAAAALAAAAAABAAEAAAICRAEAOw==" alt="Click and drag to move"></p>
 <h3 id="2-下载canvas-nest"><a href="#2-下载canvas-nest" class="headerlink" title="2.下载canvas-nest"></a>2.下载canvas-nest</h3><p>我们把<code>canvas-nest</code>下载到<code>NexT</code>主题目录下的<code>source/lib目录里</code></p>
 <figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">$ git clone https:&#x2F;&#x2F;github.com&#x2F;theme-next&#x2F;theme-next-canvas-nest source&#x2F;lib&#x2F;canvas-nest</span><br></pre></td></tr></table></figure>
-<p><img src="data:image/gif;base64,R0lGODlhAQABAPABAP///wAAACH5BAEKAAAALAAAAAABAAEAAAICRAEAOw==" alt="Click and drag to move"></p>
 <h3 id="3-配置参数"><a href="#3-配置参数" class="headerlink" title="3.配置参数"></a>3.配置参数</h3><p>在<code>NexT</code><strong>配置文件</strong><code>_config.yml</code>中配置开启<code>canvas_nest</code></p>
 <p>在配置文件中找到canvas_nest，将enable设置成true，还可以自定义颜色、透明度、数量等。</p>
 <figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="attr">canvas_nest:</span></span><br><span class="line">  <span class="attr">enable:</span> <span class="literal">true</span></span><br><span class="line">  <span class="attr">onmobile:</span> <span class="literal">true</span> <span class="comment"># display on mobile or not</span></span><br><span class="line">  <span class="attr">color:</span> <span class="string">'0,0,255'</span> <span class="comment"># RGB values, use ',' to separate</span></span><br><span class="line">  <span class="attr">opacity:</span> <span class="number">0.5</span> <span class="comment"># the opacity of line: 0~1</span></span><br><span class="line">  <span class="attr">zIndex:</span> <span class="number">-1</span> <span class="comment"># z-index property of the background</span></span><br><span class="line">  <span class="attr">count:</span> <span class="number">99</span> <span class="comment"># the number of lines</span></span><br></pre></td></tr></table></figure>
@@ -64,6 +112,17 @@
 <p><a href="https://www.zhyong.cn/posts/ca02/" target="_blank" rel="noopener">hexo-next 添加代码块复制功能</a></p>
 <p><a href="https://blog.csdn.net/meihuasheng/article/details/89481581?depth_1-utm_source=distribute.pc_relevant.none-task-blog-BlogCommendFromBaidu-1&amp;utm_source=distribute.pc_relevant.none-task-blog-BlogCommendFromBaidu-1" target="_blank" rel="noopener">出现Uncaught ReferenceError: $ is not defined错误</a></p>
 <p><a href="https://blog.csdn.net/chrishly3/article/details/103992492" target="_blank" rel="noopener">next主题添加背景图片(无custom.styl情况)</a></p>
+<h2 id="hexo-next下添加字数统计和阅读时长"><a href="#hexo-next下添加字数统计和阅读时长" class="headerlink" title="hexo-next下添加字数统计和阅读时长"></a>hexo-next下添加字数统计和阅读时长</h2><h3 id="1-安装插件-1"><a href="#1-安装插件-1" class="headerlink" title="1.安装插件"></a>1.安装插件</h3><p>安装<code>hexo-symbols-count-time</code></p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">$ npm install hexo-symbols-count-time --save</span><br></pre></td></tr></table></figure>
+<p>如果安装完报如下提醒，还需安装<code>eslint</code></p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">npm WARN babel-eslint@10.0.1 requires a peer of eslint@&gt;&#x3D; 4.12.1 but none is installed. You must install peer dependencies yourself.</span><br></pre></td></tr></table></figure>
+<p>安装<code>eslint</code></p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">$ npm install eslint --save</span><br></pre></td></tr></table></figure>
+<h3 id="2-配置插件"><a href="#2-配置插件" class="headerlink" title="2.配置插件"></a>2.配置插件</h3><p>在站点配置文件添加如下配置</p>
+<figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="attr">symbols_count_time:</span></span><br><span class="line">  <span class="attr">symbols:</span> <span class="literal">true</span>                <span class="comment"># 文章字数统计</span></span><br><span class="line">  <span class="attr">time:</span> <span class="literal">true</span>                   <span class="comment"># 文章阅读时长</span></span><br><span class="line">  <span class="attr">total_symbols:</span> <span class="literal">true</span>          <span class="comment"># 站点总字数统计</span></span><br><span class="line">  <span class="attr">total_time:</span> <span class="literal">true</span>             <span class="comment"># 站点总阅读时长</span></span><br><span class="line">  <span class="attr">exclude_codeblock:</span> <span class="literal">false</span>     <span class="comment"># 排除代码字数统计</span></span><br></pre></td></tr></table></figure>
+<p>在NexT主题配置文件添加如下配置（NexT主题已支持该插件，有的话无需再添加）</p>
+<figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="comment"># Post wordcount display settings</span></span><br><span class="line"><span class="comment"># Dependencies: https://github.com/theme-next/hexo-symbols-count-time</span></span><br><span class="line"><span class="attr">symbols_count_time:</span></span><br><span class="line">  <span class="attr">separated_meta:</span> <span class="literal">true</span>     <span class="comment"># 是否另起一行（true的话不和发表时间等同一行）</span></span><br><span class="line">  <span class="attr">item_text_post:</span> <span class="literal">true</span>     <span class="comment"># 首页文章统计数量前是否显示文字描述（本文字数、阅读时长）</span></span><br><span class="line">  <span class="attr">item_text_total:</span> <span class="literal">false</span>   <span class="comment"># 页面底部统计数量前是否显示文字描述（站点总字数、站点阅读时长）</span></span><br><span class="line">  <span class="attr">awl:</span> <span class="number">4</span>                   <span class="comment"># Average Word Length</span></span><br><span class="line">  <span class="attr">wpm:</span> <span class="number">275</span>                 <span class="comment"># Words Per Minute（每分钟阅读词数）</span></span><br><span class="line">  <span class="attr">suffix:</span> <span class="string">mins.</span></span><br></pre></td></tr></table></figure>
+<p>Reference: <a href="https://www.himmy.cn/2019/07/06/hexo%E5%8D%9A%E5%AE%A2next%E4%B8%BB%E9%A2%98%E4%B8%8B%E6%B7%BB%E5%8A%A0%E5%AD%97%E6%95%B0%E7%BB%9F%E8%AE%A1%E5%92%8C%E9%98%85%E8%AF%BB%E6%97%B6%E9%95%BF/" target="_blank" rel="noopener">Hexo博客NexT主题下添加字数统计和阅读时长</a></p>
 <h1 id="其他配置"><a href="#其他配置" class="headerlink" title="其他配置"></a>其他配置</h1><h2 id="自动-amp-手动备份Hexo源文件"><a href="#自动-amp-手动备份Hexo源文件" class="headerlink" title="自动&amp;手动备份Hexo源文件"></a>自动&amp;手动备份Hexo源文件</h2><h3 id="1-在github新建repository"><a href="#1-在github新建repository" class="headerlink" title="1.在github新建repository"></a>1.在github新建repository</h3><p>在Github下创建一个新的<code>repository</code>，取名为<code>BlogSource</code>。(与本地的Hexo源码文件夹同名最好)<br>创建的时候<strong>最好为空</strong>，最好<strong>不要</strong>勾选创建<code>README.md</code>,否则后面会有小问题，不过我会提供解决办法。</p>
 <h3 id="2-创建仓库"><a href="#2-创建仓库" class="headerlink" title="2.创建仓库"></a>2.创建仓库</h3><p>进入本地的Blog文件夹，在这个地方使用<code>git Bash here</code>执行以下命令创建仓库:</p>
 <figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">git init</span><br></pre></td></tr></table></figure>
@@ -135,7 +194,7 @@
 <p>Reference :</p>
 <p><a href="https://wugenqiang.gitee.io/articles/manual_backup_blog_source_files.html" target="_blank" rel="noopener">Git命令手动备份Hexo博客源文件</a></p>
 <p><a href="https://wugenqiang.gitee.io/articles/auto_backup_blog_source_files.html" target="_blank" rel="noopener">自动备份Hexo博客源文件</a></p>
-<h1 id="Debug"><a href="#Debug" class="headerlink" title="Debug"></a>Debug</h1><h2 id="Hexo引用图片无法显示"><a href="#Hexo引用图片无法显示" class="headerlink" title="Hexo引用图片无法显示"></a>Hexo引用图片无法显示</h2><h3 id="1-安装插件-1"><a href="#1-安装插件-1" class="headerlink" title="1.安装插件"></a>1.安装插件</h3><p>首先我们需要安装一个图片路径转换的插件，这个插件名字是<code>hexo-asset-image</code></p>
+<h1 id="Debug"><a href="#Debug" class="headerlink" title="Debug"></a>Debug</h1><h2 id="Hexo引用图片无法显示"><a href="#Hexo引用图片无法显示" class="headerlink" title="Hexo引用图片无法显示"></a>Hexo引用图片无法显示</h2><h3 id="1-安装插件-2"><a href="#1-安装插件-2" class="headerlink" title="1.安装插件"></a>1.安装插件</h3><p>首先我们需要安装一个图片路径转换的插件，这个插件名字是<code>hexo-asset-image</code></p>
 <figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">npm install hexo-asset-image --save</span><br></pre></td></tr></table></figure>
 <p>或使用</p>
 <figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">npm install https:&#x2F;&#x2F;github.com&#x2F;CodeFalling&#x2F;hexo-asset-image --save</span><br></pre></td></tr></table></figure>
@@ -159,61 +218,16 @@
 <p><a href="https://www.jianshu.com/p/3a05351a37dc" target="_blank" rel="noopener">https://www.jianshu.com/p/3a05351a37dc</a></p>
 <p><a href="https://blog.csdn.net/qq_36759224/article/details/82121420" target="_blank" rel="noopener">https://blog.csdn.net/qq_36759224/article/details/82121420</a></p>
 <p><a href="https://blog.csdn.net/qq_36852780/article/details/104680152" target="_blank" rel="noopener">https://blog.csdn.net/qq_36852780/article/details/104680152</a></p>
+<h1 id="鸣谢"><a href="#鸣谢" class="headerlink" title="鸣谢"></a>鸣谢</h1><p>在建站过程中遇到了很多问题，参考了很多博主的文章，为表示感谢，故将其主站列至此处</p>
+<p><a href="https://michael728.github.io/" target="_blank" rel="noopener">Michael翔</a></p>
+<p><a href="https://www.himmy.cn/" target="_blank" rel="noopener">Himmy</a></p>
+<p><a href="https://www.zhyong.cn/" target="_blank" rel="noopener">ZhangYong</a></p>
 <link rel="stylesheet" href="/css/spoiler.css" type="text/css"><script src="/js/spoiler.js" type="text/javascript" async></script>]]></content>
       <categories>
         <category>hexo</category>
       </categories>
       <tags>
         <tag>hexo</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Hello World</title>
-    <url>/2020/04/24/hello-world/</url>
-    <content><![CDATA[<p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p>
-<a id="more"></a>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/one-command-deployment.html" target="_blank" rel="noopener">Deployment</a></p>
-<link rel="stylesheet" href="/css/spoiler.css" type="text/css"><script src="/js/spoiler.js" type="text/javascript" async></script>]]></content>
-  </entry>
-  <entry>
-    <title>DNA超螺旋相关问题的探究</title>
-    <url>/2020/04/25/supercoil-of-dna/</url>
-    <content><![CDATA[<p>当DNA双螺旋的轴缠绕在其自身上时，它将形成新的螺旋，这种螺旋被称为超螺旋（supercoil），对于环状DNA分子，<strong>只要不引入断裂，其拓扑学特性便不会受到DNA链变形的影响</strong>。仅通过断开或重新连接一根或两条DNA链的骨架，即可改变拓扑学特性。<br><a id="more"></a><br><img src="/2020/04/25/supercoil-of-dna/1585480896520.png" alt="1585480896520"></p>
-<p>对于闭环分子中的长度为84bp的DNA片段，如果是呈松弛构象，则会形成8个螺旋，因为对于一个B-DNA，每10.5个bp将会上升一圈，所以对于一个84bp的片段，会形成$\frac{84}{10.5}=8$个螺旋（见图24-13.a）<img src="/2020/04/25/supercoil-of-dna/1585480948998.png" alt="1585480948998"></p>
-<p>连环数(Linking number,$Lk$)是双链DNA的拓扑属性，因为当DNA弯曲或变形时，<strong>只要两条DNA链保持完整，连环数就不会改变</strong>（这就解释了为什么topo异构酶是通过”剪开”DNA链的方式改变DNA链的超螺旋情况的），在确定一条链的情况下，<strong>连环数可以定义为第二条链穿透该平面的次数</strong>。当$Lk=1$(见图24-14.a)和$LK=6$(见图24-14.b)时情况如图所示</p>
-<p><img src="/2020/04/25/supercoil-of-dna/1585480981693.png" alt="1585480981693"></p>
-<p>当分子松弛时，<strong>连环数</strong>就是<strong>碱基对的数目</strong>除以<strong>每个螺旋中碱基对的数目</strong>，即</p>
-<script type="math/tex; mode=display">
-连环数=\frac{碱基对的数目}{每个螺旋中碱基对的数目}</script><p>对于一个长达2100bp的B-DNA，每个螺旋大致上由<strong>10.5个</strong>碱基对组成。因此，在这种情况下，$Lk =\frac{2100}{10.5}=200$（见图24-15.a）要使环状DNA分子具有诸如连环数之类的拓扑特性，两条链必须完整无间断。如果任一根链断裂，则原则上可以将两条链解开并完全分开。在这种情况下，不存在拓扑键，并且$Lk$不确定（见图24-15.b）</p>
-<p><img src="/2020/04/25/supercoil-of-dna/1585481009470.png" alt="1585481009470"></p>
-<p>因此，我们可以根据连环数数的变化来描述DNA状态变化，以<strong>松弛DNA</strong>中的连环数$Lk_{0}$作为参考，如果从该DNA分子中去除两个螺旋，则$Lk =198$。该变化可用等式描述（见公式1），通常以与DNA分子的长度无关的量表示连环数的变化是方便的。这个量称为<strong>比连环差</strong>或超螺旋密度（$\sigma$），是相对于松弛DNA中存在的螺旋数而言，去除的螺旋数的量度（见公式2）</p>
-<script type="math/tex; mode=display">
-\begin{align}
-\Delta Lk &=Lk-Lk_{0} \\
-& = 198-200 = -2 \tag{1} \\
-\\
-\sigma &=\frac{\Delta Lk}{Lk_{0}} \tag{2}
-\end{align}</script><p>在图24-15.c的示例中，$\sigma= 0.01$，这意味着B-DNA中存在的$1\%$（200个中的2个）螺旋已被去除。细胞内的DNA的比连环差通常在$5\%$~$7\%$的范围内，即$\sigma = -0.05$至$-0.07$。其中负号表示连环数的变化是由于DNA的不足所致。因此，将DNA缠绕不足引起的超螺旋定义为负超螺旋。相反，在某些条件下，DNA可能会被过度缠绕，导致正超螺旋。</p>
-<p><img src="/2020/04/25/supercoil-of-dna/1585495892661.png" alt="1585495892661"></p>
-<p>通过Topo异构酶的作用断开一条DNA链，将一条链的末端绕另一条未断裂的链旋转360°，然后重新连接断裂的末端，可以将连环数改变$\pm1$。</p>
-<p>所以，DNA的拓扑学结构可以由以下方程式描述（见公式3）</p>
-<script type="math/tex; mode=display">
-L = T +W \tag{3}</script><p>其中$T$是扭转数（twisting number），指DNA双螺旋的总转数，在“松弛”状态下，即DNA不发生超螺旋，此时的$T = L$，对于一个不发生超螺旋B-DNA，其$T$值应为碱基对数/10</p>
-<p>其中$W$为缠绕数（writhing number），指超螺旋数，即$W = \Delta Lk$，当DNA为正超螺旋时，$W$为正数，当DNA为负超螺旋时，$W$为负数</p>
-<p><img src="/2020/04/25/supercoil-of-dna/1585498098090.png" alt="1585555002097"></p>
-<link rel="stylesheet" href="/css/spoiler.css" type="text/css"><script src="/js/spoiler.js" type="text/javascript" async></script>]]></content>
-      <categories>
-        <category>Biochemistry</category>
-      </categories>
-      <tags>
-        <tag>Biochemistry</tag>
       </tags>
   </entry>
 </search>
