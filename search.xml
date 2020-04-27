@@ -1,11 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>2020-4-27-BlogForTest</title>
-    <url>/2020/04/27/2020-4-27-BlogForTest/</url>
-    <content><![CDATA[<h1 id="test1-h1"><a href="#test1-h1" class="headerlink" title="test1 h1"></a>test1 h1</h1><h2 id="test1-h2"><a href="#test1-h2" class="headerlink" title="test1 h2"></a>test1 h2</h2><h1 id="test2-h1"><a href="#test2-h1" class="headerlink" title="test2 h1"></a>test2 h1</h1><h2 id="test2-h2"><a href="#test2-h2" class="headerlink" title="test2 h2"></a>test2 h2</h2><h1 id="test3-h1"><a href="#test3-h1" class="headerlink" title="test3 h1"></a>test3 h1</h1><h2 id="test3-h2"><a href="#test3-h2" class="headerlink" title="test3 h2"></a>test3 h2</h2><h1 id="test4-h1"><a href="#test4-h1" class="headerlink" title="test4 h1"></a>test4 h1</h1><h2 id="test4-h2"><a href="#test4-h2" class="headerlink" title="test4 h2"></a>test4 h2</h2><h1 id="test5-h1"><a href="#test5-h1" class="headerlink" title="test5 h1"></a>test5 h1</h1><h2 id="test5-h2"><a href="#test5-h2" class="headerlink" title="test5 h2"></a>test5 h2</h2><link rel="stylesheet" href="/css/spoiler.css" type="text/css"><script src="/js/spoiler.js" type="text/javascript" async></script>]]></content>
-  </entry>
-  <entry>
     <title>DNA超螺旋相关问题的探究</title>
     <url>/2020/04/25/supercoil-of-dna/</url>
     <content><![CDATA[<p>当DNA双螺旋的轴缠绕在其自身上时，它将形成新的螺旋，这种螺旋被称为超螺旋（supercoil），对于环状DNA分子，<strong>只要不引入断裂，其拓扑学特性便不会受到DNA链变形的影响</strong>。仅通过断开或重新连接一根或两条DNA链的骨架，即可改变拓扑学特性。<br><a id="more"></a><br><img src="/2020/04/25/supercoil-of-dna/1585480896520.png" alt="1585480896520"></p>
