@@ -44,4 +44,4 @@ if (typeof MathJax === 'undefined') {
     MathJax.startup.document.state(0);
     MathJax.texReset();
     MathJax.typeset();
-    }<link rel="stylesheet" href="/css/spoiler.css" type="text/css"><script src="/js/spoiler.js" type="text/javascript" async></script>
+    }
