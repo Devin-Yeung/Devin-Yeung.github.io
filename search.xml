@@ -222,40 +222,6 @@
       </tags>
   </entry>
   <entry>
-    <title>DNA超螺旋相关问题的探究</title>
-    <url>/2020/04/25/supercoil-of-dna/</url>
-    <content><![CDATA[<p>当DNA双螺旋的轴缠绕在其自身上时，它将形成新的螺旋，这种螺旋被称为超螺旋（supercoil），对于环状DNA分子，<strong>只要不引入断裂，其拓扑学特性便不会受到DNA链变形的影响</strong>。仅通过断开或重新连接一根或两条DNA链的骨架，即可改变拓扑学特性。<br><a id="more"></a><br><img src="/2020/04/25/supercoil-of-dna/1585480896520.png" alt="1585480896520"></p>
-<p>对于闭环分子中的长度为84bp的DNA片段，如果是呈松弛构象，则会形成8个螺旋，因为对于一个B-DNA，每10.5个bp将会上升一圈，所以对于一个84bp的片段，会形成$\frac{84}{10.5}=8$个螺旋（见图24-13.a）<img src="/2020/04/25/supercoil-of-dna/1585480948998.png" alt="1585480948998"></p>
-<p>连环数(Linking number,$Lk$)是双链DNA的拓扑属性，因为当DNA弯曲或变形时，<strong>只要两条DNA链保持完整，连环数就不会改变</strong>（这就解释了为什么topo异构酶是通过”剪开”DNA链的方式改变DNA链的超螺旋情况的），在确定一条链的情况下，<strong>连环数可以定义为第二条链穿透该平面的次数</strong>。当$Lk=1$(见图24-14.a)和$LK=6$(见图24-14.b)时情况如图所示</p>
-<p><img src="/2020/04/25/supercoil-of-dna/1585480981693.png" alt="1585480981693"></p>
-<p>当分子松弛时，<strong>连环数</strong>就是<strong>碱基对的数目</strong>除以<strong>每个螺旋中碱基对的数目</strong>，即</p>
-<script type="math/tex; mode=display">
-连环数=\frac{碱基对的数目}{每个螺旋中碱基对的数目}</script><p>对于一个长达2100bp的B-DNA，每个螺旋大致上由<strong>10.5个</strong>碱基对组成。因此，在这种情况下，$Lk =\frac{2100}{10.5}=200$（见图24-15.a）要使环状DNA分子具有诸如连环数之类的拓扑特性，两条链必须完整无间断。如果任一根链断裂，则原则上可以将两条链解开并完全分开。在这种情况下，不存在拓扑键，并且$Lk$不确定（见图24-15.b）</p>
-<p><img src="/2020/04/25/supercoil-of-dna/1585481009470.png" alt="1585481009470"></p>
-<p>因此，我们可以根据连环数数的变化来描述DNA状态变化，以<strong>松弛DNA</strong>中的连环数$Lk_{0}$作为参考，如果从该DNA分子中去除两个螺旋，则$Lk =198$。该变化可用等式描述（见公式1），通常以与DNA分子的长度无关的量表示连环数的变化是方便的。这个量称为<strong>比连环差</strong>或超螺旋密度（$\sigma$），是相对于松弛DNA中存在的螺旋数而言，去除的螺旋数的量度（见公式2）</p>
-<script type="math/tex; mode=display">
-\begin{align}
-\Delta Lk &=Lk-Lk_{0} \\
-& = 198-200 = -2 \tag{1} \\
-\\
-\sigma &=\frac{\Delta Lk}{Lk_{0}} \tag{2}
-\end{align}</script><p>在图24-15.c的示例中，$\sigma= 0.01$，这意味着B-DNA中存在的$1\%$（200个中的2个）螺旋已被去除。细胞内的DNA的比连环差通常在$5\%$~$7\%$的范围内，即$\sigma = -0.05$至$-0.07$。其中负号表示连环数的变化是由于DNA的不足所致。因此，将DNA缠绕不足引起的超螺旋定义为负超螺旋。相反，在某些条件下，DNA可能会被过度缠绕，导致正超螺旋。</p>
-<p><img src="/2020/04/25/supercoil-of-dna/1585495892661.png" alt="1585495892661"></p>
-<p>通过Topo异构酶的作用断开一条DNA链，将一条链的末端绕另一条未断裂的链旋转360°，然后重新连接断裂的末端，可以将连环数改变$\pm1$。</p>
-<p>所以，DNA的拓扑学结构可以由以下方程式描述（见公式3）</p>
-<script type="math/tex; mode=display">
-L = T +W \tag{3}</script><p>其中$T$是扭转数（twisting number），指DNA双螺旋的总转数，在“松弛”状态下，即DNA不发生超螺旋，此时的$T = L$，对于一个不发生超螺旋B-DNA，其$T$值应为碱基对数/10</p>
-<p>其中$W$为缠绕数（writhing number），指超螺旋数，即$W = \Delta Lk$，当DNA为正超螺旋时，$W$为正数，当DNA为负超螺旋时，$W$为负数</p>
-<p><img src="/2020/04/25/supercoil-of-dna/1585498098090.png" alt="1585555002097"></p>
-<link rel="stylesheet" href="/css/spoiler.css" type="text/css"><script src="/js/spoiler.js" type="text/javascript" async></script>]]></content>
-      <categories>
-        <category>Biochemistry</category>
-      </categories>
-      <tags>
-        <tag>Biochemistry</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>生物竞赛</title>
     <url>/2020/04/30/TEST/</url>
     <content><![CDATA[<div id="hexo-blog-encrypt" data-wpm="这个密码好像不对啊=_=" data-whm="抱歉, 这个文章不能被校验, 不过您还是能看看解密后的内容."><div class="hbe-input-container"><input type="password" id="hbePass" placeholder="请输入密码(=•ω＜=)" /><label>请输入密码(=•ω＜=)</label><div class="bottom-line"></div></div><script id="hbeData" type="hbeData" data-hmacdigest="13113bd2338bb5dc9785d4f1778faa56ff7fbf7a90db2b59f715f0977a7b636f">0bc86a7d584b841a6c9bd64b7a44912941aa1d614cd0353e727b0e12d60f59eb5031317b72714fad60c4f8f5b6146c862467408aea6df727175d03d0460d7247364b8fe1eab4d89caf87a27c12c92f1409326982b792d6f8b4e1320c69afeeea2b8cff0ecadf675101aa8884c1bee1b8575ceea00cf6e2997ae3012f301e5bf05ce325e3a0e79b4e59319d7ca97f0dc003e248484e6f601cf6fe12b7b4283f9957d5c167e92d24f406b7947981a770955aa7a5444481d08cfe40a7a6ba8164e10ff520cc6be45ce61f7587d6e0c5b4c249f349a526a8501201ee6505926a7cff21fb4498c17a69ad343739b147c6f7ee10b9486624a3092dbbc5082a4c9afcf369aeaee9f9412656c0a46b0ccd18d5def1ae31e8c567185dac0c4e50c34f772d9b565bfaa9600a8d2c4526dbb8b29df8c073f80a15f001e7b4422beea92d251c748424c37d678a28cb3523875242edcf7403b045c938ccc0247b42d5e0c0d46732070410e2337cc959863ac92489c6038f673294e07e73267d3fc5ca095ed5052a53586b8c959f3f0e5431824728d5c77adc2a730c2ecfd74567488baa6b12191b900b257158f72d775f6095ad0959f1ad7ea9cc2fb857b77d4277dab2a95730dfac1d80095f64314742f2b24e93561f5059cc757a13c68485fef4836e53f52933385f307733e2a99b851e4f9f49b40e0f1886006c024411fae75f2fac3d40b1b02934549b2487bd7a4c32edd44bd10ef315c53359291f3420a7e15ec29e0121f583a9f3c3ab434cc56ef14db1fbcf0775fb411aa4e1f86e99135e7a83490ae2e550ab32e428734e738f18863b20340c351b99ad1ad04e841e9fb9f35376454b16f2097b0e8f5b9cd9c0ae1b64ad8bc54f46c9493c22664a381614087b217ee32c9577788a265111336bb30aaa47e5b1bc49eed486a24ad4973eaf6d9ca8e6a0df4241833fb2f9a00ea2850caa6fc16ff765f90c637fd5f7bbe0df900d576492d1124ba6a4337ad78931bc5ba26fae7be81d0ad15455211579a25bbb7a2a13b485e01a5983e3cb2067580e8819ce673b3721e10fee7fe98606afeea99262d320466c3938bd4a7733e065d2603b11a85639b890d35b0fefca1f04306996f5b54424522a8d927d7114dfaf9dcd6b138fef421e70d69d747a16a7eb9f1df34b97d1ec481d900d8493e4206c75155074ff55150e3000eac598b6ddf08d0b195109076202063414c5d4e00c348783fcbdeaabc41fe162d3bd92e1525db5ceb992d65a8863abe8059d05da35fac1a890fd969598d499c1baf222ac8e435295b4a298bc460691f63524fde4253a939eb3e4f7341ff15171fe6b0553abae1d1b5ad95432c24b2496252cac0c1b01366e7bff05fdcc16e3bb1394220c90117bd4ac491ef8a77809772d5d1b40c0a05209684b20fd2703358b023a66f37d34ced1c551f6e7eb9233f8e735216b41221aa7db925c3875365e8be48ae583376d46900b069bd4ad384c986f98e0a29389518dd7280e8b</script></div><script src="/lib/blog-encrypt.js"></script><link href="/css/blog-encrypt.css" rel="stylesheet" type="text/css">]]></content>
@@ -269,6 +235,40 @@ L = T +W \tag{3}</script><p>其中$T$是扭转数（twisting number），指DNA�
     <title>必须掌握的六类三角函数(1)-未完成</title>
     <url>/2020/04/28/%E5%BF%85%E9%A1%BB%E6%8E%8C%E6%8F%A1%E7%9A%84%E5%85%AD%E7%B1%BB%E4%B8%89%E8%A7%92%E5%87%BD%E6%95%B0-1/</url>
     <content><![CDATA[<div id="hexo-blog-encrypt" data-wpm="这个密码好像不对啊=_=" data-whm="抱歉, 这个文章不能被校验, 不过您还是能看看解密后的内容."><div class="hbe-input-container"><input type="password" id="hbePass" placeholder="请输入密码(=•ω＜=)" /><label>请输入密码(=•ω＜=)</label><div class="bottom-line"></div></div><script id="hbeData" type="hbeData" data-hmacdigest="e38ab9442546ac8f873c4cb726104f1615acd8d5ac1860ed7d360a8ec6f21023">9ddc47d2d91e921d64f1ff8d3678279b19f402b9aa80eb0b1c5d56fc378447568cdebcf74462e2b4047cdabd633bb02bd94a4b16f8b318c9b2ebdccb77ec385d044804d47d1a2e0f18c8c629f74077d179e6b7a64d66df48a7427254aff4174af194a1145a4839883ee2f6206f9e96011d9a647cf017d47d36bbd9a9a570d00e0ed5505903c0f95a82ab85a6baf441801e9dda17fe0e5508f5fb48cd91413288bc382d103d8d64eb3cc71b472b332b074be0d71fa469b15acae820fab16f127363033cd5cd99c94ce1da8dd655dd52a531e135533a7d68c2aacc815b7df4e9fd9e4aed4413170481525f1725f33495efeed92c9d1228dedd453bb345879f7472641d34df50f7f0dd725bed845c68f66fb02cc3034c2835b06e42ed8a1e3f3cd1eb9de957bbf449bbc3f2c029ba563314799e01b350b2d5971e29e3dd1aeb2c3106332f03f3c0284d38894dc1e26a1b677c74b7f6760ee67881d1b72adf7abb16db0a82d3977c4bbf158544ac18266ee68366280d35021b607b57c435ae1338024c2914795ec61291b794a597e426946a0c1120cdcc066a45388a9c59fe8772e5a0888be64bfbec1154dd75b409f370b2dcca158b00983b18491e0e1f34cef66a1cfe6365ac77a7ce526877e4e6b49f279ce8746fa4f14373b390c2b0984769ccc46fe455ca99a9890e6396bf172abc7701d952a6d537ec7d84cccd96acad1ebbe8c947fbd2c93907a16a5fcf6ee15799dfff2b818df653303435e64fa19b45b22e3bc4d94e5e571f217b82fc53d2669c83562ad9310b4df3320e048c52091010707f83aaedb1f8751a4cab6530d336c406fcbe9ecdd1fde898de9962c8b57a34709e0c6cd8f8d1112d5f9bb3a70c38063fd81d2348393ad68399bbdfee678ab5c32c3ce59e182fe028b4771c43bfe88afe478fa14cff8e7de86458d40940979d1c0882182a99130fc7d8cd8ac7be5969a34481ba1737bc335ead9f97f7ada2171be4739376e156952a427963b0c40253f437a4ff8e13ad6ca3e9b7ad96243b90d705a835d77eb084cee8166cb420c1ec95634b8e49a011466e7e301596574b81668700815bbc28162bdce57c6cd2bf3f915bbea3f1d0bf37134978369c76cf40e59f9ca23dbde1721b45f7787589eecfb726122a59e20f8c1d8ce084aab4914e24c4d0d3d8ea5d992572f0ae2b7f7fa58f40ce956bd73483b7a7dff429f8a835c7efe581b978f64211e0f2b0c1df37322e81be883aa686d8e6a934813b03437ab3ac0a3e11a4d7b06beeda41158302992cf9c1c0da9c93f4cb5897eb75834b21a84a9b95c1ffef12aef64ed5e50346e0a9693f63ea14f8bab1b9226f3f3b03ddc31b5ad831f1c529d13e60762859649faf2703fd57e53c6e265826471c8cd3837ce1a057752c8e76ebe2ad1ac33aed524baef281ad061687c77ddd58c329e261ad113ced3a959417349fc8a85741c49a6179d859c06ccd270dcaab7e67690388dc364b9adc6176d07676cd642f40fee6a76de1f6e9f352d7ff59f5f9f0888b7f6361f1f1f23fb64da1fe269d419411d295fcd5f7f333dd2a4a2c0fd9deab3cbf5fb8835c3326cdedb43f8eb55bd17f6a5c572e29bff53bf088a2978b4f4e7a0f7335504b8107af6fb6de051ac4c6b9599c1e43efbb936591503c37e4609e8f2322c2f5296f2bd53c4798db002910bb0a15ffe4bfc303326467e5125266bd0402d6c39241211dbbea2e396f79ce0698e2d90243120356a844ecbdeb5c702fd97e1b50cb0ca0b5a1b43d62c2b2e00c93c9f2732190d2fd6f576037a38aa4d9721f308de09d9dd98ce4f8e379903715a36947f2ad3c2b4c84b3460baa203ccc3caab5b77bd3b07735e22f19686b91e0739698c3f4dd8cd5433179b280a586229a08e01b3001f0a4433991af708596725bdb236685b72786b311e48ca56e128e8dcdc7b48051337ea226b84845ccc7b0834d0e80b310e03e91a3a449021691506fd04480aef806657ee523a4146d3ad0b9a76ed278dc2b1e498d13727686aa33080a36eac9c4366f0c4f199ac8f02d80eaaa2ec812c67776bda7a1cd64efd24ba9f3090c27350a5e177bf02ec600c810446e47699ea05db585a0f93ae2caa9e5ffd18fe792ea61ffadd792d83fa243105b69d6de55f012d1f07382a43bc5f31ea19d0940ae41a01d5e6848e1ba32e079d8ea3cad7c1fed6fcf2b64279cdeab3f3c3432deb6bdffafddfad0dd5c9b99d31c01e0bf5013561ac42c338cf8f10cdb3e0d8a7c85e97d4adb5aad9d8170563982b747f6e2ae793e9ccf8562475f838805bd244211af02a06e5100b1fd08884bfa3d4027f5210117a752499f420ab484b9603893ff544f8015e59a6e02b1b4c27acb560a37cb5d24bc6833f27cc8061fcbd42bd6989a247bd7a446bdd35c7f5b6ae95784abc059aa992ed87e793f009bf79c27a6a3e9bfd6dd2e6f6e044d2407f41bd254b72bf0346fd57cb6613a92be0fa1ba1016d3c91ad47746f64538d9ab4883b695442c909f85e3c82ec76339f152a96be6e44c82afd68ead241837a9e67c57a5457191dd355354ce851a174f88005295293bde1820223f0e4d877b0ac1018bb9daa81bfe50a8c6bc15d79ac00ee5dfd35dad7b974e5958652b93f3704172ddca15b6a52f4b34d8a89fbe16e41cc647e5a44996e3132dc9fb4c8a2bfa1601ea3c642a5c278960a35447d35e727cd0cf49c8b30a7257d4617f93ebe9979f9487b75c2a92a3e2507e659cd2374d00f786d9c76930a724eaa53bdd45d7cec60fe59f193b4367166e81d6d9f41b07a57294459a3777e7d70b95a58abd018f32932e4d546149c953aa1f89534697ac952ebf5db0ded146cee8d3e5fc7a6f7cb10dae9a50476161fb1d41ce44ef093c3bf9df515da86edfd74c7f63f47aaab054bfc859f8f5b1b99785929de6064238f8a2752c9797796ce994565c0f006147804990e3ebf6122d7624551df9e4bd5ec1c4c63ec67f84366dcac7cc5ad66c7a214c95a27f791c7f30050c822af7b0c3ec2140cda22262b995ea270bf857562fa8ce634e677cdfae8b76245bdbe7bdda728982b41fa928eb8aa37c2346b9ff97377af8822b5f50fcc81042d061b9ad4c20c9cde4bbd37e67c768e273312aa685a35fb0eb07482c38dd5172970ecd0c97e9631040c30fd1f135de58b8afce212ced3257a23f86b6e3e272853e4a33a212739c9d100b2558df044ae00078ff9ffab3127e54177b0fd54fa4753f56e7c3501048177d900c2385b61ae66867f4b68ade4d5a3368afd1b5a1ea6f705f3777458c6011d5ca7c4bcf11d6dd238a5b4a4512e4de83b9898dd0fab82bbfbcf4de48fcaf69ace804b8f54cab8bb975514d2b0758710a597d3e654862f12b2d813bf5331e16a521eca257d117df10e1395af8e2c376d16a970075285f24168a1d131a07e7e955b89c7237aa1dc7e8b02a3eaa5297a497adf890d1b3603edef9422f04660f3bfc83d7bf39e896a02a023ffc89976ede5cb0055aa2d1c8fd1b9ba2bf4d15cd1c871e9269246411bfdacc93a71e7eb09234013f4549953f6d6f37f7d3caad5867ab6a6cf3c06971b4c5d51927f93eb94d44b4c9f6fbd538e53cdc70c30e70b26b73405e3584163f4917cdaa5f7c3823dd706fe66411b78fc8952608dbb52138b8d405b28590e2247d50ac15322e7b6a4e33347b590496484076b22c712b780b0f8375ba70f25acc4d74884fd8cfaf880dd0d598893aa9912b9896500aceaf3086f6bcf36f7a8fba507f2cde325ad16a9ad506287c6fa9c8daa6b79ff4dd0f8984cdd9e83d5e9fc1baf4d8bedfaf689eb841a352bea7557462474f46bd8a4fa386c516857df06587a0fb0618577617d1a4f37db528b435b9dd4e5ce3755d65bd2c64822c22cd61222cb4b8b947d0c9860143e40d4e58b34eda5e37c6bfce922f0057984b021a434dde6ea61a779828ce841dad0ba272d5f7dff9bdd9a50d3d608c84b74b6e752c2fc733466c6fa17485dc2dedf4bbe7f22148c9b7f8702a45f9db4217a66d574d320e97cb18241a603624564b850ccfd9d9a44fae79dbf749ba0ceb9598fb8c9dd71ca6ded69b1aa9d5322500b75129a0ee9bb6f264058b8bc0f136c9595383aaaeda94bc82310f02e855ef0998d5a2df8f6c05684ce3a270ea253d92796ddc78d81d344185efef36cefdbce081e8dd9af92ea51b38f8a9dc76c3046a350786021a1f3505eaab0f4c6c7ba34579bd6ac244f1d1a376f6295feee86816fcb56577fccbec1c0bf74c113632e26d6ec6d63678d0de476b9450a37a3a933e29bb3eb883fccb46fa85aea936c572c5d02b50826ee7fcac77e578776f1e4aac22287d56de0a1ccf772ab16ba97bd9cb25cf5424e8393001197c1c562b8944c279ed7eef94215a07c6fa6b1018d3cb65f4c79ee9ce318c114dc463a7e9d69be87128fa2b6bf1e608cdf5d568e3de24b7ada8fcca53ddc5baa0a32cb93f6d3948455da5123fcc1a76dd1b685d70bc2f6a836561f2c8efdfe5ae94cc9a99ee96f4fc016bbf04f25e2601e880e389d2e361b88688866cdefc533122d4f2bca3caadd5d5d6d42742cec27813db300af4522afc0fb0e6da290fc06d7c2c0171d9addbe239d29f313e7dcdb4b812a7e96d2e29f1ee1cafc1a790fa476826774b80c929a4567d14410f90b7b387f592dcc5102c88b84276f34d24cf692620aa27f9cd4740ad2fe3414e13f2d2c7c46169e7f4bab9fa8e416ac642afb15d2b98953b31657b577c0d40bb3688c1f1520dbdc34d983e8d475527d358208e83ac883e7dda4240fe777da370c9b243f3b807141533a98e04a158000e86d63caf41487bc08a313b6add6eefc43672e8085ad3a178c6b67e321aee34a2835ef6cad84fefaf56e2cf25ca8545f53c11098eaddce3f15b00f74c56d24aaf894d19b65710a0502c00a7622dae57e7d47bcbcff1132c380700c4708ab6e5aa86461294626b774bc191785cdfb89ec5eef77092aea44728b47996fd98e991e97a0e219dbcb1b8a327ca02c5d102d6dbf97d9362d519a0e6b55e21c3202e52a8092b39c7b19e212a260456468422c3fc553ad28864dd5e382d9dbbc54fb5c2ffbda54d04d32d6d04c5f54b423fb95e1d3e61b0552ffa8e203055d1ee8fd3bd0174dd627c6c22fbf2d2d95eb2e5e92ccaf6005965d54dc511274c4cd513e2652d7e318cab16bdd5988b5c7fc40657d95f8d4ff754b728acdcc2971b6a0080f69cba85470aab936ca3a9dfbcdb81cfa65e7980236a1e0cf2e93a186045a5dbac79688f6e9bc0318fd3e895811450f6016b0fefc1d4ac6a98bf0d29c00c1417108b24fc59fe1367a4bd44b75f44affc441e83b0f99bc1d9dd6e5cc39ba8c463e2e4773e857b9423e03ca1c7742364179a3ce9430456ade99e41a8b94e551011e998e329ff0a3dc56c966e6eea40d0b1a77d64099662e5d566b8e3f14d27e6a86a4dec68575f007e2a87deed933cf43249b0eafd4c1f05cfa7ea619ce1c21b6764d889bc70edf6bc2734e2379f0f9e6b0983ed0dd6ddddca0a4a4a8da9d23490cb45825522889472a2bdf542c2543a97f05089fb6917e9e8f1f7aee96e462a7e8acb377028100ea0a1373a07c547f4917fd98a087a7e512a31b00e7a3a4b12a2f5577d971abea2d7f5ccf3338743b04634f00509a6b5bff7d5b5d57f333900be239d99b63eaed555eff55493c46aadc12da102f1d3702b07b8c981a0557e8b1e7c82fd300f92632186bfb8b8e5598a565269c15f74da29869488e7ea9df471bcb486ebb9f006972086c4304031242f368846392bda9b6038ce1be90df6a172ea7a1a6ebc0ff870152054199ac00293280ee59b15302d49656a4fb657525a02fabe23a970c353d71f9f38d71c00cc9120b7b37eef34e3f30260043ae938d2595c329bc342270df9e62c9c7c32c2dd9a0cd47e3e6e645d13ab1f8bb7680c356d1210c380b6e3d359ade95484ccf2f7a02e0d9c9311c5541f85e00c138bcec84932e46f0c1b269ee6664fdd6503b354eedfebae0fffed1150a9d845eb676dfa5411cae7a288a7d2d95c8d09ee250ff63413d183aab77529d7be0b390c2c15b30da54c10502bb0daaf3d8e8ef2e7acad44c5305a59566e022d4b9c89d7f9eb838fdc2e5b8f8b7e4f2fd3081f79600bebf9bb63a25f72cb1acfad70f656ac298466e80202c19972046a8993697597b43e476dfd3538bdca5bb4074e0ed70ceb91ea84d82cf42840c1ed2519932fa19f9507d294d58bd928753356dbd65478fb4c6881c7761b3e43290bf19073611b6f9679c1d53b6444f0ea730dba1272a6b346fa6afd3dbc848a0518d0bb6debb695e641fc4d9a383a7840aa1f3cd0f0e5e779651954fdb1a80880ff1a07481446032b0d93c5c6a787492a94f6b7d47d71293d84c7f99b36be2383b666a5023709af856aba6e50e9ede9f2cc515866b030b4b31db7ec2ea2e0e724d35a7d0688542c5aed861aa0a70e2c3daf773f2c5f8ef0e265094f1d9a80852611167585a2f89e008a3e85cd261a56a5e0cf9d45161140f3237ed884fad7bc047cf9d33dc124aa33f1da90ea79ffa75e72522fa65b1422f644acb6dc4d1750e8fdd9b7910910bfe300f307f1042d79fb7ec036a92699bb8b61258c366800777eba073e16378a15daa5c65be362e1479bab8f02105816e7065e8fd793545d087193a6ef72ea137421b70482a37572aa7ded8b8417dc20768c5ee351237d7f41c6ba4916146aef1cfbdeb9931b584e12563e72b5744115686d8c8609a41f171fbece862865b038b5130cba3315197c42526620702d125af407442e94d741414aba9a2bbd091e463e0fa1affa8b077a75a4efe101a91a218f2f96403af498d1b35773143d359c2b7aa5c21ba9556fa115cfb0aa589c93a7780bc418b48ec04ef0f871bec80013321f6ba369c63cad64ff946b6f3fa1b441bb5c406fe0b5dbf010b80f31ffca6e7ea351a9deb63f8d4200a2aa742e98ba734720726698ed6f70511e06a8474e91853a1637f05131f2e08891f533522770d4fb1c40221740f5dc8b283bfcd38a30ff86f7106b03387b495b88a8bfc1cb84489fea4735f0b743e695c74c892e1f112710d1133bf52eac7a53e5c3f9811c571e0da63d4cb4352f70990b282b008eb47b3ad90ef88f5fe161fb47a7742c70fc9bc1d8632de87eb168b2fc45142142de9bd03669de332da785d0e9a39c07ab6149415e304e22a551b95a3f8cfd0a98a1b1d252b8613ad804bd177d0005e0fd31cea6f59de5be2929a776c809ec1f7836b3002a3e9d88522254826d258d47e8194e652c10705d54d3c4071a9aff66155ac30a39b49813bf073518e38b98410a9b56b54d085bdecfd47339c1b918bb8e371c429de05629aa32c092efc7bd3d54571f0600980f4f034a13e949d94c55b8acee75cbb31641ae6cf65afcab50e8e03741a40048e2dc296869f1c1688b3acab922e4a8fc1196e8e676f73763fae05308a5dcef00d6e94b212eb1d7034ce027107c092c4673ab9dd2ca8217e2a72077e10b07f6f804fc17257954fdb66a20c3e9baf8dd75b692f6b97c3e1cb27a5e2f55db2e5a839fe53557ada95662d4ab2ce93655827699760e4104d7223506624ae676d5487d1bd24c5fe7c1a6944e51b781f11029f4f1d913262290ac5f92123bd3ba80a28f34bd4908879bdb2a118558e409f0ea4a7aca01db09a8a09b4afe145db192ec89a23ab0438a479da503aac7a79403a31ab5d34ca2af115776ce060884901fcaba764f35c8a15e673567965557493b42ee51ad0d0420b6cb27c4fb76a5565270c2c4d2ae3beb6bb935cbbfee7985ca5390f1f3e345bded3d903508c2ab2256931c7838c79735b599e00ec61fe59d997f10b752e204c7f75a14a840d6bfea6e64ff7d73bcaf0941b6942c526275d60ea23400433860c5cd982dee1cdca6407d97785243a8da986b8da39a0512338903178baa0e6bd97bfc1e69a5f876d12c94364e11056bb622d768109dd8c9973945a90975f78cf602daad870370642d12eb83b0f3bd7c47911ef2dbe2ac0274bfe24187200cdbb91360186007e23f9677ae42c3394200957c3dee8c8015443431eeb9f8c7227a89208ccb2e0fdc5e029c422bf2a3388e94102d732f39f2cf51dc8d96819cad5980279ff63720f47d48df5f638bc00118628d7f782d45392eb0cf98cdb3696d8d20bf9e8f3e47305f6a75eecbcb5869fe6aaa47a890646c03fcd9522dffab85b8180a1006b25bbda761b73e7015d3c6ed2e7c59bbb739ff57f755fcaf0f53468561be0db2707287586c1bd249da78fcd2dc18fad9b7d52f65a4bc8cec446e99d5ee22b14db593632e785c96aa9f8787765261ed3e247a7e0e7ed6cd03bdf0e1d36a82c0e64fc0f9e3c819280e2794f5d17d248c5b49ac09552a3ee93041d5a283966ec5daf3001a81aa8df54946bd93aa68e160c488c4eeed829d888a1129dda8f50dd20259d71b4ff6d2f92700c4c4ce61665228da0c209290a159226ae6f34188a4bbb9f1e758724b6b5b47aaf68611ba98db1435998c0bebbd59484e24ff6ed654881c34a27856468ddcd87a81977d0e96d9b87d5414793bd253302496842bdfaf29e8e08feb4f7c28537a8db6d03f9b4f6ee1a5ef5847b407f4adb243635268473985f5bd4f675951c899d3d0e5551b3b993a927901665f5629926ebbf2bac843d3ef29c8aaafce9c40a91ebb01fb85b362181c8b0badd849c4cd7ea650bed6a73f497197d2f59a9d93d0984f381aab79a80ed48c7e4e55bd19f4ab7ff45825c2b552e966b172</script></div><script src="/lib/blog-encrypt.js"></script><link href="/css/blog-encrypt.css" rel="stylesheet" type="text/css">]]></content>
+  </entry>
+  <entry>
+    <title>DNA超螺旋相关问题的探究</title>
+    <url>/2020/04/25/Biology-Biochemistry-2020-04-25-supercoil-of-dna/</url>
+    <content><![CDATA[<p>当DNA双螺旋的轴缠绕在其自身上时，它将形成新的螺旋，这种螺旋被称为超螺旋（supercoil），对于环状DNA分子，<strong>只要不引入断裂，其拓扑学特性便不会受到DNA链变形的影响</strong>。仅通过断开或重新连接一根或两条DNA链的骨架，即可改变拓扑学特性。<br><a id="more"></a><br><img src="/2020/04/25/Biology-Biochemistry-2020-04-25-supercoil-of-dna/1585480896520.png" alt="1585480896520"></p>
+<p>对于闭环分子中的长度为84bp的DNA片段，如果是呈松弛构象，则会形成8个螺旋，因为对于一个B-DNA，每10.5个bp将会上升一圈，所以对于一个84bp的片段，会形成$\frac{84}{10.5}=8$个螺旋（见图24-13.a）<img src="/2020/04/25/Biology-Biochemistry-2020-04-25-supercoil-of-dna/1585480948998.png" alt="1585480948998"></p>
+<p>连环数(Linking number,$Lk$)是双链DNA的拓扑属性，因为当DNA弯曲或变形时，<strong>只要两条DNA链保持完整，连环数就不会改变</strong>（这就解释了为什么topo异构酶是通过”剪开”DNA链的方式改变DNA链的超螺旋情况的），在确定一条链的情况下，<strong>连环数可以定义为第二条链穿透该平面的次数</strong>。当$Lk=1$(见图24-14.a)和$LK=6$(见图24-14.b)时情况如图所示</p>
+<p><img src="/2020/04/25/Biology-Biochemistry-2020-04-25-supercoil-of-dna/1585480981693.png" alt="1585480981693"></p>
+<p>当分子松弛时，<strong>连环数</strong>就是<strong>碱基对的数目</strong>除以<strong>每个螺旋中碱基对的数目</strong>，即</p>
+<script type="math/tex; mode=display">
+连环数=\frac{碱基对的数目}{每个螺旋中碱基对的数目}</script><p>对于一个长达2100bp的B-DNA，每个螺旋大致上由<strong>10.5个</strong>碱基对组成。因此，在这种情况下，$Lk =\frac{2100}{10.5}=200$（见图24-15.a）要使环状DNA分子具有诸如连环数之类的拓扑特性，两条链必须完整无间断。如果任一根链断裂，则原则上可以将两条链解开并完全分开。在这种情况下，不存在拓扑键，并且$Lk$不确定（见图24-15.b）</p>
+<p><img src="/2020/04/25/Biology-Biochemistry-2020-04-25-supercoil-of-dna/1585481009470.png" alt="1585481009470"></p>
+<p>因此，我们可以根据连环数数的变化来描述DNA状态变化，以<strong>松弛DNA</strong>中的连环数$Lk_{0}$作为参考，如果从该DNA分子中去除两个螺旋，则$Lk =198$。该变化可用等式描述（见公式1），通常以与DNA分子的长度无关的量表示连环数的变化是方便的。这个量称为<strong>比连环差</strong>或超螺旋密度（$\sigma$），是相对于松弛DNA中存在的螺旋数而言，去除的螺旋数的量度（见公式2）</p>
+<script type="math/tex; mode=display">
+\begin{align}
+\Delta Lk &=Lk-Lk_{0} \\
+& = 198-200 = -2 \tag{1} \\
+\\
+\sigma &=\frac{\Delta Lk}{Lk_{0}} \tag{2}
+\end{align}</script><p>在图24-15.c的示例中，$\sigma= 0.01$，这意味着B-DNA中存在的$1\%$（200个中的2个）螺旋已被去除。细胞内的DNA的比连环差通常在$5\%$~$7\%$的范围内，即$\sigma = -0.05$至$-0.07$。其中负号表示连环数的变化是由于DNA的不足所致。因此，将DNA缠绕不足引起的超螺旋定义为负超螺旋。相反，在某些条件下，DNA可能会被过度缠绕，导致正超螺旋。</p>
+<p><img src="/2020/04/25/Biology-Biochemistry-2020-04-25-supercoil-of-dna/1585495892661.png" alt="1585495892661"></p>
+<p>通过Topo异构酶的作用断开一条DNA链，将一条链的末端绕另一条未断裂的链旋转360°，然后重新连接断裂的末端，可以将连环数改变$\pm1$。</p>
+<p>所以，DNA的拓扑学结构可以由以下方程式描述（见公式3）</p>
+<script type="math/tex; mode=display">
+L = T +W \tag{3}</script><p>其中$T$是扭转数（twisting number），指DNA双螺旋的总转数，在“松弛”状态下，即DNA不发生超螺旋，此时的$T = L$，对于一个不发生超螺旋B-DNA，其$T$值应为碱基对数/10</p>
+<p>其中$W$为缠绕数（writhing number），指超螺旋数，即$W = \Delta Lk$，当DNA为正超螺旋时，$W$为正数，当DNA为负超螺旋时，$W$为负数</p>
+<p><img src="/2020/04/25/Biology-Biochemistry-2020-04-25-supercoil-of-dna/1585498098090.png" alt="1585555002097"></p>
+<link rel="stylesheet" href="/css/spoiler.css" type="text/css"><script src="/js/spoiler.js" type="text/javascript" async></script>]]></content>
+      <categories>
+        <category>Biochemistry</category>
+      </categories>
+      <tags>
+        <tag>Biochemistry</tag>
+      </tags>
   </entry>
   <entry>
     <title>categories</title>
@@ -288,17 +288,6 @@ L = T +W \tag{3}</script><p>其中$T$是扭转数（twisting number），指DNA�
 <link rel="stylesheet" href="/css/spoiler.css" type="text/css"><script src="/js/spoiler.js" type="text/javascript" async></script>]]></content>
   </entry>
   <entry>
-    <title>发刊词：想要看透人心，微表情是很有用的科学工具</title>
-    <url>/zhihu/%E5%A7%9C%E6%8C%AF%E5%AE%87%E5%BE%AE%E8%A1%A8%E6%83%85%E5%BF%83%E7%90%86%E5%AD%A6/1.html</url>
-    <content><![CDATA[<p>你好，我是姜振宇，欢迎来到我的微表情课堂。</p>
-<p>我是从 2007 年上博士的时候，开始研究微表情的，先后和公安机关、检察机关、纪检监察机关等非常注重证据和逻辑的司法机关进行合作，研究的对象是实际案件中的各种嫌疑人，看他们说谎话、说实话，伪装表演，也有真情流露，因此积累了大量实际的研究素材和关于微表情的理论模型，取得了很好的研究成果。</p>
-<p>后来，机缘巧合，我开始专门做跟微表情相关的电视节目——2011 年江苏卫视的《非常了得》，是这个节目让更多的观众知道了微表情这项研究，在国内也有正经的研究，而不仅仅是电视剧里的台词总结和各种伪科学书里的胡说八道。</p>
-<p>之后，我陆续参加了民生节目四大名助，脑力节目最强大脑和情感节目非诚勿扰，用表情解读不同的人、不同的事和不同的心思。也因为解读过于透彻，被冠以「钢铁直男」的标签。实际上，一定要有鲜活的人和关切的事，才会让人出现真切的微表情和肢体动作。正是因为见了这么多形形色色的普通人和嫌疑人，才使得我对微表情的理解更加深刻和透彻。</p>
-<p>希望更多人能理解微表情的本质公式——如果一个人说的话和他的微小表情动作不一致，那就是有问题，需要小心被欺骗了。</p>
-<p>想要看透人的心，微表情是很有用的科学工具，大家要动脑筋来学习呀！我在这里等你。</p>
-<link rel="stylesheet" href="/css/spoiler.css" type="text/css"><script src="/js/spoiler.js" type="text/javascript" async></script>]]></content>
-  </entry>
-  <entry>
     <title>眼睛运动的2个维度：眼皮开闭和眼球的旋转</title>
     <url>/zhihu/%E5%A7%9C%E6%8C%AF%E5%AE%87%E5%BE%AE%E8%A1%A8%E6%83%85%E5%BF%83%E7%90%86%E5%AD%A6/2.html</url>
     <content><![CDATA[<p>我先问大家一个问题，你觉得你的眼睛运动复不复杂？尤其是在心思多，比较复杂，比较想要动心眼儿的时候，眼睛运动复不复杂？</p>
@@ -315,6 +304,17 @@ L = T +W \tag{3}</script><p>其中$T$是扭转数（twisting number），指DNA�
 <p>眼睛的转动可以从以下几个方面来看：第一，转动到的新位置是什么？换句话讲，有没有一辆新车让他引起了关注，他去获取了新的视觉信息，这件事是有意义的。第二，转动的频率是不是够快？如果是缓慢转动，很明显，他在察觉不同方向的视觉信息，因为人的眼睛获取视觉信息是需要一定时间的，稳定定焦，然后辨识清楚，映到视网膜上，再由大脑处理好了，才能够转开。如果他的眼睛转得很快，那就是古人常说的，这个家伙心虚。虽然古人是经验总结，但是用我们现在的科学道理也是一样的，啥意思？就是他的眼睛不是为了获取新的信息，而是为了躲开面对的刺激源，这就是心虚的表现。眼球转动的频率高、方向多等于恐惧情绪。</p>
 <p>经过这么一拆解，大家仔细地想一下，你的眼睛尽管运动好像很复杂，但实际上只有两大类，一类是眼睑「开」和「闭」，一类是眼球的「转」和「定」。有了它们之后，我们可以代入式地解决几乎所有问题。眼睛睁得越大，说明愿意看得越多；眼睛闭得越小，说明不愿意看；眼睛转得越快，说明没有想要获取视觉信息；眼睛定在那儿，说明他在看这件事情，他在获取信息。其他的内容，我们会在下节课，以及后面的9节课里面，慢慢地给大家推送出来。</p>
 <p>我们预告一下，第二节课讲的是「眉毛」。很有意思吧，眉毛这个看起来很好看、但又没有什么实际作用的东西，为什么会留存在人类的面孔上呢？它对于表情的构成，以及心意的表达有没有什么必要的、甚至是重要的作用呢？学会了眼睛的分析，再加上眉毛的分析，你就是无敌的。</p>
+<link rel="stylesheet" href="/css/spoiler.css" type="text/css"><script src="/js/spoiler.js" type="text/javascript" async></script>]]></content>
+  </entry>
+  <entry>
+    <title>发刊词：想要看透人心，微表情是很有用的科学工具</title>
+    <url>/zhihu/%E5%A7%9C%E6%8C%AF%E5%AE%87%E5%BE%AE%E8%A1%A8%E6%83%85%E5%BF%83%E7%90%86%E5%AD%A6/1.html</url>
+    <content><![CDATA[<p>你好，我是姜振宇，欢迎来到我的微表情课堂。</p>
+<p>我是从 2007 年上博士的时候，开始研究微表情的，先后和公安机关、检察机关、纪检监察机关等非常注重证据和逻辑的司法机关进行合作，研究的对象是实际案件中的各种嫌疑人，看他们说谎话、说实话，伪装表演，也有真情流露，因此积累了大量实际的研究素材和关于微表情的理论模型，取得了很好的研究成果。</p>
+<p>后来，机缘巧合，我开始专门做跟微表情相关的电视节目——2011 年江苏卫视的《非常了得》，是这个节目让更多的观众知道了微表情这项研究，在国内也有正经的研究，而不仅仅是电视剧里的台词总结和各种伪科学书里的胡说八道。</p>
+<p>之后，我陆续参加了民生节目四大名助，脑力节目最强大脑和情感节目非诚勿扰，用表情解读不同的人、不同的事和不同的心思。也因为解读过于透彻，被冠以「钢铁直男」的标签。实际上，一定要有鲜活的人和关切的事，才会让人出现真切的微表情和肢体动作。正是因为见了这么多形形色色的普通人和嫌疑人，才使得我对微表情的理解更加深刻和透彻。</p>
+<p>希望更多人能理解微表情的本质公式——如果一个人说的话和他的微小表情动作不一致，那就是有问题，需要小心被欺骗了。</p>
+<p>想要看透人的心，微表情是很有用的科学工具，大家要动脑筋来学习呀！我在这里等你。</p>
 <link rel="stylesheet" href="/css/spoiler.css" type="text/css"><script src="/js/spoiler.js" type="text/javascript" async></script>]]></content>
   </entry>
   <entry>
@@ -528,11 +528,6 @@ L = T +W \tag{3}</script><p>其中$T$是扭转数（twisting number），指DNA�
 <link rel="stylesheet" href="/css/spoiler.css" type="text/css"><script src="/js/spoiler.js" type="text/javascript" async></script>]]></content>
   </entry>
   <entry>
-    <title></title>
-    <url>/zhihu/%E8%A2%81%E6%96%87%E9%AD%81%E9%AB%98%E6%95%88%E8%AE%B0%E5%BF%86%E6%9C%AF/backup.html</url>
-    <content><![CDATA[<link rel="stylesheet" href="/css/spoiler.css" type="text/css"><script src="/js/spoiler.js" type="text/javascript" async></script>]]></content>
-  </entry>
-  <entry>
     <title>「数字定桩」海量信息轻松任意点背</title>
     <url>/zhihu/%E8%A2%81%E6%96%87%E9%AD%81%E9%AB%98%E6%95%88%E8%AE%B0%E5%BF%86%E6%9C%AF/6.html</url>
     <content><![CDATA[<p>上一讲我分享了配对联想法，对于成对出现的信息，可以通过联想来更牢固地记住，联想的关键法则有形象、独特、动态和多感官。我还带领大家记住了国家的首都和名著的作者，今天我们将学习到数字定桩法，它是配对联想法的一个升级版本。</p>
@@ -599,6 +594,11 @@ L = T +W \tag{3}</script><p>其中$T$是扭转数（twisting number），指DNA�
 <p>第 35 的编码是山虎，山上来的老虎，计谋是连环计，想象马戏团的老虎正跳火环，一个个环连着跳，就是连环计。</p>
 <p>最后一计，大家都已经知道了，「走为上计」。</p>
 <link rel="stylesheet" href="/css/spoiler.css" type="text/css"><script src="/js/spoiler.js" type="text/javascript" async></script>]]></content>
+  </entry>
+  <entry>
+    <title></title>
+    <url>/zhihu/%E8%A2%81%E6%96%87%E9%AD%81%E9%AB%98%E6%95%88%E8%AE%B0%E5%BF%86%E6%9C%AF/backup.html</url>
+    <content><![CDATA[<link rel="stylesheet" href="/css/spoiler.css" type="text/css"><script src="/js/spoiler.js" type="text/javascript" async></script>]]></content>
   </entry>
   <entry>
     <title>袁文魁|高效记忆术：教你快速记住任何信息</title>
