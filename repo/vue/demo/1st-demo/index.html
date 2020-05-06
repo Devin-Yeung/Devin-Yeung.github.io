@@ -1,0 +1,22 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.jsdelivr.net/npm/vue"></script>
+    <title>My First Vue App</title>
+</head>
+<body>
+    <div id="app">
+        <input type='text'>
+        <p>{{ title }}</p>
+    </div>
+</body>
+<script>
+    new Vue({
+    el: '#app',
+    data:{
+        title: 'Hello World!'
+    }
+});
+</script>
+</html>
