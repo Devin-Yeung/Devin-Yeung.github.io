@@ -1,20 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>使用Git备份文件</title>
-    <url>/2020/05/03/Develop-2020-05-03-%E4%BD%BF%E7%94%A8Git%E5%A4%87%E4%BB%BD%E6%96%87%E4%BB%B6/</url>
-    <content><![CDATA[<h1 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h1><p>使用Git更科学的备份和同步文件<br><a id="more"></a></p>
-<h1 id="1-仓库搭建"><a href="#1-仓库搭建" class="headerlink" title="1.仓库搭建"></a>1.仓库搭建</h1><h2 id="U盘仓库搭建"><a href="#U盘仓库搭建" class="headerlink" title="U盘仓库搭建"></a>U盘仓库搭建</h2><p>首先U盘上创建一个<code>repository</code>,名称为<code>backup-usb</code><br><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">git init –-bare backup-usb  &#x2F;&#x2F;裸库,没有work目录</span><br></pre></td></tr></table></figure><br>得到反馈<br><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">Initialized empty Git repository in E:&#x2F;%Backup&#x2F;backup-usb&#x2F;</span><br></pre></td></tr></table></figure></p>
-<h2 id="电脑仓库搭建"><a href="#电脑仓库搭建" class="headerlink" title="电脑仓库搭建"></a>电脑仓库搭建</h2><p>建一个源项目,名称为<code>backup</code><br><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">git init backup</span><br></pre></td></tr></table></figure><br>放入需要同步的文件<br><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">git add .  &#x2F;&#x2F;添加文件、如果有不需要管理的文件，加入 .gitignore文件；</span><br><span class="line">git commit -m &quot;initialized.&quot;  &#x2F;&#x2F;提交到本地仓库</span><br></pre></td></tr></table></figure><br>把U盘上的<code>backup-usb</code>添加为远程仓库,分支名称为<code>usb</code>,注意路径!!!<br><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">git remote add usb E:&#x2F;%Backup&#x2F;backup-usb</span><br></pre></td></tr></table></figure><br>向<code>backup-usb</code>推送更新<br><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">git push usb master</span><br></pre></td></tr></table></figure></p>
-<h2 id="备份文件查看"><a href="#备份文件查看" class="headerlink" title="备份文件查看"></a>备份文件查看</h2><p>因为<code>backup-usb</code>是裸库,所以新建一个仓库取出内容<br><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">git init  backup  &#x2F;&#x2F;在U盘中建一个本地仓库</span><br><span class="line">git remote add usb E:&#x2F;%Backup&#x2F;backup-usb  &#x2F;&#x2F;把U盘上的backup-usb添加为远程仓库</span><br><span class="line">git pull myusb master  &#x2F;&#x2F;拉取文件,完成文件同步</span><br></pre></td></tr></table></figure></p>
-<h1 id="2-日常使用"><a href="#2-日常使用" class="headerlink" title="2.日常使用"></a>2.日常使用</h1><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">git add . </span><br><span class="line">git commit</span><br><span class="line">git push </span><br><span class="line">git pull</span><br></pre></td></tr></table></figure>
-<p>Reference: <a href="https://www.cnblogs.com/sl21100/p/5613862.html" target="_blank" rel="noopener">U盘作为git仓库，完成不同地方的代码同步</a></p>
-<link rel="stylesheet" href="/css/spoiler.css" type="text/css"><script src="/js/spoiler.js" type="text/javascript" async></script>]]></content>
-      <tags>
-        <tag>Git</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>使用Hexo搭建个人Blog</title>
     <url>/2020/01/01/Develop-2020-01-01-Hexo-NexT/</url>
     <content><![CDATA[<p>本文记录了用hexo以及NexT部署博客的过程中遇到的各种问题。<br><a id="more"></a></p>
@@ -234,6 +220,20 @@
       </tags>
   </entry>
   <entry>
+    <title>使用Git备份文件</title>
+    <url>/2020/05/03/Develop-2020-05-03-%E4%BD%BF%E7%94%A8Git%E5%A4%87%E4%BB%BD%E6%96%87%E4%BB%B6/</url>
+    <content><![CDATA[<h1 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h1><p>使用Git更科学的备份和同步文件<br><a id="more"></a></p>
+<h1 id="1-仓库搭建"><a href="#1-仓库搭建" class="headerlink" title="1.仓库搭建"></a>1.仓库搭建</h1><h2 id="U盘仓库搭建"><a href="#U盘仓库搭建" class="headerlink" title="U盘仓库搭建"></a>U盘仓库搭建</h2><p>首先U盘上创建一个<code>repository</code>,名称为<code>backup-usb</code><br><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">git init –-bare backup-usb  &#x2F;&#x2F;裸库,没有work目录</span><br></pre></td></tr></table></figure><br>得到反馈<br><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">Initialized empty Git repository in E:&#x2F;%Backup&#x2F;backup-usb&#x2F;</span><br></pre></td></tr></table></figure></p>
+<h2 id="电脑仓库搭建"><a href="#电脑仓库搭建" class="headerlink" title="电脑仓库搭建"></a>电脑仓库搭建</h2><p>建一个源项目,名称为<code>backup</code><br><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">git init backup</span><br></pre></td></tr></table></figure><br>放入需要同步的文件<br><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">git add .  &#x2F;&#x2F;添加文件、如果有不需要管理的文件，加入 .gitignore文件；</span><br><span class="line">git commit -m &quot;initialized.&quot;  &#x2F;&#x2F;提交到本地仓库</span><br></pre></td></tr></table></figure><br>把U盘上的<code>backup-usb</code>添加为远程仓库,分支名称为<code>usb</code>,注意路径!!!<br><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">git remote add usb E:&#x2F;%Backup&#x2F;backup-usb</span><br></pre></td></tr></table></figure><br>向<code>backup-usb</code>推送更新<br><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">git push usb master</span><br></pre></td></tr></table></figure></p>
+<h2 id="备份文件查看"><a href="#备份文件查看" class="headerlink" title="备份文件查看"></a>备份文件查看</h2><p>因为<code>backup-usb</code>是裸库,所以新建一个仓库取出内容<br><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">git init  backup  &#x2F;&#x2F;在U盘中建一个本地仓库</span><br><span class="line">git remote add usb E:&#x2F;%Backup&#x2F;backup-usb  &#x2F;&#x2F;把U盘上的backup-usb添加为远程仓库</span><br><span class="line">git pull myusb master  &#x2F;&#x2F;拉取文件,完成文件同步</span><br></pre></td></tr></table></figure></p>
+<h1 id="2-日常使用"><a href="#2-日常使用" class="headerlink" title="2.日常使用"></a>2.日常使用</h1><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">git add . </span><br><span class="line">git commit</span><br><span class="line">git push </span><br><span class="line">git pull</span><br></pre></td></tr></table></figure>
+<p>Reference: <a href="https://www.cnblogs.com/sl21100/p/5613862.html" target="_blank" rel="noopener">U盘作为git仓库，完成不同地方的代码同步</a></p>
+<link rel="stylesheet" href="/css/spoiler.css" type="text/css"><script src="/js/spoiler.js" type="text/javascript" async></script>]]></content>
+      <tags>
+        <tag>Git</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>必须掌握的六类三角函数(1)-未完成</title>
     <url>/2020/04/28/%E9%AB%98%E8%80%83-%E9%AB%98%E8%80%83%E6%95%B0%E5%AD%A6-%E5%BF%85%E9%A1%BB%E6%8E%8C%E6%8F%A1%E7%9A%84%E5%85%AD%E7%B1%BB%E4%B8%89%E8%A7%92%E5%87%BD%E6%95%B0-1/</url>
     <content><![CDATA[<div id="hexo-blog-encrypt" data-wpm="这个密码好像不对啊=_=" data-whm="抱歉, 这个文章不能被校验, 不过您还是能看看解密后的内容."><div class="hbe-input-container"><input type="password" id="hbePass" placeholder="请输入密码(=•ω＜=)" /><label>请输入密码(=•ω＜=)</label><div class="bottom-line"></div></div><script id="hbeData" type="hbeData" data-hmacdigest="e38ab9442546ac8f873c4cb726104f1615acd8d5ac1860ed7d360a8ec6f21023">9ddc47d2d91e921d64f1ff8d3678279b19f402b9aa80eb0b1c5d56fc378447568cdebcf74462e2b4047cdabd633bb02bd94a4b16f8b318c9b2ebdccb77ec385d044804d47d1a2e0f18c8c629f74077d179e6b7a64d66df48a7427254aff4174af194a1145a4839883ee2f6206f9e96011d9a647cf017d47d36bbd9a9a570d00e0ed5505903c0f95a82ab85a6baf441801e9dda17fe0e5508f5fb48cd91413288bc382d103d8d64eb3cc71b472b332b074be0d71fa469b15acae820fab16f127363033cd5cd99c94ce1da8dd655dd52a531e135533a7d68c2aacc815b7df4e9fd9e4aed4413170481525f1725f33495efeed92c9d1228dedd453bb345879f7472641d34df50f7f0dd725bed845c68f66fb02cc3034c2835b06e42ed8a1e3f3cd1eb9de957bbf449bbc3f2c029ba563314799e01b350b2d5971e29e3dd1aeb2c3106332f03f3c0284d38894dc1e26a1b677c74b7f6760ee67881d1b72adf7abb16db0a82d3977c4bbf158544ac18266ee68366280d35021b607b57c435ae1338024c2914795ec61291b794a597e426946a0c1120cdcc066a45388a9c59fe8772e5a0888be64bfbec1154dd75b409f370b2dcca158b00983b18491e0e1f34cef66a1cfe6365ac77a7ce526877e4e6b49f279ce8746fa4f14373b390c2b0984769ccc46fe455ca99a9890e6396bf172abc7701d952a6d537ec7d84cccd96acad1ebbe8c947fbd2c93907a16a5fcf6ee15799dfff2b818df653303435e64fa19b45b22e3bc4d94e5e571f217b82fc53d2669c83562ad9310b4df3320e048c52091010707f83aaedb1f8751a4cab6530d336c406fcbe9ecdd1fde898de9962c8b57a34709e0c6cd8f8d1112d5f9bb3a70c38063fd81d2348393ad68399bbdfee678ab5c32c3ce59e182fe028b4771c43bfe88afe478fa14cff8e7de86458d40940979d1c0882182a99130fc7d8cd8ac7be5969a34481ba1737bc335ead9f97f7ada2171be4739376e156952a427963b0c40253f437a4ff8e13ad6ca3e9b7ad96243b90d705a835d77eb084cee8166cb420c1ec95634b8e49a011466e7e301596574b81668700815bbc28162bdce57c6cd2bf3f915bbea3f1d0bf37134978369c76cf40e59f9ca23dbde1721b45f7787589eecfb726122a59e20f8c1d8ce084aab4914e24c4d0d3d8ea5d992572f0ae2b7f7fa58f40ce956bd73483b7a7dff429f8a835c7efe581b978f64211e0f2b0c1df37322e81be883aa686d8e6a934813b03437ab3ac0a3e11a4d7b06beeda41158302992cf9c1c0da9c93f4cb5897eb75834b21a84a9b95c1ffef12aef64ed5e50346e0a9693f63ea14f8bab1b9226f3f3b03ddc31b5ad831f1c529d13e60762859649faf2703fd57e53c6e265826471c8cd3837ce1a057752c8e76ebe2ad1ac33aed524baef281ad061687c77ddd58c329e261ad113ced3a959417349fc8a85741c49a6179d859c06ccd270dcaab7e67690388dc364b9adc6176d07676cd642f40fee6a76de1f6e9f352d7ff59f5f9f0888b7f6361f1f1f23fb64da1fe269d419411d295fcd5f7f333dd2a4a2c0fd9deab3cbf5fb8835c3326cdedb43f8eb55bd17f6a5c572e29bff53bf088a2978b4f4e7a0f7335504b8107af6fb6de051ac4c6b9599c1e43efbb936591503c37e4609e8f2322c2f5296f2bd53c4798db002910bb0a15ffe4bfc303326467e5125266bd0402d6c39241211dbbea2e396f79ce0698e2d90243120356a844ecbdeb5c702fd97e1b50cb0ca0b5a1b43d62c2b2e00c93c9f2732190d2fd6f576037a38aa4d9721f308de09d9dd98ce4f8e379903715a36947f2ad3c2b4c84b3460baa203ccc3caab5b77bd3b07735e22f19686b91e0739698c3f4dd8cd5433179b280a586229a08e01b3001f0a4433991af708596725bdb236685b72786b311e48ca56e128e8dcdc7b48051337ea226b84845ccc7b0834d0e80b310e03e91a3a449021691506fd04480aef806657ee523a4146d3ad0b9a76ed278dc2b1e498d13727686aa33080a36eac9c4366f0c4f199ac8f02d80eaaa2ec812c67776bda7a1cd64efd24ba9f3090c27350a5e177bf02ec600c810446e47699ea05db585a0f93ae2caa9e5ffd18fe792ea61ffadd792d83fa243105b69d6de55f012d1f07382a43bc5f31ea19d0940ae41a01d5e6848e1ba32e079d8ea3cad7c1fed6fcf2b64279cdeab3f3c3432deb6bdffafddfad0dd5c9b99d31c01e0bf5013561ac42c338cf8f10cdb3e0d8a7c85e97d4adb5aad9d8170563982b747f6e2ae793e9ccf8562475f838805bd244211af02a06e5100b1fd08884bfa3d4027f5210117a752499f420ab484b9603893ff544f8015e59a6e02b1b4c27acb560a37cb5d24bc6833f27cc8061fcbd42bd6989a247bd7a446bdd35c7f5b6ae95784abc059aa992ed87e793f009bf79c27a6a3e9bfd6dd2e6f6e044d2407f41bd254b72bf0346fd57cb6613a92be0fa1ba1016d3c91ad47746f64538d9ab4883b695442c909f85e3c82ec76339f152a96be6e44c82afd68ead241837a9e67c57a5457191dd355354ce851a174f88005295293bde1820223f0e4d877b0ac1018bb9daa81bfe50a8c6bc15d79ac00ee5dfd35dad7b974e5958652b93f3704172ddca15b6a52f4b34d8a89fbe16e41cc647e5a44996e3132dc9fb4c8a2bfa1601ea3c642a5c278960a35447d35e727cd0cf49c8b30a7257d4617f93ebe9979f9487b75c2a92a3e2507e659cd2374d00f786d9c76930a724eaa53bdd45d7cec60fe59f193b4367166e81d6d9f41b07a57294459a3777e7d70b95a58abd018f32932e4d546149c953aa1f89534697ac952ebf5db0ded146cee8d3e5fc7a6f7cb10dae9a50476161fb1d41ce44ef093c3bf9df515da86edfd74c7f63f47aaab054bfc859f8f5b1b99785929de6064238f8a2752c9797796ce994565c0f006147804990e3ebf6122d7624551df9e4bd5ec1c4c63ec67f84366dcac7cc5ad66c7a214c95a27f791c7f30050c822af7b0c3ec2140cda22262b995ea270bf857562fa8ce634e677cdfae8b76245bdbe7bdda728982b41fa928eb8aa37c2346b9ff97377af8822b5f50fcc81042d061b9ad4c20c9cde4bbd37e67c768e273312aa685a35fb0eb07482c38dd5172970ecd0c97e9631040c30fd1f135de58b8afce212ced3257a23f86b6e3e272853e4a33a212739c9d100b2558df044ae00078ff9ffab3127e54177b0fd54fa4753f56e7c3501048177d900c2385b61ae66867f4b68ade4d5a3368afd1b5a1ea6f705f3777458c6011d5ca7c4bcf11d6dd238a5b4a4512e4de83b9898dd0fab82bbfbcf4de48fcaf69ace804b8f54cab8bb975514d2b0758710a597d3e654862f12b2d813bf5331e16a521eca257d117df10e1395af8e2c376d16a970075285f24168a1d131a07e7e955b89c7237aa1dc7e8b02a3eaa5297a497adf890d1b3603edef9422f04660f3bfc83d7bf39e896a02a023ffc89976ede5cb0055aa2d1c8fd1b9ba2bf4d15cd1c871e9269246411bfdacc93a71e7eb09234013f4549953f6d6f37f7d3caad5867ab6a6cf3c06971b4c5d51927f93eb94d44b4c9f6fbd538e53cdc70c30e70b26b73405e3584163f4917cdaa5f7c3823dd706fe66411b78fc8952608dbb52138b8d405b28590e2247d50ac15322e7b6a4e33347b590496484076b22c712b780b0f8375ba70f25acc4d74884fd8cfaf880dd0d598893aa9912b9896500aceaf3086f6bcf36f7a8fba507f2cde325ad16a9ad506287c6fa9c8daa6b79ff4dd0f8984cdd9e83d5e9fc1baf4d8bedfaf689eb841a352bea7557462474f46bd8a4fa386c516857df06587a0fb0618577617d1a4f37db528b435b9dd4e5ce3755d65bd2c64822c22cd61222cb4b8b947d0c9860143e40d4e58b34eda5e37c6bfce922f0057984b021a434dde6ea61a779828ce841dad0ba272d5f7dff9bdd9a50d3d608c84b74b6e752c2fc733466c6fa17485dc2dedf4bbe7f22148c9b7f8702a45f9db4217a66d574d320e97cb18241a603624564b850ccfd9d9a44fae79dbf749ba0ceb9598fb8c9dd71ca6ded69b1aa9d5322500b75129a0ee9bb6f264058b8bc0f136c9595383aaaeda94bc82310f02e855ef0998d5a2df8f6c05684ce3a270ea253d92796ddc78d81d344185efef36cefdbce081e8dd9af92ea51b38f8a9dc76c3046a350786021a1f3505eaab0f4c6c7ba34579bd6ac244f1d1a376f6295feee86816fcb56577fccbec1c0bf74c113632e26d6ec6d63678d0de476b9450a37a3a933e29bb3eb883fccb46fa85aea936c572c5d02b50826ee7fcac77e578776f1e4aac22287d56de0a1ccf772ab16ba97bd9cb25cf5424e8393001197c1c562b8944c279ed7eef94215a07c6fa6b1018d3cb65f4c79ee9ce318c114dc463a7e9d69be87128fa2b6bf1e608cdf5d568e3de24b7ada8fcca53ddc5baa0a32cb93f6d3948455da5123fcc1a76dd1b685d70bc2f6a836561f2c8efdfe5ae94cc9a99ee96f4fc016bbf04f25e2601e880e389d2e361b88688866cdefc533122d4f2bca3caadd5d5d6d42742cec27813db300af4522afc0fb0e6da290fc06d7c2c0171d9addbe239d29f313e7dcdb4b812a7e96d2e29f1ee1cafc1a790fa476826774b80c929a4567d14410f90b7b387f592dcc5102c88b84276f34d24cf692620aa27f9cd4740ad2fe3414e13f2d2c7c46169e7f4bab9fa8e416ac642afb15d2b98953b31657b577c0d40bb3688c1f1520dbdc34d983e8d475527d358208e83ac883e7dda4240fe777da370c9b243f3b807141533a98e04a158000e86d63caf41487bc08a313b6add6eefc43672e8085ad3a178c6b67e321aee34a2835ef6cad84fefaf56e2cf25ca8545f53c11098eaddce3f15b00f74c56d24aaf894d19b65710a0502c00a7622dae57e7d47bcbcff1132c380700c4708ab6e5aa86461294626b774bc191785cdfb89ec5eef77092aea44728b47996fd98e991e97a0e219dbcb1b8a327ca02c5d102d6dbf97d9362d519a0e6b55e21c3202e52a8092b39c7b19e212a260456468422c3fc553ad28864dd5e382d9dbbc54fb5c2ffbda54d04d32d6d04c5f54b423fb95e1d3e61b0552ffa8e203055d1ee8fd3bd0174dd627c6c22fbf2d2d95eb2e5e92ccaf6005965d54dc511274c4cd513e2652d7e318cab16bdd5988b5c7fc40657d95f8d4ff754b728acdcc2971b6a0080f69cba85470aab936ca3a9dfbcdb81cfa65e7980236a1e0cf2e93a186045a5dbac79688f6e9bc0318fd3e895811450f6016b0fefc1d4ac6a98bf0d29c00c1417108b24fc59fe1367a4bd44b75f44affc441e83b0f99bc1d9dd6e5cc39ba8c463e2e4773e857b9423e03ca1c7742364179a3ce9430456ade99e41a8b94e551011e998e329ff0a3dc56c966e6eea40d0b1a77d64099662e5d566b8e3f14d27e6a86a4dec68575f007e2a87deed933cf43249b0eafd4c1f05cfa7ea619ce1c21b6764d889bc70edf6bc2734e2379f0f9e6b0983ed0dd6ddddca0a4a4a8da9d23490cb45825522889472a2bdf542c2543a97f05089fb6917e9e8f1f7aee96e462a7e8acb377028100ea0a1373a07c547f4917fd98a087a7e512a31b00e7a3a4b12a2f5577d971abea2d7f5ccf3338743b04634f00509a6b5bff7d5b5d57f333900be239d99b63eaed555eff55493c46aadc12da102f1d3702b07b8c981a0557e8b1e7c82fd300f92632186bfb8b8e5598a565269c15f74da29869488e7ea9df471bcb486ebb9f006972086c4304031242f368846392bda9b6038ce1be90df6a172ea7a1a6ebc0ff870152054199ac00293280ee59b15302d49656a4fb657525a02fabe23a970c353d71f9f38d71c00cc9120b7b37eef34e3f30260043ae938d2595c329bc342270df9e62c9c7c32c2dd9a0cd47e3e6e645d13ab1f8bb7680c356d1210c380b6e3d359ade95484ccf2f7a02e0d9c9311c5541f85e00c138bcec84932e46f0c1b269ee6664fdd6503b354eedfebae0fffed1150a9d845eb676dfa5411cae7a288a7d2d95c8d09ee250ff63413d183aab77529d7be0b390c2c15b30da54c10502bb0daaf3d8e8ef2e7acad44c5305a59566e022d4b9c89d7f9eb838fdc2e5b8f8b7e4f2fd3081f79600bebf9bb63a25f72cb1acfad70f656ac298466e80202c19972046a8993697597b43e476dfd3538bdca5bb4074e0ed70ceb91ea84d82cf42840c1ed2519932fa19f9507d294d58bd928753356dbd65478fb4c6881c7761b3e43290bf19073611b6f9679c1d53b6444f0ea730dba1272a6b346fa6afd3dbc848a0518d0bb6debb695e641fc4d9a383a7840aa1f3cd0f0e5e779651954fdb1a80880ff1a07481446032b0d93c5c6a787492a94f6b7d47d71293d84c7f99b36be2383b666a5023709af856aba6e50e9ede9f2cc515866b030b4b31db7ec2ea2e0e724d35a7d0688542c5aed861aa0a70e2c3daf773f2c5f8ef0e265094f1d9a80852611167585a2f89e008a3e85cd261a56a5e0cf9d45161140f3237ed884fad7bc047cf9d33dc124aa33f1da90ea79ffa75e72522fa65b1422f644acb6dc4d1750e8fdd9b7910910bfe300f307f1042d79fb7ec036a92699bb8b61258c366800777eba073e16378a15daa5c65be362e1479bab8f02105816e7065e8fd793545d087193a6ef72ea137421b70482a37572aa7ded8b8417dc20768c5ee351237d7f41c6ba4916146aef1cfbdeb9931b584e12563e72b5744115686d8c8609a41f171fbece862865b038b5130cba3315197c42526620702d125af407442e94d741414aba9a2bbd091e463e0fa1affa8b077a75a4efe101a91a218f2f96403af498d1b35773143d359c2b7aa5c21ba9556fa115cfb0aa589c93a7780bc418b48ec04ef0f871bec80013321f6ba369c63cad64ff946b6f3fa1b441bb5c406fe0b5dbf010b80f31ffca6e7ea351a9deb63f8d4200a2aa742e98ba734720726698ed6f70511e06a8474e91853a1637f05131f2e08891f533522770d4fb1c40221740f5dc8b283bfcd38a30ff86f7106b03387b495b88a8bfc1cb84489fea4735f0b743e695c74c892e1f112710d1133bf52eac7a53e5c3f9811c571e0da63d4cb4352f70990b282b008eb47b3ad90ef88f5fe161fb47a7742c70fc9bc1d8632de87eb168b2fc45142142de9bd03669de332da785d0e9a39c07ab6149415e304e22a551b95a3f8cfd0a98a1b1d252b8613ad804bd177d0005e0fd31cea6f59de5be2929a776c809ec1f7836b3002a3e9d88522254826d258d47e8194e652c10705d54d3c4071a9aff66155ac30a39b49813bf073518e38b98410a9b56b54d085bdecfd47339c1b918bb8e371c429de05629aa32c092efc7bd3d54571f0600980f4f034a13e949d94c55b8acee75cbb31641ae6cf65afcab50e8e03741a40048e2dc296869f1c1688b3acab922e4a8fc1196e8e676f73763fae05308a5dcef00d6e94b212eb1d7034ce027107c092c4673ab9dd2ca8217e2a72077e10b07f6f804fc17257954fdb66a20c3e9baf8dd75b692f6b97c3e1cb27a5e2f55db2e5a839fe53557ada95662d4ab2ce93655827699760e4104d7223506624ae676d5487d1bd24c5fe7c1a6944e51b781f11029f4f1d913262290ac5f92123bd3ba80a28f34bd4908879bdb2a118558e409f0ea4a7aca01db09a8a09b4afe145db192ec89a23ab0438a479da503aac7a79403a31ab5d34ca2af115776ce060884901fcaba764f35c8a15e673567965557493b42ee51ad0d0420b6cb27c4fb76a5565270c2c4d2ae3beb6bb935cbbfee7985ca5390f1f3e345bded3d903508c2ab2256931c7838c79735b599e00ec61fe59d997f10b752e204c7f75a14a840d6bfea6e64ff7d73bcaf0941b6942c526275d60ea23400433860c5cd982dee1cdca6407d97785243a8da986b8da39a0512338903178baa0e6bd97bfc1e69a5f876d12c94364e11056bb622d768109dd8c9973945a90975f78cf602daad870370642d12eb83b0f3bd7c47911ef2dbe2ac0274bfe24187200cdbb91360186007e23f9677ae42c3394200957c3dee8c8015443431eeb9f8c7227a89208ccb2e0fdc5e029c422bf2a3388e94102d732f39f2cf51dc8d96819cad5980279ff63720f47d48df5f638bc00118628d7f782d45392eb0cf98cdb3696d8d20bf9e8f3e47305f6a75eecbcb5869fe6aaa47a890646c03fcd9522dffab85b8180a1006b25bbda761b73e7015d3c6ed2e7c59bbb739ff57f755fcaf0f53468561be0db2707287586c1bd249da78fcd2dc18fad9b7d52f65a4bc8cec446e99d5ee22b14db593632e785c96aa9f8787765261ed3e247a7e0e7ed6cd03bdf0e1d36a82c0e64fc0f9e3c819280e2794f5d17d248c5b49ac09552a3ee93041d5a283966ec5daf3001a81aa8df54946bd93aa68e160c488c4eeed829d888a1129dda8f50dd20259d71b4ff6d2f92700c4c4ce61665228da0c209290a159226ae6f34188a4bbb9f1e758724b6b5b47aaf68611ba98db1435998c0bebbd59484e24ff6ed654881c34a27856468ddcd87a81977d0e96d9b87d5414793bd253302496842bdfaf29e8e08feb4f7c28537a8db6d03f9b4f6ee1a5ef5847b407f4adb243635268473985f5bd4f675951c899d3d0e5551b3b993a927901665f5629926ebbf2bac843d3ef29c8aaafce9c40a91ebb01fb85b362181c8b0badd849c4cd7ea650bed6a73f497197d2f59a9d93d0984f381aab79a80ed48c7e4e55bd19f4ab7ff45825c2b552e966b172</script></div><script src="/lib/blog-encrypt.js"></script><link href="/css/blog-encrypt.css" rel="stylesheet" type="text/css">]]></content>
@@ -328,6 +328,11 @@ L = T +W \tag{3}</script><p>其中$T$是扭转数（twisting number），指DNA�
     <content><![CDATA[<link rel="stylesheet" href="/css/spoiler.css" type="text/css"><script src="/js/spoiler.js" type="text/javascript" async></script>]]></content>
   </entry>
   <entry>
+    <title>Debug</title>
+    <url>/repo/private/Debug.html</url>
+    <content><![CDATA[<div id="hexo-blog-encrypt" data-wpm="这个密码好像不对啊=_=" data-whm="抱歉, 这个文章不能被校验, 不过您还是能看看解密后的内容."><div class="hbe-input-container"><input type="password" id="hbePass" placeholder="请输入密码(=•ω＜=)" /><label>请输入密码(=•ω＜=)</label><div class="bottom-line"></div></div><script id="hbeData" type="hbeData" data-hmacdigest="5c0d215d5455200d629ca3419f00054e67fdd1c9701b95d233b53cad593c95cc">de2294c6bb52cc3343feed562687ce87a3b6b79f0dac9e0f0165d5edadcc2f25e4e44ff3649dbfde37e9334d4ab3f39a94bd6494c3e22d467433b070fe349b38d8727206362784845498cc2ca0907e1ec6383d40ec71c6779f86f9f15157c23035566e0b9f0bfdae674d6ad3feefa8ba73ea6099ae2afb731a4d0e2f4ec6dfba745bef9bf8d77d5f73154f3f91631e1e120fdc7641234c208d9e0d61827665532914b7f5b874dc7dcf823cb4fe139acd269e00dedc8eeea36c14f8c4ad795da820c0e617b59b1e346db4c5ef962dcb8d</script></div><script src="/lib/blog-encrypt.js"></script><link href="/css/blog-encrypt.css" rel="stylesheet" type="text/css">]]></content>
+  </entry>
+  <entry>
     <title>指南</title>
     <url>/repo/guide/index.html</url>
     <content><![CDATA[<h1 id="Github优秀项目"><a href="#Github优秀项目" class="headerlink" title="Github优秀项目"></a>Github优秀项目</h1><p><a href="https://github.com/Alvin9999/new-pac" target="_blank" rel="noopener">new-pac</a></p>
@@ -335,11 +340,6 @@ L = T +W \tag{3}</script><p>其中$T$是扭转数（twisting number），指DNA�
 <p>科学上网/自由上网/软件/方法，免费shadowsocks/ss/ssr/v2ray/goflyway账号，vps一键搭建脚本/教程<br><a href="https://github.com/qianguyihao/Web" target="_blank" rel="noopener">Web</a><br>前端入门和进阶学习笔记，超详细的Web前端学习图文教程。从零开始学前端，做一名精致的前端工程师。</p>
 </blockquote>
 <link rel="stylesheet" href="/css/spoiler.css" type="text/css"><script src="/js/spoiler.js" type="text/javascript" async></script>]]></content>
-  </entry>
-  <entry>
-    <title>Debug</title>
-    <url>/repo/private/Debug.html</url>
-    <content><![CDATA[<div id="hexo-blog-encrypt" data-wpm="这个密码好像不对啊=_=" data-whm="抱歉, 这个文章不能被校验, 不过您还是能看看解密后的内容."><div class="hbe-input-container"><input type="password" id="hbePass" placeholder="请输入密码(=•ω＜=)" /><label>请输入密码(=•ω＜=)</label><div class="bottom-line"></div></div><script id="hbeData" type="hbeData" data-hmacdigest="5c0d215d5455200d629ca3419f00054e67fdd1c9701b95d233b53cad593c95cc">de2294c6bb52cc3343feed562687ce87a3b6b79f0dac9e0f0165d5edadcc2f25e4e44ff3649dbfde37e9334d4ab3f39a94bd6494c3e22d467433b070fe349b38d8727206362784845498cc2ca0907e1ec6383d40ec71c6779f86f9f15157c23035566e0b9f0bfdae674d6ad3feefa8ba73ea6099ae2afb731a4d0e2f4ec6dfba745bef9bf8d77d5f73154f3f91631e1e120fdc7641234c208d9e0d61827665532914b7f5b874dc7dcf823cb4fe139acd269e00dedc8eeea36c14f8c4ad795da820c0e617b59b1e346db4c5ef962dcb8d</script></div><script src="/lib/blog-encrypt.js"></script><link href="/css/blog-encrypt.css" rel="stylesheet" type="text/css">]]></content>
   </entry>
   <entry>
     <title>Inbox</title>
@@ -362,6 +362,54 @@ L = T +W \tag{3}</script><p>其中$T$是扭转数（twisting number），指DNA�
     <url>/repost/zhihu/index.html</url>
     <content><![CDATA[<p><a href="./姜振宇微表情心理学/index.html">姜振宇|微表情21讲：让他人内心在你面前藏不住</a></p>
 <p><a href="./袁文魁高效记忆术/index.html">袁文魁|高效记忆术：教你快速记住任何信息</a></p>
+<link rel="stylesheet" href="/css/spoiler.css" type="text/css"><script src="/js/spoiler.js" type="text/javascript" async></script>]]></content>
+  </entry>
+  <entry>
+    <title>序言|我们一起来让思维导图更好地发挥作用</title>
+    <url>/repost/sspai/%E8%BF%99%E6%A0%B7%E7%94%BB%E6%80%9D%E7%BB%B4%E5%AF%BC%E5%9B%BE%E6%9C%80%E6%9C%89%E7%94%A8/1.html</url>
+    <content><![CDATA[<p>思维导图作为一种自发明以来就被广泛应用的思维工具，一直都存在于人们的视野中。不管是总被书店摆在前面的教辅书，还是各种各样读书学习的自媒体，我想很少有人没见过思维导图。那么你有没有想过，这些思维导图画的都是正确的吗？很多人在绘制思维导图时都有着这样或那样的误区，如果能够注意到这些问题，就可以让思维导图更好地发挥作用。</p>
+<p>在本系列教程中，我将结合我个人的学习和实践，试着总结出一套优秀的思维导图利用方案，希望可以让更多人用对思维导图这样一个有趣又有效的思维工具。此外，相较于很多思维导图教程以手绘为主，本教程非常的数字化，讲解的内容都会尽可能地方便你在数字设备上操作。</p>
+<p>假如你不太熟悉思维导图也没关系，本教程并不仅仅面向已经在使用思维导图的朋友，欢迎你来跟着我的教程入门。</p>
+<p>作为本文的序言，我想先来为不太了解思维导图的朋友做一些简单介绍，并结合教程的内容让你对本套教程所要讲到的知识点有所了解。在阅读本教程之前，最好先准备一个思维导图软件。本教程推荐使用软件 <a href="https://sspai.com/app/mindnode" target="_blank" rel="noopener">MindNode</a>，但假如你还不想花钱，也可以先使用免费的 <a href="https://www.xmind.cn/" target="_blank" rel="noopener">XMind</a>。</p>
+<h2 id="怎样才是思维导图"><a href="#怎样才是思维导图" class="headerlink" title="怎样才是思维导图"></a>怎样才是思维导图</h2><p>一个简单的思维导图分三步，首先我们应该有一个唯一的主题，并将其作为图像的中心焦点，比如这一套专栏文章的序言。</p>
+<p><img src="https://cdn.sspai.com/2017/09/18/6ce7199e10736a1fbc5800175740b579.png?imageView2/2/w/1120/q/90/interlace/1/ignore-error/1" alt="img"></p>
+<p>这样我们就符合了思维导图的第一个特征：<strong>注意的焦点清晰地集中在中央图形上。</strong>所以下面这样形式的图就不是思维导图，它并不具备明确且单一的焦点。</p>
+<p><img src="https://cdn.sspai.com/2017/09/18/94e6b473a2b1889530e64e198dfaa776.png?imageView2/2/w/1120/q/90/interlace/1/ignore-error/1" alt="img"></p>
+<p>现在我们来完成第二步，给这个主题添加一些分支，注意这些分支最终都会聚在主题上。</p>
+<p><img src="https://cdn.sspai.com/2017/09/18/1d08b200812357df12e6c23e8ae72069.png?imageView2/2/w/1120/q/90/interlace/1/ignore-error/1" alt="img"></p>
+<p>这样就有了第二个特征：<strong>主题的主干作为分支从中央图形向四周放射。</strong>这个特征里<strong>放射</strong>是关键点。所以下面这样形式的图也不是思维导图。它虽然有一个中心，但其它结点不是从主题<strong>放射</strong>出来的。</p>
+<p><img src="https://cdn.sspai.com/2017/09/18/a1a7b1bd53d098bd833ddca7fd1fa393.png?imageView2/2/w/1120/q/90/interlace/1/ignore-error/1" alt="img"></p>
+<p>接下来我们在这些分支上添加一些关键词，形成这样的图形。</p>
+<p><img src="https://cdn.sspai.com/2017/09/18/be6a30c8e2e6298a096e8725c5a16930.png?imageView2/2/w/1120/q/90/interlace/1/ignore-error/1" alt="img"></p>
+<p><strong>分支由一个关键的图形或者写在产生联想的线条上面的关键词构成。比较不重要的话题也以分支形式表现出来，附在较高层次的分支上。</strong>这是第三个特征。而<strong>这些分支又共同形成了一个连续的结点结构。</strong>这就是第四个特征了。（本文结尾会完整展示这个习作。）</p>
+<p>只要具备了上面的四个特征，那这样一张图示就可以被称作思维导图。但这样就够了吗？我在网上找到了一个稍微有些极端的例子。</p>
+<p><img src="https://cdn.sspai.com/2017/09/18/e3a80b9cb749e123470a3be9d0556dfa.jpg?imageView2/2/w/1120/q/90/interlace/1/ignore-error/1" alt="img"></p>
+<p>这样密密麻麻的思维导图别说辅助思考了，想要看懂都已经是一件十分困难的事情。</p>
+<p>可见仅仅具备这些特征是不够的，想要真正达到辅助思考的作用，我们还需要遵循更多有效的原则和思维方式。<strong>在系列文章的第一篇中，我会选择几个关键点具体来讲解一下除了这些标准外，还有哪些需要遵循的重要原则</strong>，帮助你画出真正能帮助自己思考的思维导图。</p>
+<h2 id="为什么是思维导图"><a href="#为什么是思维导图" class="headerlink" title="为什么是思维导图"></a>为什么是思维导图</h2><p>思维导图由一位叫 Tony Buzan（东尼·博赞）的英国普及心理学作家在 1970 年代发明，其发明之初就是为了用一种更符合人类思考问题方式的表现手法来增进使用者解决问题的能力。</p>
+<p>1993 年他首次出版了同名著作《思维导图》，这是一本非常好的了解思维导图的书籍。但由于其「安利」性质，这本书用很多的笔墨讲了思维导图的设计理念，反倒是对于在绘制的时候具体要注意些什么涉及较少。我曾经在初中时候阅读过这本书。当时看到电视里一个记忆力超强的人表演，觉得非常厉害，本来想去买点记忆相关书籍，正好看到这个摆在旁边，就顺便买回来了。结果比起那些我现在基本没怎么掌握的记忆技巧，思维导图给我的帮助要大得多。（Tony Buzan 同时也是世界记忆锦标赛的创始人。）</p>
+<p><img src="https://cdn.sspai.com/2017/09/18/10f2426aa804bd2b04a98422eeac7ad9.jpg?imageView2/2/w/1120/q/90/interlace/1/ignore-error/1" alt="img"></p>
+<p><strong>简单来说，思维导图是一种对大脑友好的信息输入和输出方式。</strong></p>
+<p>你也许听说过斯佩里左右脑分工理论，该理论认为，左脑偏向逻辑、抽象性思维，右脑偏向艺术、创造性思维。传统的笔记和产出方式很大程度上忽略了对人脑创造性和艺术的利用，不能够调动整个大脑为任务服务。虽然说这个理论很大程度上因为商业利益被夸大，产生了「右脑开发」之类的伪科学，也有相当多的科学家（包括其合作提出者）之后曾提出过对此理论的反对意见。</p>
+<p>但不可否认的是，假如能够调动大脑的创造性和图像、艺术相关的能力，的确可以更好的提高大脑的利用效率。</p>
+<p>思维导图的放射性图案实际是<strong>把信息加工成了一种图像</strong>。加上对颜色和图片的运用，思维导图能够更好的调动图像和艺术的脑区，让你更有效的图像记忆加入到工作中来。</p>
+<p>同时，思维导图还十分鼓励联想和发散。对于一个熟练的思维导图使用者来说，使用思维导图的过程常常是一个针对关键词联想和发散的过程，而联想和发散是人脑创造力的源泉。更多的使用思维导图，不但会提高你现有思维活动的质量，还会让你思维的深度和广度有更多的可能性。</p>
+<p>熟悉思维导图的思维方式，并加以应用是思维导图的一个重要的点。<strong>在系列的第二篇中，我将会更多的向你介绍绘制思维导图过程中应该使用的思维方式，让思维导图真正为你所用。</strong></p>
+<h2 id="手绘还是电脑"><a href="#手绘还是电脑" class="headerlink" title="手绘还是电脑"></a>手绘还是电脑</h2><p>假如你已经看过一些讲解思维导图的书籍，那么你一定见过很多的手绘思维导图，除了用电脑上的工具画思维导图，手绘也是一个很重要的方式。该怎么选择呢？</p>
+<p>比起电脑画的思维导图，手绘的图像成分要多得多，而且绘制的过程也更有参与感。这可以更好的发挥思维导图激发图像思维的功能，可以说好处非常大。但手绘思维导图还存在着绘制速度慢，要画的好看很麻烦等比较难办的问题。但假如时间允许，我还是很推荐你多多使用手绘思维导图的。</p>
+<p>提到手绘，有很多人第一个要问到的问题就是：「我画不好怎么办？」我可以明确的回答你<strong>画画不好没关系</strong>。我个人其实就是一个超级大手残，这些手绘思维导图都要由少数派的设计师代劳才敢拿给大家看。但手绘思维导图并不需要特别多的绘画技巧，只要你能遵循一定的原则，能够画一些自己看得懂的简笔画就完全足够了。<strong>手绘思维导图的标准就是引起自己的兴趣。</strong>不过我想我大概是很少会画手绘思维导图，我自己画的东西常常自己都看不下去😂，强迫症 + 手残真是苦。</p>
+<p>手绘思维导图非常自由，但也并不意味着可以随便画，要画好手绘思维导图也要有一些需要注意的点。<strong>在第三篇教程中我就会主要介绍手绘思维导图，看看手绘还是软件更适合你。</strong></p>
+<p><img src="https://cdn.sspai.com/2017/09/18/564b1e285d186c5f553bd328d301b22b.jpg?imageView2/2/w/1120/q/90/interlace/1/ignore-error/1" alt="img">来源：暖乎乎的豆瓣相册 暖乎乎是手绘思维导图方面非常专业的一个作者，在后面文章中我还会推荐她的书</p>
+<p>什么样的软件适合我</p>
+<p>思维导图的软件可以说是遍地开花，选择一款适合自己的软件是非常重要的，不知道已经在画思维导图的各位都在使用怎样的工具呢？<strong>在本系列第四篇中，我会分平台介绍一些常用思维导图工具，希望可以帮助你选购适合自己的软件。</strong></p>
+<p><img src="https://cdn.sspai.com/2017/09/18/de9be31bf0c95fd0da71d18c8874bdd3.png?imageView2/2/w/1120/q/90/interlace/1/ignore-error/1" alt="img"></p>
+<p>介绍的内容会涉及到 Mac Windows Linux iOS Android，每一个平台都会尽可能挑选一个我觉得最舒服的软件，还会简单的介绍其功能特点帮助你选购之前有所参考。</p>
+<h2 id="思维导图不是什么"><a href="#思维导图不是什么" class="headerlink" title="思维导图不是什么"></a>思维导图不是什么</h2><p>很多人可能会问，思维导图和大纲都是同样的多层结构，思维导图和大纲有什么不同呢？<strong>在第五篇文章中，我将会更多的讲讲大家对思维导图的误解。</strong></p>
+<p>一些人可能认为思维导图和大纲没什么区别，但这其中的差别可不小哩。一些形式类似的工具其实并不能代替思维导图独有的功能，在文章中我们会具体讲到。但我们也可以把思维导图的一些思维习惯应用到这些东西上，如在做大纲的时候也利用到思维导图的诸多特点。</p>
+<p>此外，思维导图虽然很强大，但也有一定的局限性。在一些情况下，盲目的使用思维导图也许会降低你的效率。不能迷信一些教育机构吹嘘出来的神奇功效，实际使用要根据情况做好取舍。</p>
+<h2 id="现在就开始利用思维导图"><a href="#现在就开始利用思维导图" class="headerlink" title="现在就开始利用思维导图"></a>现在就开始利用思维导图</h2><p>光讲理论没什么用，重要的是实际用起来。不管你是要记笔记，写演讲稿，抑或是仅仅想要规划年度计划，思维导图都是你可以利用优秀工具。<strong>在第六篇，我会分学习、创作、思考三部分举例讲解思维导图的具体使用，好让你真正能把思维导图用在自己的生活中。</strong></p>
+<p>现在就开始和我一起学习思维导图吧！</p>
+<p><img src="https://cdn.sspai.com/2017/09/18/8cd8aca13dedbbd52ac4dd7b13bf49ed.png?imageView2/2/w/1120/q/90/interlace/1/ignore-error/1" alt="img"></p>
 <link rel="stylesheet" href="/css/spoiler.css" type="text/css"><script src="/js/spoiler.js" type="text/javascript" async></script>]]></content>
   </entry>
   <entry>
@@ -476,54 +524,6 @@ L = T +W \tag{3}</script><p>其中$T$是扭转数（twisting number），指DNA�
 <link rel="stylesheet" href="/css/spoiler.css" type="text/css"><script src="/js/spoiler.js" type="text/javascript" async></script>]]></content>
   </entry>
   <entry>
-    <title>序言|我们一起来让思维导图更好地发挥作用</title>
-    <url>/repost/sspai/%E8%BF%99%E6%A0%B7%E7%94%BB%E6%80%9D%E7%BB%B4%E5%AF%BC%E5%9B%BE%E6%9C%80%E6%9C%89%E7%94%A8/1.html</url>
-    <content><![CDATA[<p>思维导图作为一种自发明以来就被广泛应用的思维工具，一直都存在于人们的视野中。不管是总被书店摆在前面的教辅书，还是各种各样读书学习的自媒体，我想很少有人没见过思维导图。那么你有没有想过，这些思维导图画的都是正确的吗？很多人在绘制思维导图时都有着这样或那样的误区，如果能够注意到这些问题，就可以让思维导图更好地发挥作用。</p>
-<p>在本系列教程中，我将结合我个人的学习和实践，试着总结出一套优秀的思维导图利用方案，希望可以让更多人用对思维导图这样一个有趣又有效的思维工具。此外，相较于很多思维导图教程以手绘为主，本教程非常的数字化，讲解的内容都会尽可能地方便你在数字设备上操作。</p>
-<p>假如你不太熟悉思维导图也没关系，本教程并不仅仅面向已经在使用思维导图的朋友，欢迎你来跟着我的教程入门。</p>
-<p>作为本文的序言，我想先来为不太了解思维导图的朋友做一些简单介绍，并结合教程的内容让你对本套教程所要讲到的知识点有所了解。在阅读本教程之前，最好先准备一个思维导图软件。本教程推荐使用软件 <a href="https://sspai.com/app/mindnode" target="_blank" rel="noopener">MindNode</a>，但假如你还不想花钱，也可以先使用免费的 <a href="https://www.xmind.cn/" target="_blank" rel="noopener">XMind</a>。</p>
-<h2 id="怎样才是思维导图"><a href="#怎样才是思维导图" class="headerlink" title="怎样才是思维导图"></a>怎样才是思维导图</h2><p>一个简单的思维导图分三步，首先我们应该有一个唯一的主题，并将其作为图像的中心焦点，比如这一套专栏文章的序言。</p>
-<p><img src="https://cdn.sspai.com/2017/09/18/6ce7199e10736a1fbc5800175740b579.png?imageView2/2/w/1120/q/90/interlace/1/ignore-error/1" alt="img"></p>
-<p>这样我们就符合了思维导图的第一个特征：<strong>注意的焦点清晰地集中在中央图形上。</strong>所以下面这样形式的图就不是思维导图，它并不具备明确且单一的焦点。</p>
-<p><img src="https://cdn.sspai.com/2017/09/18/94e6b473a2b1889530e64e198dfaa776.png?imageView2/2/w/1120/q/90/interlace/1/ignore-error/1" alt="img"></p>
-<p>现在我们来完成第二步，给这个主题添加一些分支，注意这些分支最终都会聚在主题上。</p>
-<p><img src="https://cdn.sspai.com/2017/09/18/1d08b200812357df12e6c23e8ae72069.png?imageView2/2/w/1120/q/90/interlace/1/ignore-error/1" alt="img"></p>
-<p>这样就有了第二个特征：<strong>主题的主干作为分支从中央图形向四周放射。</strong>这个特征里<strong>放射</strong>是关键点。所以下面这样形式的图也不是思维导图。它虽然有一个中心，但其它结点不是从主题<strong>放射</strong>出来的。</p>
-<p><img src="https://cdn.sspai.com/2017/09/18/a1a7b1bd53d098bd833ddca7fd1fa393.png?imageView2/2/w/1120/q/90/interlace/1/ignore-error/1" alt="img"></p>
-<p>接下来我们在这些分支上添加一些关键词，形成这样的图形。</p>
-<p><img src="https://cdn.sspai.com/2017/09/18/be6a30c8e2e6298a096e8725c5a16930.png?imageView2/2/w/1120/q/90/interlace/1/ignore-error/1" alt="img"></p>
-<p><strong>分支由一个关键的图形或者写在产生联想的线条上面的关键词构成。比较不重要的话题也以分支形式表现出来，附在较高层次的分支上。</strong>这是第三个特征。而<strong>这些分支又共同形成了一个连续的结点结构。</strong>这就是第四个特征了。（本文结尾会完整展示这个习作。）</p>
-<p>只要具备了上面的四个特征，那这样一张图示就可以被称作思维导图。但这样就够了吗？我在网上找到了一个稍微有些极端的例子。</p>
-<p><img src="https://cdn.sspai.com/2017/09/18/e3a80b9cb749e123470a3be9d0556dfa.jpg?imageView2/2/w/1120/q/90/interlace/1/ignore-error/1" alt="img"></p>
-<p>这样密密麻麻的思维导图别说辅助思考了，想要看懂都已经是一件十分困难的事情。</p>
-<p>可见仅仅具备这些特征是不够的，想要真正达到辅助思考的作用，我们还需要遵循更多有效的原则和思维方式。<strong>在系列文章的第一篇中，我会选择几个关键点具体来讲解一下除了这些标准外，还有哪些需要遵循的重要原则</strong>，帮助你画出真正能帮助自己思考的思维导图。</p>
-<h2 id="为什么是思维导图"><a href="#为什么是思维导图" class="headerlink" title="为什么是思维导图"></a>为什么是思维导图</h2><p>思维导图由一位叫 Tony Buzan（东尼·博赞）的英国普及心理学作家在 1970 年代发明，其发明之初就是为了用一种更符合人类思考问题方式的表现手法来增进使用者解决问题的能力。</p>
-<p>1993 年他首次出版了同名著作《思维导图》，这是一本非常好的了解思维导图的书籍。但由于其「安利」性质，这本书用很多的笔墨讲了思维导图的设计理念，反倒是对于在绘制的时候具体要注意些什么涉及较少。我曾经在初中时候阅读过这本书。当时看到电视里一个记忆力超强的人表演，觉得非常厉害，本来想去买点记忆相关书籍，正好看到这个摆在旁边，就顺便买回来了。结果比起那些我现在基本没怎么掌握的记忆技巧，思维导图给我的帮助要大得多。（Tony Buzan 同时也是世界记忆锦标赛的创始人。）</p>
-<p><img src="https://cdn.sspai.com/2017/09/18/10f2426aa804bd2b04a98422eeac7ad9.jpg?imageView2/2/w/1120/q/90/interlace/1/ignore-error/1" alt="img"></p>
-<p><strong>简单来说，思维导图是一种对大脑友好的信息输入和输出方式。</strong></p>
-<p>你也许听说过斯佩里左右脑分工理论，该理论认为，左脑偏向逻辑、抽象性思维，右脑偏向艺术、创造性思维。传统的笔记和产出方式很大程度上忽略了对人脑创造性和艺术的利用，不能够调动整个大脑为任务服务。虽然说这个理论很大程度上因为商业利益被夸大，产生了「右脑开发」之类的伪科学，也有相当多的科学家（包括其合作提出者）之后曾提出过对此理论的反对意见。</p>
-<p>但不可否认的是，假如能够调动大脑的创造性和图像、艺术相关的能力，的确可以更好的提高大脑的利用效率。</p>
-<p>思维导图的放射性图案实际是<strong>把信息加工成了一种图像</strong>。加上对颜色和图片的运用，思维导图能够更好的调动图像和艺术的脑区，让你更有效的图像记忆加入到工作中来。</p>
-<p>同时，思维导图还十分鼓励联想和发散。对于一个熟练的思维导图使用者来说，使用思维导图的过程常常是一个针对关键词联想和发散的过程，而联想和发散是人脑创造力的源泉。更多的使用思维导图，不但会提高你现有思维活动的质量，还会让你思维的深度和广度有更多的可能性。</p>
-<p>熟悉思维导图的思维方式，并加以应用是思维导图的一个重要的点。<strong>在系列的第二篇中，我将会更多的向你介绍绘制思维导图过程中应该使用的思维方式，让思维导图真正为你所用。</strong></p>
-<h2 id="手绘还是电脑"><a href="#手绘还是电脑" class="headerlink" title="手绘还是电脑"></a>手绘还是电脑</h2><p>假如你已经看过一些讲解思维导图的书籍，那么你一定见过很多的手绘思维导图，除了用电脑上的工具画思维导图，手绘也是一个很重要的方式。该怎么选择呢？</p>
-<p>比起电脑画的思维导图，手绘的图像成分要多得多，而且绘制的过程也更有参与感。这可以更好的发挥思维导图激发图像思维的功能，可以说好处非常大。但手绘思维导图还存在着绘制速度慢，要画的好看很麻烦等比较难办的问题。但假如时间允许，我还是很推荐你多多使用手绘思维导图的。</p>
-<p>提到手绘，有很多人第一个要问到的问题就是：「我画不好怎么办？」我可以明确的回答你<strong>画画不好没关系</strong>。我个人其实就是一个超级大手残，这些手绘思维导图都要由少数派的设计师代劳才敢拿给大家看。但手绘思维导图并不需要特别多的绘画技巧，只要你能遵循一定的原则，能够画一些自己看得懂的简笔画就完全足够了。<strong>手绘思维导图的标准就是引起自己的兴趣。</strong>不过我想我大概是很少会画手绘思维导图，我自己画的东西常常自己都看不下去😂，强迫症 + 手残真是苦。</p>
-<p>手绘思维导图非常自由，但也并不意味着可以随便画，要画好手绘思维导图也要有一些需要注意的点。<strong>在第三篇教程中我就会主要介绍手绘思维导图，看看手绘还是软件更适合你。</strong></p>
-<p><img src="https://cdn.sspai.com/2017/09/18/564b1e285d186c5f553bd328d301b22b.jpg?imageView2/2/w/1120/q/90/interlace/1/ignore-error/1" alt="img">来源：暖乎乎的豆瓣相册 暖乎乎是手绘思维导图方面非常专业的一个作者，在后面文章中我还会推荐她的书</p>
-<p>什么样的软件适合我</p>
-<p>思维导图的软件可以说是遍地开花，选择一款适合自己的软件是非常重要的，不知道已经在画思维导图的各位都在使用怎样的工具呢？<strong>在本系列第四篇中，我会分平台介绍一些常用思维导图工具，希望可以帮助你选购适合自己的软件。</strong></p>
-<p><img src="https://cdn.sspai.com/2017/09/18/de9be31bf0c95fd0da71d18c8874bdd3.png?imageView2/2/w/1120/q/90/interlace/1/ignore-error/1" alt="img"></p>
-<p>介绍的内容会涉及到 Mac Windows Linux iOS Android，每一个平台都会尽可能挑选一个我觉得最舒服的软件，还会简单的介绍其功能特点帮助你选购之前有所参考。</p>
-<h2 id="思维导图不是什么"><a href="#思维导图不是什么" class="headerlink" title="思维导图不是什么"></a>思维导图不是什么</h2><p>很多人可能会问，思维导图和大纲都是同样的多层结构，思维导图和大纲有什么不同呢？<strong>在第五篇文章中，我将会更多的讲讲大家对思维导图的误解。</strong></p>
-<p>一些人可能认为思维导图和大纲没什么区别，但这其中的差别可不小哩。一些形式类似的工具其实并不能代替思维导图独有的功能，在文章中我们会具体讲到。但我们也可以把思维导图的一些思维习惯应用到这些东西上，如在做大纲的时候也利用到思维导图的诸多特点。</p>
-<p>此外，思维导图虽然很强大，但也有一定的局限性。在一些情况下，盲目的使用思维导图也许会降低你的效率。不能迷信一些教育机构吹嘘出来的神奇功效，实际使用要根据情况做好取舍。</p>
-<h2 id="现在就开始利用思维导图"><a href="#现在就开始利用思维导图" class="headerlink" title="现在就开始利用思维导图"></a>现在就开始利用思维导图</h2><p>光讲理论没什么用，重要的是实际用起来。不管你是要记笔记，写演讲稿，抑或是仅仅想要规划年度计划，思维导图都是你可以利用优秀工具。<strong>在第六篇，我会分学习、创作、思考三部分举例讲解思维导图的具体使用，好让你真正能把思维导图用在自己的生活中。</strong></p>
-<p>现在就开始和我一起学习思维导图吧！</p>
-<p><img src="https://cdn.sspai.com/2017/09/18/8cd8aca13dedbbd52ac4dd7b13bf49ed.png?imageView2/2/w/1120/q/90/interlace/1/ignore-error/1" alt="img"></p>
-<link rel="stylesheet" href="/css/spoiler.css" type="text/css"><script src="/js/spoiler.js" type="text/javascript" async></script>]]></content>
-  </entry>
-  <entry>
     <title>答疑汇总 01</title>
     <url>/repost/sspai/%E8%BF%99%E6%A0%B7%E7%94%BB%E6%80%9D%E7%BB%B4%E5%AF%BC%E5%9B%BE%E6%9C%80%E6%9C%89%E7%94%A8/3.html</url>
     <content><![CDATA[<p><strong>Syusyuly 提问：</strong>请问您认为一个思维导图软件可以在一张思维导图中设置一个以上中心重要吗？以前看到过以此为卖点的 App。</p>
@@ -533,16 +533,6 @@ L = T +W \tag{3}</script><p>其中$T$是扭转数（twisting number），指DNA�
 <p>之后等写完了所有能想到的关键词，就可以把这些关键词拖动到实际的思维导图上面合并进分支结构中，此时再进行归类和整理。</p>
 <p><img src="https://cdn.sspai.com/2017-09-30-2.png?imageView2/2/w/1120/q/90/interlace/1/ignore-error/1" alt="img"></p>
 <p>用这种方法就可以在做头脑风暴的时候避免思考思维导图结构带来的干扰。</p>
-<link rel="stylesheet" href="/css/spoiler.css" type="text/css"><script src="/js/spoiler.js" type="text/javascript" async></script>]]></content>
-  </entry>
-  <entry>
-    <title>答疑汇总 02</title>
-    <url>/repost/sspai/%E8%BF%99%E6%A0%B7%E7%94%BB%E6%80%9D%E7%BB%B4%E5%AF%BC%E5%9B%BE%E6%9C%80%E6%9C%89%E7%94%A8/5.html</url>
-    <content><![CDATA[<p>JohnY 提问：思维导图的使用场景是什么？或者什么样的问题适合用思维导图来解决？</p>
-<p>回答：思维导图的使用场景其实没有什么针对性，大部分情境下都能使用，用法也因人而异，我觉得也许可以来谈谈不太适合的情况。</p>
-<p>一个是不要做重复劳动，假如你对内容已经足够了解，那么就需要控制思维导图花费的时间了，有些思维导图学习者刚学会思维导图的时候干什么都要画思维导图，这是非常浪费时间的，一定要做好权衡。如果你觉得有画思维导图一半的时间我就能把这东西掌握了，那就不要再画了。</p>
-<p>另外逻辑不适合用分支表示出来的东西也不适合画思维导图。比如在学数学的时候，一些复杂的知识结构在转化成分支表述之后可读性反而下降，这样的情况也是存在的。</p>
-<p>除此之外，我觉得思维导图的使用并没有多少限制，可以根据自己的使用习惯自由发挥。</p>
 <link rel="stylesheet" href="/css/spoiler.css" type="text/css"><script src="/js/spoiler.js" type="text/javascript" async></script>]]></content>
   </entry>
   <entry>
@@ -641,6 +631,27 @@ L = T +W \tag{3}</script><p>其中$T$是扭转数（twisting number），指DNA�
 <link rel="stylesheet" href="/css/spoiler.css" type="text/css"><script src="/js/spoiler.js" type="text/javascript" async></script>]]></content>
   </entry>
   <entry>
+    <title>答疑汇总 02</title>
+    <url>/repost/sspai/%E8%BF%99%E6%A0%B7%E7%94%BB%E6%80%9D%E7%BB%B4%E5%AF%BC%E5%9B%BE%E6%9C%80%E6%9C%89%E7%94%A8/5.html</url>
+    <content><![CDATA[<p>JohnY 提问：思维导图的使用场景是什么？或者什么样的问题适合用思维导图来解决？</p>
+<p>回答：思维导图的使用场景其实没有什么针对性，大部分情境下都能使用，用法也因人而异，我觉得也许可以来谈谈不太适合的情况。</p>
+<p>一个是不要做重复劳动，假如你对内容已经足够了解，那么就需要控制思维导图花费的时间了，有些思维导图学习者刚学会思维导图的时候干什么都要画思维导图，这是非常浪费时间的，一定要做好权衡。如果你觉得有画思维导图一半的时间我就能把这东西掌握了，那就不要再画了。</p>
+<p>另外逻辑不适合用分支表示出来的东西也不适合画思维导图。比如在学数学的时候，一些复杂的知识结构在转化成分支表述之后可读性反而下降，这样的情况也是存在的。</p>
+<p>除此之外，我觉得思维导图的使用并没有多少限制，可以根据自己的使用习惯自由发挥。</p>
+<link rel="stylesheet" href="/css/spoiler.css" type="text/css"><script src="/js/spoiler.js" type="text/javascript" async></script>]]></content>
+  </entry>
+  <entry>
+    <title>这样画思维导图最有用</title>
+    <url>/repost/sspai/%E8%BF%99%E6%A0%B7%E7%94%BB%E6%80%9D%E7%BB%B4%E5%AF%BC%E5%9B%BE%E6%9C%80%E6%9C%89%E7%94%A8/index.html</url>
+    <content><![CDATA[<p><a href="./1.html">序言|我们一起来让思维导图更好地发挥作用</a></p>
+<p><a href="./2.html">第一期|优秀思维导图的原则</a></p>
+<p><a href="./3.html">答疑汇总 01</a></p>
+<p><a href="./4.html">第二期|高级技巧和思维方式</a></p>
+<p><a href="./5.html">答疑汇总 02</a></p>
+<p><a href="./6.html">第三期|手绘思维导图</a></p>
+<link rel="stylesheet" href="/css/spoiler.css" type="text/css"><script src="/js/spoiler.js" type="text/javascript" async></script>]]></content>
+  </entry>
+  <entry>
     <title>第三期|手绘思维导图</title>
     <url>/repost/sspai/%E8%BF%99%E6%A0%B7%E7%94%BB%E6%80%9D%E7%BB%B4%E5%AF%BC%E5%9B%BE%E6%9C%80%E6%9C%89%E7%94%A8/6.html</url>
     <content><![CDATA[<p>这一篇我们来讲手绘。</p>
@@ -709,35 +720,6 @@ L = T +W \tag{3}</script><p>其中$T$是扭转数（twisting number），指DNA�
 <link rel="stylesheet" href="/css/spoiler.css" type="text/css"><script src="/js/spoiler.js" type="text/javascript" async></script>]]></content>
   </entry>
   <entry>
-    <title>这样画思维导图最有用</title>
-    <url>/repost/sspai/%E8%BF%99%E6%A0%B7%E7%94%BB%E6%80%9D%E7%BB%B4%E5%AF%BC%E5%9B%BE%E6%9C%80%E6%9C%89%E7%94%A8/index.html</url>
-    <content><![CDATA[<p><a href="./1.html">序言|我们一起来让思维导图更好地发挥作用</a></p>
-<p><a href="./2.html">第一期|优秀思维导图的原则</a></p>
-<p><a href="./3.html">答疑汇总 01</a></p>
-<p><a href="./4.html">第二期|高级技巧和思维方式</a></p>
-<p><a href="./5.html">答疑汇总 02</a></p>
-<p><a href="./6.html">第三期|手绘思维导图</a></p>
-<link rel="stylesheet" href="/css/spoiler.css" type="text/css"><script src="/js/spoiler.js" type="text/javascript" async></script>]]></content>
-  </entry>
-  <entry>
-    <title>发刊词：想要看透人心，微表情是很有用的科学工具</title>
-    <url>/repost/zhihu/%E5%A7%9C%E6%8C%AF%E5%AE%87%E5%BE%AE%E8%A1%A8%E6%83%85%E5%BF%83%E7%90%86%E5%AD%A6/1.html</url>
-    <content><![CDATA[<p>你好，我是姜振宇，欢迎来到我的微表情课堂。</p>
-<p>我是从 2007 年上博士的时候，开始研究微表情的，先后和公安机关、检察机关、纪检监察机关等非常注重证据和逻辑的司法机关进行合作，研究的对象是实际案件中的各种嫌疑人，看他们说谎话、说实话，伪装表演，也有真情流露，因此积累了大量实际的研究素材和关于微表情的理论模型，取得了很好的研究成果。</p>
-<p>后来，机缘巧合，我开始专门做跟微表情相关的电视节目——2011 年江苏卫视的《非常了得》，是这个节目让更多的观众知道了微表情这项研究，在国内也有正经的研究，而不仅仅是电视剧里的台词总结和各种伪科学书里的胡说八道。</p>
-<p>之后，我陆续参加了民生节目四大名助，脑力节目最强大脑和情感节目非诚勿扰，用表情解读不同的人、不同的事和不同的心思。也因为解读过于透彻，被冠以「钢铁直男」的标签。实际上，一定要有鲜活的人和关切的事，才会让人出现真切的微表情和肢体动作。正是因为见了这么多形形色色的普通人和嫌疑人，才使得我对微表情的理解更加深刻和透彻。</p>
-<p>希望更多人能理解微表情的本质公式——如果一个人说的话和他的微小表情动作不一致，那就是有问题，需要小心被欺骗了。</p>
-<p>想要看透人的心，微表情是很有用的科学工具，大家要动脑筋来学习呀！我在这里等你。</p>
-<link rel="stylesheet" href="/css/spoiler.css" type="text/css"><script src="/js/spoiler.js" type="text/javascript" async></script>]]></content>
-  </entry>
-  <entry>
-    <title></title>
-    <url>/repost/zhihu/%E5%A7%9C%E6%8C%AF%E5%AE%87%E5%BE%AE%E8%A1%A8%E6%83%85%E5%BF%83%E7%90%86%E5%AD%A6/index.html</url>
-    <content><![CDATA[<p><a href="1.html">发刊词：想要看透人心，微表情是很有用的科学工具</a></p>
-<p><a href="2.html">眼睛运动的2个维度：眼皮开闭和眼球的旋转</a></p>
-<link rel="stylesheet" href="/css/spoiler.css" type="text/css"><script src="/js/spoiler.js" type="text/javascript" async></script>]]></content>
-  </entry>
-  <entry>
     <title>发刊词：拥有超强记忆，助你成为最强大脑</title>
     <url>/repost/zhihu/%E8%A2%81%E6%96%87%E9%AD%81%E9%AB%98%E6%95%88%E8%AE%B0%E5%BF%86%E6%9C%AF/1.html</url>
     <content><![CDATA[<p>如果你看过江苏卫视《最强大脑》这档节目，对于中国队长王峰、全球脑王陈智强一定非常熟悉，王峰是亚洲首位世界记忆总冠军，在记忆比赛中曾经历史排名世界第一；陈智强在初三时成为少年组中国记忆总冠军，读高中时在第四季和第五季《最强大脑》荣获「全球脑王」称号，我就是他们以及其他 20 多位《最强大脑》选手，以及 60 多位世界记忆大师的教练。</p>
@@ -775,25 +757,6 @@ L = T +W \tag{3}</script><p>其中$T$是扭转数（twisting number），指DNA�
 <p>所以不论你是想摆脱死记硬背困境的备考者，还是想提升自己核心竞争力的职场人士，亦或是想帮孩子解决学习难题的父母。欢迎和我一起走进我的记忆力课堂，并且将这些方法运用于你的生活，融入到你的生命之中！我能够帮助那么多学生成为最强大脑和记忆大师，也一定能够帮助到你成为记忆高手！</p>
 <p>在学习过程中你遇到任何问题，都可以在课程评论里留言，我会就一些典型的问题，给大家及时答疑。让我们一起携手共同重塑大脑，重塑我们的人生！</p>
 <p>我是记忆魔法师袁文魁，我们下一讲再见！</p>
-<link rel="stylesheet" href="/css/spoiler.css" type="text/css"><script src="/js/spoiler.js" type="text/javascript" async></script>]]></content>
-  </entry>
-  <entry>
-    <title>眼睛运动的2个维度：眼皮开闭和眼球的旋转</title>
-    <url>/repost/zhihu/%E5%A7%9C%E6%8C%AF%E5%AE%87%E5%BE%AE%E8%A1%A8%E6%83%85%E5%BF%83%E7%90%86%E5%AD%A6/2.html</url>
-    <content><![CDATA[<p>我先问大家一个问题，你觉得你的眼睛运动复不复杂？尤其是在心思多，比较复杂，比较想要动心眼儿的时候，眼睛运动复不复杂？</p>
-<p>这是我开篇提的第一个问题。</p>
-<p>无论是中外总会有一些说法，把眼睛和心思联系在一起。比如说，中国人常说的一句老话叫作「眼睛是心灵的窗户」，你透过窗户是可以看到屋里的。另外，江湖上的人常说一句话叫作「眼是心中苗」，好像是禾苗的苗，我没有去查证，同样的一个意思。还有就是在早年间江湖上的一些算命的，看相的，他们内部培训会有一条法则叫作「定睛则有，转睛则无」，什么意思？我不得骗你吧？我说，你下个月会有一笔横财，这个话说出来的时候，他们会特别观察对方的眼神，如果你这个横财一说，他眼睛看着你，定住了，很关切地看着你，接下来要说什么，说明你这说的这件事基本上成立了。如果你说，下个月你应该有一笔横财，横财那个字说完之后，他眼睛跑偏了，转开了，不看你了，说明他对你的这句话是不感兴趣的。那么，你接下来的话就要转方向了。所以这些东西到底有没有道理呢？今天在第一课里面就给大家讲一下。</p>
-<p>实际上眼睛的运动想象一下好像很复杂，我们拆解成两个维度给大家一看，你会觉得极其简单。</p>
-<p>第一个维度，眼皮，学术叫眼睑，眼球外面包的上眼睑和下眼睑，它们怎么动？它们只有两种运动，一种是越睁越大，把眼睛睁得大大的；一种是越闭越小，最后全闭上。你有没有一种醍醐灌顶的感觉，对哦，不管是眼睛小得眯眯缝，还是大得像赵薇那样，好像确实只有闭小和睁大两个运动。对的，非常有限、简单且能够进行有效解读的两个运动。</p>
-<p>我们简单地说，眼睛睁大可以起到什么作用？眼睛睁大物理上可以开放眼球光线摄入的角度和范围。你睁得越大，外界空间就能从越多的角度和越大的范围，把光线发射或者反射到你的瞳孔里面映射到视网膜上。反过来讲，就是如果你眼睑越闭越小，越闭越小，眯成一条缝，现在就可以试，一边听一边试，你会发现，即便光线很明亮，即便空间非常宽阔，但眼睑眯成一条线的时候，你的视野当中那些东西是模糊不清，并且有效范围越缩越小的，就是这么极其简单的物理学的原理。开得大，摄入光线角度多，成像更加有效，范围更加大，且更加清晰。反过来就是，成像不清晰，且有效范围小。你有没有想到什么？聪明的同学已经想到了，睁大眼睛代表看得多，闭小眼睛代表看得少。我们可以进一步地再推论一下，如果睁大或闭小这个动作是有意驱动，就意味着当事人愿意多看，或者不愿意多看。想得出来吗？比如，你看到一个漂亮的姑娘，大小伙子20多岁，血气方刚，看到一个漂亮的姑娘，电视上 101 偶像，或者是电影里面的一些漂亮的脸蛋，或者大街上走的那些漂亮的身体，眼睛睁大可以看得更清楚。如果你看到的一滩很恶心的、散发着臭烘烘气味的、冒着泡的、有很多虫子在上面爬的，你眼睛会闭小，为啥？不想看，不要看，最好不要恶心到我，这就是眼睛睁大和闭小的原始意义。当然这两个动作是可以控制的，如果他是出于一种本能的反应，睁大或者闭小的话，其实你同样可以倒推，这个刺激源让他愿意多看或者不愿意多看。我们第一个指标讲完了。</p>
-<p>第二个指标是什么？除了眼睑能运动之外，人的眼球是可以转动的，在有限的范围内是可以转动的。那么眼球的转和不转就是第二个有效的指标。刚才我们讲的「定睛则有，转睛则无」就是这个道理，定睛则有，「定睛」的意思就是眼睛不转了，盯着某一个方向看，干吗呢？聚焦，稳定地获取视觉信息。所以眼睛停在哪儿，看什么，焦点清不清晰，是我们在第二个维度里面的首要指标。</p>
-<p>如果他的眼睛盯在你的脸上，始终看着，长时间地关注，而且关注的时间越来越长，说明他想从你的脸上获取越来越多的信息，说明他对这一个部分很感兴趣，这就是「定睛则有」的意思。「转睛则无」，往旁边一转开，说明原来的这个刺激源，我不想看了，我对他的视觉需求没有了，我对他的信息需求消失了。那我为什么要转开呢？两个原因，第一个原因就是我不要原来的了。第二个原因是，我要看新的。大家能想明白吗？差别不一样，你可以想象一下，比如说，一辆很漂亮的车，你一眼看到，眼睛都睁大了，定睛看了它好久，看它的每一个细节部位，你的眼睛是定焦的，是关注的，是长时间观察它的。等到你看过了，心里有数了，好了，你现在就已经知道这个车的具体样子了，你不用再看的时候，眼睛就会跑开，说明此时此刻，你对车已经不感兴趣了。而如果旁边有一辆其他的车，来了一辆新车，眼睛自然就会关注到新的事物上面，从新的事物上再次获取信息。所以「转睛」要么就是躲开原来的，或者就是获取新信息，只有这两种解释。</p>
-<p>眼睛的转动就是我们要获取有效信息的第二个指标。</p>
-<p>大家再想一想，你的眼球无论多复杂，大概就是定在那儿，或者是转开。定在那儿已经很清晰了，那么转开能怎么解读呢？</p>
-<p>江湖上有一种传说，「向左转代表回忆，向右代表编造」，这个有道理吗？每一次钢铁老师去外面讲课，或者公开讲座，或者在无数的视频里面都已经公然讲过了，这件事过不了实验，这件事情是错的。他是1970年代有一个著名的伪心理学派叫做NLP，他们发布的一个「猜想」，那个「猜想」还会更复杂一点，是六向眼动。但是经过大量的实验证明，他们提出的左回忆、右编造，这种猜想是伪猜想，换句话讲，不成立。用在真人身上，分析不了人家。但很多人，因为这个简单就会愿意去用。比如，今年上映的电影某某探案 2，主角一上来就甩出这么一句话，你刚才在提到谁谁谁的时候，眼睛明明向左转，说明你在回忆。特别酷，对吧？为什么大众会觉得这件事特别酷呢？因为简单，左边等于回忆，所以人都觉得，哇塞，我找到秘密了，我掌握一个高深的武器，这种酷感就会油然而生。其实不是的，现在经过我们大量的研究证明，向左向右跟回忆、编造以及其它的大脑运动没有什么关系，没有必然的联系。具体的我就不多说了，你可以搜我前面的文章，或者是书，书里面写得很清楚。</p>
-<p>眼睛的转动可以从以下几个方面来看：第一，转动到的新位置是什么？换句话讲，有没有一辆新车让他引起了关注，他去获取了新的视觉信息，这件事是有意义的。第二，转动的频率是不是够快？如果是缓慢转动，很明显，他在察觉不同方向的视觉信息，因为人的眼睛获取视觉信息是需要一定时间的，稳定定焦，然后辨识清楚，映到视网膜上，再由大脑处理好了，才能够转开。如果他的眼睛转得很快，那就是古人常说的，这个家伙心虚。虽然古人是经验总结，但是用我们现在的科学道理也是一样的，啥意思？就是他的眼睛不是为了获取新的信息，而是为了躲开面对的刺激源，这就是心虚的表现。眼球转动的频率高、方向多等于恐惧情绪。</p>
-<p>经过这么一拆解，大家仔细地想一下，你的眼睛尽管运动好像很复杂，但实际上只有两大类，一类是眼睑「开」和「闭」，一类是眼球的「转」和「定」。有了它们之后，我们可以代入式地解决几乎所有问题。眼睛睁得越大，说明愿意看得越多；眼睛闭得越小，说明不愿意看；眼睛转得越快，说明没有想要获取视觉信息；眼睛定在那儿，说明他在看这件事情，他在获取信息。其他的内容，我们会在下节课，以及后面的9节课里面，慢慢地给大家推送出来。</p>
-<p>我们预告一下，第二节课讲的是「眉毛」。很有意思吧，眉毛这个看起来很好看、但又没有什么实际作用的东西，为什么会留存在人类的面孔上呢？它对于表情的构成，以及心意的表达有没有什么必要的、甚至是重要的作用呢？学会了眼睛的分析，再加上眉毛的分析，你就是无敌的。</p>
 <link rel="stylesheet" href="/css/spoiler.css" type="text/css"><script src="/js/spoiler.js" type="text/javascript" async></script>]]></content>
   </entry>
   <entry>
@@ -856,42 +819,6 @@ L = T +W \tag{3}</script><p>其中$T$是扭转数（twisting number），指DNA�
 <link rel="stylesheet" href="/css/spoiler.css" type="text/css"><script src="/js/spoiler.js" type="text/javascript" async></script>]]></content>
   </entry>
   <entry>
-    <title>「歌诀记忆」编歌诀巧记学科知识点</title>
-    <url>/repost/zhihu/%E8%A2%81%E6%96%87%E9%AD%81%E9%AB%98%E6%95%88%E8%AE%B0%E5%BF%86%E6%9C%AF/12.html</url>
-    <content><![CDATA[<p>上一讲我们学习到情境故事法，通过把要记忆的信息编成故事的方式，让我们可以像看电影一样记忆。这一讲我将介绍歌诀记忆法，也就是把要记忆的信息提炼之后，编成朗朗上口而且形象有趣的歌诀。这种方法在文字产生前便已诞生，如今在非洲许多原始部落里，部落之间的消息靠口头传递，要想走了几天还记得消息，就要把它编成押韵的歌诀来帮助记忆。</p>
-<p>关于歌诀记忆法对于学习的作用，我比较有发言权，在高三那年，我把政史地的知识编了几百条歌诀，包括历史里的各种条约内容，地理里各国盛产的作物和矿物等，我还录制了 20 多盘磁带，利用吃饭、走路、睡前等空余时间反复听，让我把文科教材背得滚瓜烂熟，大大减少了复习文科的时间。所以我非常诚意地向大家推荐这种方法，它比图像锁链法和情境故事法减少了很多记忆量，也不需要外界的桩子来辅助，上手快，见效快，用途广！</p>
-<p>正式学习前，我们先来做一个小测试，我会念出两组信息，每组都有 14 个字，请你按顺序将其记忆下来，看看能够记得多少。</p>
-<p>第一组，听好了：天、疑、飞、直、三、流、尺、银、落、九、河、下、千、是。</p>
-<p>第二组：飞流直下三千尺，疑是银河落九天。</p>
-<p>都是同样的 14 个字，但是第二组你一定记住了，这说明有意义有画面的歌诀，要比孤立的信息更容易记住。心理学家艾宾浩斯的遗忘曲线也证明，诗歌比散文遗忘的速度要慢一些。那如何将孤立的信息编成歌诀呢？最常用的有两种形式：字头歌诀法和要点歌诀法。</p>
-<p>字头歌诀法，是针对比较熟悉但需要按顺序记忆的信息，挑选第一个字或者关键字，将其串成一句有意义的话或歌诀。比较经典的与生活有关的字头歌诀是「出门之前，伸手要钱」，「伸手要钱」分别代表着身份证、手机、钥匙、钱包，出门前念一下歌诀，你就不会忘带钥匙被锁在外面了，也不会没有手机浑身难受了。</p>
-<p>字头歌诀法也很受名人的喜欢，比如 2018 年逝世的武侠小说作家金庸先生，经常有人盗用他的名义出版小说，为了让他的粉丝们知道他写了哪些作品，他就挑取字头编了一个歌诀：「飞雪连天射白鹿，笑书神侠倚碧鸳。」分别代表着《飞狐外传》《雪山飞狐》《连城诀》《天龙八部》《射雕英雄传》《白马啸西风》《鹿鼎记》《笑傲江湖》《书剑恩仇录》《神雕侠侣》《侠客行》《倚天屠龙记》《碧血剑》《鸳鸯刀》这 14 部作品。金庸先生把记忆的武功也是练得出神入化呀！</p>
-<p>假设现在，英国大文豪莎士比亚想请你为他的作品编一个歌诀，分别有四大悲剧：《哈姆莱特》《奥赛罗》《李尔王》《麦克白》，四大喜剧：《威尼斯商人》《第十二夜》《皆大欢喜》《仲夏夜之梦》，你该怎样下手呢？</p>
-<p>我来带着你一起挑战，步骤如下：</p>
-<p>第一步：熟悉理解。先看一两遍这些作品，如果是比较抽象的信息，可以先用「鞋子拆观众」转化。比如「奥赛罗」想象小学生在喊着：「禁止奥赛啰！」「李尔王」想象李白耳朵上写着一个「王」字。转化之后，我们将这些名字进一步巩固熟悉，这是重要的前提！</p>
-<p>第二步：挑取字头，组成歌诀。在挑的时候，有些可以调整顺序，有些可能会发现后面的字更好，比如「李尔王」的「李」和「麦克白」的「白」，组在一起就变成了「李白」，前面的「哈」和「奥赛罗」的「罗」正好变成「哈啰」，就组合成「哈罗李白」。四大喜剧，我看字头时发现「威第皆仲」还挺好谐音的，就直接用字头。</p>
-<p>第三步：意义化。通过适当的谐音，加上你的解释，让歌诀更有意义，如果能够押韵就更好。刚才的歌诀谐音变成：哈啰，李白，为弟接种。可以适当解释一下，想象莎士比亚见到李白，让他为自己的弟弟接种疫苗。</p>
-<p>第四步：尝试回忆。由「哈啰，李白，为弟接种」这个歌诀作为提示，看看可否想到这些作品。我们一起试一下，哈代表着？哈姆莱特，注意不要说成哈利波特哦！啰？奥赛罗！李？李尔王！白？麦克白！为？想到威，威尼斯商人，弟？第十二夜！接？皆大欢喜！种？仲夏夜之梦！对于想不到的部分，要强化记忆，熟悉作品的名字。</p>
-<p>第五步：复习强化。我会把歌诀写在书上，不定期去复习这些歌诀，另外也可以在手机里录音，通过听觉的方式达到长期记忆。</p>
-<p>字头串烧法比较灵活，只要三点以上的信息都可以使用，串不成歌诀，串成一句话也是可以的。比如地理知识，我国的四大石窟——云冈石窟、龙门石窟、麦积山石窟和莫高窟石窟，提取字头变成「云龙卖馍」，想象《亮剑》里的李云龙在石窟里叫卖馍馍。又比如历史知识，南昌起义的领导人有刘伯承、贺龙、叶挺、朱德、周恩来等。挑取字头变成「留荷叶煮粥」，想象留着荷叶用它包着米来煮粥。</p>
-<p>另外，一些诗句背诵时总是忘掉下一句，也可以把首字串成歌诀作为提醒，比如《江雪》这首诗「千山鸟飞绝，万径人踪灭。孤舟蓑笠翁，独钓寒江雪。」可以挑选字头串成「千万孤独」。王维的《鹿柴》「空山不见人，但闻人语响。返景入深林，复照青苔上。」可以挑选字头串成「空但返复」，谐音想到你挑着空担子反复来回。</p>
-<p>字头歌诀法用途广泛，但是如果对材料不熟悉，可能挑取一个字不好还原，所以有时候要用另一种歌诀，叫做要点歌诀法。我们可以在观察后对材料进行分析、归类，挑取出核心的知识要点，将其编成类似于五言或七言诗一样的歌诀。比如周恩来总理曾把全国三十个省市和自治区编成这样的口诀：</p>
-<p>两湖两广两河山，五江云贵福吉安，</p>
-<p>四西二宁青甘陕，还有内台北上天。</p>
-<p>周总理找了规律进行了归纳，把类似的内容放在一起用数字来浓缩，比如「五江」就代表着江苏、浙江、江西、黑龙江、新疆。</p>
-<p>想要用要点歌诀法，一是要多借鉴已有的歌诀，医学、会计、法律等很多学科在网上都有不少歌诀，可以适当改造为我所用。二是要自己尝试去编歌诀，在编的过程中你也在深入理解，同时你编的融入了自己的阅历，记忆起来会更容易。那怎么编要点歌诀呢？我举一个例子，是生物学的常识，讲动物从低等到高等的进化顺序：</p>
-<p>依次是：原生动物门、腔肠动物门、扁形动物门、线形动物门、环节动物门、软体动物门、节肢动物门、棘皮动物门、脊索动物门。</p>
-<p>第一步还是要熟悉理解，在这里我就不展开讲解了。</p>
-<p>第二步：挑选要点。除了「动物门」一样，前面的部位都是要点，不过「扁形」和「线形」记住「扁」和「线」即可。</p>
-<p>第三步：观察信息并尝试编歌诀。一共有9点信息，我考虑以七言的方式呈现，先编第一句：原生腔肠扁线环，还比较形象，想象是原生的腔肠上面用扁线环绕着。接下来继续，「软体节肢棘皮索」，因为最后两个都是「ji」这个音开头，所以最后一个只挑取「索」，适当谐音想到「软体截肢鸡皮索」，想象软体动物被截肢了，用鸡皮当绳索把它给索起来。</p>
-<p>第四步：尝试回忆，还原歌诀。你可以在纸上写下「原生腔肠扁线环，软体截肢鸡皮索」，根据它你可以想到动物的进化顺序吗？如果有些地方不行，可以尝试进行一下调整。</p>
-<p>第五步：复习强化。可以通过诵读或者听录音的方式，反复强化这个歌诀，并且根据歌诀回忆正文内容，遗忘的部分及时巩固。</p>
-<p>要点歌诀法一般是五言、七言，但也有其它字数的，我分享几个其他老师的歌诀，比如记忆道家、儒家、法家、墨家的代表人物及其主张，有一个歌诀：孔孟儒，行「仁政」；道「无为」，老庄兴；子墨子，讲「非攻」；韩非子，「法治」行。</p>
-<p>还有老师把歌诀变成了 RAP ，比如重庆市育才中学化学教师赵镭，把化学元素与古典诗词结合在一起编成 RAP ：「氢氦锂铍硼，凌寒独自开。碳氮氧氟氖，为有暗香来。钠镁铝硅磷，硫氯氩钾钙。春色满园 hold 不住，卤素氟氯溴碘砹。」学生们称他「亚洲男神」，上课从来不打磕睡，他还成为《天天向上》《芝麻开门》等节目的嘉宾，用了一些特别的形式来帮助自己和别人记忆，说不定你也会成网红！</p>
-<p>好啦，我来总结一下今天的内容，我讲解了如何编写字头歌诀法和要点歌诀法的步骤，都需要先熟悉理解，然后挑取字头或要点，接下来尝试编定歌诀并意义化，最后尝试回忆歌诀并复习强化。编好歌诀并不难，你自己编 30 条就会上手，以后会越来越快，说不定，哪天你就成为歌诀张口就来的段子手，学习考试不再愁！下一讲，我们将学习到「绘图记忆法」。</p>
-<link rel="stylesheet" href="/css/spoiler.css" type="text/css"><script src="/js/spoiler.js" type="text/javascript" async></script>]]></content>
-  </entry>
-  <entry>
     <title>「绘图记忆」妙用简笔画速记百科</title>
     <url>/repost/zhihu/%E8%A2%81%E6%96%87%E9%AD%81%E9%AB%98%E6%95%88%E8%AE%B0%E5%BF%86%E6%9C%AF/13.html</url>
     <content><![CDATA[<p>上一讲我们学习到歌诀记忆法，包括字头歌诀法和要点歌诀法，将信息通过智慧浓缩成歌诀，记起来形象有趣又朗朗上口。怎么感觉和音乐课挂上了钩？今天我们要学习的是绘图记忆法，不是要你回去补你的美术课哦，我这样的「画渣」都能用，你也可以！</p>
@@ -925,6 +852,42 @@ L = T +W \tag{3}</script><p>其中$T$是扭转数（twisting number），指DNA�
 <p>看完这张图，尝试来回忆一下吧，东岳是什么山？西岳是什么山？山西有哪座山？嵩山少林寺是什么岳？南岳又是什么山呢？</p>
 <p>一图胜千言，这一张图印在脑海中，以后想忘都忘不掉了。</p>
 <p>好啦，我来总结一下今天的内容，我主要分享了绘图记忆法的三种方式，一种是单一图示法，适合于少量的信息，只需要单独将信息转化成形象即可，另外两种涉及到对信息的整合，包括锁链图示法和定位图示法，分别是将图像锁链法和身体或万物定桩法画出来，以更直观的形式方便我们记忆和复习。你学会了吗？尝试去用一下吧！</p>
+<link rel="stylesheet" href="/css/spoiler.css" type="text/css"><script src="/js/spoiler.js" type="text/javascript" async></script>]]></content>
+  </entry>
+  <entry>
+    <title>「歌诀记忆」编歌诀巧记学科知识点</title>
+    <url>/repost/zhihu/%E8%A2%81%E6%96%87%E9%AD%81%E9%AB%98%E6%95%88%E8%AE%B0%E5%BF%86%E6%9C%AF/12.html</url>
+    <content><![CDATA[<p>上一讲我们学习到情境故事法，通过把要记忆的信息编成故事的方式，让我们可以像看电影一样记忆。这一讲我将介绍歌诀记忆法，也就是把要记忆的信息提炼之后，编成朗朗上口而且形象有趣的歌诀。这种方法在文字产生前便已诞生，如今在非洲许多原始部落里，部落之间的消息靠口头传递，要想走了几天还记得消息，就要把它编成押韵的歌诀来帮助记忆。</p>
+<p>关于歌诀记忆法对于学习的作用，我比较有发言权，在高三那年，我把政史地的知识编了几百条歌诀，包括历史里的各种条约内容，地理里各国盛产的作物和矿物等，我还录制了 20 多盘磁带，利用吃饭、走路、睡前等空余时间反复听，让我把文科教材背得滚瓜烂熟，大大减少了复习文科的时间。所以我非常诚意地向大家推荐这种方法，它比图像锁链法和情境故事法减少了很多记忆量，也不需要外界的桩子来辅助，上手快，见效快，用途广！</p>
+<p>正式学习前，我们先来做一个小测试，我会念出两组信息，每组都有 14 个字，请你按顺序将其记忆下来，看看能够记得多少。</p>
+<p>第一组，听好了：天、疑、飞、直、三、流、尺、银、落、九、河、下、千、是。</p>
+<p>第二组：飞流直下三千尺，疑是银河落九天。</p>
+<p>都是同样的 14 个字，但是第二组你一定记住了，这说明有意义有画面的歌诀，要比孤立的信息更容易记住。心理学家艾宾浩斯的遗忘曲线也证明，诗歌比散文遗忘的速度要慢一些。那如何将孤立的信息编成歌诀呢？最常用的有两种形式：字头歌诀法和要点歌诀法。</p>
+<p>字头歌诀法，是针对比较熟悉但需要按顺序记忆的信息，挑选第一个字或者关键字，将其串成一句有意义的话或歌诀。比较经典的与生活有关的字头歌诀是「出门之前，伸手要钱」，「伸手要钱」分别代表着身份证、手机、钥匙、钱包，出门前念一下歌诀，你就不会忘带钥匙被锁在外面了，也不会没有手机浑身难受了。</p>
+<p>字头歌诀法也很受名人的喜欢，比如 2018 年逝世的武侠小说作家金庸先生，经常有人盗用他的名义出版小说，为了让他的粉丝们知道他写了哪些作品，他就挑取字头编了一个歌诀：「飞雪连天射白鹿，笑书神侠倚碧鸳。」分别代表着《飞狐外传》《雪山飞狐》《连城诀》《天龙八部》《射雕英雄传》《白马啸西风》《鹿鼎记》《笑傲江湖》《书剑恩仇录》《神雕侠侣》《侠客行》《倚天屠龙记》《碧血剑》《鸳鸯刀》这 14 部作品。金庸先生把记忆的武功也是练得出神入化呀！</p>
+<p>假设现在，英国大文豪莎士比亚想请你为他的作品编一个歌诀，分别有四大悲剧：《哈姆莱特》《奥赛罗》《李尔王》《麦克白》，四大喜剧：《威尼斯商人》《第十二夜》《皆大欢喜》《仲夏夜之梦》，你该怎样下手呢？</p>
+<p>我来带着你一起挑战，步骤如下：</p>
+<p>第一步：熟悉理解。先看一两遍这些作品，如果是比较抽象的信息，可以先用「鞋子拆观众」转化。比如「奥赛罗」想象小学生在喊着：「禁止奥赛啰！」「李尔王」想象李白耳朵上写着一个「王」字。转化之后，我们将这些名字进一步巩固熟悉，这是重要的前提！</p>
+<p>第二步：挑取字头，组成歌诀。在挑的时候，有些可以调整顺序，有些可能会发现后面的字更好，比如「李尔王」的「李」和「麦克白」的「白」，组在一起就变成了「李白」，前面的「哈」和「奥赛罗」的「罗」正好变成「哈啰」，就组合成「哈罗李白」。四大喜剧，我看字头时发现「威第皆仲」还挺好谐音的，就直接用字头。</p>
+<p>第三步：意义化。通过适当的谐音，加上你的解释，让歌诀更有意义，如果能够押韵就更好。刚才的歌诀谐音变成：哈啰，李白，为弟接种。可以适当解释一下，想象莎士比亚见到李白，让他为自己的弟弟接种疫苗。</p>
+<p>第四步：尝试回忆。由「哈啰，李白，为弟接种」这个歌诀作为提示，看看可否想到这些作品。我们一起试一下，哈代表着？哈姆莱特，注意不要说成哈利波特哦！啰？奥赛罗！李？李尔王！白？麦克白！为？想到威，威尼斯商人，弟？第十二夜！接？皆大欢喜！种？仲夏夜之梦！对于想不到的部分，要强化记忆，熟悉作品的名字。</p>
+<p>第五步：复习强化。我会把歌诀写在书上，不定期去复习这些歌诀，另外也可以在手机里录音，通过听觉的方式达到长期记忆。</p>
+<p>字头串烧法比较灵活，只要三点以上的信息都可以使用，串不成歌诀，串成一句话也是可以的。比如地理知识，我国的四大石窟——云冈石窟、龙门石窟、麦积山石窟和莫高窟石窟，提取字头变成「云龙卖馍」，想象《亮剑》里的李云龙在石窟里叫卖馍馍。又比如历史知识，南昌起义的领导人有刘伯承、贺龙、叶挺、朱德、周恩来等。挑取字头变成「留荷叶煮粥」，想象留着荷叶用它包着米来煮粥。</p>
+<p>另外，一些诗句背诵时总是忘掉下一句，也可以把首字串成歌诀作为提醒，比如《江雪》这首诗「千山鸟飞绝，万径人踪灭。孤舟蓑笠翁，独钓寒江雪。」可以挑选字头串成「千万孤独」。王维的《鹿柴》「空山不见人，但闻人语响。返景入深林，复照青苔上。」可以挑选字头串成「空但返复」，谐音想到你挑着空担子反复来回。</p>
+<p>字头歌诀法用途广泛，但是如果对材料不熟悉，可能挑取一个字不好还原，所以有时候要用另一种歌诀，叫做要点歌诀法。我们可以在观察后对材料进行分析、归类，挑取出核心的知识要点，将其编成类似于五言或七言诗一样的歌诀。比如周恩来总理曾把全国三十个省市和自治区编成这样的口诀：</p>
+<p>两湖两广两河山，五江云贵福吉安，</p>
+<p>四西二宁青甘陕，还有内台北上天。</p>
+<p>周总理找了规律进行了归纳，把类似的内容放在一起用数字来浓缩，比如「五江」就代表着江苏、浙江、江西、黑龙江、新疆。</p>
+<p>想要用要点歌诀法，一是要多借鉴已有的歌诀，医学、会计、法律等很多学科在网上都有不少歌诀，可以适当改造为我所用。二是要自己尝试去编歌诀，在编的过程中你也在深入理解，同时你编的融入了自己的阅历，记忆起来会更容易。那怎么编要点歌诀呢？我举一个例子，是生物学的常识，讲动物从低等到高等的进化顺序：</p>
+<p>依次是：原生动物门、腔肠动物门、扁形动物门、线形动物门、环节动物门、软体动物门、节肢动物门、棘皮动物门、脊索动物门。</p>
+<p>第一步还是要熟悉理解，在这里我就不展开讲解了。</p>
+<p>第二步：挑选要点。除了「动物门」一样，前面的部位都是要点，不过「扁形」和「线形」记住「扁」和「线」即可。</p>
+<p>第三步：观察信息并尝试编歌诀。一共有9点信息，我考虑以七言的方式呈现，先编第一句：原生腔肠扁线环，还比较形象，想象是原生的腔肠上面用扁线环绕着。接下来继续，「软体节肢棘皮索」，因为最后两个都是「ji」这个音开头，所以最后一个只挑取「索」，适当谐音想到「软体截肢鸡皮索」，想象软体动物被截肢了，用鸡皮当绳索把它给索起来。</p>
+<p>第四步：尝试回忆，还原歌诀。你可以在纸上写下「原生腔肠扁线环，软体截肢鸡皮索」，根据它你可以想到动物的进化顺序吗？如果有些地方不行，可以尝试进行一下调整。</p>
+<p>第五步：复习强化。可以通过诵读或者听录音的方式，反复强化这个歌诀，并且根据歌诀回忆正文内容，遗忘的部分及时巩固。</p>
+<p>要点歌诀法一般是五言、七言，但也有其它字数的，我分享几个其他老师的歌诀，比如记忆道家、儒家、法家、墨家的代表人物及其主张，有一个歌诀：孔孟儒，行「仁政」；道「无为」，老庄兴；子墨子，讲「非攻」；韩非子，「法治」行。</p>
+<p>还有老师把歌诀变成了 RAP ，比如重庆市育才中学化学教师赵镭，把化学元素与古典诗词结合在一起编成 RAP ：「氢氦锂铍硼，凌寒独自开。碳氮氧氟氖，为有暗香来。钠镁铝硅磷，硫氯氩钾钙。春色满园 hold 不住，卤素氟氯溴碘砹。」学生们称他「亚洲男神」，上课从来不打磕睡，他还成为《天天向上》《芝麻开门》等节目的嘉宾，用了一些特别的形式来帮助自己和别人记忆，说不定你也会成网红！</p>
+<p>好啦，我来总结一下今天的内容，我讲解了如何编写字头歌诀法和要点歌诀法的步骤，都需要先熟悉理解，然后挑取字头或要点，接下来尝试编定歌诀并意义化，最后尝试回忆歌诀并复习强化。编好歌诀并不难，你自己编 30 条就会上手，以后会越来越快，说不定，哪天你就成为歌诀张口就来的段子手，学习考试不再愁！下一讲，我们将学习到「绘图记忆法」。</p>
 <link rel="stylesheet" href="/css/spoiler.css" type="text/css"><script src="/js/spoiler.js" type="text/javascript" async></script>]]></content>
   </entry>
   <entry>
@@ -1001,32 +964,6 @@ L = T +W \tag{3}</script><p>其中$T$是扭转数（twisting number），指DNA�
 <link rel="stylesheet" href="/css/spoiler.css" type="text/css"><script src="/js/spoiler.js" type="text/javascript" async></script>]]></content>
   </entry>
   <entry>
-    <title>「复习」4种复习要诀，摆脱遗忘困扰</title>
-    <url>/repost/zhihu/%E8%A2%81%E6%96%87%E9%AD%81%E9%AB%98%E6%95%88%E8%AE%B0%E5%BF%86%E6%9C%AF/16.html</url>
-    <content><![CDATA[<p>上一节课我们学习了加速记忆的时间管理策略，然而即使我们记忆的效率非常高，如果遇到「遗忘」这个死对头，我们又不采取策略来科学复习，最终记忆的东西也会「竹篮打水一场空」。</p>
-<p>什么叫「遗忘」？我们先不谈很多影视片里的「失忆」，单从学习的角度来说，就是对识记过的材料不能再认与回忆，或者错误的再认与回忆。比如问你：「什么是社会主义核心价值观？」「《西游记》的作者是谁？」你曾经都记过，但现在一个词都说不出来，就是完全遗忘，你能够说出部分词，是部分遗忘。</p>
-<p>遗忘有时候会非常尴尬，比如很多歌星在演唱会忘词，比如蔡依林、罗志祥、张杰等，陈奕迅还因为忘词向观众下跪，而且填词人林夕也在台下听着，真是尴尬不已。《奇葩说》等语言类节目，有好几位选手讲着讲着就忘词了，不得不重新拿起笔记本来寻找提前准备的论据，也是非常尴尬。学生们也深受遗忘的苦恼，昨晚刚背完的课文和单词，老师检查时就忘掉了一大半，考前熬夜挑灯复习，第二天考试时却大片大片的知识想不起来，真是头疼呀！</p>
-<p>遗忘是非常正常的现象，即使世界记忆冠军也无法避免，英国的冠军老本，就经常会忘掉别人的名字，也会在出门忘记带钥匙，那哪些因素会导致我们遗忘呢？</p>
-<p>一是时间因素，时间是一把杀猪刀，也是记忆的强盗，知识在识记之后进入大脑的短期记忆，在往长期记忆的过程中，如果没有及时通过复习或运用去巩固强化，就很容易被「遗忘大盗」给盗走，特别是在刚学习后的前几天，是「遗忘大盗」作案的高峰期。</p>
-<p>二是动力因素。一般最先遗忘的是我们觉得不重要、不感兴趣、不需要的、缺少感情投入的材料。积极的情绪会提高大脑的激活水平，从而有助于记忆的保持。我一般对于不想记的东西，要找到一些让自己记忆的理由，并且给自己设立奖励，就会产生一种记忆的热忱。</p>
-<p>三是专注因素。当你在记忆时「溜号」了，听东西左耳朵进右耳朵出，这时对于信息的关注较少，缺少观察、分析和理解，信息就如同过眼云烟，需要时想抓也抓不住，也容易与其它的信息混淆。</p>
-<p>四是干扰因素。我们对正在学习的东西的记忆，会被过去已经学习过或者未来要学习的东西干扰。比如你同时记忆了 20 多个以 Pre 开头的英语单词，这些单词之间互相就会干扰。中小学连续上同一门课不超过两节，也是避免同一学科知识的互相干扰。</p>
-<p>五是线索因素。人们之所以对一些事情想不起来，是因为在提取时没有找到适当的提取线索。比如阿里巴巴的哥哥，他在记忆「芝麻开门」时，可能只是记成是一种食物，所以他提取时会联想到豌豆、大豆，如果他在记忆时增加线索：黑色的、很小的、像蚂蚁的，他在提取时会更容易想到芝麻。</p>
-<p>好啦，知道了这些因素，其实就已经为我们避免一些不必要的遗忘，但是即使上面的都做到了，可能还是会遗忘，这时候，科学的复习策略是必不可少的。德国心理学家艾宾浩斯是发现记忆遗忘规律的第一人，他在《记忆力心理学》里揭秘了人类记忆与遗忘的奥秘，今天分享的很多复习策略也基于他的研究成果。</p>
-<p>提起艾宾浩斯，你一定熟悉他的「艾宾浩斯遗忘曲线」，他拿自己当「小白鼠」，找到一些没有形成联想的、完全同类的、不熟悉的、毫无意义的音节作为测试材料，比如 asww、cfhhj、rfyjbc 等，经过长时间的记忆和考核，总结出规律并且绘制了这条曲线。这条曲线告诉人们在学习中的遗忘是有规律的，在学习仅过了 20 分钟后，就忘记了记忆内容的 42% ，1 天后忘却量已经达到了 66% ，到了一个月后，忘却量高达 79% ，可见最初阶段遗忘的速度很快，后来就逐渐减慢了。当然，不同的信息遗忘速度是不一样的，诗歌比散文要慢，散文要比无意义的音节要慢，越是抽象和无意义的信息，越是忘得快。</p>
-<p>艾宾浩斯提出一种复习方法，叫做「351-351复习法」，也就是尽量在 3 小时内、5 小时内、10 小时内、3 天内、5 天内、10 天内分别复习一遍。当然，要严格按照「351-351 复习法」来进行记忆管理，估计我们都会疯掉，我会尽量遵循「先密后疏」的原则，如果是早自习背课文或单词，会在吃早餐排队时去回忆，没有想起来的及时强化，课间没事就翻翻书瞅几眼，当晚也会再默背一遍来巩固强化，后面几天早自习也会复习之前的内容。在书本上我会记录下每篇课文第一次、第二次、第三次背诵的日期，方便以后安排复习的时间。</p>
-<p>那如何复习效果更好呢？我分享四种常见的复习方法：</p>
-<p>第一个是自测复习法。艾宾浩斯认为它是对遗忘曲线的最典型应用，自测分为三个步骤，第一个是复习自测，就是对所学的知识随时进行巩固和测试，找到错误立马改正，一般自测的黄金时间段是早上 7 点到 9 点。第二个是定期自测，比如每天睡前，每周周日，内容较多时可以分组自测。第三个是实时自测，就是随时随地的测试，利用排队等闲暇时间，可以边想边说出来，或者用手指在空中比划写出内容。我在高中上早自习背完课文，在排除等早饭时就会自测，如果是单词就会比划着拼写，记不住的，吃完早饭就会马上复习，这样就可以尽快抢救遗忘的部分。</p>
-<p>另外还可以同学之间互测，在高三的课间，我和前后桌经常互测，谁出的问题能够考倒大家会加分，如果没答上来就会扣分，至于惩罚，比如在脸上贴条子，或者请吃晚饭，一般没答上来的题目再复习都会牢记。同学之间相互讨论甚至辩论所学的知识，也是一种不错的选择。</p>
-<p>第二个是多元化复习法。只是单调的重复，大脑也会觉得无聊，所以很多人都喜欢去背新东西，却讨厌复习来巩固胜利果实。怎样将复习变得更有趣呢，可以尝试多种感官通道。比如视觉上，可以用便利贴制作各种颜色的学习卡片，把英语单词写在卡片正面，意思写在背面，根据测试的情况给予一定的标记，比如 √ 代表完全掌握，≠ 代表着还需要巩固，× 代表着需要重新记忆，完全掌握的就收起来放在一个盒子里，后两类卡片就要投入更多精力来复习，直到最终都完全掌握为止。比如在听觉上，可以尝试给同学或朋友讲解所学的内容，如果没有听众，选择对着录音设备讲解一番，也可以强化记忆，录好的音频可以在空余时间听一听，都可以潜移默化地巩固记忆。还可以尝试在体育活动或游戏中来复习，比如一边跑步或跳绳一边背诗。</p>
-<p>第三个是循环复习法。当我们可以把大段的记忆材料进行分组，假设分为A、B、C、D、E 共 5 组，可以记完 A 组回忆 A 组；记完 B 组后回忆 A 组和 B 组；记完 C 组，回忆 B 组和 C 组；记完 D 组，回忆 C 组和 D 组；记完 E 组，回忆 D 组和 E 组；最后回忆 A 到 E 组一到两遍。这样循环复习，可以有效地避免遗忘。</p>
-<p>假设我们需要长期复习，比如备战考研或者托福考试，每天记忆新东西前要复习之前背过的，网上流传一个「超级 90 天循环背诵大表」，主要是针对背诵《新概念英语》制定的，我们也可以参考。比如第一天背诵当天的 100 个单词，第二天复习第一天的并记忆第二天的，第三天复习第二天的并记忆第三天的，第四天复习第一、三天并记忆第四天的，这也是基于艾宾浩斯遗忘曲线的一种复习策略。</p>
-<p>第四个是实践复习法。我非常喜欢陆游的一句诗：「纸上得来终觉浅，绝知此事要躬行。」反复默背十遍，不如动手操作一遍。法国资产阶级启蒙思想家卢梭，坚持把学习到的知识付诸实践，他学习音乐时，就从事乐谱的创作；学习数学时，就去丈量土地；学习药物学时，就去采药制药。</p>
-<p>学生在学习物理、化学、生物等知识时，如果能够通过做实验、亲近大自然、做手工、做家务等生活实践来巩固知识，就会印象特别深刻。而成年人学习一些技能，更是需要在实践中复习，比如你学习开车，你不需要看教材死记住开车的步骤，动手操作几遍之后便自然熟悉了，多上路开车就是在复习，最终形成了肌肉记忆。</p>
-<p>好啦，我来总结一下今天的重点，我讲了遗忘的五大因素：时间因素、动力因素、专注因素、干扰因素、线索因素，同时分享了艾宾浩斯遗忘曲线以及他的「 351-351 复习法」，还包括我常用的四种复习法：自测复习法、多元复习法、循环复习法和实践复习法。</p>
-<link rel="stylesheet" href="/css/spoiler.css" type="text/css"><script src="/js/spoiler.js" type="text/javascript" async></script>]]></content>
-  </entry>
-  <entry>
     <title>「阅读」读完书等于没读，记不住怎么办？</title>
     <url>/repost/zhihu/%E8%A2%81%E6%96%87%E9%AD%81%E9%AB%98%E6%95%88%E8%AE%B0%E5%BF%86%E6%9C%AF/17.html</url>
     <content><![CDATA[<p>上一讲，我分享了数字信息记忆的方法，这一讲，我来讲讲很多学习者都困扰的问题：看了一本书，过几天就不记得书里讲了啥，甚至再过段时间，连书名都不记得了。有位朋友，很瞧不起大学室友每天打游戏，让他好好多读点书，室友决定听他的，就问他：「那你读过那么多书，可不可以推荐我几本？」结果这位朋友能够想出来书名的，居然只有一两本，更别提内容了，真是尴尬呀。今天我们就来讲讲：读完书等于没读，记不住怎么破？</p>
@@ -1063,6 +1000,32 @@ L = T +W \tag{3}</script><p>其中$T$是扭转数（twisting number），指DNA�
 <p>我挑取了每一个里面的关键字，「理想」挑选了「理」，「中立客观的自我评价」挑选了「评」，「永无止境的好奇心」挑选了「奇」，「愿意从差开始」挑选了「差」，就变成了「理评奇差」，谐音为「你评奇差」，可以理解为：你给的差评那是出奇的差！</p>
 <p>《高倍速阅读法》这本书里，提出影像阅读法的五大步骤：第一个是准备，第二个是预习，第三个是影像翻阅，第四个是复习，第五个是激活，我挑取的字头是「准预翻复激」，谐音为「准鱼贩腹肌」 ，想象一个准备要当鱼贩子的人，他在秀身上大块大块的腹肌。</p>
 <p>好啦，关于记忆法我就举例到这里，更多的应用还需要你自己去尝试将我们前面所学的方法用起来。我来总结一下今天的内容，我分享了让我们读书记住的五种方法，一是不要期待要完全记住，二是带着目的和问题来读书，三是读书后要加工整理，四是通过输出倒逼输入，五就是使用记忆法，我以不同的记忆方法分别举例做了说明。当你下次再阅读书籍时，请尝试训练一下吧！  </p>
+<link rel="stylesheet" href="/css/spoiler.css" type="text/css"><script src="/js/spoiler.js" type="text/javascript" async></script>]]></content>
+  </entry>
+  <entry>
+    <title>「复习」4种复习要诀，摆脱遗忘困扰</title>
+    <url>/repost/zhihu/%E8%A2%81%E6%96%87%E9%AD%81%E9%AB%98%E6%95%88%E8%AE%B0%E5%BF%86%E6%9C%AF/16.html</url>
+    <content><![CDATA[<p>上一节课我们学习了加速记忆的时间管理策略，然而即使我们记忆的效率非常高，如果遇到「遗忘」这个死对头，我们又不采取策略来科学复习，最终记忆的东西也会「竹篮打水一场空」。</p>
+<p>什么叫「遗忘」？我们先不谈很多影视片里的「失忆」，单从学习的角度来说，就是对识记过的材料不能再认与回忆，或者错误的再认与回忆。比如问你：「什么是社会主义核心价值观？」「《西游记》的作者是谁？」你曾经都记过，但现在一个词都说不出来，就是完全遗忘，你能够说出部分词，是部分遗忘。</p>
+<p>遗忘有时候会非常尴尬，比如很多歌星在演唱会忘词，比如蔡依林、罗志祥、张杰等，陈奕迅还因为忘词向观众下跪，而且填词人林夕也在台下听着，真是尴尬不已。《奇葩说》等语言类节目，有好几位选手讲着讲着就忘词了，不得不重新拿起笔记本来寻找提前准备的论据，也是非常尴尬。学生们也深受遗忘的苦恼，昨晚刚背完的课文和单词，老师检查时就忘掉了一大半，考前熬夜挑灯复习，第二天考试时却大片大片的知识想不起来，真是头疼呀！</p>
+<p>遗忘是非常正常的现象，即使世界记忆冠军也无法避免，英国的冠军老本，就经常会忘掉别人的名字，也会在出门忘记带钥匙，那哪些因素会导致我们遗忘呢？</p>
+<p>一是时间因素，时间是一把杀猪刀，也是记忆的强盗，知识在识记之后进入大脑的短期记忆，在往长期记忆的过程中，如果没有及时通过复习或运用去巩固强化，就很容易被「遗忘大盗」给盗走，特别是在刚学习后的前几天，是「遗忘大盗」作案的高峰期。</p>
+<p>二是动力因素。一般最先遗忘的是我们觉得不重要、不感兴趣、不需要的、缺少感情投入的材料。积极的情绪会提高大脑的激活水平，从而有助于记忆的保持。我一般对于不想记的东西，要找到一些让自己记忆的理由，并且给自己设立奖励，就会产生一种记忆的热忱。</p>
+<p>三是专注因素。当你在记忆时「溜号」了，听东西左耳朵进右耳朵出，这时对于信息的关注较少，缺少观察、分析和理解，信息就如同过眼云烟，需要时想抓也抓不住，也容易与其它的信息混淆。</p>
+<p>四是干扰因素。我们对正在学习的东西的记忆，会被过去已经学习过或者未来要学习的东西干扰。比如你同时记忆了 20 多个以 Pre 开头的英语单词，这些单词之间互相就会干扰。中小学连续上同一门课不超过两节，也是避免同一学科知识的互相干扰。</p>
+<p>五是线索因素。人们之所以对一些事情想不起来，是因为在提取时没有找到适当的提取线索。比如阿里巴巴的哥哥，他在记忆「芝麻开门」时，可能只是记成是一种食物，所以他提取时会联想到豌豆、大豆，如果他在记忆时增加线索：黑色的、很小的、像蚂蚁的，他在提取时会更容易想到芝麻。</p>
+<p>好啦，知道了这些因素，其实就已经为我们避免一些不必要的遗忘，但是即使上面的都做到了，可能还是会遗忘，这时候，科学的复习策略是必不可少的。德国心理学家艾宾浩斯是发现记忆遗忘规律的第一人，他在《记忆力心理学》里揭秘了人类记忆与遗忘的奥秘，今天分享的很多复习策略也基于他的研究成果。</p>
+<p>提起艾宾浩斯，你一定熟悉他的「艾宾浩斯遗忘曲线」，他拿自己当「小白鼠」，找到一些没有形成联想的、完全同类的、不熟悉的、毫无意义的音节作为测试材料，比如 asww、cfhhj、rfyjbc 等，经过长时间的记忆和考核，总结出规律并且绘制了这条曲线。这条曲线告诉人们在学习中的遗忘是有规律的，在学习仅过了 20 分钟后，就忘记了记忆内容的 42% ，1 天后忘却量已经达到了 66% ，到了一个月后，忘却量高达 79% ，可见最初阶段遗忘的速度很快，后来就逐渐减慢了。当然，不同的信息遗忘速度是不一样的，诗歌比散文要慢，散文要比无意义的音节要慢，越是抽象和无意义的信息，越是忘得快。</p>
+<p>艾宾浩斯提出一种复习方法，叫做「351-351复习法」，也就是尽量在 3 小时内、5 小时内、10 小时内、3 天内、5 天内、10 天内分别复习一遍。当然，要严格按照「351-351 复习法」来进行记忆管理，估计我们都会疯掉，我会尽量遵循「先密后疏」的原则，如果是早自习背课文或单词，会在吃早餐排队时去回忆，没有想起来的及时强化，课间没事就翻翻书瞅几眼，当晚也会再默背一遍来巩固强化，后面几天早自习也会复习之前的内容。在书本上我会记录下每篇课文第一次、第二次、第三次背诵的日期，方便以后安排复习的时间。</p>
+<p>那如何复习效果更好呢？我分享四种常见的复习方法：</p>
+<p>第一个是自测复习法。艾宾浩斯认为它是对遗忘曲线的最典型应用，自测分为三个步骤，第一个是复习自测，就是对所学的知识随时进行巩固和测试，找到错误立马改正，一般自测的黄金时间段是早上 7 点到 9 点。第二个是定期自测，比如每天睡前，每周周日，内容较多时可以分组自测。第三个是实时自测，就是随时随地的测试，利用排队等闲暇时间，可以边想边说出来，或者用手指在空中比划写出内容。我在高中上早自习背完课文，在排除等早饭时就会自测，如果是单词就会比划着拼写，记不住的，吃完早饭就会马上复习，这样就可以尽快抢救遗忘的部分。</p>
+<p>另外还可以同学之间互测，在高三的课间，我和前后桌经常互测，谁出的问题能够考倒大家会加分，如果没答上来就会扣分，至于惩罚，比如在脸上贴条子，或者请吃晚饭，一般没答上来的题目再复习都会牢记。同学之间相互讨论甚至辩论所学的知识，也是一种不错的选择。</p>
+<p>第二个是多元化复习法。只是单调的重复，大脑也会觉得无聊，所以很多人都喜欢去背新东西，却讨厌复习来巩固胜利果实。怎样将复习变得更有趣呢，可以尝试多种感官通道。比如视觉上，可以用便利贴制作各种颜色的学习卡片，把英语单词写在卡片正面，意思写在背面，根据测试的情况给予一定的标记，比如 √ 代表完全掌握，≠ 代表着还需要巩固，× 代表着需要重新记忆，完全掌握的就收起来放在一个盒子里，后两类卡片就要投入更多精力来复习，直到最终都完全掌握为止。比如在听觉上，可以尝试给同学或朋友讲解所学的内容，如果没有听众，选择对着录音设备讲解一番，也可以强化记忆，录好的音频可以在空余时间听一听，都可以潜移默化地巩固记忆。还可以尝试在体育活动或游戏中来复习，比如一边跑步或跳绳一边背诗。</p>
+<p>第三个是循环复习法。当我们可以把大段的记忆材料进行分组，假设分为A、B、C、D、E 共 5 组，可以记完 A 组回忆 A 组；记完 B 组后回忆 A 组和 B 组；记完 C 组，回忆 B 组和 C 组；记完 D 组，回忆 C 组和 D 组；记完 E 组，回忆 D 组和 E 组；最后回忆 A 到 E 组一到两遍。这样循环复习，可以有效地避免遗忘。</p>
+<p>假设我们需要长期复习，比如备战考研或者托福考试，每天记忆新东西前要复习之前背过的，网上流传一个「超级 90 天循环背诵大表」，主要是针对背诵《新概念英语》制定的，我们也可以参考。比如第一天背诵当天的 100 个单词，第二天复习第一天的并记忆第二天的，第三天复习第二天的并记忆第三天的，第四天复习第一、三天并记忆第四天的，这也是基于艾宾浩斯遗忘曲线的一种复习策略。</p>
+<p>第四个是实践复习法。我非常喜欢陆游的一句诗：「纸上得来终觉浅，绝知此事要躬行。」反复默背十遍，不如动手操作一遍。法国资产阶级启蒙思想家卢梭，坚持把学习到的知识付诸实践，他学习音乐时，就从事乐谱的创作；学习数学时，就去丈量土地；学习药物学时，就去采药制药。</p>
+<p>学生在学习物理、化学、生物等知识时，如果能够通过做实验、亲近大自然、做手工、做家务等生活实践来巩固知识，就会印象特别深刻。而成年人学习一些技能，更是需要在实践中复习，比如你学习开车，你不需要看教材死记住开车的步骤，动手操作几遍之后便自然熟悉了，多上路开车就是在复习，最终形成了肌肉记忆。</p>
+<p>好啦，我来总结一下今天的重点，我讲了遗忘的五大因素：时间因素、动力因素、专注因素、干扰因素、线索因素，同时分享了艾宾浩斯遗忘曲线以及他的「 351-351 复习法」，还包括我常用的四种复习法：自测复习法、多元复习法、循环复习法和实践复习法。</p>
 <link rel="stylesheet" href="/css/spoiler.css" type="text/css"><script src="/js/spoiler.js" type="text/javascript" async></script>]]></content>
   </entry>
   <entry>
@@ -1225,45 +1188,6 @@ L = T +W \tag{3}</script><p>其中$T$是扭转数（twisting number），指DNA�
 <link rel="stylesheet" href="/css/spoiler.css" type="text/css"><script src="/js/spoiler.js" type="text/javascript" async></script>]]></content>
   </entry>
   <entry>
-    <title>「形象记忆」如何记住陌生的人名和地名？</title>
-    <url>/repost/zhihu/%E8%A2%81%E6%96%87%E9%AD%81%E9%AB%98%E6%95%88%E8%AE%B0%E5%BF%86%E6%9C%AF/4.html</url>
-    <content><![CDATA[<p>上一讲我分享了升级大脑系统的三大智能训练：专注力、想象力和创造力训练，今天起我们将正式进入到记忆法的学习，我将结合实际学习和生活的运用场景，用讲解与练习结合的形式，帮助你以更通俗易懂的方式掌握记忆法的精髓。</p>
-<p>第一种方法是最基础也最重要的形象记忆法，《遗忘的力量》这种本书里说过：「几乎所有的记忆技巧都依赖某种形式的图像，尤其是涉及物品或难以触碰的概念时，比如人名或地名。」相信你也曾有过这样的体验，进入新的公司或者参加聚会认识了新的朋友，扭头就把别人名字忘记了；或者要去某地拜访客户或参加活动，别人告诉你一个地名，结果你记错了，找错地方误了正事，别提多尴尬啦！今天我们将学会如何用形象记忆法巧记人名和地名，让你成为社交达人！</p>
-<p>形象记忆法又称心像记忆法，当我们闭上眼睛，我们依然可以在脑海中浮现出某个形象或场景，这就叫「心像」，我们平时回忆往事就是在构建「心像」，它以视觉的图像为主，但也会有听觉、触觉和味觉等其它的感官参与。</p>
-<p>对形象的东西产生「心像」最容易，我们先来做一些尝试，请你找到一个安静的环境，以放松的姿势坐在椅子上，轻轻地闭上你的眼睛，做几组深呼吸，此时大脑进入阿尔法波状态，更容易产生「心像」。</p>
-<p>第一个练习，请在脑海中想象一根香蕉，可能你会先浮现出香蕉的轮廓，接下来呈现出它的细节，比如香蕉皮的颜色，它的线条纹理，是否有斑点等，然后你可以旋转一下香蕉，从不同的角度来观察它。</p>
-<p>接下来，你还可以想象你用手抚摸香蕉，感受一下摸上去滑滑的、凉凉的感觉，然后你剥开香蕉，闻一闻香蕉的香味，再用嘴巴轻轻咬上一口，去感受香蕉的味道，感受它在舌尖的舞蹈。</p>
-<p>如果你能够把这些都在脑海中想象到，你的「心像」能力还是不错的，如果暂时做不到，可以先拿一个真实的香蕉来观察，然后再来闭上眼睛去重现这个场景，多做几次，你的「心像力」会越来越好。</p>
-<p>第二个练习可以找小伙伴一起进行，你可以挑选一张照片或画作，里面的东西稍微丰富一点，比如至少有 6-7 样，最好是彩色的。</p>
-<p>你和小伙伴都限时30秒来观察，观察时可以将一些特征用内心的语言描述出来，包括里面有什么东西，东西是什么颜色，东西的数量等。观察时间结束后，可以闭上眼睛在脑海里浮现出整体的形象。</p>
-<p>接下来可以互相提问，比如「图中小女孩的帽子是什么颜色？」「图中的男人在做什么事情？」这样进行两三轮提问。如果有出错的地方，可以结束后再看看图片来强化。</p>
-<p>当然，你也可以提高难度，就是凭借脑海中的记忆，将这个图片里的内容用简笔画画出来，默画出来你会更清楚你记住了多少，然后再观察一次来补充。拿不同的图练习几十次后，你的心像力会大增。</p>
-<p>以上这两个是「心像」的基础练习，看似简单，却很重要。将形象的东西构建「心像」是记忆宫殿的地基，接下来的重头戏是将抽象的词汇变成「心像」，这里我将分享一个魔法口诀：「鞋子拆观众」。</p>
-<p>这个口诀是抽象转形象的五大法则，分别是谐音、增减倒字、拆合、相关和综合，我挑取了这五个法则的关键字，适当谐音后变成了这个魔法口诀，你可以想象你拿着鞋子拆掉了剧院里的观众席。</p>
-<p>接下来就直接看看「鞋子拆观众」如何用来记人名，我先为你设置一个场景，现在你穿越到了《水浒传》里，你想投奔梁山， 108 好汉介绍他们的名字，你要迅速记住，你才有资格上梁山，要怎么记呢，仔细听好啦！</p>
-<p>第一大法则是谐音，这个大家都非常熟悉啦。梁山好汉第 1 号人物是宋江，可以谐音为「送江」，想象把客人送到长江边；第 3 号人物是「智多星吴用」谐音为「无用」，没有用；第 41 号人物叫郝思文，谐音为「好斯文」，想象一个戴着眼镜的斯文先生的形象。</p>
-<p>第二大法则是增减倒字，就是在原词的基础上，增加或减少一些字，或者把顺序倒过来，看能否变成具体形象。第 93 号好汉是施恩，倒过来变成「恩施」，是湖北的一个地名；第 96 号好汉「安道全」，后面两个字倒过来就是「安全道」，想象一条重兵把守的安全道路。</p>
-<p>第三大法则是拆合，也就是将词语拆成不同的字词，分别联想成形象之后，再通过联想和故事组合成新的形象。比如第5位英雄是「关胜」，「关」想到了关羽，「胜」想到了剪刀手，想象关羽过五关斩六将之后，举着胜利的剪刀手；第 108 位英雄叫「段景住」，我会想象《天龙八部》里的段誉在旅游风景区里居住。</p>
-<p>第四大法则是相关，想到和它有关的形象，可以是相关的人物、物品、事件等。比如第 62 号好汉是「孔明」，这可不是三国里的诸葛孔明，但是因为同名就很容易记住，而 63 号好汉叫「孔亮」，由「明亮」这个词就可以记住。水浒里有很多相关的人物，比如「阮小二」「阮小五」「阮小七」，比如「朱富」「朱贵」，比如「童威」「童猛」，就可以彼此相关来记住。</p>
-<p>第五大法则是综合，是将上面的方法综合运用，至少会用到两种以上的方法。有些可能会用到谐音和增减倒字，比如第 24 号好汉是「穆弘」，可以倒过来想到「弘穆」，谐音为红色木头的「红木」。有些可能会用到谐音和拆合，比如第 2 号好汉「卢俊义」，卢谐音想到「炉子」，俊义谐音为「军医」，联想到炉子边烤火的军医。</p>
-<p>通过这五大法则，你是否可以将这些好汉记住呢？尝试回忆一下，段景住是怎么记住的？安道全又是怎么记的？如果你能够挑战将 108 好汉都用「鞋子拆观众」记住，你和梁山好汉是一家人啦。这样的方式，将抽象的名字用更有趣的形象呈现，会在你心里留下更深的印象，下次当你遇到新的朋友，可以尝试用一用哦，记住别人的名字，可是拥有良好人际关系非常重要的一步！</p>
-<p>现在，「鞋子拆观众」这个魔法口诀我们已经记住，也已经在水泊梁山用它来记忆中国人名，接下来我们要飞洋过海到美国旅游，想象你现在要变成一位美国通，你要做的第一件事情就是要记住美国的 50 个州名，包括阿拉巴马州、南达科他州、西弗吉尼亚州等等，你别觉得头大，我们一起用记忆法搞定！</p>
-<p>记住较长的地名，我们用「拆合法」会比较多，拆的时候可以看看有没有我们熟悉的部分，在记忆心理学里称之为「组块」，比如「阿拉巴马」，可以由「阿拉」想到阿拉丁神灯，「巴马」想到美国前总统奥巴马，再组合就可以联想到手拿着阿拉丁神灯在许愿的奥巴马，这就记住了阿拉巴马州。</p>
-<p>接下来，我再给你举 5 个例子，因为涉及到具体的字，在听的时候看着文稿效果会更好！</p>
-<p>马里兰州，「兰州」很容易想到兰州拉面，我们可以想象，在马的肚子里有一碗兰州拉面。</p>
-<p>肯塔基州，由「相关法」我会想到肯德基，想象在肯德基店中间有一座汉堡堆成的塔，想到这个画面就记住了「肯塔基」。</p>
-<p>俄克拉何马州，「克拉」想到1克拉的钻戒，「何马」可以谐音为动物「河马」，联想为一只鹅拿着1克拉钻戒向河马求婚，很搞笑的一个画面。</p>
-<p>新罕布什尔州，「新罕」可以谐音和增字想到「新汗衫」，「布什」就想到美国前总统布什，「尔」一般我会谐音想到耳朵，联想到一件新汗衫挂在布什的耳朵上面。</p>
-<p>南卡罗来纳州，「南」想到名侦探「柯南」，「卡罗」谐音想到「卡拉 OK 」，「来纳」谐音为「来啦」，整体上谐音想到一个场景：在 KTV 里，一个人喊着：「柯南唱卡拉 OK 来啦！」</p>
-<p>我一共分享了美国的六大州名，你再复习一两次，看看是否能够回忆起来吧！要是以后遇到别人问你美国有哪些州，你可以至少脱口而出这几个别人不太熟悉的，可以突显出你学霸的本质！其它的州，如果你有兴趣，就拿来练练手吧，让你更好地掌握形象转化的法则。</p>
-<p>好啦，我来总结一下今天的课程，你学到了增强「心像力」的两大基础训练，也学会了抽象词汇转形象的五大法则，也就是谐音、增减倒字、拆合、相关和综合，你还和我一起穿越到梁山，学会记忆人名的技巧，也飞越到美国，能够将地名趣味记忆，这都将助力你成为社交达人。</p>
-<p>今天的课程就到这里啦，欢迎你把课程分享给你的朋友们，和他们一起拥有记忆魔法，成为最强大脑！为大脑赋能，让记忆升级，我是大脑赋能师袁文魁，我们下一讲再见！</p>
-<p>今日作业：</p>
-<p>请尝试用抽象转形象的方法，记忆以下梁山好汉的名字，并且在评论区里分享你的想法。</p>
-<p>1、陶宗旺 2、汤隆 3、郁保四 4、蒋敬 5、索超</p>
-<link rel="stylesheet" href="/css/spoiler.css" type="text/css"><script src="/js/spoiler.js" type="text/javascript" async></script>]]></content>
-  </entry>
-  <entry>
     <title>「配对联想」秒记知识竞赛题的绝招</title>
     <url>/repost/zhihu/%E8%A2%81%E6%96%87%E9%AD%81%E9%AB%98%E6%95%88%E8%AE%B0%E5%BF%86%E6%9C%AF/5.html</url>
     <content><![CDATA[<p>上一讲我分享了增强「心像力」的两大训练，抽象词汇转形象的五大法则：谐音、增减倒字、拆合、相关和综合，以及记忆人名和地名的技巧，今天我将继续带大家在实战中练记忆，学会配对联想法。</p>
@@ -1314,6 +1238,45 @@ L = T +W \tag{3}</script><p>其中$T$是扭转数（twisting number），指DNA�
 <p>最后，我来总结一下配对联想法，国家和首都也好，作家和作品也好，都涉及到抽象词汇之间的联想，提前将抽象词汇通过「鞋子拆观众」也就是谐音、增减倒字、拆合、相关、综合等技巧转化为形象，再通过故事或者场景将转化后的形象进行联想，在联想时要有形象、要相对独特、要有动态，可以主动出击也可以另显神通，并且融入不同的感官，这样印象会更加深刻。</p>
 <p>我们今天的课程就到这里，感谢你的聆听，如果你觉得它对身边的朋友有帮助，你也想找到一起共学的伙伴，可以把这个课程分享给他们，分享是最好的学习方式，谢谢！下一讲，我们将学习到配对联想法的一种变体，它叫做数字定桩法，让你可以将大量的需要按顺序记忆的信息做到倒背如流，很炫酷哦！</p>
 <p>为大脑赋能，让记忆升级，我是大脑赋能师袁文魁，我们下一讲再见！</p>
+<link rel="stylesheet" href="/css/spoiler.css" type="text/css"><script src="/js/spoiler.js" type="text/javascript" async></script>]]></content>
+  </entry>
+  <entry>
+    <title>「形象记忆」如何记住陌生的人名和地名？</title>
+    <url>/repost/zhihu/%E8%A2%81%E6%96%87%E9%AD%81%E9%AB%98%E6%95%88%E8%AE%B0%E5%BF%86%E6%9C%AF/4.html</url>
+    <content><![CDATA[<p>上一讲我分享了升级大脑系统的三大智能训练：专注力、想象力和创造力训练，今天起我们将正式进入到记忆法的学习，我将结合实际学习和生活的运用场景，用讲解与练习结合的形式，帮助你以更通俗易懂的方式掌握记忆法的精髓。</p>
+<p>第一种方法是最基础也最重要的形象记忆法，《遗忘的力量》这种本书里说过：「几乎所有的记忆技巧都依赖某种形式的图像，尤其是涉及物品或难以触碰的概念时，比如人名或地名。」相信你也曾有过这样的体验，进入新的公司或者参加聚会认识了新的朋友，扭头就把别人名字忘记了；或者要去某地拜访客户或参加活动，别人告诉你一个地名，结果你记错了，找错地方误了正事，别提多尴尬啦！今天我们将学会如何用形象记忆法巧记人名和地名，让你成为社交达人！</p>
+<p>形象记忆法又称心像记忆法，当我们闭上眼睛，我们依然可以在脑海中浮现出某个形象或场景，这就叫「心像」，我们平时回忆往事就是在构建「心像」，它以视觉的图像为主，但也会有听觉、触觉和味觉等其它的感官参与。</p>
+<p>对形象的东西产生「心像」最容易，我们先来做一些尝试，请你找到一个安静的环境，以放松的姿势坐在椅子上，轻轻地闭上你的眼睛，做几组深呼吸，此时大脑进入阿尔法波状态，更容易产生「心像」。</p>
+<p>第一个练习，请在脑海中想象一根香蕉，可能你会先浮现出香蕉的轮廓，接下来呈现出它的细节，比如香蕉皮的颜色，它的线条纹理，是否有斑点等，然后你可以旋转一下香蕉，从不同的角度来观察它。</p>
+<p>接下来，你还可以想象你用手抚摸香蕉，感受一下摸上去滑滑的、凉凉的感觉，然后你剥开香蕉，闻一闻香蕉的香味，再用嘴巴轻轻咬上一口，去感受香蕉的味道，感受它在舌尖的舞蹈。</p>
+<p>如果你能够把这些都在脑海中想象到，你的「心像」能力还是不错的，如果暂时做不到，可以先拿一个真实的香蕉来观察，然后再来闭上眼睛去重现这个场景，多做几次，你的「心像力」会越来越好。</p>
+<p>第二个练习可以找小伙伴一起进行，你可以挑选一张照片或画作，里面的东西稍微丰富一点，比如至少有 6-7 样，最好是彩色的。</p>
+<p>你和小伙伴都限时30秒来观察，观察时可以将一些特征用内心的语言描述出来，包括里面有什么东西，东西是什么颜色，东西的数量等。观察时间结束后，可以闭上眼睛在脑海里浮现出整体的形象。</p>
+<p>接下来可以互相提问，比如「图中小女孩的帽子是什么颜色？」「图中的男人在做什么事情？」这样进行两三轮提问。如果有出错的地方，可以结束后再看看图片来强化。</p>
+<p>当然，你也可以提高难度，就是凭借脑海中的记忆，将这个图片里的内容用简笔画画出来，默画出来你会更清楚你记住了多少，然后再观察一次来补充。拿不同的图练习几十次后，你的心像力会大增。</p>
+<p>以上这两个是「心像」的基础练习，看似简单，却很重要。将形象的东西构建「心像」是记忆宫殿的地基，接下来的重头戏是将抽象的词汇变成「心像」，这里我将分享一个魔法口诀：「鞋子拆观众」。</p>
+<p>这个口诀是抽象转形象的五大法则，分别是谐音、增减倒字、拆合、相关和综合，我挑取了这五个法则的关键字，适当谐音后变成了这个魔法口诀，你可以想象你拿着鞋子拆掉了剧院里的观众席。</p>
+<p>接下来就直接看看「鞋子拆观众」如何用来记人名，我先为你设置一个场景，现在你穿越到了《水浒传》里，你想投奔梁山， 108 好汉介绍他们的名字，你要迅速记住，你才有资格上梁山，要怎么记呢，仔细听好啦！</p>
+<p>第一大法则是谐音，这个大家都非常熟悉啦。梁山好汉第 1 号人物是宋江，可以谐音为「送江」，想象把客人送到长江边；第 3 号人物是「智多星吴用」谐音为「无用」，没有用；第 41 号人物叫郝思文，谐音为「好斯文」，想象一个戴着眼镜的斯文先生的形象。</p>
+<p>第二大法则是增减倒字，就是在原词的基础上，增加或减少一些字，或者把顺序倒过来，看能否变成具体形象。第 93 号好汉是施恩，倒过来变成「恩施」，是湖北的一个地名；第 96 号好汉「安道全」，后面两个字倒过来就是「安全道」，想象一条重兵把守的安全道路。</p>
+<p>第三大法则是拆合，也就是将词语拆成不同的字词，分别联想成形象之后，再通过联想和故事组合成新的形象。比如第5位英雄是「关胜」，「关」想到了关羽，「胜」想到了剪刀手，想象关羽过五关斩六将之后，举着胜利的剪刀手；第 108 位英雄叫「段景住」，我会想象《天龙八部》里的段誉在旅游风景区里居住。</p>
+<p>第四大法则是相关，想到和它有关的形象，可以是相关的人物、物品、事件等。比如第 62 号好汉是「孔明」，这可不是三国里的诸葛孔明，但是因为同名就很容易记住，而 63 号好汉叫「孔亮」，由「明亮」这个词就可以记住。水浒里有很多相关的人物，比如「阮小二」「阮小五」「阮小七」，比如「朱富」「朱贵」，比如「童威」「童猛」，就可以彼此相关来记住。</p>
+<p>第五大法则是综合，是将上面的方法综合运用，至少会用到两种以上的方法。有些可能会用到谐音和增减倒字，比如第 24 号好汉是「穆弘」，可以倒过来想到「弘穆」，谐音为红色木头的「红木」。有些可能会用到谐音和拆合，比如第 2 号好汉「卢俊义」，卢谐音想到「炉子」，俊义谐音为「军医」，联想到炉子边烤火的军医。</p>
+<p>通过这五大法则，你是否可以将这些好汉记住呢？尝试回忆一下，段景住是怎么记住的？安道全又是怎么记的？如果你能够挑战将 108 好汉都用「鞋子拆观众」记住，你和梁山好汉是一家人啦。这样的方式，将抽象的名字用更有趣的形象呈现，会在你心里留下更深的印象，下次当你遇到新的朋友，可以尝试用一用哦，记住别人的名字，可是拥有良好人际关系非常重要的一步！</p>
+<p>现在，「鞋子拆观众」这个魔法口诀我们已经记住，也已经在水泊梁山用它来记忆中国人名，接下来我们要飞洋过海到美国旅游，想象你现在要变成一位美国通，你要做的第一件事情就是要记住美国的 50 个州名，包括阿拉巴马州、南达科他州、西弗吉尼亚州等等，你别觉得头大，我们一起用记忆法搞定！</p>
+<p>记住较长的地名，我们用「拆合法」会比较多，拆的时候可以看看有没有我们熟悉的部分，在记忆心理学里称之为「组块」，比如「阿拉巴马」，可以由「阿拉」想到阿拉丁神灯，「巴马」想到美国前总统奥巴马，再组合就可以联想到手拿着阿拉丁神灯在许愿的奥巴马，这就记住了阿拉巴马州。</p>
+<p>接下来，我再给你举 5 个例子，因为涉及到具体的字，在听的时候看着文稿效果会更好！</p>
+<p>马里兰州，「兰州」很容易想到兰州拉面，我们可以想象，在马的肚子里有一碗兰州拉面。</p>
+<p>肯塔基州，由「相关法」我会想到肯德基，想象在肯德基店中间有一座汉堡堆成的塔，想到这个画面就记住了「肯塔基」。</p>
+<p>俄克拉何马州，「克拉」想到1克拉的钻戒，「何马」可以谐音为动物「河马」，联想为一只鹅拿着1克拉钻戒向河马求婚，很搞笑的一个画面。</p>
+<p>新罕布什尔州，「新罕」可以谐音和增字想到「新汗衫」，「布什」就想到美国前总统布什，「尔」一般我会谐音想到耳朵，联想到一件新汗衫挂在布什的耳朵上面。</p>
+<p>南卡罗来纳州，「南」想到名侦探「柯南」，「卡罗」谐音想到「卡拉 OK 」，「来纳」谐音为「来啦」，整体上谐音想到一个场景：在 KTV 里，一个人喊着：「柯南唱卡拉 OK 来啦！」</p>
+<p>我一共分享了美国的六大州名，你再复习一两次，看看是否能够回忆起来吧！要是以后遇到别人问你美国有哪些州，你可以至少脱口而出这几个别人不太熟悉的，可以突显出你学霸的本质！其它的州，如果你有兴趣，就拿来练练手吧，让你更好地掌握形象转化的法则。</p>
+<p>好啦，我来总结一下今天的课程，你学到了增强「心像力」的两大基础训练，也学会了抽象词汇转形象的五大法则，也就是谐音、增减倒字、拆合、相关和综合，你还和我一起穿越到梁山，学会记忆人名的技巧，也飞越到美国，能够将地名趣味记忆，这都将助力你成为社交达人。</p>
+<p>今天的课程就到这里啦，欢迎你把课程分享给你的朋友们，和他们一起拥有记忆魔法，成为最强大脑！为大脑赋能，让记忆升级，我是大脑赋能师袁文魁，我们下一讲再见！</p>
+<p>今日作业：</p>
+<p>请尝试用抽象转形象的方法，记忆以下梁山好汉的名字，并且在评论区里分享你的想法。</p>
+<p>1、陶宗旺 2、汤隆 3、郁保四 4、蒋敬 5、索超</p>
 <link rel="stylesheet" href="/css/spoiler.css" type="text/css"><script src="/js/spoiler.js" type="text/javascript" async></script>]]></content>
   </entry>
   <entry>
@@ -1431,55 +1394,6 @@ L = T +W \tag{3}</script><p>其中$T$是扭转数（twisting number），指DNA�
 <link rel="stylesheet" href="/css/spoiler.css" type="text/css"><script src="/js/spoiler.js" type="text/javascript" async></script>]]></content>
   </entry>
   <entry>
-    <title>「记忆宫殿」神探夏洛克的秘密武器</title>
-    <url>/repost/zhihu/%E8%A2%81%E6%96%87%E9%AD%81%E9%AB%98%E6%95%88%E8%AE%B0%E5%BF%86%E6%9C%AF/8.html</url>
-    <content><![CDATA[<p>上一讲我们学习了身体定桩法，用身体的部位尝试记忆了 24 字社会主义核心价值观，同时我分享了在学习考试里的运用，然而身体桩毕竟比较有限，就像一个内存很小的手机，要怎么才能扩大内存呢？地点定桩法就是一个很好的选择。</p>
-<p>地点定桩法强大在哪里？想要成为记忆大师，几乎所有的选手都在使用地点定桩法，如果你曾经看过有人表演《道德经》或者牛津高阶词典等任意点背，他们的秘密武器也是地点定桩法。这么庞杂的东西都可以清晰记忆，学习考试里的知识更不在话下，因此它又被称为「大脑图书馆」，帮助我们把知识有序存放在大脑的空间里。</p>
-<p>那到底什么是地点定桩法？我们先来听一段故事：古希腊著名的诗人西蒙尼戴斯，在一场宴会上面吟诵了一首抒情诗来赞美主人，同时也赞美双子神卡斯托和波卢克斯。这位主人生性比较吝啬，他说他只会付给他一半的酬劳，另一半要他向双子神去讨要。</p>
-<p>没过多久，门外有两个人要见一下西蒙尼戴斯，当他来到门外，整个宴席大厅的屋顶突然倒塌，主人和全部的宾客都被压死了。原来这信使是双子神变的，他们救他一命作为他的酬劳。西蒙尼戴斯凭借自己的记忆，回忆起每个人的位置，帮助死者家属辨认了尸体，他也因此有所领悟：排列有序是记忆的关键。</p>
-<p>这给古罗马人很多启发，他们要进行演说和辩论，需要记住大量信息，他们注意到自己家里的房间、家具、器皿的摆设是固定的，如果把需要记忆的内容与每样物品进行联想，那么只要想起物品就可以想起所记忆的内容了，这样就解决了「按顺序记」的难题，这种方法被称为「古罗马室法」，也被称作是「记忆宫殿法」。</p>
-<p>这种方法在明朝时由利玛窦传到中国，他当时创作了一本书叫做《西国记法》，也就是在港剧《读心神探》里出现的《记忆宫殿》，而英剧《神探夏洛克》里的福尔摩斯也拥有这项神技。现在通行的叫法是「地点定桩法」，如果你在一些记忆书籍里看到「信箱法」「挂钩法」「行程法」，也都和「记忆宫殿法」比较类似。</p>
-<p>这么神奇的方法，使用步骤如下：</p>
-<p>第一步是寻找地点桩。原则依然是要熟悉、有顺序、有特征，我们可以先从熟悉的地方开始找，比如自己或亲戚朋友家、学校、办公室等。顺序方面，一般是按照顺时针的方向来找，尽量有一些高低错落。另外，就是要彼此能够区分，如果把同样的四把椅子都作为地点，这是一定会混淆的。</p>
-<p><img src="/images/zhihu/私家课/袁文魁高效记忆术/8_1.jpg" alt="img"></p>
-<p>我以文稿里的这张图片为例，在这个房间里，我按照顺时针方向找了五个地点，第一个是梳妆台，第二个是床上的枕头，第三个是台灯，第四个是椅子，第五个是书桌。</p>
-<p>在这里，我再补充两条原则，一是要固定的东西，尽量不要找能够跑的东西，比如猫猫狗狗什么的。二是要适中，包括大小、距离等，每个地点就像是一个舞台，与之定桩的形象就像演员，太大了演员不突出，太小了演员站不下，两个舞台彼此距离太近，两台戏的演员就会窜场，记忆就会出现混淆。这图中的五个地点距离比较适中，彼此界限清晰，不太会产生干扰。</p>
-<p>一般我们找地点桩时，至少 10 个一组，记忆选手会至少 30 个一组，找完之后，我们会闭上眼睛回忆几遍，就仿佛我们进到这个房间进行参观，身临其境依次把每个地点看到，这样才叫找好了地点桩。</p>
-<p>第二步是使用地点桩，依次把需要记忆的信息与每一个地点桩进行联想，联想时要注意，地点桩是固定的舞台，不要把舞台想象到其它的空间去了。</p>
-<p>我举一个地理常识为例，中国有个成语叫做「五湖四海」，在中国，「五湖」是鄱阳湖、太湖、巢湖、洞庭湖、洪泽湖，那美国的「五湖」是啥呢？是苏必利尔湖、休伦湖、密歇根湖、伊利湖和安大略湖，我们依次让这些形象在舞台上开始它的表演吧！</p>
-<p>第一个地点是梳妆台，苏必利尔，正好「苏」谐音为「梳头」的「梳」，想象在梳头时拿着匕首，太锋利了，不小心割到了耳朵，苏必利尔！</p>
-<p>第二个地点是枕头，休伦，想象是正在休息的周杰伦，他在枕头上躺着睡觉。</p>
-<p>第三个地点是台灯，密歇根，想象蜜蜂歇在树根下，把台灯想象成一棵大树，蜜蜂就歇在台灯的根部。</p>
-<p>第四个地点是椅子，伊利，很容易想到伊利牛奶，想象椅子上有一盒伊利牛奶，一屁股坐下去，牛奶打湿了整个椅子。</p>
-<p>第五个地点是书桌，安大略，想象一个保安，用警棍在书桌上敲打，打了大大的一个省略号，这就是安大略。</p>
-<p>好啦，你可以结合文稿再看看图片，然后闭上眼睛，回到这个房间，依次看到每个地点，看是否能够想到上面的图像，并且回忆出具体的内容，5 秒钟后我将要公布答案。它们依次是苏必利尔湖、休伦湖、密歇根湖、伊利湖和安大略湖。</p>
-<p>第三步就是管理地点桩。我寻找的地点桩，都会用本子记录下来，在哪里找的地点，每一个分别是什么。如果条件允许，还会拍摄成视频和图片版，在电脑里专门设文件夹保存。找完了要立马去使用，多用几次，就能把它深深地记在脑海里。</p>
-<p>有人会问，地点桩可以反复使用吗？还是用舞台来比喻，在舞台上不同时间是可以有不同的演出的，只要时间不太近。在使用地点桩时，一般同一组不要一天使用多次，这样容易混淆，如果用于数字、扑克等记忆训练，我一般每组地点每天只用一次。如果要用来记忆需要长期保存的信息，比如背诵《论语》《道德经》等国学经典，这些信息我们尽量用专属的地点，以后不要用它来记忆其它信息。</p>
-<p>关于地点定桩法，刚才讲的主要是用房间里的摆设来定桩，这也是大部分中国记忆大师常用的，国外有些记忆大师喜欢用「行程法」，比如在一条街上行走，以经过的有特征的店铺或标志性建筑作为桩子，英国的记忆冠军安迪贝尔，就以伦敦的大笨钟、伦敦眼等作为桩子。我一般不太习惯这种方式，因为舞台太大，就需要记忆的形象也像浩克变身绿巨人一样，才可以适应这么大的舞台。</p>
-<p>另外一些人喜欢比较小的地点，甚至把大件物品拆分成局部，分别作为不同的桩子，比如一辆汽车、摩托车或者电冰箱等，这也是地点定桩法的一种变体，叫做万物定桩法，它和身体定桩法也很像，只不过是非生物的身体罢了。</p>
-<p>我就举一个用摩托车上的地点来定桩的例子吧，你可以参考一下文稿里的图片，我在图片里的摩托车上标注了十个部位，分别是后座、驾驶座、油箱、后示镜、前盖、后挡板、尾气孔、发动机、红色罩、前轮，按照的是上排从左往右，下排从左往右的顺序。</p>
-<p>那我们要挑战记住的东西是什么呢？依然是地理常识。对于一个拥有周游世界梦想的人来说，积累一些地理知识非常有必要，连世界上有啥都不知道，去哪里都是抓瞎呀，今天我们要挑战记住「世界十大海峡」，海峡是指两块陆地之间连接洋与洋、洋与海、海与海的较狭小的水道。世界十大海峡，均为海上交通的咽喉要道，具有十分重要的政治、经济和军事意义。它们分别是：</p>
-<p>1、马六甲海峡</p>
-<p>2、苏伊士运河</p>
-<p>3、巴拿马运河</p>
-<p>4、望加锡海峡</p>
-<p>5、霍尔木兹海峡</p>
-<p>6、朝鲜海峡</p>
-<p>7、波斯湾</p>
-<p>8、曼德海峡</p>
-<p>9、直布罗陀海峡</p>
-<p>10、阿拉斯加湾</p>
-<p>我只讲解前面五个海峡怎么记，后面的请你结合文稿来挑战。</p>
-<p>后座是马六甲海峡，想象一下后座上有一匹身怀六甲的马，正在使出全身力气在生小马驹。</p>
-<p>驾驶座是苏伊士运河，「苏」想到演员苏有朋，「伊士」谐音为「医师」，想象苏有朋友穿着医师的衣服，在驾驶座上为患者扎针。</p>
-<p>油箱是巴拿马运河，想象奥巴马拿着一匹玩具马，按住它的头让它在油箱里面喝油水。</p>
-<p>后视镜是望加锡海峡，后示镜碎了，不能往后望，往上面加了一张锡纸，就可以当镜子来望了。</p>
-<p>前盖是霍尔木兹海峡，「霍尔木兹」有难度，我想到功夫大师霍元甲的耳朵上夹着木棍，点着后烧到前盖上，发出「嗞嗞」的声音。</p>
-<p>好啦，现在是回顾时间，当我说到摩托车的某个部位时，你要想到对应的形象，并且翻译成海峡的名字。油箱上是什么海峡？巴拿马运河！后座上是什么？马六甲海峡！前盖上是什么？霍尔木兹海峡！后视镜上是什么？望加锡海峡！驾驶座上是什么？苏伊士运河！恭喜你都记住了，以后看到摩托车就复习一下，希望有一天，当你走过这些海峡时，你会想起，曾经我用一辆摩托车背过它！</p>
-<p>好啦，我来总结一下今天的内容，我分享了地点定桩法的历史起源，以及三个操作步骤：寻找地点桩、使用地点桩和管理地点桩，在寻找时要注意熟悉、有顺序、有特征、固定和适中这五个原则，在使用时要注意不要一天重复使用多次。当然地点桩还有很多细节，初学者就不深入讲太多了，大家先好好消化，去打造自己的记忆宫殿吧！</p>
-<link rel="stylesheet" href="/css/spoiler.css" type="text/css"><script src="/js/spoiler.js" type="text/javascript" async></script>]]></content>
-  </entry>
-  <entry>
     <title>「熟语定桩」熟记学科简答题的窍门</title>
     <url>/repost/zhihu/%E8%A2%81%E6%96%87%E9%AD%81%E9%AB%98%E6%95%88%E8%AE%B0%E5%BF%86%E6%9C%AF/9.html</url>
     <content><![CDATA[<p>上一讲我们介绍了神奇的地点定桩法，可以用来记忆海量的需要按顺序记忆的信息，前提是你要找到足够多的地点。如果没有时间去外面找地点，那我们该怎么办呢？还有哪些熟悉的、有顺序的、有特征的东西可以帮助我们记忆呢？今天我们将学习熟语定桩法。</p>
@@ -1530,6 +1444,55 @@ L = T +W \tag{3}</script><p>其中$T$是扭转数（twisting number），指DNA�
     <content><![CDATA[<link rel="stylesheet" href="/css/spoiler.css" type="text/css"><script src="/js/spoiler.js" type="text/javascript" async></script>]]></content>
   </entry>
   <entry>
+    <title>「记忆宫殿」神探夏洛克的秘密武器</title>
+    <url>/repost/zhihu/%E8%A2%81%E6%96%87%E9%AD%81%E9%AB%98%E6%95%88%E8%AE%B0%E5%BF%86%E6%9C%AF/8.html</url>
+    <content><![CDATA[<p>上一讲我们学习了身体定桩法，用身体的部位尝试记忆了 24 字社会主义核心价值观，同时我分享了在学习考试里的运用，然而身体桩毕竟比较有限，就像一个内存很小的手机，要怎么才能扩大内存呢？地点定桩法就是一个很好的选择。</p>
+<p>地点定桩法强大在哪里？想要成为记忆大师，几乎所有的选手都在使用地点定桩法，如果你曾经看过有人表演《道德经》或者牛津高阶词典等任意点背，他们的秘密武器也是地点定桩法。这么庞杂的东西都可以清晰记忆，学习考试里的知识更不在话下，因此它又被称为「大脑图书馆」，帮助我们把知识有序存放在大脑的空间里。</p>
+<p>那到底什么是地点定桩法？我们先来听一段故事：古希腊著名的诗人西蒙尼戴斯，在一场宴会上面吟诵了一首抒情诗来赞美主人，同时也赞美双子神卡斯托和波卢克斯。这位主人生性比较吝啬，他说他只会付给他一半的酬劳，另一半要他向双子神去讨要。</p>
+<p>没过多久，门外有两个人要见一下西蒙尼戴斯，当他来到门外，整个宴席大厅的屋顶突然倒塌，主人和全部的宾客都被压死了。原来这信使是双子神变的，他们救他一命作为他的酬劳。西蒙尼戴斯凭借自己的记忆，回忆起每个人的位置，帮助死者家属辨认了尸体，他也因此有所领悟：排列有序是记忆的关键。</p>
+<p>这给古罗马人很多启发，他们要进行演说和辩论，需要记住大量信息，他们注意到自己家里的房间、家具、器皿的摆设是固定的，如果把需要记忆的内容与每样物品进行联想，那么只要想起物品就可以想起所记忆的内容了，这样就解决了「按顺序记」的难题，这种方法被称为「古罗马室法」，也被称作是「记忆宫殿法」。</p>
+<p>这种方法在明朝时由利玛窦传到中国，他当时创作了一本书叫做《西国记法》，也就是在港剧《读心神探》里出现的《记忆宫殿》，而英剧《神探夏洛克》里的福尔摩斯也拥有这项神技。现在通行的叫法是「地点定桩法」，如果你在一些记忆书籍里看到「信箱法」「挂钩法」「行程法」，也都和「记忆宫殿法」比较类似。</p>
+<p>这么神奇的方法，使用步骤如下：</p>
+<p>第一步是寻找地点桩。原则依然是要熟悉、有顺序、有特征，我们可以先从熟悉的地方开始找，比如自己或亲戚朋友家、学校、办公室等。顺序方面，一般是按照顺时针的方向来找，尽量有一些高低错落。另外，就是要彼此能够区分，如果把同样的四把椅子都作为地点，这是一定会混淆的。</p>
+<p><img src="/images/zhihu/私家课/袁文魁高效记忆术/8_1.jpg" alt="img"></p>
+<p>我以文稿里的这张图片为例，在这个房间里，我按照顺时针方向找了五个地点，第一个是梳妆台，第二个是床上的枕头，第三个是台灯，第四个是椅子，第五个是书桌。</p>
+<p>在这里，我再补充两条原则，一是要固定的东西，尽量不要找能够跑的东西，比如猫猫狗狗什么的。二是要适中，包括大小、距离等，每个地点就像是一个舞台，与之定桩的形象就像演员，太大了演员不突出，太小了演员站不下，两个舞台彼此距离太近，两台戏的演员就会窜场，记忆就会出现混淆。这图中的五个地点距离比较适中，彼此界限清晰，不太会产生干扰。</p>
+<p>一般我们找地点桩时，至少 10 个一组，记忆选手会至少 30 个一组，找完之后，我们会闭上眼睛回忆几遍，就仿佛我们进到这个房间进行参观，身临其境依次把每个地点看到，这样才叫找好了地点桩。</p>
+<p>第二步是使用地点桩，依次把需要记忆的信息与每一个地点桩进行联想，联想时要注意，地点桩是固定的舞台，不要把舞台想象到其它的空间去了。</p>
+<p>我举一个地理常识为例，中国有个成语叫做「五湖四海」，在中国，「五湖」是鄱阳湖、太湖、巢湖、洞庭湖、洪泽湖，那美国的「五湖」是啥呢？是苏必利尔湖、休伦湖、密歇根湖、伊利湖和安大略湖，我们依次让这些形象在舞台上开始它的表演吧！</p>
+<p>第一个地点是梳妆台，苏必利尔，正好「苏」谐音为「梳头」的「梳」，想象在梳头时拿着匕首，太锋利了，不小心割到了耳朵，苏必利尔！</p>
+<p>第二个地点是枕头，休伦，想象是正在休息的周杰伦，他在枕头上躺着睡觉。</p>
+<p>第三个地点是台灯，密歇根，想象蜜蜂歇在树根下，把台灯想象成一棵大树，蜜蜂就歇在台灯的根部。</p>
+<p>第四个地点是椅子，伊利，很容易想到伊利牛奶，想象椅子上有一盒伊利牛奶，一屁股坐下去，牛奶打湿了整个椅子。</p>
+<p>第五个地点是书桌，安大略，想象一个保安，用警棍在书桌上敲打，打了大大的一个省略号，这就是安大略。</p>
+<p>好啦，你可以结合文稿再看看图片，然后闭上眼睛，回到这个房间，依次看到每个地点，看是否能够想到上面的图像，并且回忆出具体的内容，5 秒钟后我将要公布答案。它们依次是苏必利尔湖、休伦湖、密歇根湖、伊利湖和安大略湖。</p>
+<p>第三步就是管理地点桩。我寻找的地点桩，都会用本子记录下来，在哪里找的地点，每一个分别是什么。如果条件允许，还会拍摄成视频和图片版，在电脑里专门设文件夹保存。找完了要立马去使用，多用几次，就能把它深深地记在脑海里。</p>
+<p>有人会问，地点桩可以反复使用吗？还是用舞台来比喻，在舞台上不同时间是可以有不同的演出的，只要时间不太近。在使用地点桩时，一般同一组不要一天使用多次，这样容易混淆，如果用于数字、扑克等记忆训练，我一般每组地点每天只用一次。如果要用来记忆需要长期保存的信息，比如背诵《论语》《道德经》等国学经典，这些信息我们尽量用专属的地点，以后不要用它来记忆其它信息。</p>
+<p>关于地点定桩法，刚才讲的主要是用房间里的摆设来定桩，这也是大部分中国记忆大师常用的，国外有些记忆大师喜欢用「行程法」，比如在一条街上行走，以经过的有特征的店铺或标志性建筑作为桩子，英国的记忆冠军安迪贝尔，就以伦敦的大笨钟、伦敦眼等作为桩子。我一般不太习惯这种方式，因为舞台太大，就需要记忆的形象也像浩克变身绿巨人一样，才可以适应这么大的舞台。</p>
+<p>另外一些人喜欢比较小的地点，甚至把大件物品拆分成局部，分别作为不同的桩子，比如一辆汽车、摩托车或者电冰箱等，这也是地点定桩法的一种变体，叫做万物定桩法，它和身体定桩法也很像，只不过是非生物的身体罢了。</p>
+<p>我就举一个用摩托车上的地点来定桩的例子吧，你可以参考一下文稿里的图片，我在图片里的摩托车上标注了十个部位，分别是后座、驾驶座、油箱、后示镜、前盖、后挡板、尾气孔、发动机、红色罩、前轮，按照的是上排从左往右，下排从左往右的顺序。</p>
+<p>那我们要挑战记住的东西是什么呢？依然是地理常识。对于一个拥有周游世界梦想的人来说，积累一些地理知识非常有必要，连世界上有啥都不知道，去哪里都是抓瞎呀，今天我们要挑战记住「世界十大海峡」，海峡是指两块陆地之间连接洋与洋、洋与海、海与海的较狭小的水道。世界十大海峡，均为海上交通的咽喉要道，具有十分重要的政治、经济和军事意义。它们分别是：</p>
+<p>1、马六甲海峡</p>
+<p>2、苏伊士运河</p>
+<p>3、巴拿马运河</p>
+<p>4、望加锡海峡</p>
+<p>5、霍尔木兹海峡</p>
+<p>6、朝鲜海峡</p>
+<p>7、波斯湾</p>
+<p>8、曼德海峡</p>
+<p>9、直布罗陀海峡</p>
+<p>10、阿拉斯加湾</p>
+<p>我只讲解前面五个海峡怎么记，后面的请你结合文稿来挑战。</p>
+<p>后座是马六甲海峡，想象一下后座上有一匹身怀六甲的马，正在使出全身力气在生小马驹。</p>
+<p>驾驶座是苏伊士运河，「苏」想到演员苏有朋，「伊士」谐音为「医师」，想象苏有朋友穿着医师的衣服，在驾驶座上为患者扎针。</p>
+<p>油箱是巴拿马运河，想象奥巴马拿着一匹玩具马，按住它的头让它在油箱里面喝油水。</p>
+<p>后视镜是望加锡海峡，后示镜碎了，不能往后望，往上面加了一张锡纸，就可以当镜子来望了。</p>
+<p>前盖是霍尔木兹海峡，「霍尔木兹」有难度，我想到功夫大师霍元甲的耳朵上夹着木棍，点着后烧到前盖上，发出「嗞嗞」的声音。</p>
+<p>好啦，现在是回顾时间，当我说到摩托车的某个部位时，你要想到对应的形象，并且翻译成海峡的名字。油箱上是什么海峡？巴拿马运河！后座上是什么？马六甲海峡！前盖上是什么？霍尔木兹海峡！后视镜上是什么？望加锡海峡！驾驶座上是什么？苏伊士运河！恭喜你都记住了，以后看到摩托车就复习一下，希望有一天，当你走过这些海峡时，你会想起，曾经我用一辆摩托车背过它！</p>
+<p>好啦，我来总结一下今天的内容，我分享了地点定桩法的历史起源，以及三个操作步骤：寻找地点桩、使用地点桩和管理地点桩，在寻找时要注意熟悉、有顺序、有特征、固定和适中这五个原则，在使用时要注意不要一天重复使用多次。当然地点桩还有很多细节，初学者就不深入讲太多了，大家先好好消化，去打造自己的记忆宫殿吧！</p>
+<link rel="stylesheet" href="/css/spoiler.css" type="text/css"><script src="/js/spoiler.js" type="text/javascript" async></script>]]></content>
+  </entry>
+  <entry>
     <title>袁文魁|高效记忆术：教你快速记住任何信息</title>
     <url>/repost/zhihu/%E8%A2%81%E6%96%87%E9%AD%81%E9%AB%98%E6%95%88%E8%AE%B0%E5%BF%86%E6%9C%AF/index.html</url>
     <content><![CDATA[<p><a href="./1.html">发刊词：拥有超强记忆，助你成为最强大脑</a></p>
@@ -1551,6 +1514,43 @@ L = T +W \tag{3}</script><p>其中$T$是扭转数（twisting number），指DNA�
 <p><a href="./17/html">「阅读」读完书等于没读，记不住怎么办？</a></p>
 <p><a href="./18.html">「社交」名字对不上人脸，这样告别脸盲</a></p>
 <p><a href="./19.html">「职场」成为职场记忆王，轻松升职加薪</a></p>
+<link rel="stylesheet" href="/css/spoiler.css" type="text/css"><script src="/js/spoiler.js" type="text/javascript" async></script>]]></content>
+  </entry>
+  <entry>
+    <title>发刊词：想要看透人心，微表情是很有用的科学工具</title>
+    <url>/repost/zhihu/%E5%A7%9C%E6%8C%AF%E5%AE%87%E5%BE%AE%E8%A1%A8%E6%83%85%E5%BF%83%E7%90%86%E5%AD%A6/1.html</url>
+    <content><![CDATA[<p>你好，我是姜振宇，欢迎来到我的微表情课堂。</p>
+<p>我是从 2007 年上博士的时候，开始研究微表情的，先后和公安机关、检察机关、纪检监察机关等非常注重证据和逻辑的司法机关进行合作，研究的对象是实际案件中的各种嫌疑人，看他们说谎话、说实话，伪装表演，也有真情流露，因此积累了大量实际的研究素材和关于微表情的理论模型，取得了很好的研究成果。</p>
+<p>后来，机缘巧合，我开始专门做跟微表情相关的电视节目——2011 年江苏卫视的《非常了得》，是这个节目让更多的观众知道了微表情这项研究，在国内也有正经的研究，而不仅仅是电视剧里的台词总结和各种伪科学书里的胡说八道。</p>
+<p>之后，我陆续参加了民生节目四大名助，脑力节目最强大脑和情感节目非诚勿扰，用表情解读不同的人、不同的事和不同的心思。也因为解读过于透彻，被冠以「钢铁直男」的标签。实际上，一定要有鲜活的人和关切的事，才会让人出现真切的微表情和肢体动作。正是因为见了这么多形形色色的普通人和嫌疑人，才使得我对微表情的理解更加深刻和透彻。</p>
+<p>希望更多人能理解微表情的本质公式——如果一个人说的话和他的微小表情动作不一致，那就是有问题，需要小心被欺骗了。</p>
+<p>想要看透人的心，微表情是很有用的科学工具，大家要动脑筋来学习呀！我在这里等你。</p>
+<link rel="stylesheet" href="/css/spoiler.css" type="text/css"><script src="/js/spoiler.js" type="text/javascript" async></script>]]></content>
+  </entry>
+  <entry>
+    <title>眼睛运动的2个维度：眼皮开闭和眼球的旋转</title>
+    <url>/repost/zhihu/%E5%A7%9C%E6%8C%AF%E5%AE%87%E5%BE%AE%E8%A1%A8%E6%83%85%E5%BF%83%E7%90%86%E5%AD%A6/2.html</url>
+    <content><![CDATA[<p>我先问大家一个问题，你觉得你的眼睛运动复不复杂？尤其是在心思多，比较复杂，比较想要动心眼儿的时候，眼睛运动复不复杂？</p>
+<p>这是我开篇提的第一个问题。</p>
+<p>无论是中外总会有一些说法，把眼睛和心思联系在一起。比如说，中国人常说的一句老话叫作「眼睛是心灵的窗户」，你透过窗户是可以看到屋里的。另外，江湖上的人常说一句话叫作「眼是心中苗」，好像是禾苗的苗，我没有去查证，同样的一个意思。还有就是在早年间江湖上的一些算命的，看相的，他们内部培训会有一条法则叫作「定睛则有，转睛则无」，什么意思？我不得骗你吧？我说，你下个月会有一笔横财，这个话说出来的时候，他们会特别观察对方的眼神，如果你这个横财一说，他眼睛看着你，定住了，很关切地看着你，接下来要说什么，说明你这说的这件事基本上成立了。如果你说，下个月你应该有一笔横财，横财那个字说完之后，他眼睛跑偏了，转开了，不看你了，说明他对你的这句话是不感兴趣的。那么，你接下来的话就要转方向了。所以这些东西到底有没有道理呢？今天在第一课里面就给大家讲一下。</p>
+<p>实际上眼睛的运动想象一下好像很复杂，我们拆解成两个维度给大家一看，你会觉得极其简单。</p>
+<p>第一个维度，眼皮，学术叫眼睑，眼球外面包的上眼睑和下眼睑，它们怎么动？它们只有两种运动，一种是越睁越大，把眼睛睁得大大的；一种是越闭越小，最后全闭上。你有没有一种醍醐灌顶的感觉，对哦，不管是眼睛小得眯眯缝，还是大得像赵薇那样，好像确实只有闭小和睁大两个运动。对的，非常有限、简单且能够进行有效解读的两个运动。</p>
+<p>我们简单地说，眼睛睁大可以起到什么作用？眼睛睁大物理上可以开放眼球光线摄入的角度和范围。你睁得越大，外界空间就能从越多的角度和越大的范围，把光线发射或者反射到你的瞳孔里面映射到视网膜上。反过来讲，就是如果你眼睑越闭越小，越闭越小，眯成一条缝，现在就可以试，一边听一边试，你会发现，即便光线很明亮，即便空间非常宽阔，但眼睑眯成一条线的时候，你的视野当中那些东西是模糊不清，并且有效范围越缩越小的，就是这么极其简单的物理学的原理。开得大，摄入光线角度多，成像更加有效，范围更加大，且更加清晰。反过来就是，成像不清晰，且有效范围小。你有没有想到什么？聪明的同学已经想到了，睁大眼睛代表看得多，闭小眼睛代表看得少。我们可以进一步地再推论一下，如果睁大或闭小这个动作是有意驱动，就意味着当事人愿意多看，或者不愿意多看。想得出来吗？比如，你看到一个漂亮的姑娘，大小伙子20多岁，血气方刚，看到一个漂亮的姑娘，电视上 101 偶像，或者是电影里面的一些漂亮的脸蛋，或者大街上走的那些漂亮的身体，眼睛睁大可以看得更清楚。如果你看到的一滩很恶心的、散发着臭烘烘气味的、冒着泡的、有很多虫子在上面爬的，你眼睛会闭小，为啥？不想看，不要看，最好不要恶心到我，这就是眼睛睁大和闭小的原始意义。当然这两个动作是可以控制的，如果他是出于一种本能的反应，睁大或者闭小的话，其实你同样可以倒推，这个刺激源让他愿意多看或者不愿意多看。我们第一个指标讲完了。</p>
+<p>第二个指标是什么？除了眼睑能运动之外，人的眼球是可以转动的，在有限的范围内是可以转动的。那么眼球的转和不转就是第二个有效的指标。刚才我们讲的「定睛则有，转睛则无」就是这个道理，定睛则有，「定睛」的意思就是眼睛不转了，盯着某一个方向看，干吗呢？聚焦，稳定地获取视觉信息。所以眼睛停在哪儿，看什么，焦点清不清晰，是我们在第二个维度里面的首要指标。</p>
+<p>如果他的眼睛盯在你的脸上，始终看着，长时间地关注，而且关注的时间越来越长，说明他想从你的脸上获取越来越多的信息，说明他对这一个部分很感兴趣，这就是「定睛则有」的意思。「转睛则无」，往旁边一转开，说明原来的这个刺激源，我不想看了，我对他的视觉需求没有了，我对他的信息需求消失了。那我为什么要转开呢？两个原因，第一个原因就是我不要原来的了。第二个原因是，我要看新的。大家能想明白吗？差别不一样，你可以想象一下，比如说，一辆很漂亮的车，你一眼看到，眼睛都睁大了，定睛看了它好久，看它的每一个细节部位，你的眼睛是定焦的，是关注的，是长时间观察它的。等到你看过了，心里有数了，好了，你现在就已经知道这个车的具体样子了，你不用再看的时候，眼睛就会跑开，说明此时此刻，你对车已经不感兴趣了。而如果旁边有一辆其他的车，来了一辆新车，眼睛自然就会关注到新的事物上面，从新的事物上再次获取信息。所以「转睛」要么就是躲开原来的，或者就是获取新信息，只有这两种解释。</p>
+<p>眼睛的转动就是我们要获取有效信息的第二个指标。</p>
+<p>大家再想一想，你的眼球无论多复杂，大概就是定在那儿，或者是转开。定在那儿已经很清晰了，那么转开能怎么解读呢？</p>
+<p>江湖上有一种传说，「向左转代表回忆，向右代表编造」，这个有道理吗？每一次钢铁老师去外面讲课，或者公开讲座，或者在无数的视频里面都已经公然讲过了，这件事过不了实验，这件事情是错的。他是1970年代有一个著名的伪心理学派叫做NLP，他们发布的一个「猜想」，那个「猜想」还会更复杂一点，是六向眼动。但是经过大量的实验证明，他们提出的左回忆、右编造，这种猜想是伪猜想，换句话讲，不成立。用在真人身上，分析不了人家。但很多人，因为这个简单就会愿意去用。比如，今年上映的电影某某探案 2，主角一上来就甩出这么一句话，你刚才在提到谁谁谁的时候，眼睛明明向左转，说明你在回忆。特别酷，对吧？为什么大众会觉得这件事特别酷呢？因为简单，左边等于回忆，所以人都觉得，哇塞，我找到秘密了，我掌握一个高深的武器，这种酷感就会油然而生。其实不是的，现在经过我们大量的研究证明，向左向右跟回忆、编造以及其它的大脑运动没有什么关系，没有必然的联系。具体的我就不多说了，你可以搜我前面的文章，或者是书，书里面写得很清楚。</p>
+<p>眼睛的转动可以从以下几个方面来看：第一，转动到的新位置是什么？换句话讲，有没有一辆新车让他引起了关注，他去获取了新的视觉信息，这件事是有意义的。第二，转动的频率是不是够快？如果是缓慢转动，很明显，他在察觉不同方向的视觉信息，因为人的眼睛获取视觉信息是需要一定时间的，稳定定焦，然后辨识清楚，映到视网膜上，再由大脑处理好了，才能够转开。如果他的眼睛转得很快，那就是古人常说的，这个家伙心虚。虽然古人是经验总结，但是用我们现在的科学道理也是一样的，啥意思？就是他的眼睛不是为了获取新的信息，而是为了躲开面对的刺激源，这就是心虚的表现。眼球转动的频率高、方向多等于恐惧情绪。</p>
+<p>经过这么一拆解，大家仔细地想一下，你的眼睛尽管运动好像很复杂，但实际上只有两大类，一类是眼睑「开」和「闭」，一类是眼球的「转」和「定」。有了它们之后，我们可以代入式地解决几乎所有问题。眼睛睁得越大，说明愿意看得越多；眼睛闭得越小，说明不愿意看；眼睛转得越快，说明没有想要获取视觉信息；眼睛定在那儿，说明他在看这件事情，他在获取信息。其他的内容，我们会在下节课，以及后面的9节课里面，慢慢地给大家推送出来。</p>
+<p>我们预告一下，第二节课讲的是「眉毛」。很有意思吧，眉毛这个看起来很好看、但又没有什么实际作用的东西，为什么会留存在人类的面孔上呢？它对于表情的构成，以及心意的表达有没有什么必要的、甚至是重要的作用呢？学会了眼睛的分析，再加上眉毛的分析，你就是无敌的。</p>
+<link rel="stylesheet" href="/css/spoiler.css" type="text/css"><script src="/js/spoiler.js" type="text/javascript" async></script>]]></content>
+  </entry>
+  <entry>
+    <title></title>
+    <url>/repost/zhihu/%E5%A7%9C%E6%8C%AF%E5%AE%87%E5%BE%AE%E8%A1%A8%E6%83%85%E5%BF%83%E7%90%86%E5%AD%A6/index.html</url>
+    <content><![CDATA[<p><a href="1.html">发刊词：想要看透人心，微表情是很有用的科学工具</a></p>
+<p><a href="2.html">眼睛运动的2个维度：眼皮开闭和眼球的旋转</a></p>
 <link rel="stylesheet" href="/css/spoiler.css" type="text/css"><script src="/js/spoiler.js" type="text/javascript" async></script>]]></content>
   </entry>
 </search>
