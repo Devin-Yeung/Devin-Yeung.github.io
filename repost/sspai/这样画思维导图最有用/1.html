@@ -17,7 +17,7 @@
 
 <script id="hexo-configurations">
     var NexT = window.NexT || {};
-    var CONFIG = {"hostname":"devin-yeung.github.io","root":"/","scheme":"Gemini","version":"7.8.0","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12,"onmobile":false},"copycode":{"enable":false,"show_result":false,"style":null},"back2top":{"enable":true,"sidebar":false,"scrollpercent":true},"bookmark":{"enable":false,"color":"#222","save":"auto"},"fancybox":false,"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"algolia":{"hits":{"per_page":10},"labels":{"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}},"localsearch":{"enable":true,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false},"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},"path":"search.xml"};
+    var CONFIG = {"hostname":"devin-yeung.github.io","root":"/","scheme":"Gemini","version":"7.8.0","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12,"onmobile":false},"copycode":{"enable":true,"show_result":true,"style":null},"back2top":{"enable":true,"sidebar":false,"scrollpercent":true},"bookmark":{"enable":false,"color":"#222","save":"auto"},"fancybox":false,"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"algolia":{"hits":{"per_page":10},"labels":{"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}},"localsearch":{"enable":true,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false},"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},"path":"search.xml"};
   </script>
 
   <meta name="description" content="思维导图作为一种自发明以来就被广泛应用的思维工具，一直都存在于人们的视野中。不管是总被书店摆在前面的教辅书，还是各种各样读书学习的自媒体，我想很少有人没见过思维导图。那么你有没有想过，这些思维导图画的都是正确的吗？很多人在绘制思维导图时都有着这样或那样的误区，如果能够注意到这些问题，就可以让思维导图更好地发挥作用。 在本系列教程中，我将结合我个人的学习和实践，试着总结出一套优秀的思维导图利用方案，">
@@ -498,9 +498,11 @@ if (document.querySelectorAll('pre.mermaid').length) {
 
 
 <!-- 代码块复制功能 -->
-<script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
-<script type="text/javascript" src="/js/clipboard.min.js"></script>
-<script type="text/javascript" src="/js/clipboard-use.js"></script>
+<!--
+// <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+// <script type="text/javascript" src="/js/clipboard.min.js"></script>
+// <script type="text/javascript" src="/js/clipboard-use.js"></script>
+-->
 
 <!-- 鼠标点击效果 -->
 <style>
