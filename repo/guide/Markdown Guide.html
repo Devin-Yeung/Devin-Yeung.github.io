@@ -27,8 +27,8 @@
 <meta property="og:site_name" content="YCG&#39;s Notes">
 <meta property="og:description" content="MathJax语法插入方程组效果: f(x)&#x3D;\left\{ \begin{aligned} x &amp; &#x3D; &amp; \cos(t) \\ y &amp; &#x3D; &amp; \sin(t) \\ z &amp; &#x3D; &amp; \frac{x}{y} \end{aligned} \right.源码:12345678$$ f(x)&#x3D;\left\&amp;#123;\begin&amp;#123;aligned&amp;#125;x &amp; &#x3D; &amp; \c">
 <meta property="og:locale" content="zh_CN">
-<meta property="article:published_time" content="2020-05-09T05:38:41.413Z">
-<meta property="article:modified_time" content="2020-05-09T05:38:41.413Z">
+<meta property="article:published_time" content="2020-05-09T09:31:35.699Z">
+<meta property="article:modified_time" content="2020-05-09T09:31:35.699Z">
 <meta property="article:author" content="YCG">
 <meta name="twitter:card" content="summary">
 
@@ -233,7 +233,25 @@ x & = & \cos(t) \\
 y & = & \sin(t) \\
 z & = & \frac{x}{y}
 \end{aligned}
-\right.</script><p>源码:<br><figure class="highlight markdown"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line">$$ f(x)=\left\&#123;</span><br><span class="line">\begin&#123;aligned&#125;</span><br><span class="line">x &amp; = &amp; \cos(t) \\</span><br><span class="line">y &amp; = &amp; \sin(t) \\</span><br><span class="line">z &amp; = &amp; \frac&#123;x&#125;&#123;y&#125;</span><br><span class="line">\end&#123;aligned&#125;</span><br><span class="line">\right.</span><br><span class="line">$$</span><br></pre></td></tr></table></figure></p>
+\right.</script><p>源码:<br><figure class="highlight tex"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line"><span class="formula">$$ f(x)=<span class="tag">\<span class="name">left</span></span><span class="tag">\<span class="name">&#123;</span></span></span></span><br><span class="line"><span class="formula"><span class="tag">\<span class="name">begin</span><span class="string">&#123;aligned&#125;</span></span></span></span><br><span class="line"><span class="formula">x &amp; = &amp; <span class="tag">\<span class="name">cos</span></span>(t) <span class="tag">\<span class="name">\</span></span></span></span><br><span class="line"><span class="formula">y &amp; = &amp; <span class="tag">\<span class="name">sin</span></span>(t) <span class="tag">\<span class="name">\</span></span></span></span><br><span class="line"><span class="formula">z &amp; = &amp; <span class="tag">\<span class="name">frac</span><span class="string">&#123;x&#125;</span><span class="string">&#123;y&#125;</span></span></span></span><br><span class="line"><span class="formula"><span class="tag">\<span class="name">end</span><span class="string">&#123;aligned&#125;</span></span></span></span><br><span class="line"><span class="formula"><span class="tag">\<span class="name">right</span></span>.</span></span><br><span class="line"><span class="formula">$$</span></span><br></pre></td></tr></table></figure></p>
+<h1 id="主题特殊语法"><a href="#主题特殊语法" class="headerlink" title="主题特殊语法"></a>主题特殊语法</h1><h2 id="主题自带样式-note-标签"><a href="#主题自带样式-note-标签" class="headerlink" title="主题自带样式 note 标签"></a>主题自带样式 note 标签</h2><figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">"note default"</span>&gt;</span><span class="tag">&lt;<span class="name">p</span>&gt;</span>Your Text Here<span class="tag">&lt;/<span class="name">p</span>&gt;</span><span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br></pre></td></tr></table></figure>
+<div class="note default"><p>Your Text Here</p></div>
+
+
+<figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">"note primary"</span>&gt;</span><span class="tag">&lt;<span class="name">p</span>&gt;</span>Your Text Here<span class="tag">&lt;/<span class="name">p</span>&gt;</span><span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br></pre></td></tr></table></figure>
+<div class="note primary"><p>Your Text Here</p></div>
+
+
+<figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">"note success"</span>&gt;</span><span class="tag">&lt;<span class="name">p</span>&gt;</span>Your Text Here<span class="tag">&lt;/<span class="name">p</span>&gt;</span><span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br></pre></td></tr></table></figure>
+<div class="note success"><p>Your Text Here</p></div>
+
+
+<figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">"note warning"</span>&gt;</span><span class="tag">&lt;<span class="name">p</span>&gt;</span>Your Text Here<span class="tag">&lt;/<span class="name">p</span>&gt;</span><span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br></pre></td></tr></table></figure>
+<div class="note warning"><p>Your Text Here</p></div>
+
+
+<figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">"note danger"</span>&gt;</span><span class="tag">&lt;<span class="name">p</span>&gt;</span>Your Text Here<span class="tag">&lt;/<span class="name">p</span>&gt;</span><span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br></pre></td></tr></table></figure>
+<div class="note danger"><p>Your Text Here</p></div>
 <link rel="stylesheet" href="/css/spoiler.css" type="text/css"><script src="/js/spoiler.js" type="text/javascript" async></script>
       </div>
       
@@ -302,7 +320,7 @@ z & = & \frac{x}{y}
 
       <!--noindex-->
       <div class="post-toc-wrap sidebar-panel">
-          <div class="post-toc motion-element"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#MathJax语法"><span class="nav-text">MathJax语法</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#插入方程组"><span class="nav-text">插入方程组</span></a></li></ol></li></ol></div>
+          <div class="post-toc motion-element"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#MathJax语法"><span class="nav-text">MathJax语法</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#插入方程组"><span class="nav-text">插入方程组</span></a></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#主题特殊语法"><span class="nav-text">主题特殊语法</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#主题自带样式-note-标签"><span class="nav-text">主题自带样式 note 标签</span></a></li></ol></li></ol></div>
       </div>
       <!--/noindex-->
 
@@ -367,12 +385,12 @@ z & = & \frac{x}{y}
     <span class="post-meta-item-icon">
       <i class="fa fa-chart-area"></i>
     </span>
-    <span title="站点总字数">22k</span>
+    <span title="站点总字数">23k</span>
     <span class="post-meta-divider">|</span>
     <span class="post-meta-item-icon">
       <i class="fa fa-coffee"></i>
     </span>
-    <span title="站点阅读时长">20 分钟</span>
+    <span title="站点阅读时长">21 分钟</span>
 </div>
   <div class="powered-by">由 <a href="https://hexo.io/" class="theme-link" rel="noopener" target="_blank">Hexo</a> & <a href="https://theme-next.org/" class="theme-link" rel="noopener" target="_blank">NexT.Gemini</a> 强力驱动
   </div>
@@ -445,6 +463,61 @@ if (document.querySelectorAll('pre.mermaid').length) {
   
 
   
+      
+
+<script>
+  if (typeof MathJax === 'undefined') {
+    window.MathJax = {
+      loader: {
+          load: ['[tex]/mhchem'],
+        source: {
+          '[tex]/amsCd': '[tex]/amscd',
+          '[tex]/AMScd': '[tex]/amscd'
+        }
+      },
+      tex: {
+        inlineMath: {'[+]': [['$', '$']]},
+          packages: {'[+]': ['mhchem']},
+        tags: 'ams'
+      },
+      options: {
+        renderActions: {
+          findScript: [10, doc => {
+            document.querySelectorAll('script[type^="math/tex"]').forEach(node => {
+              const display = !!node.type.match(/; *mode=display/);
+              const math = new doc.options.MathItem(node.textContent, doc.inputJax[0], display);
+              const text = document.createTextNode('');
+              node.parentNode.replaceChild(text, node);
+              math.start = {node: text, delim: '', n: 0};
+              math.end = {node: text, delim: '', n: 0};
+              doc.math.push(math);
+            });
+          }, '', false],
+          insertedScript: [200, () => {
+            document.querySelectorAll('mjx-container').forEach(node => {
+              let target = node.parentNode;
+              if (target.nodeName.toLowerCase() === 'li') {
+                target.parentNode.classList.add('has-jax');
+              }
+            });
+          }, '', false]
+        }
+      }
+    };
+    (function () {
+      var script = document.createElement('script');
+      script.src = '//cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js';
+      script.defer = true;
+      document.head.appendChild(script);
+    })();
+  } else {
+    MathJax.startup.document.state(0);
+    MathJax.texReset();
+    MathJax.typeset();
+  }
+</script>
+
+    
 
   
 
