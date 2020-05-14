@@ -344,6 +344,11 @@ L = T +W \tag{3}</script><p>其中$T$是扭转数（twisting number），指DNA�
     <content><![CDATA[<link rel="stylesheet" href="/css/spoiler.css" type="text/css"><script src="/js/spoiler.js" type="text/javascript" async></script>]]></content>
   </entry>
   <entry>
+    <title>Debug</title>
+    <url>/repo/private/Debug.html</url>
+    <content><![CDATA[<div id="hexo-blog-encrypt" data-wpm="这个密码好像不对啊=_=" data-whm="抱歉, 这个文章不能被校验, 不过您还是能看看解密后的内容."><div class="hbe-input-container"><input type="password" id="hbePass" placeholder="请输入密码(=•ω＜=)" /><label>请输入密码(=•ω＜=)</label><div class="bottom-line"></div></div><script id="hbeData" type="hbeData" data-hmacdigest="5c0d215d5455200d629ca3419f00054e67fdd1c9701b95d233b53cad593c95cc">de2294c6bb52cc3343feed562687ce87a3b6b79f0dac9e0f0165d5edadcc2f25e4e44ff3649dbfde37e9334d4ab3f39a94bd6494c3e22d467433b070fe349b38d8727206362784845498cc2ca0907e1ec6383d40ec71c6779f86f9f15157c23035566e0b9f0bfdae674d6ad3feefa8ba73ea6099ae2afb731a4d0e2f4ec6dfba745bef9bf8d77d5f73154f3f91631e1e120fdc7641234c208d9e0d61827665532914b7f5b874dc7dcf823cb4fe139acd269e00dedc8eeea36c14f8c4ad795da820c0e617b59b1e346db4c5ef962dcb8d</script></div><script src="/lib/blog-encrypt.js"></script><link href="/css/blog-encrypt.css" rel="stylesheet" type="text/css">]]></content>
+  </entry>
+  <entry>
     <title>Draw.io绘图指南</title>
     <url>/repo/guide/Draw.io%20Guide.html</url>
     <content><![CDATA[<h1 id="环境配置"><a href="#环境配置" class="headerlink" title="环境配置"></a>环境配置</h1><h1 id="官方支持"><a href="#官方支持" class="headerlink" title="官方支持"></a>官方支持</h1><p><a href="https://app.diagrams.net/" target="_blank" rel="noopener">Draw.io-online</a></p>
@@ -358,6 +363,11 @@ L = T +W \tag{3}</script><p>其中$T$是扭转数（twisting number），指DNA�
     <title>Anki Guide</title>
     <url>/repo/guide/Anki%20Guide.html</url>
     <content><![CDATA[<link rel="stylesheet" href="/css/spoiler.css" type="text/css"><script src="/js/spoiler.js" type="text/javascript" async></script>]]></content>
+  </entry>
+  <entry>
+    <title>Inbox</title>
+    <url>/repo/private/Inbox.html</url>
+    <content><![CDATA[<div id="hexo-blog-encrypt" data-wpm="这个密码好像不对啊=_=" data-whm="抱歉, 这个文章不能被校验, 不过您还是能看看解密后的内容."><div class="hbe-input-container"><input type="password" id="hbePass" placeholder="请输入密码(=•ω＜=)" /><label>请输入密码(=•ω＜=)</label><div class="bottom-line"></div></div><script id="hbeData" type="hbeData" data-hmacdigest="fc3bf1cd74c6df134a1af12a2b245124d39352aab51a513a2bdbb85c7ddb8831">6bd0a3fc958c2c0f4d06341d3630ab564bac97d7e9417153e2210d09921c932bb6782f730ae2f08d13f2ba4b8ef86b827225a84a76332efa01a8a47f530b31a1e266c757a32c1acf1345f57dab9d12eb7fba3c8069ce82f0930b3ec54bcf9321a8ff8aa39af5bbcc60fccf21517ae496a49d914c5563af6435b44488e5da1cda68574b406a799397df80f8d7d0aa06c4c43b396abe349fe66f5fd7755b374fd694d916b9ef685e73f00126e351b3acfff105058be96cdd3b1b3f0d579a9efe01a5f819f36bc3be831f9bad1f51de8dd211610cc66389e45cfae848e34bc97ebb6bae4806b95ea1c48c760901416be737e03cf8bff080f06435724f6fa4252ebbe8e97b183bb940ba7ce663a9c4e6f880918e406966bc7843e6b7ed2e7488db7488f3169022a83268c3b88f1daad087d7b26348102f2653affb94ee9f4b737a0eeafc56f2d35df3e4d49a381f8e70dbcb8f21b8e44568d9de50c2c4a2618d4123ade1206accd6a23f101999ad11b56578b0fa371f5c1b9ccb2a6fc0e17224a835691110fbb9c16fbda2753337fb0a0412004dad592bdb1e2efaec9edcf5c5730d54c7665e3437d48d57401743a5d8d7a463301fc76d32a16efd51b1834757ea60caf8fc1d214827c4ac9ddb91f0d62407c5bb37df9dc5465a7233d235d9a4a268</script></div><script src="/lib/blog-encrypt.js"></script><link href="/css/blog-encrypt.css" rel="stylesheet" type="text/css">]]></content>
   </entry>
   <entry>
     <title>Hexo写作指南</title>
@@ -389,6 +399,11 @@ z & = & \frac{x}{y}
 <figure class="highlight html"><table><tr><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">"note danger"</span>&gt;</span><span class="tag">&lt;<span class="name">p</span>&gt;</span>Your Text Here<span class="tag">&lt;/<span class="name">p</span>&gt;</span><span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br></pre></td></tr></table></figure>
 <div class="note danger"><p>Your Text Here</p></div>
 <link rel="stylesheet" href="/css/spoiler.css" type="text/css"><script src="/js/spoiler.js" type="text/javascript" async></script>]]></content>
+  </entry>
+  <entry>
+    <title>Planning</title>
+    <url>/repo/private/Planning.html</url>
+    <content><![CDATA[<div id="hexo-blog-encrypt" data-wpm="这个密码好像不对啊=_=" data-whm="抱歉, 这个文章不能被校验, 不过您还是能看看解密后的内容."><div class="hbe-input-container"><input type="password" id="hbePass" placeholder="请输入密码(=•ω＜=)" /><label>请输入密码(=•ω＜=)</label><div class="bottom-line"></div></div><script id="hbeData" type="hbeData" data-hmacdigest="50544b99437f80b17bd07a8f5fd2bb52992d1d9781ff0d456ddd4a3ffcfe8c18">16496a1bc11b019decbf1408a9a0edebca6cc2820632a578b98dd81c475ad05948ad7982388a581b182c6ef7df9016a91717fd623ae682f78737a4988e562d0d625d22e614541ef51f6b99c1bd5ce7f213607ae400c3fa1cd12dc3b8c0813a2486c558627d9aba3cc3e0ce2dd038d2abf07e4331c56a8784c0ee846e7dc66bde5175ce893ece94c6920d55ca7251befb6b5be877d96872c4ce25038de01fbb0f06cc8e15f0c72c8a1a080497070e595820b970351e7c8ef9049bc5bea5f7fb248722921aa1b45dfb7384eb23e5260971f091b6774dfa33ca574f63b2033b1734ebb01517edb6a20a60a8e051285ff2113f486bc416133ebff4800c3e0c6b656bd6dd35e3983060dccc01a4838586e080dc59ceccdf2266cd57e6f63e9948181a386512ac707f370ebeb0d61d184b08acd8cc4cb4dce3579db337e3ef1231e37e8402cd005a4ec0f9c0e068407574d80673f7536694be57981f7ed60e940a17491fcdeb5000fa6ac9127d3100536f6455c94df59bca905e30790b16e08ada51ecfd9fa2d348148b630e84bef0f6976a526919d769847b2d550f70322bbf8d6a09913492dc14a1b627e70273c17b4947c7764f1060c836cc66cc28b87dc4a8338c420318d8ce46a19026a5ceb781967d617525201b67d2a8bd9e6b3c6b9f768dea27baeb842743f2afe588658ec407395c40d41f04be35c0f25ee3bb41fd40b4a1bb4791ad97a8674c19f25ad733b0597aacd52a947dd9c1f185147a47809503869c69734e9a7d5478d1875d8ef9fad361042bee1909c671809952b6932b06221f32bc267b48120efd6ef98efd6571ad400e4fa173090d52b756cd1cf73e37035cf11ea5fb46f850adc6dc88796c9519f551c6921046cb42c1c06c4a56644859357b7a09c8405709667dd5c5b3fe4bd71549c847698e67d16f8cd794c06188362041b6fc5df8c1a6704039ef7f5f8dd1505e39c33e4d3289cfebbc6c28cc2699d7e12e29d758aec034a85010961a8df6c67ea783c495227f68ba859cdbf9cdfe07dc73eb4cd6267bc5783478b2f19e7ff44321dce9ccd345cceb1b836a4869610d7ce88ef74bb113848b88cf670b184055f159597b2824f1f811fb0da9de8f514525ad8d569de7fed0eef5e668b361b17a9ac88b1251323f9058b30e7cf19e5e55f2a86a009021d6dd6b92507ec67ecd15417f2eed97c8fee7b5f7ad0390cb0e04a7d1c2351168ae87d6abe366748fd0c10efb95bd67cbd464c61ab117e241bbdf0592e800071bb18a4b4cf3cec927da3dd2efd8ecee7af0d70cb860272bfd5780dc7e8324de32b069e0b1c4e1fd2412d12dad0d6f9da18a92e12bf8aec4409950cc1dca1a6bc9b5735064e357e8f81179e2f1e2b2159544d154c38e7282fb761219b2ebc33a10346eeebb49469bf29b887ee4634bc997cb4958f2a8a2dfc3b40ff379b80e606213097a33fb13fae2a89c6c4f9696544406b0e4a190eed8966d1c56b4e843a39a95f1f008f92b086c3db3284811ee9a7a0231651c467cf471241cfb4b0d1af1fc422f7b1a52210c5002bdd1c4509400d61805266197ef46a5f45d456114dda5a979a7ffb560eadbac72a3eca0f531612c342767209540b170db8cb308ed1b2a1deb1df4d1933db9f887b93452c91e428cb8303b5cbab3164f8f82594d7eeeebd7a54fbc4f670d856729a4c6032a2192ac97d7e3b0c6390a4b5fb17284300743bcb6826cb23bff1b084893bbd7150435b9514a1635e4db5e838c8f5af27076f8eeb059a4dd223e0299e46b8c2b0f72b2d9c8558a68003b6deeb6ed59334394e51b5c03af6d22ff8e9df65de30f41257ec74776399cf3ec571a7f6cc8e69dfdd047c52ef4a8373f9b1169e6681dc98b4091dc5fc4d39dd6a370cbdaf18738e1cc543c629ffe7423fe61cfd10b4bb86e1a09e80a929cb2d4c7a941e6797605a62e12c0c839fdd247be8828463230922b1b60db3a69f5da0522b370de17cfba7448ca53ef2e14edeea02179e67e48d9cfc902212fbb667dc603d18a34cf5dce20feec32a0aa60f77eff32db174eceb8b57edf617e52358897bab397823fe4c6976eb1a3ab2daa102ee6cf2cf00c53a6339af9992d3cf4912674c760614cbd3f6c3a2f96c431de8bca4d3fb501cee89c656a763b8ce867aa0ae3b30a004b9c5eefa7981448697f9b177117aa49243391bbb7ad42d0642f05ed3b84470aa572374e0a80f35fd6856a3266d354905203ee360680ba777b84e223e58f408e53f6034aae6f27f5e2a2c3a812660139aeed430c313b59e34573b530f5db39ce13cfd93ee9f7ae49598883f3e8b81ba682d769467851930a34296ed74a82804bcda1b517aa1520615f463a089b6ac62cd7657e6214864b312e49edb1d5b38f61900b557e96167ac22830e234bd99ca2e8ab5d37280761f2f43d7206ae299a70234e49271a7650b2ca327c6d91e2516aee3c2cc0552d349f444d74d1457b678b0699cac571fb3b26efa5235b1eda38b687d279428c7c5f7cbfa67ad597659fe01407c6e8494f86bce641a49c43ed1fcfa</script></div><script src="/lib/blog-encrypt.js"></script><link href="/css/blog-encrypt.css" rel="stylesheet" type="text/css">]]></content>
   </entry>
   <entry>
     <title>指南</title>
@@ -479,21 +494,6 @@ z & = & \frac{x}{y}
 <h1 id="CheatSheet"><a href="#CheatSheet" class="headerlink" title="CheatSheet"></a>CheatSheet</h1><link rel="stylesheet" href="/css/spoiler.css" type="text/css"><script src="/js/spoiler.js" type="text/javascript" async></script>]]></content>
   </entry>
   <entry>
-    <title>Debug</title>
-    <url>/repo/private/Debug.html</url>
-    <content><![CDATA[<div id="hexo-blog-encrypt" data-wpm="这个密码好像不对啊=_=" data-whm="抱歉, 这个文章不能被校验, 不过您还是能看看解密后的内容."><div class="hbe-input-container"><input type="password" id="hbePass" placeholder="请输入密码(=•ω＜=)" /><label>请输入密码(=•ω＜=)</label><div class="bottom-line"></div></div><script id="hbeData" type="hbeData" data-hmacdigest="5c0d215d5455200d629ca3419f00054e67fdd1c9701b95d233b53cad593c95cc">de2294c6bb52cc3343feed562687ce87a3b6b79f0dac9e0f0165d5edadcc2f25e4e44ff3649dbfde37e9334d4ab3f39a94bd6494c3e22d467433b070fe349b38d8727206362784845498cc2ca0907e1ec6383d40ec71c6779f86f9f15157c23035566e0b9f0bfdae674d6ad3feefa8ba73ea6099ae2afb731a4d0e2f4ec6dfba745bef9bf8d77d5f73154f3f91631e1e120fdc7641234c208d9e0d61827665532914b7f5b874dc7dcf823cb4fe139acd269e00dedc8eeea36c14f8c4ad795da820c0e617b59b1e346db4c5ef962dcb8d</script></div><script src="/lib/blog-encrypt.js"></script><link href="/css/blog-encrypt.css" rel="stylesheet" type="text/css">]]></content>
-  </entry>
-  <entry>
-    <title>Inbox</title>
-    <url>/repo/private/Inbox.html</url>
-    <content><![CDATA[<div id="hexo-blog-encrypt" data-wpm="这个密码好像不对啊=_=" data-whm="抱歉, 这个文章不能被校验, 不过您还是能看看解密后的内容."><div class="hbe-input-container"><input type="password" id="hbePass" placeholder="请输入密码(=•ω＜=)" /><label>请输入密码(=•ω＜=)</label><div class="bottom-line"></div></div><script id="hbeData" type="hbeData" data-hmacdigest="fc3bf1cd74c6df134a1af12a2b245124d39352aab51a513a2bdbb85c7ddb8831">6bd0a3fc958c2c0f4d06341d3630ab564bac97d7e9417153e2210d09921c932bb6782f730ae2f08d13f2ba4b8ef86b827225a84a76332efa01a8a47f530b31a1e266c757a32c1acf1345f57dab9d12eb7fba3c8069ce82f0930b3ec54bcf9321a8ff8aa39af5bbcc60fccf21517ae496a49d914c5563af6435b44488e5da1cda68574b406a799397df80f8d7d0aa06c4c43b396abe349fe66f5fd7755b374fd694d916b9ef685e73f00126e351b3acfff105058be96cdd3b1b3f0d579a9efe01a5f819f36bc3be831f9bad1f51de8dd211610cc66389e45cfae848e34bc97ebb6bae4806b95ea1c48c760901416be737e03cf8bff080f06435724f6fa4252ebbe8e97b183bb940ba7ce663a9c4e6f880918e406966bc7843e6b7ed2e7488db7488f3169022a83268c3b88f1daad087d7b26348102f2653affb94ee9f4b737a0eeafc56f2d35df3e4d49a381f8e70dbcb8f21b8e44568d9de50c2c4a2618d4123ade1206accd6a23f101999ad11b56578b0fa371f5c1b9ccb2a6fc0e17224a835691110fbb9c16fbda2753337fb0a0412004dad592bdb1e2efaec9edcf5c5730d54c7665e3437d48d57401743a5d8d7a463301fc76d32a16efd51b1834757ea60caf8fc1d214827c4ac9ddb91f0d62407c5bb37df9dc5465a7233d235d9a4a268</script></div><script src="/lib/blog-encrypt.js"></script><link href="/css/blog-encrypt.css" rel="stylesheet" type="text/css">]]></content>
-  </entry>
-  <entry>
-    <title>Planning</title>
-    <url>/repo/private/Planning.html</url>
-    <content><![CDATA[<div id="hexo-blog-encrypt" data-wpm="这个密码好像不对啊=_=" data-whm="抱歉, 这个文章不能被校验, 不过您还是能看看解密后的内容."><div class="hbe-input-container"><input type="password" id="hbePass" placeholder="请输入密码(=•ω＜=)" /><label>请输入密码(=•ω＜=)</label><div class="bottom-line"></div></div><script id="hbeData" type="hbeData" data-hmacdigest="50544b99437f80b17bd07a8f5fd2bb52992d1d9781ff0d456ddd4a3ffcfe8c18">16496a1bc11b019decbf1408a9a0edebca6cc2820632a578b98dd81c475ad05948ad7982388a581b182c6ef7df9016a91717fd623ae682f78737a4988e562d0d625d22e614541ef51f6b99c1bd5ce7f213607ae400c3fa1cd12dc3b8c0813a2486c558627d9aba3cc3e0ce2dd038d2abf07e4331c56a8784c0ee846e7dc66bde5175ce893ece94c6920d55ca7251befb6b5be877d96872c4ce25038de01fbb0f06cc8e15f0c72c8a1a080497070e595820b970351e7c8ef9049bc5bea5f7fb248722921aa1b45dfb7384eb23e5260971f091b6774dfa33ca574f63b2033b1734ebb01517edb6a20a60a8e051285ff2113f486bc416133ebff4800c3e0c6b656bd6dd35e3983060dccc01a4838586e080dc59ceccdf2266cd57e6f63e9948181a386512ac707f370ebeb0d61d184b08acd8cc4cb4dce3579db337e3ef1231e37e8402cd005a4ec0f9c0e068407574d80673f7536694be57981f7ed60e940a17491fcdeb5000fa6ac9127d3100536f6455c94df59bca905e30790b16e08ada51ecfd9fa2d348148b630e84bef0f6976a526919d769847b2d550f70322bbf8d6a09913492dc14a1b627e70273c17b4947c7764f1060c836cc66cc28b87dc4a8338c420318d8ce46a19026a5ceb781967d617525201b67d2a8bd9e6b3c6b9f768dea27baeb842743f2afe588658ec407395c40d41f04be35c0f25ee3bb41fd40b4a1bb4791ad97a8674c19f25ad733b0597aacd52a947dd9c1f185147a47809503869c69734e9a7d5478d1875d8ef9fad361042bee1909c671809952b6932b06221f32bc267b48120efd6ef98efd6571ad400e4fa173090d52b756cd1cf73e37035cf11ea5fb46f850adc6dc88796c9519f551c6921046cb42c1c06c4a56644859357b7a09c8405709667dd5c5b3fe4bd71549c847698e67d16f8cd794c06188362041b6fc5df8c1a6704039ef7f5f8dd1505e39c33e4d3289cfebbc6c28cc2699d7e12e29d758aec034a85010961a8df6c67ea783c495227f68ba859cdbf9cdfe07dc73eb4cd6267bc5783478b2f19e7ff44321dce9ccd345cceb1b836a4869610d7ce88ef74bb113848b88cf670b184055f159597b2824f1f811fb0da9de8f514525ad8d569de7fed0eef5e668b361b17a9ac88b1251323f9058b30e7cf19e5e55f2a86a009021d6dd6b92507ec67ecd15417f2eed97c8fee7b5f7ad0390cb0e04a7d1c2351168ae87d6abe366748fd0c10efb95bd67cbd464c61ab117e241bbdf0592e800071bb18a4b4cf3cec927da3dd2efd8ecee7af0d70cb860272bfd5780dc7e8324de32b069e0b1c4e1fd2412d12dad0d6f9da18a92e12bf8aec4409950cc1dca1a6bc9b5735064e357e8f81179e2f1e2b2159544d154c38e7282fb761219b2ebc33a10346eeebb49469bf29b887ee4634bc997cb4958f2a8a2dfc3b40ff379b80e606213097a33fb13fae2a89c6c4f9696544406b0e4a190eed8966d1c56b4e843a39a95f1f008f92b086c3db3284811ee9a7a0231651c467cf471241cfb4b0d1af1fc422f7b1a52210c5002bdd1c4509400d61805266197ef46a5f45d456114dda5a979a7ffb560eadbac72a3eca0f531612c342767209540b170db8cb308ed1b2a1deb1df4d1933db9f887b93452c91e428cb8303b5cbab3164f8f82594d7eeeebd7a54fbc4f670d856729a4c6032a2192ac97d7e3b0c6390a4b5fb17284300743bcb6826cb23bff1b084893bbd7150435b9514a1635e4db5e838c8f5af27076f8eeb059a4dd223e0299e46b8c2b0f72b2d9c8558a68003b6deeb6ed59334394e51b5c03af6d22ff8e9df65de30f41257ec74776399cf3ec571a7f6cc8e69dfdd047c52ef4a8373f9b1169e6681dc98b4091dc5fc4d39dd6a370cbdaf18738e1cc543c629ffe7423fe61cfd10b4bb86e1a09e80a929cb2d4c7a941e6797605a62e12c0c839fdd247be8828463230922b1b60db3a69f5da0522b370de17cfba7448ca53ef2e14edeea02179e67e48d9cfc902212fbb667dc603d18a34cf5dce20feec32a0aa60f77eff32db174eceb8b57edf617e52358897bab397823fe4c6976eb1a3ab2daa102ee6cf2cf00c53a6339af9992d3cf4912674c760614cbd3f6c3a2f96c431de8bca4d3fb501cee89c656a763b8ce867aa0ae3b30a004b9c5eefa7981448697f9b177117aa49243391bbb7ad42d0642f05ed3b84470aa572374e0a80f35fd6856a3266d354905203ee360680ba777b84e223e58f408e53f6034aae6f27f5e2a2c3a812660139aeed430c313b59e34573b530f5db39ce13cfd93ee9f7ae49598883f3e8b81ba682d769467851930a34296ed74a82804bcda1b517aa1520615f463a089b6ac62cd7657e6214864b312e49edb1d5b38f61900b557e96167ac22830e234bd99ca2e8ab5d37280761f2f43d7206ae299a70234e49271a7650b2ca327c6d91e2516aee3c2cc0552d349f444d74d1457b678b0699cac571fb3b26efa5235b1eda38b687d279428c7c5f7cbfa67ad597659fe01407c6e8494f86bce641a49c43ed1fcfa</script></div><script src="/lib/blog-encrypt.js"></script><link href="/css/blog-encrypt.css" rel="stylesheet" type="text/css">]]></content>
-  </entry>
-  <entry>
     <title>少数派</title>
     <url>/repost/sspai/index.html</url>
     <content><![CDATA[<p><a href="./这样画思维导图最有用/index.html">这样画思维导图最有用</a></p>
@@ -504,54 +504,6 @@ z & = & \frac{x}{y}
     <url>/repost/zhihu/index.html</url>
     <content><![CDATA[<p><a href="./姜振宇微表情心理学/index.html">姜振宇|微表情21讲：让他人内心在你面前藏不住</a></p>
 <p><a href="./袁文魁高效记忆术/index.html">袁文魁|高效记忆术：教你快速记住任何信息</a></p>
-<link rel="stylesheet" href="/css/spoiler.css" type="text/css"><script src="/js/spoiler.js" type="text/javascript" async></script>]]></content>
-  </entry>
-  <entry>
-    <title>序言|我们一起来让思维导图更好地发挥作用</title>
-    <url>/repost/sspai/%E8%BF%99%E6%A0%B7%E7%94%BB%E6%80%9D%E7%BB%B4%E5%AF%BC%E5%9B%BE%E6%9C%80%E6%9C%89%E7%94%A8/1.html</url>
-    <content><![CDATA[<p>思维导图作为一种自发明以来就被广泛应用的思维工具，一直都存在于人们的视野中。不管是总被书店摆在前面的教辅书，还是各种各样读书学习的自媒体，我想很少有人没见过思维导图。那么你有没有想过，这些思维导图画的都是正确的吗？很多人在绘制思维导图时都有着这样或那样的误区，如果能够注意到这些问题，就可以让思维导图更好地发挥作用。</p>
-<p>在本系列教程中，我将结合我个人的学习和实践，试着总结出一套优秀的思维导图利用方案，希望可以让更多人用对思维导图这样一个有趣又有效的思维工具。此外，相较于很多思维导图教程以手绘为主，本教程非常的数字化，讲解的内容都会尽可能地方便你在数字设备上操作。</p>
-<p>假如你不太熟悉思维导图也没关系，本教程并不仅仅面向已经在使用思维导图的朋友，欢迎你来跟着我的教程入门。</p>
-<p>作为本文的序言，我想先来为不太了解思维导图的朋友做一些简单介绍，并结合教程的内容让你对本套教程所要讲到的知识点有所了解。在阅读本教程之前，最好先准备一个思维导图软件。本教程推荐使用软件 <a href="https://sspai.com/app/mindnode" target="_blank" rel="noopener">MindNode</a>，但假如你还不想花钱，也可以先使用免费的 <a href="https://www.xmind.cn/" target="_blank" rel="noopener">XMind</a>。</p>
-<h2 id="怎样才是思维导图"><a href="#怎样才是思维导图" class="headerlink" title="怎样才是思维导图"></a>怎样才是思维导图</h2><p>一个简单的思维导图分三步，首先我们应该有一个唯一的主题，并将其作为图像的中心焦点，比如这一套专栏文章的序言。</p>
-<p><img src="https://cdn.sspai.com/2017/09/18/6ce7199e10736a1fbc5800175740b579.png?imageView2/2/w/1120/q/90/interlace/1/ignore-error/1" alt="img"></p>
-<p>这样我们就符合了思维导图的第一个特征：<strong>注意的焦点清晰地集中在中央图形上。</strong>所以下面这样形式的图就不是思维导图，它并不具备明确且单一的焦点。</p>
-<p><img src="https://cdn.sspai.com/2017/09/18/94e6b473a2b1889530e64e198dfaa776.png?imageView2/2/w/1120/q/90/interlace/1/ignore-error/1" alt="img"></p>
-<p>现在我们来完成第二步，给这个主题添加一些分支，注意这些分支最终都会聚在主题上。</p>
-<p><img src="https://cdn.sspai.com/2017/09/18/1d08b200812357df12e6c23e8ae72069.png?imageView2/2/w/1120/q/90/interlace/1/ignore-error/1" alt="img"></p>
-<p>这样就有了第二个特征：<strong>主题的主干作为分支从中央图形向四周放射。</strong>这个特征里<strong>放射</strong>是关键点。所以下面这样形式的图也不是思维导图。它虽然有一个中心，但其它结点不是从主题<strong>放射</strong>出来的。</p>
-<p><img src="https://cdn.sspai.com/2017/09/18/a1a7b1bd53d098bd833ddca7fd1fa393.png?imageView2/2/w/1120/q/90/interlace/1/ignore-error/1" alt="img"></p>
-<p>接下来我们在这些分支上添加一些关键词，形成这样的图形。</p>
-<p><img src="https://cdn.sspai.com/2017/09/18/be6a30c8e2e6298a096e8725c5a16930.png?imageView2/2/w/1120/q/90/interlace/1/ignore-error/1" alt="img"></p>
-<p><strong>分支由一个关键的图形或者写在产生联想的线条上面的关键词构成。比较不重要的话题也以分支形式表现出来，附在较高层次的分支上。</strong>这是第三个特征。而<strong>这些分支又共同形成了一个连续的结点结构。</strong>这就是第四个特征了。（本文结尾会完整展示这个习作。）</p>
-<p>只要具备了上面的四个特征，那这样一张图示就可以被称作思维导图。但这样就够了吗？我在网上找到了一个稍微有些极端的例子。</p>
-<p><img src="https://cdn.sspai.com/2017/09/18/e3a80b9cb749e123470a3be9d0556dfa.jpg?imageView2/2/w/1120/q/90/interlace/1/ignore-error/1" alt="img"></p>
-<p>这样密密麻麻的思维导图别说辅助思考了，想要看懂都已经是一件十分困难的事情。</p>
-<p>可见仅仅具备这些特征是不够的，想要真正达到辅助思考的作用，我们还需要遵循更多有效的原则和思维方式。<strong>在系列文章的第一篇中，我会选择几个关键点具体来讲解一下除了这些标准外，还有哪些需要遵循的重要原则</strong>，帮助你画出真正能帮助自己思考的思维导图。</p>
-<h2 id="为什么是思维导图"><a href="#为什么是思维导图" class="headerlink" title="为什么是思维导图"></a>为什么是思维导图</h2><p>思维导图由一位叫 Tony Buzan（东尼·博赞）的英国普及心理学作家在 1970 年代发明，其发明之初就是为了用一种更符合人类思考问题方式的表现手法来增进使用者解决问题的能力。</p>
-<p>1993 年他首次出版了同名著作《思维导图》，这是一本非常好的了解思维导图的书籍。但由于其「安利」性质，这本书用很多的笔墨讲了思维导图的设计理念，反倒是对于在绘制的时候具体要注意些什么涉及较少。我曾经在初中时候阅读过这本书。当时看到电视里一个记忆力超强的人表演，觉得非常厉害，本来想去买点记忆相关书籍，正好看到这个摆在旁边，就顺便买回来了。结果比起那些我现在基本没怎么掌握的记忆技巧，思维导图给我的帮助要大得多。（Tony Buzan 同时也是世界记忆锦标赛的创始人。）</p>
-<p><img src="https://cdn.sspai.com/2017/09/18/10f2426aa804bd2b04a98422eeac7ad9.jpg?imageView2/2/w/1120/q/90/interlace/1/ignore-error/1" alt="img"></p>
-<p><strong>简单来说，思维导图是一种对大脑友好的信息输入和输出方式。</strong></p>
-<p>你也许听说过斯佩里左右脑分工理论，该理论认为，左脑偏向逻辑、抽象性思维，右脑偏向艺术、创造性思维。传统的笔记和产出方式很大程度上忽略了对人脑创造性和艺术的利用，不能够调动整个大脑为任务服务。虽然说这个理论很大程度上因为商业利益被夸大，产生了「右脑开发」之类的伪科学，也有相当多的科学家（包括其合作提出者）之后曾提出过对此理论的反对意见。</p>
-<p>但不可否认的是，假如能够调动大脑的创造性和图像、艺术相关的能力，的确可以更好的提高大脑的利用效率。</p>
-<p>思维导图的放射性图案实际是<strong>把信息加工成了一种图像</strong>。加上对颜色和图片的运用，思维导图能够更好的调动图像和艺术的脑区，让你更有效的图像记忆加入到工作中来。</p>
-<p>同时，思维导图还十分鼓励联想和发散。对于一个熟练的思维导图使用者来说，使用思维导图的过程常常是一个针对关键词联想和发散的过程，而联想和发散是人脑创造力的源泉。更多的使用思维导图，不但会提高你现有思维活动的质量，还会让你思维的深度和广度有更多的可能性。</p>
-<p>熟悉思维导图的思维方式，并加以应用是思维导图的一个重要的点。<strong>在系列的第二篇中，我将会更多的向你介绍绘制思维导图过程中应该使用的思维方式，让思维导图真正为你所用。</strong></p>
-<h2 id="手绘还是电脑"><a href="#手绘还是电脑" class="headerlink" title="手绘还是电脑"></a>手绘还是电脑</h2><p>假如你已经看过一些讲解思维导图的书籍，那么你一定见过很多的手绘思维导图，除了用电脑上的工具画思维导图，手绘也是一个很重要的方式。该怎么选择呢？</p>
-<p>比起电脑画的思维导图，手绘的图像成分要多得多，而且绘制的过程也更有参与感。这可以更好的发挥思维导图激发图像思维的功能，可以说好处非常大。但手绘思维导图还存在着绘制速度慢，要画的好看很麻烦等比较难办的问题。但假如时间允许，我还是很推荐你多多使用手绘思维导图的。</p>
-<p>提到手绘，有很多人第一个要问到的问题就是：「我画不好怎么办？」我可以明确的回答你<strong>画画不好没关系</strong>。我个人其实就是一个超级大手残，这些手绘思维导图都要由少数派的设计师代劳才敢拿给大家看。但手绘思维导图并不需要特别多的绘画技巧，只要你能遵循一定的原则，能够画一些自己看得懂的简笔画就完全足够了。<strong>手绘思维导图的标准就是引起自己的兴趣。</strong>不过我想我大概是很少会画手绘思维导图，我自己画的东西常常自己都看不下去😂，强迫症 + 手残真是苦。</p>
-<p>手绘思维导图非常自由，但也并不意味着可以随便画，要画好手绘思维导图也要有一些需要注意的点。<strong>在第三篇教程中我就会主要介绍手绘思维导图，看看手绘还是软件更适合你。</strong></p>
-<p><img src="https://cdn.sspai.com/2017/09/18/564b1e285d186c5f553bd328d301b22b.jpg?imageView2/2/w/1120/q/90/interlace/1/ignore-error/1" alt="img">来源：暖乎乎的豆瓣相册 暖乎乎是手绘思维导图方面非常专业的一个作者，在后面文章中我还会推荐她的书</p>
-<p>什么样的软件适合我</p>
-<p>思维导图的软件可以说是遍地开花，选择一款适合自己的软件是非常重要的，不知道已经在画思维导图的各位都在使用怎样的工具呢？<strong>在本系列第四篇中，我会分平台介绍一些常用思维导图工具，希望可以帮助你选购适合自己的软件。</strong></p>
-<p><img src="https://cdn.sspai.com/2017/09/18/de9be31bf0c95fd0da71d18c8874bdd3.png?imageView2/2/w/1120/q/90/interlace/1/ignore-error/1" alt="img"></p>
-<p>介绍的内容会涉及到 Mac Windows Linux iOS Android，每一个平台都会尽可能挑选一个我觉得最舒服的软件，还会简单的介绍其功能特点帮助你选购之前有所参考。</p>
-<h2 id="思维导图不是什么"><a href="#思维导图不是什么" class="headerlink" title="思维导图不是什么"></a>思维导图不是什么</h2><p>很多人可能会问，思维导图和大纲都是同样的多层结构，思维导图和大纲有什么不同呢？<strong>在第五篇文章中，我将会更多的讲讲大家对思维导图的误解。</strong></p>
-<p>一些人可能认为思维导图和大纲没什么区别，但这其中的差别可不小哩。一些形式类似的工具其实并不能代替思维导图独有的功能，在文章中我们会具体讲到。但我们也可以把思维导图的一些思维习惯应用到这些东西上，如在做大纲的时候也利用到思维导图的诸多特点。</p>
-<p>此外，思维导图虽然很强大，但也有一定的局限性。在一些情况下，盲目的使用思维导图也许会降低你的效率。不能迷信一些教育机构吹嘘出来的神奇功效，实际使用要根据情况做好取舍。</p>
-<h2 id="现在就开始利用思维导图"><a href="#现在就开始利用思维导图" class="headerlink" title="现在就开始利用思维导图"></a>现在就开始利用思维导图</h2><p>光讲理论没什么用，重要的是实际用起来。不管你是要记笔记，写演讲稿，抑或是仅仅想要规划年度计划，思维导图都是你可以利用优秀工具。<strong>在第六篇，我会分学习、创作、思考三部分举例讲解思维导图的具体使用，好让你真正能把思维导图用在自己的生活中。</strong></p>
-<p>现在就开始和我一起学习思维导图吧！</p>
-<p><img src="https://cdn.sspai.com/2017/09/18/8cd8aca13dedbbd52ac4dd7b13bf49ed.png?imageView2/2/w/1120/q/90/interlace/1/ignore-error/1" alt="img"></p>
 <link rel="stylesheet" href="/css/spoiler.css" type="text/css"><script src="/js/spoiler.js" type="text/javascript" async></script>]]></content>
   </entry>
   <entry>
@@ -678,6 +630,132 @@ z & = & \frac{x}{y}
 <link rel="stylesheet" href="/css/spoiler.css" type="text/css"><script src="/js/spoiler.js" type="text/javascript" async></script>]]></content>
   </entry>
   <entry>
+    <title>序言|我们一起来让思维导图更好地发挥作用</title>
+    <url>/repost/sspai/%E8%BF%99%E6%A0%B7%E7%94%BB%E6%80%9D%E7%BB%B4%E5%AF%BC%E5%9B%BE%E6%9C%80%E6%9C%89%E7%94%A8/1.html</url>
+    <content><![CDATA[<p>思维导图作为一种自发明以来就被广泛应用的思维工具，一直都存在于人们的视野中。不管是总被书店摆在前面的教辅书，还是各种各样读书学习的自媒体，我想很少有人没见过思维导图。那么你有没有想过，这些思维导图画的都是正确的吗？很多人在绘制思维导图时都有着这样或那样的误区，如果能够注意到这些问题，就可以让思维导图更好地发挥作用。</p>
+<p>在本系列教程中，我将结合我个人的学习和实践，试着总结出一套优秀的思维导图利用方案，希望可以让更多人用对思维导图这样一个有趣又有效的思维工具。此外，相较于很多思维导图教程以手绘为主，本教程非常的数字化，讲解的内容都会尽可能地方便你在数字设备上操作。</p>
+<p>假如你不太熟悉思维导图也没关系，本教程并不仅仅面向已经在使用思维导图的朋友，欢迎你来跟着我的教程入门。</p>
+<p>作为本文的序言，我想先来为不太了解思维导图的朋友做一些简单介绍，并结合教程的内容让你对本套教程所要讲到的知识点有所了解。在阅读本教程之前，最好先准备一个思维导图软件。本教程推荐使用软件 <a href="https://sspai.com/app/mindnode" target="_blank" rel="noopener">MindNode</a>，但假如你还不想花钱，也可以先使用免费的 <a href="https://www.xmind.cn/" target="_blank" rel="noopener">XMind</a>。</p>
+<h2 id="怎样才是思维导图"><a href="#怎样才是思维导图" class="headerlink" title="怎样才是思维导图"></a>怎样才是思维导图</h2><p>一个简单的思维导图分三步，首先我们应该有一个唯一的主题，并将其作为图像的中心焦点，比如这一套专栏文章的序言。</p>
+<p><img src="https://cdn.sspai.com/2017/09/18/6ce7199e10736a1fbc5800175740b579.png?imageView2/2/w/1120/q/90/interlace/1/ignore-error/1" alt="img"></p>
+<p>这样我们就符合了思维导图的第一个特征：<strong>注意的焦点清晰地集中在中央图形上。</strong>所以下面这样形式的图就不是思维导图，它并不具备明确且单一的焦点。</p>
+<p><img src="https://cdn.sspai.com/2017/09/18/94e6b473a2b1889530e64e198dfaa776.png?imageView2/2/w/1120/q/90/interlace/1/ignore-error/1" alt="img"></p>
+<p>现在我们来完成第二步，给这个主题添加一些分支，注意这些分支最终都会聚在主题上。</p>
+<p><img src="https://cdn.sspai.com/2017/09/18/1d08b200812357df12e6c23e8ae72069.png?imageView2/2/w/1120/q/90/interlace/1/ignore-error/1" alt="img"></p>
+<p>这样就有了第二个特征：<strong>主题的主干作为分支从中央图形向四周放射。</strong>这个特征里<strong>放射</strong>是关键点。所以下面这样形式的图也不是思维导图。它虽然有一个中心，但其它结点不是从主题<strong>放射</strong>出来的。</p>
+<p><img src="https://cdn.sspai.com/2017/09/18/a1a7b1bd53d098bd833ddca7fd1fa393.png?imageView2/2/w/1120/q/90/interlace/1/ignore-error/1" alt="img"></p>
+<p>接下来我们在这些分支上添加一些关键词，形成这样的图形。</p>
+<p><img src="https://cdn.sspai.com/2017/09/18/be6a30c8e2e6298a096e8725c5a16930.png?imageView2/2/w/1120/q/90/interlace/1/ignore-error/1" alt="img"></p>
+<p><strong>分支由一个关键的图形或者写在产生联想的线条上面的关键词构成。比较不重要的话题也以分支形式表现出来，附在较高层次的分支上。</strong>这是第三个特征。而<strong>这些分支又共同形成了一个连续的结点结构。</strong>这就是第四个特征了。（本文结尾会完整展示这个习作。）</p>
+<p>只要具备了上面的四个特征，那这样一张图示就可以被称作思维导图。但这样就够了吗？我在网上找到了一个稍微有些极端的例子。</p>
+<p><img src="https://cdn.sspai.com/2017/09/18/e3a80b9cb749e123470a3be9d0556dfa.jpg?imageView2/2/w/1120/q/90/interlace/1/ignore-error/1" alt="img"></p>
+<p>这样密密麻麻的思维导图别说辅助思考了，想要看懂都已经是一件十分困难的事情。</p>
+<p>可见仅仅具备这些特征是不够的，想要真正达到辅助思考的作用，我们还需要遵循更多有效的原则和思维方式。<strong>在系列文章的第一篇中，我会选择几个关键点具体来讲解一下除了这些标准外，还有哪些需要遵循的重要原则</strong>，帮助你画出真正能帮助自己思考的思维导图。</p>
+<h2 id="为什么是思维导图"><a href="#为什么是思维导图" class="headerlink" title="为什么是思维导图"></a>为什么是思维导图</h2><p>思维导图由一位叫 Tony Buzan（东尼·博赞）的英国普及心理学作家在 1970 年代发明，其发明之初就是为了用一种更符合人类思考问题方式的表现手法来增进使用者解决问题的能力。</p>
+<p>1993 年他首次出版了同名著作《思维导图》，这是一本非常好的了解思维导图的书籍。但由于其「安利」性质，这本书用很多的笔墨讲了思维导图的设计理念，反倒是对于在绘制的时候具体要注意些什么涉及较少。我曾经在初中时候阅读过这本书。当时看到电视里一个记忆力超强的人表演，觉得非常厉害，本来想去买点记忆相关书籍，正好看到这个摆在旁边，就顺便买回来了。结果比起那些我现在基本没怎么掌握的记忆技巧，思维导图给我的帮助要大得多。（Tony Buzan 同时也是世界记忆锦标赛的创始人。）</p>
+<p><img src="https://cdn.sspai.com/2017/09/18/10f2426aa804bd2b04a98422eeac7ad9.jpg?imageView2/2/w/1120/q/90/interlace/1/ignore-error/1" alt="img"></p>
+<p><strong>简单来说，思维导图是一种对大脑友好的信息输入和输出方式。</strong></p>
+<p>你也许听说过斯佩里左右脑分工理论，该理论认为，左脑偏向逻辑、抽象性思维，右脑偏向艺术、创造性思维。传统的笔记和产出方式很大程度上忽略了对人脑创造性和艺术的利用，不能够调动整个大脑为任务服务。虽然说这个理论很大程度上因为商业利益被夸大，产生了「右脑开发」之类的伪科学，也有相当多的科学家（包括其合作提出者）之后曾提出过对此理论的反对意见。</p>
+<p>但不可否认的是，假如能够调动大脑的创造性和图像、艺术相关的能力，的确可以更好的提高大脑的利用效率。</p>
+<p>思维导图的放射性图案实际是<strong>把信息加工成了一种图像</strong>。加上对颜色和图片的运用，思维导图能够更好的调动图像和艺术的脑区，让你更有效的图像记忆加入到工作中来。</p>
+<p>同时，思维导图还十分鼓励联想和发散。对于一个熟练的思维导图使用者来说，使用思维导图的过程常常是一个针对关键词联想和发散的过程，而联想和发散是人脑创造力的源泉。更多的使用思维导图，不但会提高你现有思维活动的质量，还会让你思维的深度和广度有更多的可能性。</p>
+<p>熟悉思维导图的思维方式，并加以应用是思维导图的一个重要的点。<strong>在系列的第二篇中，我将会更多的向你介绍绘制思维导图过程中应该使用的思维方式，让思维导图真正为你所用。</strong></p>
+<h2 id="手绘还是电脑"><a href="#手绘还是电脑" class="headerlink" title="手绘还是电脑"></a>手绘还是电脑</h2><p>假如你已经看过一些讲解思维导图的书籍，那么你一定见过很多的手绘思维导图，除了用电脑上的工具画思维导图，手绘也是一个很重要的方式。该怎么选择呢？</p>
+<p>比起电脑画的思维导图，手绘的图像成分要多得多，而且绘制的过程也更有参与感。这可以更好的发挥思维导图激发图像思维的功能，可以说好处非常大。但手绘思维导图还存在着绘制速度慢，要画的好看很麻烦等比较难办的问题。但假如时间允许，我还是很推荐你多多使用手绘思维导图的。</p>
+<p>提到手绘，有很多人第一个要问到的问题就是：「我画不好怎么办？」我可以明确的回答你<strong>画画不好没关系</strong>。我个人其实就是一个超级大手残，这些手绘思维导图都要由少数派的设计师代劳才敢拿给大家看。但手绘思维导图并不需要特别多的绘画技巧，只要你能遵循一定的原则，能够画一些自己看得懂的简笔画就完全足够了。<strong>手绘思维导图的标准就是引起自己的兴趣。</strong>不过我想我大概是很少会画手绘思维导图，我自己画的东西常常自己都看不下去😂，强迫症 + 手残真是苦。</p>
+<p>手绘思维导图非常自由，但也并不意味着可以随便画，要画好手绘思维导图也要有一些需要注意的点。<strong>在第三篇教程中我就会主要介绍手绘思维导图，看看手绘还是软件更适合你。</strong></p>
+<p><img src="https://cdn.sspai.com/2017/09/18/564b1e285d186c5f553bd328d301b22b.jpg?imageView2/2/w/1120/q/90/interlace/1/ignore-error/1" alt="img">来源：暖乎乎的豆瓣相册 暖乎乎是手绘思维导图方面非常专业的一个作者，在后面文章中我还会推荐她的书</p>
+<p>什么样的软件适合我</p>
+<p>思维导图的软件可以说是遍地开花，选择一款适合自己的软件是非常重要的，不知道已经在画思维导图的各位都在使用怎样的工具呢？<strong>在本系列第四篇中，我会分平台介绍一些常用思维导图工具，希望可以帮助你选购适合自己的软件。</strong></p>
+<p><img src="https://cdn.sspai.com/2017/09/18/de9be31bf0c95fd0da71d18c8874bdd3.png?imageView2/2/w/1120/q/90/interlace/1/ignore-error/1" alt="img"></p>
+<p>介绍的内容会涉及到 Mac Windows Linux iOS Android，每一个平台都会尽可能挑选一个我觉得最舒服的软件，还会简单的介绍其功能特点帮助你选购之前有所参考。</p>
+<h2 id="思维导图不是什么"><a href="#思维导图不是什么" class="headerlink" title="思维导图不是什么"></a>思维导图不是什么</h2><p>很多人可能会问，思维导图和大纲都是同样的多层结构，思维导图和大纲有什么不同呢？<strong>在第五篇文章中，我将会更多的讲讲大家对思维导图的误解。</strong></p>
+<p>一些人可能认为思维导图和大纲没什么区别，但这其中的差别可不小哩。一些形式类似的工具其实并不能代替思维导图独有的功能，在文章中我们会具体讲到。但我们也可以把思维导图的一些思维习惯应用到这些东西上，如在做大纲的时候也利用到思维导图的诸多特点。</p>
+<p>此外，思维导图虽然很强大，但也有一定的局限性。在一些情况下，盲目的使用思维导图也许会降低你的效率。不能迷信一些教育机构吹嘘出来的神奇功效，实际使用要根据情况做好取舍。</p>
+<h2 id="现在就开始利用思维导图"><a href="#现在就开始利用思维导图" class="headerlink" title="现在就开始利用思维导图"></a>现在就开始利用思维导图</h2><p>光讲理论没什么用，重要的是实际用起来。不管你是要记笔记，写演讲稿，抑或是仅仅想要规划年度计划，思维导图都是你可以利用优秀工具。<strong>在第六篇，我会分学习、创作、思考三部分举例讲解思维导图的具体使用，好让你真正能把思维导图用在自己的生活中。</strong></p>
+<p>现在就开始和我一起学习思维导图吧！</p>
+<p><img src="https://cdn.sspai.com/2017/09/18/8cd8aca13dedbbd52ac4dd7b13bf49ed.png?imageView2/2/w/1120/q/90/interlace/1/ignore-error/1" alt="img"></p>
+<link rel="stylesheet" href="/css/spoiler.css" type="text/css"><script src="/js/spoiler.js" type="text/javascript" async></script>]]></content>
+  </entry>
+  <entry>
+    <title>答疑汇总 02</title>
+    <url>/repost/sspai/%E8%BF%99%E6%A0%B7%E7%94%BB%E6%80%9D%E7%BB%B4%E5%AF%BC%E5%9B%BE%E6%9C%80%E6%9C%89%E7%94%A8/5.html</url>
+    <content><![CDATA[<p>JohnY 提问：思维导图的使用场景是什么？或者什么样的问题适合用思维导图来解决？</p>
+<p>回答：思维导图的使用场景其实没有什么针对性，大部分情境下都能使用，用法也因人而异，我觉得也许可以来谈谈不太适合的情况。</p>
+<p>一个是不要做重复劳动，假如你对内容已经足够了解，那么就需要控制思维导图花费的时间了，有些思维导图学习者刚学会思维导图的时候干什么都要画思维导图，这是非常浪费时间的，一定要做好权衡。如果你觉得有画思维导图一半的时间我就能把这东西掌握了，那就不要再画了。</p>
+<p>另外逻辑不适合用分支表示出来的东西也不适合画思维导图。比如在学数学的时候，一些复杂的知识结构在转化成分支表述之后可读性反而下降，这样的情况也是存在的。</p>
+<p>除此之外，我觉得思维导图的使用并没有多少限制，可以根据自己的使用习惯自由发挥。</p>
+<link rel="stylesheet" href="/css/spoiler.css" type="text/css"><script src="/js/spoiler.js" type="text/javascript" async></script>]]></content>
+  </entry>
+  <entry>
+    <title>第三期|手绘思维导图</title>
+    <url>/repost/sspai/%E8%BF%99%E6%A0%B7%E7%94%BB%E6%80%9D%E7%BB%B4%E5%AF%BC%E5%9B%BE%E6%9C%80%E6%9C%89%E7%94%A8/6.html</url>
+    <content><![CDATA[<p>这一篇我们来讲手绘。</p>
+<p>很多出版的思维导图书籍都是关于手绘思维导图的，假如你看过这些书的话，对手绘思维导图就不会陌生。</p>
+<p>手绘的图案富于变化，相比屏幕上格式相对固定，手绘的思维导图可以更多地利用图像记忆，绘制线条的过程也有助于提高注意力和参与感。不过手绘也会占用较多的时间，而且假如你对画面布局掌握不太好的话，也容易出现画不下，或者画完的思维导图很拥挤的情况。所以手绘有利有弊，希望你可以在阅读本文有所了解后，自己作出一些尝试，并结合自己的实际情况做出选择。</p>
+<p>手绘相比在电脑上画更为自由，但和画画还是不一样的。为了让手绘思维导图发挥作用，依然需要遵循一些规则。有一些是和在屏幕上画差不多的规矩，还有一些只有手绘才要注意的点。虽说我本人确实是个终极大手残，下面除了截图的所有手绘图也都不是我直接画的，但你并不要担心自己的美术水平。<strong>思维导图到底是给自己看的，只需要让自己看的舒服，并不需要学会画画，就算完全不会画画也可以放心往下看。</strong></p>
+<hr>
+<h2 id="准备材料"><a href="#准备材料" class="headerlink" title="准备材料"></a>准备材料</h2><p>说手绘的话自然先说说材料。首先是在真的纸上画：尽量用没有格子的纸，A4 这样够大画的下就好。笔的话主要是画画用的一捆儿色笔和写字用的黑笔。有一些点要注意，首先是要有够多的颜色，<strong>至少要有六七种不相近的颜色</strong>。其次是色笔的粗细，尽量不要直接用彩色的中性笔，分支多了有可能会显得乱，水彩笔那样的粗细比较合适。虽然水彩笔比较占地方，但分支的线条是我们需要强调的东西，不粗一点的话可能起不到效果。<strong>请务必买些稍粗一点的笔。</strong></p>
+<p>条件允许的话还是比较推荐在真的纸上画，在 iPad 上画给我一种活动不开的感觉。不知道是识别不是精细还是没有阻尼的原因，总是不太习惯。</p>
+<p>如果你要试试在 iPad 上画的话，一个个方便的画画的 App 就可以完成工作了，但假如没有一个笔（比如 Apple Pencil），那确实不是很方便。下面有两个我觉得蛮方便的软件可以尝试一下：</p>
+<h3 id="Notability"><a href="#Notability" class="headerlink" title="Notability"></a>Notability</h3><p>> <a href="https://itunes.apple.com/cn/app/notability/id360593530?mt=8" target="_blank" rel="noopener">下载链接</a></p>
+<p>因为本身是笔记软件，记笔记的时候一起用很好。橡皮是那种碰到一点就删除整条线的方式，作修改的时候非常方便。线条粗细可调，写字就可以调细一些。不过因为因为就一根笔，来回切换有点恼人。作为笔记软件可以随意插图进去，还是非常方便的。</p>
+<p><img src="https://cdn.sspai.com/2017/10/11/1b25787e8a9deb3fc780c6cb0e3a0bac.jpg?imageView2/2/w/1120/q/90/interlace/1/ignore-error/1" alt="img"></p>
+<h3 id="概念画板"><a href="#概念画板" class="headerlink" title="概念画板"></a>概念画板</h3><p>> 下载<a href="https://itunes.apple.com/cn/app/概念画板-绘制草图-设计图和插图的利器/id560586497?mt=8" target="_blank" rel="noopener">链接</a></p>
+<p>这个软件最大的特点就是画布大，不容易把地方占满无处可画。而且因为风格偏向草图，其画笔也很适合线条和写字。而且也可以把不同粗细的笔同时放在工具栏上，十分方便。</p>
+<p><img src="https://cdn.sspai.com/2017/10/11/42416669e46b49cf0a6f0406121e2ce9.jpg?imageView2/2/w/1120/q/90/interlace/1/ignore-error/1" alt="img"></p>
+<hr>
+<h2 id="手绘的原则"><a href="#手绘的原则" class="headerlink" title="手绘的原则"></a>手绘的原则</h2><h3 id="中心图案"><a href="#中心图案" class="headerlink" title="中心图案"></a>中心图案</h3><p>现在我们来讲画手绘思维导图的原则。在软件里做思维导图的时候，中心图案基本上就只有一行字而已。而在手绘时候就可以灵活一些，用一些简笔画给这些字做些装饰。有一些点需要注意：</p>
+<p>首先是要直观，<strong>中心图案应该能准确的反映思维导图的主题</strong>，尽量选择能直接让你联想到主题的图案。而且尽量用好理解，画起来不难的图形来表示内容。</p>
+<p>另外还要注意尺寸，别占用太多空间影响分支。<strong>可以多用一些吸引人的色彩，最好三种以上。</strong></p>
+<p>但是注意不管怎么折腾字都要在，<strong>尽量不要用图像直接替代标题文字</strong>。下面有几个例子你可以参考一下：</p>
+<p><img src="https://cdn.sspai.com/2017/10/11/6949685c1d16a480e5434264668213de.jpg?imageView2/2/w/1120/q/90/interlace/1/ignore-error/1" alt="img"></p>
+<p>日历来代表计划，话筒代表演讲，一个大写的 𝚿 来代表心理学（一个很常用的表示心理学的符号）。你可以尽可能的用自己能看懂且和主题有直接对应的简笔画来表示你的主题，对绘画水平的要求并不高。假如时间比较少，至少也可以用一些彩笔给关键词画个云朵一样的框框，总之要把关键词装饰起来。</p>
+<h3 id="分支画法"><a href="#分支画法" class="headerlink" title="分支画法"></a>分支画法</h3><p>在手绘思维导图中处理分支要自由很多了，可以倾斜着画分枝填满很多空间。<strong>注意放射性的的排布分枝，避免像大多数软件一样横着写</strong>，这样一来可以给后面的层次留下空间，又可以让画面更加灵活，更有能引导发散。需要注意的是，虽然线条可以有一定程度的倾斜，但尽量别斜到竖过来，一定程度上会影响阅读。如果你觉得线条仅向两边延伸浪费上下空间的话，<strong>可以尝试把一些分支翻过来画</strong>。下图是一个比较复杂的没写字的分支结构。</p>
+<p><img src="https://cdn.sspai.com/2017/10/11/54d9f050b7c61d9298c0e82010733db3.jpg?imageView2/2/w/1120/q/90/interlace/1/ignore-error/1" alt="img"></p>
+<p>画分枝的时候还有一些地方需要注意。首先是对分枝的粗细按层级有所区分，主干画的粗一些，分枝画的细一些，最好是从粗到细的渐变线条。这样可以更好的体现出层级结构，也可以让画面富于变化。</p>
+<p><img src="https://cdn.sspai.com/2017/10/11/ab09e4e1c8133df07c994a2a0fabd541.jpg?imageView2/2/w/1120/q/90/interlace/1/ignore-error/1" alt="img"></p>
+<p>分枝之间必须要连接在一起，不能一段一段的画。</p>
+<p><img src="https://cdn.sspai.com/2017/10/11/29a3bcbce9cccb1fabfacc9e2cce81ba.jpg?imageView2/2/w/1120/q/90/interlace/1/ignore-error/1" alt="img"></p>
+<p>可以给表示主干的线条换一种画法，增添趣味性。别忘了<strong>线条一定要自然弯曲</strong>，大自然讨厌直线。</p>
+<p><img src="https://cdn.sspai.com/2017/10/11/4b0711fcbb1bba96ad15c1591662a9d8.jpg?imageView2/2/w/1120/q/90/interlace/1/ignore-error/1" alt="img"></p>
+<p>另外联系一下我们上一节讲到的东西。虽然空间有些紧张，但我依然比较鼓励你画一些空白分枝来激发自己思考，即便最后没有完全填满也没关系。</p>
+<h3 id="书写关键词"><a href="#书写关键词" class="headerlink" title="书写关键词"></a>书写关键词</h3><p>和之前软件里的画法一样，<strong>关键词写在线的上方</strong>就可以了，用一眼就能看清楚的字体来写，<strong>另外尽量用黑笔写关键词，会在彩色的分枝中看起来更明显</strong>。注意调整好文字和分支长度的比例，最好长度差不多，可以节省空间。</p>
+<p>有些人可能习惯于把关键词写在线的右侧。这样会让关键词之间的边界变得模糊，假如后面还有分支的话还会分割开分支的线条。不要这样做比较好。</p>
+<p><img src="https://cdn.sspai.com/2017/10/11/cd9737777b7d529b13c7a1729a8ba475.jpg?imageView2/2/w/1120/q/90/interlace/1/ignore-error/1" alt="img"></p>
+<p>你还可以加一些效果线来突出重要的关键词。</p>
+<p><img src="https://cdn.sspai.com/2017/10/11/593938206b34031af26ae379013d975c.jpg?imageView2/2/w/1120/q/90/interlace/1/ignore-error/1" alt="img"></p>
+<h3 id="用简笔画来配图"><a href="#用简笔画来配图" class="headerlink" title="用简笔画来配图"></a>用简笔画来配图</h3><p>我们之前讲过给关键词增加图像元素，在思维导图里面主要就是用简笔画了。一些朋友可能又会想到画画太难的问题，这个完全没有关系。因为在思维导图中我们画出来的东西更多是符号化的，你并不需要把一个图案画得多么的具体，重要的是让这些内容来刺激你对关键词本身的理解和记忆。</p>
+<p>可以选择一些常用的简笔画，你可以给他们赋予自己能记住的含义：</p>
+<p><img src="https://cdn.sspai.com/2017/10/11/3ca40d31772643e37a84388245ea0473.jpg?imageView2/2/w/1120/q/90/interlace/1/ignore-error/1" alt="img"></p>
+<p>还有一些图案很万金油，比如说表情：</p>
+<p><img src="https://cdn.sspai.com/2017/10/11/141a714880b4afa4d98878c69f83556d.jpg?imageView2/2/w/1120/q/90/interlace/1/ignore-error/1" alt="img"></p>
+<p>火柴人：</p>
+<p><img src="https://cdn.sspai.com/2017/10/11/7fe629a15d1735683d57af99f6f737fc.jpg?imageView2/2/w/1120/q/90/interlace/1/ignore-error/1" alt="img"></p>
+<p>箭头：</p>
+<p><img src="https://cdn.sspai.com/2017/10/11/43fb570d12cca7adbceed48c555473a2.jpg?imageView2/2/w/1120/q/90/interlace/1/ignore-error/1" alt="img"></p>
+<p>你可以找时间总结出一套自己用着舒服的符号系统，就可以自如地装饰你的思维导图了。画图的位置可以选在关键词的旁边，或者上面，放在不要和其他分支混淆的地方。</p>
+<h3 id="处理好画面平衡"><a href="#处理好画面平衡" class="headerlink" title="处理好画面平衡"></a>处理好画面平衡</h3><p>在软件里画思维导图的时候因为可以自由调整布局，即便从单个分枝开始画起也不会有多大的影响。但手绘的时候就必须分配好每个主干能够占据的空间。一层一层往外画是一个比较好的做法，从一开始就给主干分配比较均匀的空间，方便后面的发展，在画小分枝的时候也别忘了给配图留一点空间。如果实在没有空间了不要忘了我们还可以把分枝折过来画以适应空白处。</p>
+<p>另外因为手绘的结构没有那么规整，有时没有明显的左右分界，阅读的顺序应该以顺时针或者逆时针为主。</p>
+<hr>
+<h2 id="不必太纠结美观"><a href="#不必太纠结美观" class="headerlink" title="不必太纠结美观"></a>不必太纠结美观</h2><p>为了能够刺激大脑思考，手绘思维导图一定要美观一些才好，但很多时候我们其实并没有那么多的时间去完成一幅思维导图。也许你在网上看到过很多画的特别华丽的思维导图，我其实不是很认同这种做法。即便你是一个很会画画的人，把中心图像或者关键词图像画的特别复杂也会耽误相当多的时间。思维导图的主要目的是为了思考，假如我们把太多的时间花在画画上，思维导图便从一个思维训练变成了画画训练，留给思考的时间就不多了。</p>
+<p>在理想的情况下，我们确实应该把思维导图画的精美一些，但很多现实情况下，利用手绘思维导图的参与感才是最最重要的。假如立即需要解决问题，即便什么颜色都没有，也可以直接用思维导图的发散思维去解决问题。所以<strong>在需要用手绘思维导图的时候，不要为了太耗时间而纠结，拽一张纸就是干</strong>。</p>
+<hr>
+<h2 id="再谈选择问题"><a href="#再谈选择问题" class="headerlink" title="再谈选择问题"></a>再谈选择问题</h2><p>上面我讲了一些手绘思维导图和用软件画相比需要注意的一些点，了解了这些之后我们再来谈谈手绘思维导图的优点和缺点。</p>
+<h3 id="先说优点"><a href="#先说优点" class="headerlink" title="先说优点"></a>先说优点</h3><p>在我看来手绘思维导图最大的优点就是参与的过程。软件中画的思维导图只会在画面上给人一种发散的感觉，而手绘思维导图则可以在动作上给人发散的暗示。要论对发散思维的引导这件事，手绘绝对是有优势的。当然也有例外，比如一些软件建立分支并不是点按钮生成，而是要手动拖拽出来。这种的软件也很有参与感。</p>
+<p>然后就是图像感。用软件画出来的思维导图大多非常规整，每张图都长得差不多，缺乏利于图像记忆的特点。手绘思维导图则处处不同，很容易就可以当作一张图片来记忆，再加上更加灵活的简笔画。手绘思维导图在画法的多样性上也是完胜。</p>
+<p>还有创作的乐趣。如果你画画很好的话，画思维导图应该是一件很有意思的事情。假如找个本把自己画的所有思维导图放进去，偶尔翻翻看看还是很有成就感的。</p>
+<h3 id="再说缺点"><a href="#再说缺点" class="headerlink" title="再说缺点"></a>再说缺点</h3><p>如果要认真画一个美观实用的思维导图，麻烦是少不了的。光是准备一盒子色笔就已经很占地方了。再加上满桌子的水彩笔滚来滚去，想想就会觉得头疼。占用的时间也确实不少，假如读书笔记思维导图的时间比看一本书还长，有没有必要就要考虑一下了。</p>
+<p>另外手绘的思维导图几乎无法修改，除了用纸的扔纸用本的撕本，重画一遍之外，手绘思维导图基本上没有什么反悔的空间。不过你也可以用一些可以擦掉的笔来解决这个问题。</p>
+<p>另外手绘思维导图的信息量也是很有限的，因为线条比较粗，也比较随意，单位空间中所能有的信息量是比较小的。此外思维导图还有整理起来比较麻烦之类的问题。</p>
+<p>说到整理，我其实很推荐你使用一些扫描软件来把这些东西，扫描到智能设备上。或者用 iOS 11 备忘录自带的扫描功能也可以。</p>
+<p>综合上面这些点，我认为手绘思维导图拿来思考，解决问题优势更大一些。而读书笔记之类的整理输入信息的情况，我认为更适合用软件来做绘制思维导图。要不要用手绘思维导图总的来说还是个很个人化的问题，你可以根据自己的实际情况做出选择。</p>
+<hr>
+<h2 id="推荐阅读"><a href="#推荐阅读" class="headerlink" title="推荐阅读"></a>推荐阅读</h2><p>本篇推荐阅读暖乎乎著《画出你的答案》（电子工业出版社），这是一本关于手绘思维导图的教程。这本书从思考过程出发，突出案例教学，不仅可以学习手绘思维导图，还可以更多的接触到思维导图提出问题解决问题的思维方式。</p>
+<p><img src="https://cdn.sspai.com/2017/10/11/c9d2b553c02ff7ca934f5e744293262c.jpg?imageView2/2/w/1120/q/90/interlace/1/ignore-error/1" alt="img"></p>
+<link rel="stylesheet" href="/css/spoiler.css" type="text/css"><script src="/js/spoiler.js" type="text/javascript" async></script>]]></content>
+  </entry>
+  <entry>
     <title>第二期|高级技巧和思维方式</title>
     <url>/repost/sspai/%E8%BF%99%E6%A0%B7%E7%94%BB%E6%80%9D%E7%BB%B4%E5%AF%BC%E5%9B%BE%E6%9C%80%E6%9C%89%E7%94%A8/4.html</url>
     <content><![CDATA[<p>上一篇我们讲到了绘制思维导图的重要原则，熟练使用这些技巧可以提升你所画思维导图的可读性，让思维导图吸引你的大脑，使用的例子多为处理外界输入信息到你大脑的情况。在这篇文章中，我也会考虑一些从大脑输出信息的情况，并从思维方式的角度给你一些有效的建议，让思维导图真正为你所用。</p>
@@ -784,81 +862,10 @@ z & = & \frac{x}{y}
 <link rel="stylesheet" href="/css/spoiler.css" type="text/css"><script src="/js/spoiler.js" type="text/javascript" async></script>]]></content>
   </entry>
   <entry>
-    <title>答疑汇总 02</title>
-    <url>/repost/sspai/%E8%BF%99%E6%A0%B7%E7%94%BB%E6%80%9D%E7%BB%B4%E5%AF%BC%E5%9B%BE%E6%9C%80%E6%9C%89%E7%94%A8/5.html</url>
-    <content><![CDATA[<p>JohnY 提问：思维导图的使用场景是什么？或者什么样的问题适合用思维导图来解决？</p>
-<p>回答：思维导图的使用场景其实没有什么针对性，大部分情境下都能使用，用法也因人而异，我觉得也许可以来谈谈不太适合的情况。</p>
-<p>一个是不要做重复劳动，假如你对内容已经足够了解，那么就需要控制思维导图花费的时间了，有些思维导图学习者刚学会思维导图的时候干什么都要画思维导图，这是非常浪费时间的，一定要做好权衡。如果你觉得有画思维导图一半的时间我就能把这东西掌握了，那就不要再画了。</p>
-<p>另外逻辑不适合用分支表示出来的东西也不适合画思维导图。比如在学数学的时候，一些复杂的知识结构在转化成分支表述之后可读性反而下降，这样的情况也是存在的。</p>
-<p>除此之外，我觉得思维导图的使用并没有多少限制，可以根据自己的使用习惯自由发挥。</p>
-<link rel="stylesheet" href="/css/spoiler.css" type="text/css"><script src="/js/spoiler.js" type="text/javascript" async></script>]]></content>
-  </entry>
-  <entry>
-    <title>第三期|手绘思维导图</title>
-    <url>/repost/sspai/%E8%BF%99%E6%A0%B7%E7%94%BB%E6%80%9D%E7%BB%B4%E5%AF%BC%E5%9B%BE%E6%9C%80%E6%9C%89%E7%94%A8/6.html</url>
-    <content><![CDATA[<p>这一篇我们来讲手绘。</p>
-<p>很多出版的思维导图书籍都是关于手绘思维导图的，假如你看过这些书的话，对手绘思维导图就不会陌生。</p>
-<p>手绘的图案富于变化，相比屏幕上格式相对固定，手绘的思维导图可以更多地利用图像记忆，绘制线条的过程也有助于提高注意力和参与感。不过手绘也会占用较多的时间，而且假如你对画面布局掌握不太好的话，也容易出现画不下，或者画完的思维导图很拥挤的情况。所以手绘有利有弊，希望你可以在阅读本文有所了解后，自己作出一些尝试，并结合自己的实际情况做出选择。</p>
-<p>手绘相比在电脑上画更为自由，但和画画还是不一样的。为了让手绘思维导图发挥作用，依然需要遵循一些规则。有一些是和在屏幕上画差不多的规矩，还有一些只有手绘才要注意的点。虽说我本人确实是个终极大手残，下面除了截图的所有手绘图也都不是我直接画的，但你并不要担心自己的美术水平。<strong>思维导图到底是给自己看的，只需要让自己看的舒服，并不需要学会画画，就算完全不会画画也可以放心往下看。</strong></p>
-<hr>
-<h2 id="准备材料"><a href="#准备材料" class="headerlink" title="准备材料"></a>准备材料</h2><p>说手绘的话自然先说说材料。首先是在真的纸上画：尽量用没有格子的纸，A4 这样够大画的下就好。笔的话主要是画画用的一捆儿色笔和写字用的黑笔。有一些点要注意，首先是要有够多的颜色，<strong>至少要有六七种不相近的颜色</strong>。其次是色笔的粗细，尽量不要直接用彩色的中性笔，分支多了有可能会显得乱，水彩笔那样的粗细比较合适。虽然水彩笔比较占地方，但分支的线条是我们需要强调的东西，不粗一点的话可能起不到效果。<strong>请务必买些稍粗一点的笔。</strong></p>
-<p>条件允许的话还是比较推荐在真的纸上画，在 iPad 上画给我一种活动不开的感觉。不知道是识别不是精细还是没有阻尼的原因，总是不太习惯。</p>
-<p>如果你要试试在 iPad 上画的话，一个个方便的画画的 App 就可以完成工作了，但假如没有一个笔（比如 Apple Pencil），那确实不是很方便。下面有两个我觉得蛮方便的软件可以尝试一下：</p>
-<h3 id="Notability"><a href="#Notability" class="headerlink" title="Notability"></a>Notability</h3><p>> <a href="https://itunes.apple.com/cn/app/notability/id360593530?mt=8" target="_blank" rel="noopener">下载链接</a></p>
-<p>因为本身是笔记软件，记笔记的时候一起用很好。橡皮是那种碰到一点就删除整条线的方式，作修改的时候非常方便。线条粗细可调，写字就可以调细一些。不过因为因为就一根笔，来回切换有点恼人。作为笔记软件可以随意插图进去，还是非常方便的。</p>
-<p><img src="https://cdn.sspai.com/2017/10/11/1b25787e8a9deb3fc780c6cb0e3a0bac.jpg?imageView2/2/w/1120/q/90/interlace/1/ignore-error/1" alt="img"></p>
-<h3 id="概念画板"><a href="#概念画板" class="headerlink" title="概念画板"></a>概念画板</h3><p>> 下载<a href="https://itunes.apple.com/cn/app/概念画板-绘制草图-设计图和插图的利器/id560586497?mt=8" target="_blank" rel="noopener">链接</a></p>
-<p>这个软件最大的特点就是画布大，不容易把地方占满无处可画。而且因为风格偏向草图，其画笔也很适合线条和写字。而且也可以把不同粗细的笔同时放在工具栏上，十分方便。</p>
-<p><img src="https://cdn.sspai.com/2017/10/11/42416669e46b49cf0a6f0406121e2ce9.jpg?imageView2/2/w/1120/q/90/interlace/1/ignore-error/1" alt="img"></p>
-<hr>
-<h2 id="手绘的原则"><a href="#手绘的原则" class="headerlink" title="手绘的原则"></a>手绘的原则</h2><h3 id="中心图案"><a href="#中心图案" class="headerlink" title="中心图案"></a>中心图案</h3><p>现在我们来讲画手绘思维导图的原则。在软件里做思维导图的时候，中心图案基本上就只有一行字而已。而在手绘时候就可以灵活一些，用一些简笔画给这些字做些装饰。有一些点需要注意：</p>
-<p>首先是要直观，<strong>中心图案应该能准确的反映思维导图的主题</strong>，尽量选择能直接让你联想到主题的图案。而且尽量用好理解，画起来不难的图形来表示内容。</p>
-<p>另外还要注意尺寸，别占用太多空间影响分支。<strong>可以多用一些吸引人的色彩，最好三种以上。</strong></p>
-<p>但是注意不管怎么折腾字都要在，<strong>尽量不要用图像直接替代标题文字</strong>。下面有几个例子你可以参考一下：</p>
-<p><img src="https://cdn.sspai.com/2017/10/11/6949685c1d16a480e5434264668213de.jpg?imageView2/2/w/1120/q/90/interlace/1/ignore-error/1" alt="img"></p>
-<p>日历来代表计划，话筒代表演讲，一个大写的 𝚿 来代表心理学（一个很常用的表示心理学的符号）。你可以尽可能的用自己能看懂且和主题有直接对应的简笔画来表示你的主题，对绘画水平的要求并不高。假如时间比较少，至少也可以用一些彩笔给关键词画个云朵一样的框框，总之要把关键词装饰起来。</p>
-<h3 id="分支画法"><a href="#分支画法" class="headerlink" title="分支画法"></a>分支画法</h3><p>在手绘思维导图中处理分支要自由很多了，可以倾斜着画分枝填满很多空间。<strong>注意放射性的的排布分枝，避免像大多数软件一样横着写</strong>，这样一来可以给后面的层次留下空间，又可以让画面更加灵活，更有能引导发散。需要注意的是，虽然线条可以有一定程度的倾斜，但尽量别斜到竖过来，一定程度上会影响阅读。如果你觉得线条仅向两边延伸浪费上下空间的话，<strong>可以尝试把一些分支翻过来画</strong>。下图是一个比较复杂的没写字的分支结构。</p>
-<p><img src="https://cdn.sspai.com/2017/10/11/54d9f050b7c61d9298c0e82010733db3.jpg?imageView2/2/w/1120/q/90/interlace/1/ignore-error/1" alt="img"></p>
-<p>画分枝的时候还有一些地方需要注意。首先是对分枝的粗细按层级有所区分，主干画的粗一些，分枝画的细一些，最好是从粗到细的渐变线条。这样可以更好的体现出层级结构，也可以让画面富于变化。</p>
-<p><img src="https://cdn.sspai.com/2017/10/11/ab09e4e1c8133df07c994a2a0fabd541.jpg?imageView2/2/w/1120/q/90/interlace/1/ignore-error/1" alt="img"></p>
-<p>分枝之间必须要连接在一起，不能一段一段的画。</p>
-<p><img src="https://cdn.sspai.com/2017/10/11/29a3bcbce9cccb1fabfacc9e2cce81ba.jpg?imageView2/2/w/1120/q/90/interlace/1/ignore-error/1" alt="img"></p>
-<p>可以给表示主干的线条换一种画法，增添趣味性。别忘了<strong>线条一定要自然弯曲</strong>，大自然讨厌直线。</p>
-<p><img src="https://cdn.sspai.com/2017/10/11/4b0711fcbb1bba96ad15c1591662a9d8.jpg?imageView2/2/w/1120/q/90/interlace/1/ignore-error/1" alt="img"></p>
-<p>另外联系一下我们上一节讲到的东西。虽然空间有些紧张，但我依然比较鼓励你画一些空白分枝来激发自己思考，即便最后没有完全填满也没关系。</p>
-<h3 id="书写关键词"><a href="#书写关键词" class="headerlink" title="书写关键词"></a>书写关键词</h3><p>和之前软件里的画法一样，<strong>关键词写在线的上方</strong>就可以了，用一眼就能看清楚的字体来写，<strong>另外尽量用黑笔写关键词，会在彩色的分枝中看起来更明显</strong>。注意调整好文字和分支长度的比例，最好长度差不多，可以节省空间。</p>
-<p>有些人可能习惯于把关键词写在线的右侧。这样会让关键词之间的边界变得模糊，假如后面还有分支的话还会分割开分支的线条。不要这样做比较好。</p>
-<p><img src="https://cdn.sspai.com/2017/10/11/cd9737777b7d529b13c7a1729a8ba475.jpg?imageView2/2/w/1120/q/90/interlace/1/ignore-error/1" alt="img"></p>
-<p>你还可以加一些效果线来突出重要的关键词。</p>
-<p><img src="https://cdn.sspai.com/2017/10/11/593938206b34031af26ae379013d975c.jpg?imageView2/2/w/1120/q/90/interlace/1/ignore-error/1" alt="img"></p>
-<h3 id="用简笔画来配图"><a href="#用简笔画来配图" class="headerlink" title="用简笔画来配图"></a>用简笔画来配图</h3><p>我们之前讲过给关键词增加图像元素，在思维导图里面主要就是用简笔画了。一些朋友可能又会想到画画太难的问题，这个完全没有关系。因为在思维导图中我们画出来的东西更多是符号化的，你并不需要把一个图案画得多么的具体，重要的是让这些内容来刺激你对关键词本身的理解和记忆。</p>
-<p>可以选择一些常用的简笔画，你可以给他们赋予自己能记住的含义：</p>
-<p><img src="https://cdn.sspai.com/2017/10/11/3ca40d31772643e37a84388245ea0473.jpg?imageView2/2/w/1120/q/90/interlace/1/ignore-error/1" alt="img"></p>
-<p>还有一些图案很万金油，比如说表情：</p>
-<p><img src="https://cdn.sspai.com/2017/10/11/141a714880b4afa4d98878c69f83556d.jpg?imageView2/2/w/1120/q/90/interlace/1/ignore-error/1" alt="img"></p>
-<p>火柴人：</p>
-<p><img src="https://cdn.sspai.com/2017/10/11/7fe629a15d1735683d57af99f6f737fc.jpg?imageView2/2/w/1120/q/90/interlace/1/ignore-error/1" alt="img"></p>
-<p>箭头：</p>
-<p><img src="https://cdn.sspai.com/2017/10/11/43fb570d12cca7adbceed48c555473a2.jpg?imageView2/2/w/1120/q/90/interlace/1/ignore-error/1" alt="img"></p>
-<p>你可以找时间总结出一套自己用着舒服的符号系统，就可以自如地装饰你的思维导图了。画图的位置可以选在关键词的旁边，或者上面，放在不要和其他分支混淆的地方。</p>
-<h3 id="处理好画面平衡"><a href="#处理好画面平衡" class="headerlink" title="处理好画面平衡"></a>处理好画面平衡</h3><p>在软件里画思维导图的时候因为可以自由调整布局，即便从单个分枝开始画起也不会有多大的影响。但手绘的时候就必须分配好每个主干能够占据的空间。一层一层往外画是一个比较好的做法，从一开始就给主干分配比较均匀的空间，方便后面的发展，在画小分枝的时候也别忘了给配图留一点空间。如果实在没有空间了不要忘了我们还可以把分枝折过来画以适应空白处。</p>
-<p>另外因为手绘的结构没有那么规整，有时没有明显的左右分界，阅读的顺序应该以顺时针或者逆时针为主。</p>
-<hr>
-<h2 id="不必太纠结美观"><a href="#不必太纠结美观" class="headerlink" title="不必太纠结美观"></a>不必太纠结美观</h2><p>为了能够刺激大脑思考，手绘思维导图一定要美观一些才好，但很多时候我们其实并没有那么多的时间去完成一幅思维导图。也许你在网上看到过很多画的特别华丽的思维导图，我其实不是很认同这种做法。即便你是一个很会画画的人，把中心图像或者关键词图像画的特别复杂也会耽误相当多的时间。思维导图的主要目的是为了思考，假如我们把太多的时间花在画画上，思维导图便从一个思维训练变成了画画训练，留给思考的时间就不多了。</p>
-<p>在理想的情况下，我们确实应该把思维导图画的精美一些，但很多现实情况下，利用手绘思维导图的参与感才是最最重要的。假如立即需要解决问题，即便什么颜色都没有，也可以直接用思维导图的发散思维去解决问题。所以<strong>在需要用手绘思维导图的时候，不要为了太耗时间而纠结，拽一张纸就是干</strong>。</p>
-<hr>
-<h2 id="再谈选择问题"><a href="#再谈选择问题" class="headerlink" title="再谈选择问题"></a>再谈选择问题</h2><p>上面我讲了一些手绘思维导图和用软件画相比需要注意的一些点，了解了这些之后我们再来谈谈手绘思维导图的优点和缺点。</p>
-<h3 id="先说优点"><a href="#先说优点" class="headerlink" title="先说优点"></a>先说优点</h3><p>在我看来手绘思维导图最大的优点就是参与的过程。软件中画的思维导图只会在画面上给人一种发散的感觉，而手绘思维导图则可以在动作上给人发散的暗示。要论对发散思维的引导这件事，手绘绝对是有优势的。当然也有例外，比如一些软件建立分支并不是点按钮生成，而是要手动拖拽出来。这种的软件也很有参与感。</p>
-<p>然后就是图像感。用软件画出来的思维导图大多非常规整，每张图都长得差不多，缺乏利于图像记忆的特点。手绘思维导图则处处不同，很容易就可以当作一张图片来记忆，再加上更加灵活的简笔画。手绘思维导图在画法的多样性上也是完胜。</p>
-<p>还有创作的乐趣。如果你画画很好的话，画思维导图应该是一件很有意思的事情。假如找个本把自己画的所有思维导图放进去，偶尔翻翻看看还是很有成就感的。</p>
-<h3 id="再说缺点"><a href="#再说缺点" class="headerlink" title="再说缺点"></a>再说缺点</h3><p>如果要认真画一个美观实用的思维导图，麻烦是少不了的。光是准备一盒子色笔就已经很占地方了。再加上满桌子的水彩笔滚来滚去，想想就会觉得头疼。占用的时间也确实不少，假如读书笔记思维导图的时间比看一本书还长，有没有必要就要考虑一下了。</p>
-<p>另外手绘的思维导图几乎无法修改，除了用纸的扔纸用本的撕本，重画一遍之外，手绘思维导图基本上没有什么反悔的空间。不过你也可以用一些可以擦掉的笔来解决这个问题。</p>
-<p>另外手绘思维导图的信息量也是很有限的，因为线条比较粗，也比较随意，单位空间中所能有的信息量是比较小的。此外思维导图还有整理起来比较麻烦之类的问题。</p>
-<p>说到整理，我其实很推荐你使用一些扫描软件来把这些东西，扫描到智能设备上。或者用 iOS 11 备忘录自带的扫描功能也可以。</p>
-<p>综合上面这些点，我认为手绘思维导图拿来思考，解决问题优势更大一些。而读书笔记之类的整理输入信息的情况，我认为更适合用软件来做绘制思维导图。要不要用手绘思维导图总的来说还是个很个人化的问题，你可以根据自己的实际情况做出选择。</p>
-<hr>
-<h2 id="推荐阅读"><a href="#推荐阅读" class="headerlink" title="推荐阅读"></a>推荐阅读</h2><p>本篇推荐阅读暖乎乎著《画出你的答案》（电子工业出版社），这是一本关于手绘思维导图的教程。这本书从思考过程出发，突出案例教学，不仅可以学习手绘思维导图，还可以更多的接触到思维导图提出问题解决问题的思维方式。</p>
-<p><img src="https://cdn.sspai.com/2017/10/11/c9d2b553c02ff7ca934f5e744293262c.jpg?imageView2/2/w/1120/q/90/interlace/1/ignore-error/1" alt="img"></p>
+    <title></title>
+    <url>/repost/zhihu/%E5%A7%9C%E6%8C%AF%E5%AE%87%E5%BE%AE%E8%A1%A8%E6%83%85%E5%BF%83%E7%90%86%E5%AD%A6/index.html</url>
+    <content><![CDATA[<p><a href="1.html">发刊词：想要看透人心，微表情是很有用的科学工具</a></p>
+<p><a href="2.html">眼睛运动的2个维度：眼皮开闭和眼球的旋转</a></p>
 <link rel="stylesheet" href="/css/spoiler.css" type="text/css"><script src="/js/spoiler.js" type="text/javascript" async></script>]]></content>
   </entry>
   <entry>
@@ -870,13 +877,6 @@ z & = & \frac{x}{y}
 <p>之后，我陆续参加了民生节目四大名助，脑力节目最强大脑和情感节目非诚勿扰，用表情解读不同的人、不同的事和不同的心思。也因为解读过于透彻，被冠以「钢铁直男」的标签。实际上，一定要有鲜活的人和关切的事，才会让人出现真切的微表情和肢体动作。正是因为见了这么多形形色色的普通人和嫌疑人，才使得我对微表情的理解更加深刻和透彻。</p>
 <p>希望更多人能理解微表情的本质公式——如果一个人说的话和他的微小表情动作不一致，那就是有问题，需要小心被欺骗了。</p>
 <p>想要看透人的心，微表情是很有用的科学工具，大家要动脑筋来学习呀！我在这里等你。</p>
-<link rel="stylesheet" href="/css/spoiler.css" type="text/css"><script src="/js/spoiler.js" type="text/javascript" async></script>]]></content>
-  </entry>
-  <entry>
-    <title></title>
-    <url>/repost/zhihu/%E5%A7%9C%E6%8C%AF%E5%AE%87%E5%BE%AE%E8%A1%A8%E6%83%85%E5%BF%83%E7%90%86%E5%AD%A6/index.html</url>
-    <content><![CDATA[<p><a href="1.html">发刊词：想要看透人心，微表情是很有用的科学工具</a></p>
-<p><a href="2.html">眼睛运动的2个维度：眼皮开闭和眼球的旋转</a></p>
 <link rel="stylesheet" href="/css/spoiler.css" type="text/css"><script src="/js/spoiler.js" type="text/javascript" async></script>]]></content>
   </entry>
   <entry>
@@ -1070,37 +1070,6 @@ z & = & \frac{x}{y}
 <link rel="stylesheet" href="/css/spoiler.css" type="text/css"><script src="/js/spoiler.js" type="text/javascript" async></script>]]></content>
   </entry>
   <entry>
-    <title>「时间」科学分配时间，提升记忆效率</title>
-    <url>/repost/zhihu/%E8%A2%81%E6%96%87%E9%AD%81%E9%AB%98%E6%95%88%E8%AE%B0%E5%BF%86%E6%9C%AF/15.html</url>
-    <content><![CDATA[<p>上一讲我分享了让大脑进入最佳状态的三大法宝，分别是腹式呼吸、正念冥想还有积极的自我暗示，今天我们来了解加速记忆的时间管理策略，学会科学分配时间，提升记忆速度。</p>
-<p>说到时间管理策略，首先要来看「黄金记忆时间」这个问题，经常会有人问我：「老师，什么时间来记东西效率最高？」我的答案是：「因人而异，没有一个固定的时间点。在你精力最旺盛且注意力最集中时最好。」不过，心理学家研究发现，有一些时间点更加适合记忆，可以作为一个参考的依据。</p>
-<p>第一个时间点是早上 6 点到 7 点，大脑经过了一夜的休息，正是电量最充足的时候，而且早晨干扰比较少，更容易专注静心，适合记忆一些相对较难记忆的东西，以及复习前一天所学的知识。我在背诵《论语》这本书时，就是每天 5、6 点起床，室友都还没有起床，我就打着手电筒背，效率特别高。</p>
-<p>第二个时间点是上午 8 点到 10 点，大脑的神经兴奋性提高，身体的激素分泌旺盛，精力比较充沛，逻辑思考、认知能力和信息处理能力较强，也是攻克记忆难题的好时机。</p>
-<p>第三个时间点是晚上 6 点到 8 点，这个时间适合用来回顾和复习当天学过的东西。如果是在晚饭之后，消化食物会导致大脑供氧不足而晕晕沉沉，所以我一般习惯饭后放松半小时，然后再小睡 15 分钟左右，补充精力之后再记忆，效率会更高。</p>
-<p>第四个时间点是睡前，因为每个人的睡觉时间不同，这个时间也是因人而异，但是也要注意，如果你熬夜去记忆，疲惫不堪，睡眼惺忪，效果也不会很理想。睡前更适合加深记忆印象，对一些难以记忆的东西加以复习，科学家研究发现，睡着 2 小时后，记忆的东西遗忘速度就会下降，所以我高三时，会习惯睡前回顾白天背诵的东西。</p>
-<p>刚才这些都是指的大多数人的黄金时间，但确实要因人有异，以前很流行一种说法，把人分为「百灵鸟型」和「猫头鹰型」的人，「百灵鸟型」习惯于白天工作，「猫头鹰型」习惯于夜晚工作，比如很多大学教授或者作家就喜欢夜深人静时写作，或者凌晨三四点起来写作，习惯了这种生活规律的人，记忆的黄金时间又完全不一样了。</p>
-<p>所以，想要找到自己的记忆黄金时间，可以学习柳比歇夫，他是前苏联昆虫学家，他写了一本书叫做《奇特的一生》，他 56 年如一日，记录他的时间都去哪儿了，他用时间统计法来对自己做实验和探索。我们也可以记录一下，你每天在什么时间段要背诵，在背诵时的状态怎么样，背诵的效果怎么样，连续记录两周左右，你就可以大致摸到自己的规律。以后在记忆时，把最难记最重要的，放在你最佳的黄金时间点去挑战，精力跟不上时，就做一点抄写、整理等不费脑的事吧。</p>
-<p>找到了「黄金记忆时间」，还要看怎么利用好时间，而这个与我们记忆的目标有关，所以时间管理还涉及到目标管理。专家曾经做过一个测试，让两个即将参加中考的学生同时记忆一段材料，一个被告知仅仅是在做一个试验，另一个则被告知有可能是中考的题目，结果，第二个学生的记忆成绩远远好过了第一个学生。当我们记忆目的明确时，我们的大脑就处于高度活动状态，接受外来信息相对主动，大脑皮层会留下更清晰、深刻的印象。</p>
-<p>目标管理在企业里谈得比较多的是 SMART 法则，我在高中便用于学习和记忆里：</p>
-<p>S 代表具体( Specific )，指考核要切中特定的指标，不能笼统，「随便记点啥吧」就不如「记忆英语单词」具体；</p>
-<p>M 代表可度量 ( Measurable )，就是说，指标是数量化或者行为化的，比如要记忆 30 个英语单词，就是可度量的；</p>
-<p>A 代表可实现( Attainable )，避免设立过高或过低的目标，你要想在 1 小时记住 1000 个英语单词，就不太现实，目标要够一够摸得着。</p>
-<p>R 代表相关性( Relevant ），指标是与本职工作是相关联的，比如学生考试要背单词是必须的，我以前有个成年学生，一到听我要讲单词记忆法，他就申请出去抽烟，他说他连 26 个字母都忘掉了，平时工作也不需要英语，这就是缺少相关性。</p>
-<p>T 代表有时限( Time-bound )，就是需要一个截止时间，比如 30 个单词，你要多长时间记完，是 30 分钟，还是 50 分钟？我一般习惯在记忆时设定时间结点，然后用手机倒计时，挑战在闹钟响起前完成。当我们有时间限制时，一是不会拖延，二会会激发大脑的潜能，让我们的效率更高。</p>
-<p>我在大学挑战背单词，我也会把 SMART 法则用出来，首先目标很具体、可量化、有时限，就是要在一周时间内挑战完 6000 单词的六级词汇书，这个目标对我来说有点难度，但是我觉得我有可能挑战成功。为什么要挑战呢？以前我是讨厌背单词的，但是我学习了记忆法，所以挑战它就是为了训练记忆法，与我当下学习的东西是相关的。我当时还和别人打赌，没有完成请她吃大餐，以激励我挑战达成目标！</p>
-<p>为了完成这个目标，还需要进行目标分割，以及每天的时间安排，我基本上每天 6 点起床，晚上 11 点睡觉，每天的有效记忆时间在 10 小时左右。我会以 10 个单词为一组，以组为单位进行记忆和复习，每天要记忆多少组新单词，复习多少组已经背过的单词，在什么时间点复习，什么时间点记忆，都会制定详细的表格，并及时调整。如果没有这个目标统筹，今天心情好就记，明天心情不好就玩，是永远不可能完成这个挑战的。</p>
-<p>我后来又用这种方式，挑战在 4 天背完《易经》， 5 天背完《孙子兵法》，还用来安排世界脑力锦标赛十大项目的训练，达到「世界记忆大师」的目标，管理好我们的目标，才能利用好时间，达成所愿。</p>
-<p>在时间管理里，最后一个问题是涉及到记忆活动的时间分配。</p>
-<p>第一个时间分配，是集中时间记忆还是分散时间记忆？心理学家曾做过一个测试，将历史和经济的材料做实验，让被测试者读 2-4 页，共读 5 次。读法分两种，一种在 1 天读完 5 次，一种每天读 1 次，共读 5 天。第一种，1 天读完 5 次在 1 个月后回忆，结果能回忆起 11.49% ，每天读 1 次分 5 天读，能够回忆起 30.59% ，可见把较长的学习任务进行时间切割，对于长时记忆的效果会更好。我们把这个策略称之为「少吃多餐策略」，不要奢望临时抱佛脚一天搞定，功夫还是在平时的多次积累。</p>
-<p>第二个时间分配，是花更多时间阅读还是尝试回忆？</p>
-<p>科学家曾经做过一个实验，让三个同等条件的学生在同等时间内记忆刚学过的一段内容。第一个同学把全部时间都用来阅读；第二个同学用一半时间阅读，一半的时间背诵；第三个同学用 ⅕ 的时间阅读， ⅘ 的时间背诵。结果，第一个同学记住了 ⅓ ，第二个同学记住了 ½ ，第三个同学记住了 ⅔ 。</p>
-<p>有些学生在早自习背课文时，一篇课文朗读了 20 多遍，但是真让他去背，很多还是背不下来。我一般在读第二遍时，就开始边朗读边回忆，我会眼睛看着前面尝试回忆，回忆不出来，就瞟一眼内容，第二遍时，也是朗读为主，回忆为辅的，接下来第三遍，也许能回忆出大部分内容，这时把一些容易忘记的细节标出来，让我们的焦点放在这上面，被关注的信息更容易被回忆出来。最后再复习两三遍，我们也许就可以百分百把内容复述出来。</p>
-<p>第三个时间分配，是不同记忆活动之间的时间统筹。长时间的高强度记忆，是非常耗费脑力的，我一般 50 分钟左右就会休息，可以吃个水果补充一些水分和糖分，另外可以深呼吸、小睡一会或者做一些运动，让大脑重新恢复活力，这样劳逸结合，效果更佳。另外，不同的记忆项目也要切换，比如背了 50 分钟英语单词，我会在休息后尝试背诵数学公式或定理，然后再背诵语文文章等，不同的内容可以刺激大脑的不同部位，让我们保持在相对兴奋的状态，不会产生倦怠感。当然，这种切换不是记几分钟英语马上就换成记几分钟文章这种，切换太过于频繁也不太好，我一般一个项目会记忆 30 到 50 分钟左右。</p>
-<p>这三种时间分配策略，虽然不是很炫酷的记忆方法，但是却是非常有效的记忆策略，在我备战高考时发挥了突出的作用，而且上手很容易，只需要在学习里多用几次就变成了习惯，让你的效率开始提升。</p>
-<p>好啦，我来总结一下今天的内容，关于加速记忆的时间管理策略，我讲了记忆的黄金时间、目标管理、时间分配三个方面，高效记忆的四个时间段，分别是早上 6 到 7 点，上午 8 到 9 点，晚上 6 到 8 点以及睡前，但是这个时间点因人而异，可以尝试通过记录来找到自己的黄金时间。目标管理我分享了 SMART 法则在记忆里的运用，时间分配我分享了如何分配记忆任务，如何把控朗读与记忆的时间，以及如何协调不同记忆任务之间的时间。请你尝试运用于记忆里吧！下一讲，我们将分享高效复习的策略。 </p>
-<link rel="stylesheet" href="/css/spoiler.css" type="text/css"><script src="/js/spoiler.js" type="text/javascript" async></script>]]></content>
-  </entry>
-  <entry>
     <title>「脑力」运用3大法宝，调整最佳状态</title>
     <url>/repost/zhihu/%E8%A2%81%E6%96%87%E9%AD%81%E9%AB%98%E6%95%88%E8%AE%B0%E5%BF%86%E6%9C%AF/14.html</url>
     <content><![CDATA[<p>在之前的课程里，我为大家分享了很多记忆法，想要将这些记忆法有效运用，除了进行大量的练习，也需要让大脑拥有良好的状态。不知道你是否有过这样的体验，很想快速牢记某些知识，但就是觉得大脑懵懵的，怎么塞都塞不进知识？或者很容易就出现「人在曹营心在汉」的情况，别人讲的东西从左耳进，从右耳出。这些都是非常普遍的状况，我们常会自嘲：「我的大脑不在状态！」</p>
@@ -1143,6 +1112,63 @@ z & = & \frac{x}{y}
 <link rel="stylesheet" href="/css/spoiler.css" type="text/css"><script src="/js/spoiler.js" type="text/javascript" async></script>]]></content>
   </entry>
   <entry>
+    <title>「时间」科学分配时间，提升记忆效率</title>
+    <url>/repost/zhihu/%E8%A2%81%E6%96%87%E9%AD%81%E9%AB%98%E6%95%88%E8%AE%B0%E5%BF%86%E6%9C%AF/15.html</url>
+    <content><![CDATA[<p>上一讲我分享了让大脑进入最佳状态的三大法宝，分别是腹式呼吸、正念冥想还有积极的自我暗示，今天我们来了解加速记忆的时间管理策略，学会科学分配时间，提升记忆速度。</p>
+<p>说到时间管理策略，首先要来看「黄金记忆时间」这个问题，经常会有人问我：「老师，什么时间来记东西效率最高？」我的答案是：「因人而异，没有一个固定的时间点。在你精力最旺盛且注意力最集中时最好。」不过，心理学家研究发现，有一些时间点更加适合记忆，可以作为一个参考的依据。</p>
+<p>第一个时间点是早上 6 点到 7 点，大脑经过了一夜的休息，正是电量最充足的时候，而且早晨干扰比较少，更容易专注静心，适合记忆一些相对较难记忆的东西，以及复习前一天所学的知识。我在背诵《论语》这本书时，就是每天 5、6 点起床，室友都还没有起床，我就打着手电筒背，效率特别高。</p>
+<p>第二个时间点是上午 8 点到 10 点，大脑的神经兴奋性提高，身体的激素分泌旺盛，精力比较充沛，逻辑思考、认知能力和信息处理能力较强，也是攻克记忆难题的好时机。</p>
+<p>第三个时间点是晚上 6 点到 8 点，这个时间适合用来回顾和复习当天学过的东西。如果是在晚饭之后，消化食物会导致大脑供氧不足而晕晕沉沉，所以我一般习惯饭后放松半小时，然后再小睡 15 分钟左右，补充精力之后再记忆，效率会更高。</p>
+<p>第四个时间点是睡前，因为每个人的睡觉时间不同，这个时间也是因人而异，但是也要注意，如果你熬夜去记忆，疲惫不堪，睡眼惺忪，效果也不会很理想。睡前更适合加深记忆印象，对一些难以记忆的东西加以复习，科学家研究发现，睡着 2 小时后，记忆的东西遗忘速度就会下降，所以我高三时，会习惯睡前回顾白天背诵的东西。</p>
+<p>刚才这些都是指的大多数人的黄金时间，但确实要因人有异，以前很流行一种说法，把人分为「百灵鸟型」和「猫头鹰型」的人，「百灵鸟型」习惯于白天工作，「猫头鹰型」习惯于夜晚工作，比如很多大学教授或者作家就喜欢夜深人静时写作，或者凌晨三四点起来写作，习惯了这种生活规律的人，记忆的黄金时间又完全不一样了。</p>
+<p>所以，想要找到自己的记忆黄金时间，可以学习柳比歇夫，他是前苏联昆虫学家，他写了一本书叫做《奇特的一生》，他 56 年如一日，记录他的时间都去哪儿了，他用时间统计法来对自己做实验和探索。我们也可以记录一下，你每天在什么时间段要背诵，在背诵时的状态怎么样，背诵的效果怎么样，连续记录两周左右，你就可以大致摸到自己的规律。以后在记忆时，把最难记最重要的，放在你最佳的黄金时间点去挑战，精力跟不上时，就做一点抄写、整理等不费脑的事吧。</p>
+<p>找到了「黄金记忆时间」，还要看怎么利用好时间，而这个与我们记忆的目标有关，所以时间管理还涉及到目标管理。专家曾经做过一个测试，让两个即将参加中考的学生同时记忆一段材料，一个被告知仅仅是在做一个试验，另一个则被告知有可能是中考的题目，结果，第二个学生的记忆成绩远远好过了第一个学生。当我们记忆目的明确时，我们的大脑就处于高度活动状态，接受外来信息相对主动，大脑皮层会留下更清晰、深刻的印象。</p>
+<p>目标管理在企业里谈得比较多的是 SMART 法则，我在高中便用于学习和记忆里：</p>
+<p>S 代表具体( Specific )，指考核要切中特定的指标，不能笼统，「随便记点啥吧」就不如「记忆英语单词」具体；</p>
+<p>M 代表可度量 ( Measurable )，就是说，指标是数量化或者行为化的，比如要记忆 30 个英语单词，就是可度量的；</p>
+<p>A 代表可实现( Attainable )，避免设立过高或过低的目标，你要想在 1 小时记住 1000 个英语单词，就不太现实，目标要够一够摸得着。</p>
+<p>R 代表相关性( Relevant ），指标是与本职工作是相关联的，比如学生考试要背单词是必须的，我以前有个成年学生，一到听我要讲单词记忆法，他就申请出去抽烟，他说他连 26 个字母都忘掉了，平时工作也不需要英语，这就是缺少相关性。</p>
+<p>T 代表有时限( Time-bound )，就是需要一个截止时间，比如 30 个单词，你要多长时间记完，是 30 分钟，还是 50 分钟？我一般习惯在记忆时设定时间结点，然后用手机倒计时，挑战在闹钟响起前完成。当我们有时间限制时，一是不会拖延，二会会激发大脑的潜能，让我们的效率更高。</p>
+<p>我在大学挑战背单词，我也会把 SMART 法则用出来，首先目标很具体、可量化、有时限，就是要在一周时间内挑战完 6000 单词的六级词汇书，这个目标对我来说有点难度，但是我觉得我有可能挑战成功。为什么要挑战呢？以前我是讨厌背单词的，但是我学习了记忆法，所以挑战它就是为了训练记忆法，与我当下学习的东西是相关的。我当时还和别人打赌，没有完成请她吃大餐，以激励我挑战达成目标！</p>
+<p>为了完成这个目标，还需要进行目标分割，以及每天的时间安排，我基本上每天 6 点起床，晚上 11 点睡觉，每天的有效记忆时间在 10 小时左右。我会以 10 个单词为一组，以组为单位进行记忆和复习，每天要记忆多少组新单词，复习多少组已经背过的单词，在什么时间点复习，什么时间点记忆，都会制定详细的表格，并及时调整。如果没有这个目标统筹，今天心情好就记，明天心情不好就玩，是永远不可能完成这个挑战的。</p>
+<p>我后来又用这种方式，挑战在 4 天背完《易经》， 5 天背完《孙子兵法》，还用来安排世界脑力锦标赛十大项目的训练，达到「世界记忆大师」的目标，管理好我们的目标，才能利用好时间，达成所愿。</p>
+<p>在时间管理里，最后一个问题是涉及到记忆活动的时间分配。</p>
+<p>第一个时间分配，是集中时间记忆还是分散时间记忆？心理学家曾做过一个测试，将历史和经济的材料做实验，让被测试者读 2-4 页，共读 5 次。读法分两种，一种在 1 天读完 5 次，一种每天读 1 次，共读 5 天。第一种，1 天读完 5 次在 1 个月后回忆，结果能回忆起 11.49% ，每天读 1 次分 5 天读，能够回忆起 30.59% ，可见把较长的学习任务进行时间切割，对于长时记忆的效果会更好。我们把这个策略称之为「少吃多餐策略」，不要奢望临时抱佛脚一天搞定，功夫还是在平时的多次积累。</p>
+<p>第二个时间分配，是花更多时间阅读还是尝试回忆？</p>
+<p>科学家曾经做过一个实验，让三个同等条件的学生在同等时间内记忆刚学过的一段内容。第一个同学把全部时间都用来阅读；第二个同学用一半时间阅读，一半的时间背诵；第三个同学用 ⅕ 的时间阅读， ⅘ 的时间背诵。结果，第一个同学记住了 ⅓ ，第二个同学记住了 ½ ，第三个同学记住了 ⅔ 。</p>
+<p>有些学生在早自习背课文时，一篇课文朗读了 20 多遍，但是真让他去背，很多还是背不下来。我一般在读第二遍时，就开始边朗读边回忆，我会眼睛看着前面尝试回忆，回忆不出来，就瞟一眼内容，第二遍时，也是朗读为主，回忆为辅的，接下来第三遍，也许能回忆出大部分内容，这时把一些容易忘记的细节标出来，让我们的焦点放在这上面，被关注的信息更容易被回忆出来。最后再复习两三遍，我们也许就可以百分百把内容复述出来。</p>
+<p>第三个时间分配，是不同记忆活动之间的时间统筹。长时间的高强度记忆，是非常耗费脑力的，我一般 50 分钟左右就会休息，可以吃个水果补充一些水分和糖分，另外可以深呼吸、小睡一会或者做一些运动，让大脑重新恢复活力，这样劳逸结合，效果更佳。另外，不同的记忆项目也要切换，比如背了 50 分钟英语单词，我会在休息后尝试背诵数学公式或定理，然后再背诵语文文章等，不同的内容可以刺激大脑的不同部位，让我们保持在相对兴奋的状态，不会产生倦怠感。当然，这种切换不是记几分钟英语马上就换成记几分钟文章这种，切换太过于频繁也不太好，我一般一个项目会记忆 30 到 50 分钟左右。</p>
+<p>这三种时间分配策略，虽然不是很炫酷的记忆方法，但是却是非常有效的记忆策略，在我备战高考时发挥了突出的作用，而且上手很容易，只需要在学习里多用几次就变成了习惯，让你的效率开始提升。</p>
+<p>好啦，我来总结一下今天的内容，关于加速记忆的时间管理策略，我讲了记忆的黄金时间、目标管理、时间分配三个方面，高效记忆的四个时间段，分别是早上 6 到 7 点，上午 8 到 9 点，晚上 6 到 8 点以及睡前，但是这个时间点因人而异，可以尝试通过记录来找到自己的黄金时间。目标管理我分享了 SMART 法则在记忆里的运用，时间分配我分享了如何分配记忆任务，如何把控朗读与记忆的时间，以及如何协调不同记忆任务之间的时间。请你尝试运用于记忆里吧！下一讲，我们将分享高效复习的策略。 </p>
+<link rel="stylesheet" href="/css/spoiler.css" type="text/css"><script src="/js/spoiler.js" type="text/javascript" async></script>]]></content>
+  </entry>
+  <entry>
+    <title>「复习」4种复习要诀，摆脱遗忘困扰</title>
+    <url>/repost/zhihu/%E8%A2%81%E6%96%87%E9%AD%81%E9%AB%98%E6%95%88%E8%AE%B0%E5%BF%86%E6%9C%AF/16.html</url>
+    <content><![CDATA[<p>上一节课我们学习了加速记忆的时间管理策略，然而即使我们记忆的效率非常高，如果遇到「遗忘」这个死对头，我们又不采取策略来科学复习，最终记忆的东西也会「竹篮打水一场空」。</p>
+<p>什么叫「遗忘」？我们先不谈很多影视片里的「失忆」，单从学习的角度来说，就是对识记过的材料不能再认与回忆，或者错误的再认与回忆。比如问你：「什么是社会主义核心价值观？」「《西游记》的作者是谁？」你曾经都记过，但现在一个词都说不出来，就是完全遗忘，你能够说出部分词，是部分遗忘。</p>
+<p>遗忘有时候会非常尴尬，比如很多歌星在演唱会忘词，比如蔡依林、罗志祥、张杰等，陈奕迅还因为忘词向观众下跪，而且填词人林夕也在台下听着，真是尴尬不已。《奇葩说》等语言类节目，有好几位选手讲着讲着就忘词了，不得不重新拿起笔记本来寻找提前准备的论据，也是非常尴尬。学生们也深受遗忘的苦恼，昨晚刚背完的课文和单词，老师检查时就忘掉了一大半，考前熬夜挑灯复习，第二天考试时却大片大片的知识想不起来，真是头疼呀！</p>
+<p>遗忘是非常正常的现象，即使世界记忆冠军也无法避免，英国的冠军老本，就经常会忘掉别人的名字，也会在出门忘记带钥匙，那哪些因素会导致我们遗忘呢？</p>
+<p>一是时间因素，时间是一把杀猪刀，也是记忆的强盗，知识在识记之后进入大脑的短期记忆，在往长期记忆的过程中，如果没有及时通过复习或运用去巩固强化，就很容易被「遗忘大盗」给盗走，特别是在刚学习后的前几天，是「遗忘大盗」作案的高峰期。</p>
+<p>二是动力因素。一般最先遗忘的是我们觉得不重要、不感兴趣、不需要的、缺少感情投入的材料。积极的情绪会提高大脑的激活水平，从而有助于记忆的保持。我一般对于不想记的东西，要找到一些让自己记忆的理由，并且给自己设立奖励，就会产生一种记忆的热忱。</p>
+<p>三是专注因素。当你在记忆时「溜号」了，听东西左耳朵进右耳朵出，这时对于信息的关注较少，缺少观察、分析和理解，信息就如同过眼云烟，需要时想抓也抓不住，也容易与其它的信息混淆。</p>
+<p>四是干扰因素。我们对正在学习的东西的记忆，会被过去已经学习过或者未来要学习的东西干扰。比如你同时记忆了 20 多个以 Pre 开头的英语单词，这些单词之间互相就会干扰。中小学连续上同一门课不超过两节，也是避免同一学科知识的互相干扰。</p>
+<p>五是线索因素。人们之所以对一些事情想不起来，是因为在提取时没有找到适当的提取线索。比如阿里巴巴的哥哥，他在记忆「芝麻开门」时，可能只是记成是一种食物，所以他提取时会联想到豌豆、大豆，如果他在记忆时增加线索：黑色的、很小的、像蚂蚁的，他在提取时会更容易想到芝麻。</p>
+<p>好啦，知道了这些因素，其实就已经为我们避免一些不必要的遗忘，但是即使上面的都做到了，可能还是会遗忘，这时候，科学的复习策略是必不可少的。德国心理学家艾宾浩斯是发现记忆遗忘规律的第一人，他在《记忆力心理学》里揭秘了人类记忆与遗忘的奥秘，今天分享的很多复习策略也基于他的研究成果。</p>
+<p>提起艾宾浩斯，你一定熟悉他的「艾宾浩斯遗忘曲线」，他拿自己当「小白鼠」，找到一些没有形成联想的、完全同类的、不熟悉的、毫无意义的音节作为测试材料，比如 asww、cfhhj、rfyjbc 等，经过长时间的记忆和考核，总结出规律并且绘制了这条曲线。这条曲线告诉人们在学习中的遗忘是有规律的，在学习仅过了 20 分钟后，就忘记了记忆内容的 42% ，1 天后忘却量已经达到了 66% ，到了一个月后，忘却量高达 79% ，可见最初阶段遗忘的速度很快，后来就逐渐减慢了。当然，不同的信息遗忘速度是不一样的，诗歌比散文要慢，散文要比无意义的音节要慢，越是抽象和无意义的信息，越是忘得快。</p>
+<p>艾宾浩斯提出一种复习方法，叫做「351-351复习法」，也就是尽量在 3 小时内、5 小时内、10 小时内、3 天内、5 天内、10 天内分别复习一遍。当然，要严格按照「351-351 复习法」来进行记忆管理，估计我们都会疯掉，我会尽量遵循「先密后疏」的原则，如果是早自习背课文或单词，会在吃早餐排队时去回忆，没有想起来的及时强化，课间没事就翻翻书瞅几眼，当晚也会再默背一遍来巩固强化，后面几天早自习也会复习之前的内容。在书本上我会记录下每篇课文第一次、第二次、第三次背诵的日期，方便以后安排复习的时间。</p>
+<p>那如何复习效果更好呢？我分享四种常见的复习方法：</p>
+<p>第一个是自测复习法。艾宾浩斯认为它是对遗忘曲线的最典型应用，自测分为三个步骤，第一个是复习自测，就是对所学的知识随时进行巩固和测试，找到错误立马改正，一般自测的黄金时间段是早上 7 点到 9 点。第二个是定期自测，比如每天睡前，每周周日，内容较多时可以分组自测。第三个是实时自测，就是随时随地的测试，利用排队等闲暇时间，可以边想边说出来，或者用手指在空中比划写出内容。我在高中上早自习背完课文，在排除等早饭时就会自测，如果是单词就会比划着拼写，记不住的，吃完早饭就会马上复习，这样就可以尽快抢救遗忘的部分。</p>
+<p>另外还可以同学之间互测，在高三的课间，我和前后桌经常互测，谁出的问题能够考倒大家会加分，如果没答上来就会扣分，至于惩罚，比如在脸上贴条子，或者请吃晚饭，一般没答上来的题目再复习都会牢记。同学之间相互讨论甚至辩论所学的知识，也是一种不错的选择。</p>
+<p>第二个是多元化复习法。只是单调的重复，大脑也会觉得无聊，所以很多人都喜欢去背新东西，却讨厌复习来巩固胜利果实。怎样将复习变得更有趣呢，可以尝试多种感官通道。比如视觉上，可以用便利贴制作各种颜色的学习卡片，把英语单词写在卡片正面，意思写在背面，根据测试的情况给予一定的标记，比如 √ 代表完全掌握，≠ 代表着还需要巩固，× 代表着需要重新记忆，完全掌握的就收起来放在一个盒子里，后两类卡片就要投入更多精力来复习，直到最终都完全掌握为止。比如在听觉上，可以尝试给同学或朋友讲解所学的内容，如果没有听众，选择对着录音设备讲解一番，也可以强化记忆，录好的音频可以在空余时间听一听，都可以潜移默化地巩固记忆。还可以尝试在体育活动或游戏中来复习，比如一边跑步或跳绳一边背诗。</p>
+<p>第三个是循环复习法。当我们可以把大段的记忆材料进行分组，假设分为A、B、C、D、E 共 5 组，可以记完 A 组回忆 A 组；记完 B 组后回忆 A 组和 B 组；记完 C 组，回忆 B 组和 C 组；记完 D 组，回忆 C 组和 D 组；记完 E 组，回忆 D 组和 E 组；最后回忆 A 到 E 组一到两遍。这样循环复习，可以有效地避免遗忘。</p>
+<p>假设我们需要长期复习，比如备战考研或者托福考试，每天记忆新东西前要复习之前背过的，网上流传一个「超级 90 天循环背诵大表」，主要是针对背诵《新概念英语》制定的，我们也可以参考。比如第一天背诵当天的 100 个单词，第二天复习第一天的并记忆第二天的，第三天复习第二天的并记忆第三天的，第四天复习第一、三天并记忆第四天的，这也是基于艾宾浩斯遗忘曲线的一种复习策略。</p>
+<p>第四个是实践复习法。我非常喜欢陆游的一句诗：「纸上得来终觉浅，绝知此事要躬行。」反复默背十遍，不如动手操作一遍。法国资产阶级启蒙思想家卢梭，坚持把学习到的知识付诸实践，他学习音乐时，就从事乐谱的创作；学习数学时，就去丈量土地；学习药物学时，就去采药制药。</p>
+<p>学生在学习物理、化学、生物等知识时，如果能够通过做实验、亲近大自然、做手工、做家务等生活实践来巩固知识，就会印象特别深刻。而成年人学习一些技能，更是需要在实践中复习，比如你学习开车，你不需要看教材死记住开车的步骤，动手操作几遍之后便自然熟悉了，多上路开车就是在复习，最终形成了肌肉记忆。</p>
+<p>好啦，我来总结一下今天的重点，我讲了遗忘的五大因素：时间因素、动力因素、专注因素、干扰因素、线索因素，同时分享了艾宾浩斯遗忘曲线以及他的「 351-351 复习法」，还包括我常用的四种复习法：自测复习法、多元复习法、循环复习法和实践复习法。</p>
+<link rel="stylesheet" href="/css/spoiler.css" type="text/css"><script src="/js/spoiler.js" type="text/javascript" async></script>]]></content>
+  </entry>
+  <entry>
     <title>「阅读」读完书等于没读，记不住怎么办？</title>
     <url>/repost/zhihu/%E8%A2%81%E6%96%87%E9%AD%81%E9%AB%98%E6%95%88%E8%AE%B0%E5%BF%86%E6%9C%AF/17.html</url>
     <content><![CDATA[<p>上一讲，我分享了数字信息记忆的方法，这一讲，我来讲讲很多学习者都困扰的问题：看了一本书，过几天就不记得书里讲了啥，甚至再过段时间，连书名都不记得了。有位朋友，很瞧不起大学室友每天打游戏，让他好好多读点书，室友决定听他的，就问他：「那你读过那么多书，可不可以推荐我几本？」结果这位朋友能够想出来书名的，居然只有一两本，更别提内容了，真是尴尬呀。今天我们就来讲讲：读完书等于没读，记不住怎么破？</p>
@@ -1182,32 +1208,6 @@ z & = & \frac{x}{y}
 <link rel="stylesheet" href="/css/spoiler.css" type="text/css"><script src="/js/spoiler.js" type="text/javascript" async></script>]]></content>
   </entry>
   <entry>
-    <title>「复习」4种复习要诀，摆脱遗忘困扰</title>
-    <url>/repost/zhihu/%E8%A2%81%E6%96%87%E9%AD%81%E9%AB%98%E6%95%88%E8%AE%B0%E5%BF%86%E6%9C%AF/16.html</url>
-    <content><![CDATA[<p>上一节课我们学习了加速记忆的时间管理策略，然而即使我们记忆的效率非常高，如果遇到「遗忘」这个死对头，我们又不采取策略来科学复习，最终记忆的东西也会「竹篮打水一场空」。</p>
-<p>什么叫「遗忘」？我们先不谈很多影视片里的「失忆」，单从学习的角度来说，就是对识记过的材料不能再认与回忆，或者错误的再认与回忆。比如问你：「什么是社会主义核心价值观？」「《西游记》的作者是谁？」你曾经都记过，但现在一个词都说不出来，就是完全遗忘，你能够说出部分词，是部分遗忘。</p>
-<p>遗忘有时候会非常尴尬，比如很多歌星在演唱会忘词，比如蔡依林、罗志祥、张杰等，陈奕迅还因为忘词向观众下跪，而且填词人林夕也在台下听着，真是尴尬不已。《奇葩说》等语言类节目，有好几位选手讲着讲着就忘词了，不得不重新拿起笔记本来寻找提前准备的论据，也是非常尴尬。学生们也深受遗忘的苦恼，昨晚刚背完的课文和单词，老师检查时就忘掉了一大半，考前熬夜挑灯复习，第二天考试时却大片大片的知识想不起来，真是头疼呀！</p>
-<p>遗忘是非常正常的现象，即使世界记忆冠军也无法避免，英国的冠军老本，就经常会忘掉别人的名字，也会在出门忘记带钥匙，那哪些因素会导致我们遗忘呢？</p>
-<p>一是时间因素，时间是一把杀猪刀，也是记忆的强盗，知识在识记之后进入大脑的短期记忆，在往长期记忆的过程中，如果没有及时通过复习或运用去巩固强化，就很容易被「遗忘大盗」给盗走，特别是在刚学习后的前几天，是「遗忘大盗」作案的高峰期。</p>
-<p>二是动力因素。一般最先遗忘的是我们觉得不重要、不感兴趣、不需要的、缺少感情投入的材料。积极的情绪会提高大脑的激活水平，从而有助于记忆的保持。我一般对于不想记的东西，要找到一些让自己记忆的理由，并且给自己设立奖励，就会产生一种记忆的热忱。</p>
-<p>三是专注因素。当你在记忆时「溜号」了，听东西左耳朵进右耳朵出，这时对于信息的关注较少，缺少观察、分析和理解，信息就如同过眼云烟，需要时想抓也抓不住，也容易与其它的信息混淆。</p>
-<p>四是干扰因素。我们对正在学习的东西的记忆，会被过去已经学习过或者未来要学习的东西干扰。比如你同时记忆了 20 多个以 Pre 开头的英语单词，这些单词之间互相就会干扰。中小学连续上同一门课不超过两节，也是避免同一学科知识的互相干扰。</p>
-<p>五是线索因素。人们之所以对一些事情想不起来，是因为在提取时没有找到适当的提取线索。比如阿里巴巴的哥哥，他在记忆「芝麻开门」时，可能只是记成是一种食物，所以他提取时会联想到豌豆、大豆，如果他在记忆时增加线索：黑色的、很小的、像蚂蚁的，他在提取时会更容易想到芝麻。</p>
-<p>好啦，知道了这些因素，其实就已经为我们避免一些不必要的遗忘，但是即使上面的都做到了，可能还是会遗忘，这时候，科学的复习策略是必不可少的。德国心理学家艾宾浩斯是发现记忆遗忘规律的第一人，他在《记忆力心理学》里揭秘了人类记忆与遗忘的奥秘，今天分享的很多复习策略也基于他的研究成果。</p>
-<p>提起艾宾浩斯，你一定熟悉他的「艾宾浩斯遗忘曲线」，他拿自己当「小白鼠」，找到一些没有形成联想的、完全同类的、不熟悉的、毫无意义的音节作为测试材料，比如 asww、cfhhj、rfyjbc 等，经过长时间的记忆和考核，总结出规律并且绘制了这条曲线。这条曲线告诉人们在学习中的遗忘是有规律的，在学习仅过了 20 分钟后，就忘记了记忆内容的 42% ，1 天后忘却量已经达到了 66% ，到了一个月后，忘却量高达 79% ，可见最初阶段遗忘的速度很快，后来就逐渐减慢了。当然，不同的信息遗忘速度是不一样的，诗歌比散文要慢，散文要比无意义的音节要慢，越是抽象和无意义的信息，越是忘得快。</p>
-<p>艾宾浩斯提出一种复习方法，叫做「351-351复习法」，也就是尽量在 3 小时内、5 小时内、10 小时内、3 天内、5 天内、10 天内分别复习一遍。当然，要严格按照「351-351 复习法」来进行记忆管理，估计我们都会疯掉，我会尽量遵循「先密后疏」的原则，如果是早自习背课文或单词，会在吃早餐排队时去回忆，没有想起来的及时强化，课间没事就翻翻书瞅几眼，当晚也会再默背一遍来巩固强化，后面几天早自习也会复习之前的内容。在书本上我会记录下每篇课文第一次、第二次、第三次背诵的日期，方便以后安排复习的时间。</p>
-<p>那如何复习效果更好呢？我分享四种常见的复习方法：</p>
-<p>第一个是自测复习法。艾宾浩斯认为它是对遗忘曲线的最典型应用，自测分为三个步骤，第一个是复习自测，就是对所学的知识随时进行巩固和测试，找到错误立马改正，一般自测的黄金时间段是早上 7 点到 9 点。第二个是定期自测，比如每天睡前，每周周日，内容较多时可以分组自测。第三个是实时自测，就是随时随地的测试，利用排队等闲暇时间，可以边想边说出来，或者用手指在空中比划写出内容。我在高中上早自习背完课文，在排除等早饭时就会自测，如果是单词就会比划着拼写，记不住的，吃完早饭就会马上复习，这样就可以尽快抢救遗忘的部分。</p>
-<p>另外还可以同学之间互测，在高三的课间，我和前后桌经常互测，谁出的问题能够考倒大家会加分，如果没答上来就会扣分，至于惩罚，比如在脸上贴条子，或者请吃晚饭，一般没答上来的题目再复习都会牢记。同学之间相互讨论甚至辩论所学的知识，也是一种不错的选择。</p>
-<p>第二个是多元化复习法。只是单调的重复，大脑也会觉得无聊，所以很多人都喜欢去背新东西，却讨厌复习来巩固胜利果实。怎样将复习变得更有趣呢，可以尝试多种感官通道。比如视觉上，可以用便利贴制作各种颜色的学习卡片，把英语单词写在卡片正面，意思写在背面，根据测试的情况给予一定的标记，比如 √ 代表完全掌握，≠ 代表着还需要巩固，× 代表着需要重新记忆，完全掌握的就收起来放在一个盒子里，后两类卡片就要投入更多精力来复习，直到最终都完全掌握为止。比如在听觉上，可以尝试给同学或朋友讲解所学的内容，如果没有听众，选择对着录音设备讲解一番，也可以强化记忆，录好的音频可以在空余时间听一听，都可以潜移默化地巩固记忆。还可以尝试在体育活动或游戏中来复习，比如一边跑步或跳绳一边背诗。</p>
-<p>第三个是循环复习法。当我们可以把大段的记忆材料进行分组，假设分为A、B、C、D、E 共 5 组，可以记完 A 组回忆 A 组；记完 B 组后回忆 A 组和 B 组；记完 C 组，回忆 B 组和 C 组；记完 D 组，回忆 C 组和 D 组；记完 E 组，回忆 D 组和 E 组；最后回忆 A 到 E 组一到两遍。这样循环复习，可以有效地避免遗忘。</p>
-<p>假设我们需要长期复习，比如备战考研或者托福考试，每天记忆新东西前要复习之前背过的，网上流传一个「超级 90 天循环背诵大表」，主要是针对背诵《新概念英语》制定的，我们也可以参考。比如第一天背诵当天的 100 个单词，第二天复习第一天的并记忆第二天的，第三天复习第二天的并记忆第三天的，第四天复习第一、三天并记忆第四天的，这也是基于艾宾浩斯遗忘曲线的一种复习策略。</p>
-<p>第四个是实践复习法。我非常喜欢陆游的一句诗：「纸上得来终觉浅，绝知此事要躬行。」反复默背十遍，不如动手操作一遍。法国资产阶级启蒙思想家卢梭，坚持把学习到的知识付诸实践，他学习音乐时，就从事乐谱的创作；学习数学时，就去丈量土地；学习药物学时，就去采药制药。</p>
-<p>学生在学习物理、化学、生物等知识时，如果能够通过做实验、亲近大自然、做手工、做家务等生活实践来巩固知识，就会印象特别深刻。而成年人学习一些技能，更是需要在实践中复习，比如你学习开车，你不需要看教材死记住开车的步骤，动手操作几遍之后便自然熟悉了，多上路开车就是在复习，最终形成了肌肉记忆。</p>
-<p>好啦，我来总结一下今天的重点，我讲了遗忘的五大因素：时间因素、动力因素、专注因素、干扰因素、线索因素，同时分享了艾宾浩斯遗忘曲线以及他的「 351-351 复习法」，还包括我常用的四种复习法：自测复习法、多元复习法、循环复习法和实践复习法。</p>
-<link rel="stylesheet" href="/css/spoiler.css" type="text/css"><script src="/js/spoiler.js" type="text/javascript" async></script>]]></content>
-  </entry>
-  <entry>
     <title>「社交」名字对不上人脸，这样告别脸盲</title>
     <url>/repost/zhihu/%E8%A2%81%E6%96%87%E9%AD%81%E9%AB%98%E6%95%88%E8%AE%B0%E5%BF%86%E6%9C%AF/18.html</url>
     <content><![CDATA[<p>上一讲我们学习到读书的记忆技巧，这一讲我们来看看记忆法在社交场合的运用。我遇到过不少朋友向我求助，一位创业公司老板说：「我每天要见大量的客户和投资人，但是下次见面就不记得了，错失了不少机会，我这‘脸盲症’有救吗？」一个基层员工说：「我好不容易碰到一个大领导，张总前张总后地献殷切，结果才想起来他是李总，好尴尬！」</p>
@@ -1240,6 +1240,42 @@ z & = & \frac{x}{y}
 <p>其实看图片来记忆，比现实中记忆要难，因为现实中能够帮助你联想记忆的因素更多，比如服饰、首饰、说话的声音、人物的性格等，这些都可能会给你记忆的线索。比如有人说话声音像林志玲，你就可以直接将她的名字与林志玲的形象联想，有人性格气质很像多愁善感的林黛玉，就可以将名字与林黛玉的形象联想。</p>
 <p>我们在社交场合，用这种方式记住名字后，要及时尝试回忆，并且在交谈中多次提到对方的名字，这样重复可以刺激记忆。另外，晚上回家后，如果有拍照，可以在照片上备注名字，如果有名片，可以将名片和照片放在一起，并且将交谈中获得的信息记录下来，比如对方的家乡、兴趣、职业等，这对于需要人脉的职业非常重要。</p>
 <p>好啦，我来总结一下今天的内容，首先我分享了如何克服脸盲症，就是要学会观察，一个是整体感知，另一个是局部特征，通过两种方式转化成具体形象之后，再与名字转化的形象进行联想，就可以将人名和面孔对上号啦，下次与新朋友见面，就尝试用起来吧！</p>
+<link rel="stylesheet" href="/css/spoiler.css" type="text/css"><script src="/js/spoiler.js" type="text/javascript" async></script>]]></content>
+  </entry>
+  <entry>
+    <title>「突破阻碍」突破 5 大记忆拦路虎</title>
+    <url>/repost/zhihu/%E8%A2%81%E6%96%87%E9%AD%81%E9%AB%98%E6%95%88%E8%AE%B0%E5%BF%86%E6%9C%AF/2.html</url>
+    <content><![CDATA[<p>今天是我们的第一堂课，在正式学习记忆方法之前，我们先要突破阻碍好记忆的拦路虎，它们分别是自我设限、意愿不够、压力过大、能量匮乏和缺少方法，拦路虎不除，记忆取经之路难行，我接下来会分别分享我的打虎经验。</p>
+<p>第一大拦路虎：自我设限。</p>
+<p>我们的固有观念会影响到我们对于记忆的态度。2009年王峰看到武汉大学记忆协会招生时，他很疑惑地问：「记忆力不是天生的吗，还可以后天训练出来？」直到他听完我的第一节课，将圆周率100位和三十六计倒背如流，他才相信记忆真的有方法。他在短短的一年多时间成为世界记忆总冠军，电视台去他老家采访时，他奶奶和高中老师都没有觉得他以前记忆力很好，他自己都说：「以前能够不记的就不记，因为很讨厌记忆！」王峰如果当初就固执地认为「记忆力是天生的」，在自我设限里走不出来，他也不可能成为最强大脑了。</p>
+<p>这样类似的自我设限，还包括「年龄大了，训练记忆力也没用」、「手机百度都非常快，训练记忆力还有啥用？」、「记忆法是骗人的玩意，根本没用」等，如果因为这些限制了自己，我们就会一直待在舒适区，不愿意尝试新的可能，我们大脑的潜能也就会被埋没。</p>
+<p>另一种自我设限来自过去的经历。我有个学生小时候在背书时，妈妈经常数落她：「你脑子怎么这么笨，背了这么多遍还没有背下来，你记忆真是太差啦！」她在背书时越来越紧张，越来越记不住，慢慢也确认自己就是「记忆差」，后来她一听说要记忆就恐惧。但是要学习考试，要职场升职，记忆又绕不过去，她非常痛苦，也不希望孩子经历她一样的痛苦，于是来参加我的面授课程学习。</p>
+<p>她不是个例，我接触到很多人把「记忆差」作为标签，要想改变这样的错误认知，你可以这样做：</p>
+<p>一是反复问自己：「我的记忆力差是事实吗？我有没有记忆力表现挺好的时候？我在哪些领域记忆的效果还不错？」可以尝试把你记忆力好的表现写出来，比如你可能是球迷，对于足球比赛的球星如数家珍，这就足以证明「我的记忆力差」是不成立的。</p>
+<p>二是学习记忆法之后，可以尝试写「记忆成功日志」，把你当天成功记住的事情都写下来，也包括自己在记忆方面的进步，不断关注你的成功表现，你就会越来越确认你的记忆力真的好棒！</p>
+<p>第二大拦路虎：意愿不够。</p>
+<p>我很喜欢一句话：「你永远无法叫醒一个装睡的人。」同样，「你也永远很难记住你不愿意记住的信息。」比如你去参加一个聚会，现场有20位陌生的朋友会做自我介绍，如果你没有兴趣和他们成为朋友或者合作者，那么你也不会刻意去记住他们的名字，可能很快你就把他们忘得一干二净。强烈的意愿是主动记忆的前提，它可以让我们更加专注，尝试各种策略来达成目标。</p>
+<p>我曾经很讨厌背英语单词，我甚至说：「我才不想背单词呢，以后就找一份不需要英语的工作。」但一年后我学了记忆法，居然把四六级单词书背了一遍，我是怎样让自己的意愿更强的呢？</p>
+<p>一是要换一种方法来找到乐趣。我当时学完记忆法后再背单词，我发现不再是单纯的死记硬背，而是变成了联想编故事的游戏，单词在我的脑子里都被「玩」坏了，让我都佩服自己的想象力和创造力了！关于英语单词记忆法，我会在后面的课程里揭秘。</p>
+<p>二是想象一个有美好前景的未来。因为我有周游世界的梦想，我每次在背单词之前，想象自己在世界各地，自如地用英语和外国人交流，这样就把背单词和美好未来建立了联系，增加了动力。</p>
+<p>三是设立自我激励。除了内在的成就感和愉悦感，也可以通过外部的奖罚机制，比如我当时是和同学打赌，如果一周没背完六级单词，就请她去吃一顿大餐，这个惩罚鞭策我挑战成功。后来我参加世界脑力锦标赛，每天要背几千个数字，我借鉴了游戏里积分和升级的方式，达到一定的级别就奖励自己看一部电影，没有完成就罚做俯卧撑，「胡萝卜加大棒」让我的训练变得更有乐趣。</p>
+<p>第三大拦路虎：压力过大</p>
+<p>超负荷的压力是大脑系统的病毒，失控的压力会导致记忆能力、注意力和认知能力等下降，压力指数过大的人，比受到正常压力的人的认知能力低50%左右。如果压力过于严重或持续时间太长，可能具有毁灭性。</p>
+<p>在高考前的两三个月，我每天都感觉很疲惫，全身倦怠无力，经常晚上做噩梦，担心自己高考落榜。好在我及时用各种方式调节压力，才让高考顺利地完成了。我分享几种我常用的方法：</p>
+<p>第一个是音乐减压。我经常听班德瑞的大自然音乐，我会闭上眼睛用心聆听，去感受音乐的律动，想象音乐里的画面。王峰在参加记忆比赛时，每项比赛开始前会塞上耳机，听一听《高山流水》等音乐，让自己全然地放松，以更好地应对接下来的比赛。</p>
+<p>第二个是身体放松。可以尝试躺下来，闭上眼睛，做几次深呼吸之后，从头至脚，依次绷紧身体的每个部位几秒钟，然后再放松开来。比如面部，可以在绷紧时将眼睛、嘴巴都往鼻子靠拢，然后慢慢舒展开来。可以晚上和中午睡觉前各做一次。</p>
+<p>第三个是兴趣减压。做自己喜欢的事情，会让我们从压力中暂时离开，如果有积极乐观的朋友陪伴更好。我会用跑步、爬山、打羽毛球、下象棋、摄影等方式来减压。减压的方式因人而异，我相信你会找到适合自己的方式，让自己可以轻装上阵。</p>
+<p>第四大拦路虎：能量匮乏。</p>
+<p>一切的生命活动都需要能量，而大脑又是耗费能量最多的地方，高强度高难度的记忆活动更是如此。你一定有这样的体验，当你忙碌了一天感觉很疲惫，哈欠连天，情绪低落，给你一个支点你就可以葛优躺时，此时让你去背100个英语单词，你肯定要崩溃掉，怎么记都难以塞进自己的脑袋里面。</p>
+<p>我们身体的能量就像是电池，从早到晚是逐步耗尽的，有些「能量黑洞」会特别耗能量，比如身体上的疾病，会影响记忆力的疾病有高血压、糖尿病、阿尔兹海默病、脑外伤等，从心理层面来说，过分焦虑、紧张、抑郁、伤感、抱怨等情绪也降低记忆力。另外，经常熬夜、过度劳累、抽烟酗酒、服用毒品、遇到棘手的困难和挑战、做一些违背内心的事情，都会让我们快速耗尽能量。</p>
+<p>那我们怎样来建立「能量加油站」，管理好我们的能量呢？</p>
+<p>一是饮食管理，减少垃圾食品摄入，比如油条、烧烤、爆米花、辣条、咸菜、臭豆腐、皮蛋、熏肉等。多吃一些健脑益智的食物，比如豆类、鸡蛋、坚果、蔬菜、玉米、芝麻等。另外，重要的考试或记忆活动前不宜过饱，尽量清淡为主，避免消化时耗费大脑需要的氧气。</p>
+<p>二是情绪管理，当我情绪低落时，我会转移注意力，去做一些其它事情，比如看喜剧电影，打打篮球，跟着音乐跳跳舞，甚至很简单地将双手举到头顶，刻意仰头向天大笑几声，都很有效果。</p>
+<p>三是运动管理，我在高三备考时，刚开始忽略了运动，在高考前两个月，我开始每天晨跑20分钟，在课间加入蹲起、伸展等肢体运动，大脑的能量更足了。我推荐四种常见的健脑运动：跳绳、游泳、羽毛球和慢跑，坚持运动会重塑我们的大脑。</p>
+<p>第五大拦路虎：缺少方法。</p>
+<p>有一句话说得很好：「方法不对，努力白费。」用死记硬背或者理解来记忆，也都是很好的方式，但不能高效解决所有记忆问题。遇到没法理解的、抽象的、没有规律的、大量的信息时，比如生僻的古文，超长的单词，陌生的专业书籍，我们就会无所适从，缴械投降。这时就需要记忆法派上用场了，最强大脑能够挑战复杂的项目，都得益于记忆法，这些我会在课程里详细讲解，我们一起共同期待吧！</p>
+<p>好了，我来总结了一下，今天我分享了记忆路上的五大拦路虎，分别是自我设限、意愿不够、压力过大、能量匮乏、缺少方法，我可以联想唐僧师徒来记忆，孙悟空戴上了紧箍咒，「自我设限」，猪八戒老想着散伙，「意愿不够」，沙和尚挑着所有担子，「压力过大」，白龙马长途跋涉肚子饿了，就是「能量匮乏」，唐僧遇到妖魔鬼怪就没招，「缺少方法」，你记住了吗？这节课我分享了我的一些打虎经验，有些方法请尝试一下哦，它将帮助你打造更加强大的大脑系统。</p>
+<p>今天的课程就到这里啦，欢迎你把课程分享给你的朋友们，和他们一起拥有记忆魔法，成为最强大脑！为大脑赋能，让记忆升级，我是记忆魔法师袁文魁，我们下一讲再见！</p>
 <link rel="stylesheet" href="/css/spoiler.css" type="text/css"><script src="/js/spoiler.js" type="text/javascript" async></script>]]></content>
   </entry>
   <entry>
@@ -1294,42 +1330,6 @@ z & = & \frac{x}{y}
 <p>05 手套，改善不良习惯。想象小朋友有一个不良习惯，就是饭前不喜欢洗手，于是妈妈就给他戴上手套来吃手抓饭。</p>
 <p>好啦，我就举这五个为例，你可以尝试回忆一下。以后遇到类似的产品知识，或者演讲里要记忆的大纲，都可以用记忆法来尝试搞定。</p>
 <p>我来总结一下今天的内容，我从企业文化、领导职务、产品资料三个方面，分享了一些记忆的案例，记忆法在职场里的运用，还有很广阔的探索空间，愿大家多去尝试运用，并多多分享自己的心得，也欢迎大家与我交流。这是我们最后一节课，但对你而言，这只是一个开始，真正去用出来，记忆法才能变成你的能力，加油吧！</p>
-<link rel="stylesheet" href="/css/spoiler.css" type="text/css"><script src="/js/spoiler.js" type="text/javascript" async></script>]]></content>
-  </entry>
-  <entry>
-    <title>「突破阻碍」突破 5 大记忆拦路虎</title>
-    <url>/repost/zhihu/%E8%A2%81%E6%96%87%E9%AD%81%E9%AB%98%E6%95%88%E8%AE%B0%E5%BF%86%E6%9C%AF/2.html</url>
-    <content><![CDATA[<p>今天是我们的第一堂课，在正式学习记忆方法之前，我们先要突破阻碍好记忆的拦路虎，它们分别是自我设限、意愿不够、压力过大、能量匮乏和缺少方法，拦路虎不除，记忆取经之路难行，我接下来会分别分享我的打虎经验。</p>
-<p>第一大拦路虎：自我设限。</p>
-<p>我们的固有观念会影响到我们对于记忆的态度。2009年王峰看到武汉大学记忆协会招生时，他很疑惑地问：「记忆力不是天生的吗，还可以后天训练出来？」直到他听完我的第一节课，将圆周率100位和三十六计倒背如流，他才相信记忆真的有方法。他在短短的一年多时间成为世界记忆总冠军，电视台去他老家采访时，他奶奶和高中老师都没有觉得他以前记忆力很好，他自己都说：「以前能够不记的就不记，因为很讨厌记忆！」王峰如果当初就固执地认为「记忆力是天生的」，在自我设限里走不出来，他也不可能成为最强大脑了。</p>
-<p>这样类似的自我设限，还包括「年龄大了，训练记忆力也没用」、「手机百度都非常快，训练记忆力还有啥用？」、「记忆法是骗人的玩意，根本没用」等，如果因为这些限制了自己，我们就会一直待在舒适区，不愿意尝试新的可能，我们大脑的潜能也就会被埋没。</p>
-<p>另一种自我设限来自过去的经历。我有个学生小时候在背书时，妈妈经常数落她：「你脑子怎么这么笨，背了这么多遍还没有背下来，你记忆真是太差啦！」她在背书时越来越紧张，越来越记不住，慢慢也确认自己就是「记忆差」，后来她一听说要记忆就恐惧。但是要学习考试，要职场升职，记忆又绕不过去，她非常痛苦，也不希望孩子经历她一样的痛苦，于是来参加我的面授课程学习。</p>
-<p>她不是个例，我接触到很多人把「记忆差」作为标签，要想改变这样的错误认知，你可以这样做：</p>
-<p>一是反复问自己：「我的记忆力差是事实吗？我有没有记忆力表现挺好的时候？我在哪些领域记忆的效果还不错？」可以尝试把你记忆力好的表现写出来，比如你可能是球迷，对于足球比赛的球星如数家珍，这就足以证明「我的记忆力差」是不成立的。</p>
-<p>二是学习记忆法之后，可以尝试写「记忆成功日志」，把你当天成功记住的事情都写下来，也包括自己在记忆方面的进步，不断关注你的成功表现，你就会越来越确认你的记忆力真的好棒！</p>
-<p>第二大拦路虎：意愿不够。</p>
-<p>我很喜欢一句话：「你永远无法叫醒一个装睡的人。」同样，「你也永远很难记住你不愿意记住的信息。」比如你去参加一个聚会，现场有20位陌生的朋友会做自我介绍，如果你没有兴趣和他们成为朋友或者合作者，那么你也不会刻意去记住他们的名字，可能很快你就把他们忘得一干二净。强烈的意愿是主动记忆的前提，它可以让我们更加专注，尝试各种策略来达成目标。</p>
-<p>我曾经很讨厌背英语单词，我甚至说：「我才不想背单词呢，以后就找一份不需要英语的工作。」但一年后我学了记忆法，居然把四六级单词书背了一遍，我是怎样让自己的意愿更强的呢？</p>
-<p>一是要换一种方法来找到乐趣。我当时学完记忆法后再背单词，我发现不再是单纯的死记硬背，而是变成了联想编故事的游戏，单词在我的脑子里都被「玩」坏了，让我都佩服自己的想象力和创造力了！关于英语单词记忆法，我会在后面的课程里揭秘。</p>
-<p>二是想象一个有美好前景的未来。因为我有周游世界的梦想，我每次在背单词之前，想象自己在世界各地，自如地用英语和外国人交流，这样就把背单词和美好未来建立了联系，增加了动力。</p>
-<p>三是设立自我激励。除了内在的成就感和愉悦感，也可以通过外部的奖罚机制，比如我当时是和同学打赌，如果一周没背完六级单词，就请她去吃一顿大餐，这个惩罚鞭策我挑战成功。后来我参加世界脑力锦标赛，每天要背几千个数字，我借鉴了游戏里积分和升级的方式，达到一定的级别就奖励自己看一部电影，没有完成就罚做俯卧撑，「胡萝卜加大棒」让我的训练变得更有乐趣。</p>
-<p>第三大拦路虎：压力过大</p>
-<p>超负荷的压力是大脑系统的病毒，失控的压力会导致记忆能力、注意力和认知能力等下降，压力指数过大的人，比受到正常压力的人的认知能力低50%左右。如果压力过于严重或持续时间太长，可能具有毁灭性。</p>
-<p>在高考前的两三个月，我每天都感觉很疲惫，全身倦怠无力，经常晚上做噩梦，担心自己高考落榜。好在我及时用各种方式调节压力，才让高考顺利地完成了。我分享几种我常用的方法：</p>
-<p>第一个是音乐减压。我经常听班德瑞的大自然音乐，我会闭上眼睛用心聆听，去感受音乐的律动，想象音乐里的画面。王峰在参加记忆比赛时，每项比赛开始前会塞上耳机，听一听《高山流水》等音乐，让自己全然地放松，以更好地应对接下来的比赛。</p>
-<p>第二个是身体放松。可以尝试躺下来，闭上眼睛，做几次深呼吸之后，从头至脚，依次绷紧身体的每个部位几秒钟，然后再放松开来。比如面部，可以在绷紧时将眼睛、嘴巴都往鼻子靠拢，然后慢慢舒展开来。可以晚上和中午睡觉前各做一次。</p>
-<p>第三个是兴趣减压。做自己喜欢的事情，会让我们从压力中暂时离开，如果有积极乐观的朋友陪伴更好。我会用跑步、爬山、打羽毛球、下象棋、摄影等方式来减压。减压的方式因人而异，我相信你会找到适合自己的方式，让自己可以轻装上阵。</p>
-<p>第四大拦路虎：能量匮乏。</p>
-<p>一切的生命活动都需要能量，而大脑又是耗费能量最多的地方，高强度高难度的记忆活动更是如此。你一定有这样的体验，当你忙碌了一天感觉很疲惫，哈欠连天，情绪低落，给你一个支点你就可以葛优躺时，此时让你去背100个英语单词，你肯定要崩溃掉，怎么记都难以塞进自己的脑袋里面。</p>
-<p>我们身体的能量就像是电池，从早到晚是逐步耗尽的，有些「能量黑洞」会特别耗能量，比如身体上的疾病，会影响记忆力的疾病有高血压、糖尿病、阿尔兹海默病、脑外伤等，从心理层面来说，过分焦虑、紧张、抑郁、伤感、抱怨等情绪也降低记忆力。另外，经常熬夜、过度劳累、抽烟酗酒、服用毒品、遇到棘手的困难和挑战、做一些违背内心的事情，都会让我们快速耗尽能量。</p>
-<p>那我们怎样来建立「能量加油站」，管理好我们的能量呢？</p>
-<p>一是饮食管理，减少垃圾食品摄入，比如油条、烧烤、爆米花、辣条、咸菜、臭豆腐、皮蛋、熏肉等。多吃一些健脑益智的食物，比如豆类、鸡蛋、坚果、蔬菜、玉米、芝麻等。另外，重要的考试或记忆活动前不宜过饱，尽量清淡为主，避免消化时耗费大脑需要的氧气。</p>
-<p>二是情绪管理，当我情绪低落时，我会转移注意力，去做一些其它事情，比如看喜剧电影，打打篮球，跟着音乐跳跳舞，甚至很简单地将双手举到头顶，刻意仰头向天大笑几声，都很有效果。</p>
-<p>三是运动管理，我在高三备考时，刚开始忽略了运动，在高考前两个月，我开始每天晨跑20分钟，在课间加入蹲起、伸展等肢体运动，大脑的能量更足了。我推荐四种常见的健脑运动：跳绳、游泳、羽毛球和慢跑，坚持运动会重塑我们的大脑。</p>
-<p>第五大拦路虎：缺少方法。</p>
-<p>有一句话说得很好：「方法不对，努力白费。」用死记硬背或者理解来记忆，也都是很好的方式，但不能高效解决所有记忆问题。遇到没法理解的、抽象的、没有规律的、大量的信息时，比如生僻的古文，超长的单词，陌生的专业书籍，我们就会无所适从，缴械投降。这时就需要记忆法派上用场了，最强大脑能够挑战复杂的项目，都得益于记忆法，这些我会在课程里详细讲解，我们一起共同期待吧！</p>
-<p>好了，我来总结了一下，今天我分享了记忆路上的五大拦路虎，分别是自我设限、意愿不够、压力过大、能量匮乏、缺少方法，我可以联想唐僧师徒来记忆，孙悟空戴上了紧箍咒，「自我设限」，猪八戒老想着散伙，「意愿不够」，沙和尚挑着所有担子，「压力过大」，白龙马长途跋涉肚子饿了，就是「能量匮乏」，唐僧遇到妖魔鬼怪就没招，「缺少方法」，你记住了吗？这节课我分享了我的一些打虎经验，有些方法请尝试一下哦，它将帮助你打造更加强大的大脑系统。</p>
-<p>今天的课程就到这里啦，欢迎你把课程分享给你的朋友们，和他们一起拥有记忆魔法，成为最强大脑！为大脑赋能，让记忆升级，我是记忆魔法师袁文魁，我们下一讲再见！</p>
 <link rel="stylesheet" href="/css/spoiler.css" type="text/css"><script src="/js/spoiler.js" type="text/javascript" async></script>]]></content>
   </entry>
   <entry>
@@ -1459,6 +1459,52 @@ z & = & \frac{x}{y}
 <link rel="stylesheet" href="/css/spoiler.css" type="text/css"><script src="/js/spoiler.js" type="text/javascript" async></script>]]></content>
   </entry>
   <entry>
+    <title>「身体定桩」用身体部位记系列信息</title>
+    <url>/repost/zhihu/%E8%A2%81%E6%96%87%E9%AD%81%E9%AB%98%E6%95%88%E8%AE%B0%E5%BF%86%E6%9C%AF/7.html</url>
+    <content><![CDATA[<p>上一讲我分享了数字定桩法，运用形象的数字编码作为桩子，挑战记忆了《三十六计》、结婚周年的命名等信息，今天我们将一起学习身体定桩法。只要是熟悉的、有顺序的、有特征的一系列形象都可以作为桩子，我们人类的身体部位，当然符合这些特征，将要记忆的信息分别与身体部位来联想，便是「身体定桩法」。</p>
+<p>它随身携带，简单有效，可以用来记忆 12 点以内的信息，特别是需要按照顺序记忆的，比如十二星座、十二生肖、十大元帅、八项规定等，对于一些选项较多的多选题以及问答题，也是非常好用的。</p>
+<p>现在，请跟我一起来挑战，我只说一遍，请你在身体上从上到下找到 12 个部位，当我说到某个部位，你就把注意力放在这个部位上，或者用右手摸一下它，感觉是要全身扫描身体一样。</p>
+<p>这 12 个身体的部位依次是：</p>
+<p>1、头发 2、眼睛 3、鼻子 4、嘴巴 5、脖子 6、胸部</p>
+<p>7、腹部 8、屁股 9、膝盖 10、小腿 11、脚面 12、脚底</p>
+<p>好，身体扫描完毕，现在请自己尝试回忆一遍。如果你刚才用心在听，你一定可以全部想起来，甚至可以倒背如流。接下来，这些身体部位就相当于是一个个储物柜，我们要把需要记忆的信息，依次存放在每一个柜子里，用「联想」作为锁将它们锁起来保存。</p>
+<p>我们先用这些部位来挑战记住 24 个字，这 24 个字在大街小巷都可以看到，几年前我在一家餐厅吃饭，听到收银员聊天说：「今天巡视组又来检察了，我又没有背出来，被抓去学习了半天！」我妹妹是小学体育老师，她有一段时间每天进校门都必须要背诵过关，到底是哪 24 个字这么重要呢？它就是 24 字社会主义核心价值观。</p>
+<p>这 24 个字由 12 个词汇组成，分别是：富强、民主、文明、和谐，自由、平等、公正、法治，爱国、敬业、诚信、友善。核心价值观是2013年底提出来的， 12 个词语记忆的难点，在于相对比较抽象，且已经超过死记硬背的极限，同时要按顺序来背，这样比较容易遗忘。</p>
+<p>我们就依次来和身体的部位做一个联想吧：</p>
+<p>头发对应着富强，由富强我联想到富有的光头强，光头强富有了，就买了一个金子做的安全帽，戴在了我的头发上面。</p>
+<p>眼睛对应着民主，民主谐音想到了明珠，想象眼睛闪闪发亮，冒出金光，就像一颗明珠。</p>
+<p>鼻子对应着文明，由文明的「文」谐音想到鼻子闻的闻，可以想象是在闻茗茶的香味。</p>
+<p>嘴巴对应着和谐，和谐谐音想到「河蟹」，想象嘴巴里叼着一只大河蟹，正在吸河蟹的蟹黄。</p>
+<p>脖子对应着自由，自由想到了自由女神，自由女神手拿着火炬伸向你的脖子，把你的脖子烫伤了。</p>
+<p>胸部对应着平等，联想到男性的胸部是平的，而且两边是对称的，没有高与低之分，非常平等。</p>
+<p>好啦，我们先来复习前面 6 个，头发对应着什么？富强！眼睛对应着什么？民主！鼻子对应着什么？文明！嘴巴对应着什么？和谐！脖子对应着什么？自由！胸部呢？平等！OK，我们继续挑战！</p>
+<p>腹部对应着公正，我由「宰相肚里能撑船」，想象在腹部里面有一个包公正立着，铁面无私地拍下惊堂木，正在公正执法。</p>
+<p>屁股对应着法治，由法治很容易想到法官，你离开座位破坏了法庭的严肃性，法官拿着锤子锤到了你的屁股上，这样治你，好痛呀！</p>
+<p>膝盖对应着爱国，爱国想到了国旗，天安门广场上面升国旗，你膝盖落地就跪在地上，向国旗叩拜，表现你特别爱国。</p>
+<p>小腿对应着敬业，想象自己是站岗的保安，小腿上贴着一张「敬业福」，站到小腿抽筋了还一动不动，非常敬业！</p>
+<p>脚面对应着诚信，想象脚面上面溅了泥巴，李嘉诚拿着一封信帮你擦干净了，你承诺要还他一沓信，你说到做到，非常诚信！</p>
+<p>脚底对应着友善，「友善」可以谐音为「有鳝」，鳝鱼的鳝，想象你的脚底下踩到一只鳝鱼，滑倒在地，善良的朋友把你扶起来！</p>
+<p>好，我已经讲完啦！一起来复习后面 6 个，腹部对应的是？公正！屁股对应的是？法治！膝盖对应的是？爱国！小腿对应的是敬业！脚面对应的是？诚信，脚底对应的是？友善！</p>
+<p>现在，请你暂停一下，在脑海中再复习两遍，然后尝试一下脱口而出吧！以后参加知识竞赛、政治考试或者党校学习，你都可以把这24字的社会主义核心价值观答对啦，平时聊天要是不经意间聊起来，你能够脱口而出，也是很有面子的，你再分享一下怎么用身体定桩法记住，他们就会给你大大的点赞，不信你试试看！</p>
+<p>我十年前有一段故事，我当时刚刚参加完记忆培训班，经常跑到宿舍楼顶上去练习，休息时就安静地眺望远方。有一天，我耳边传来大声背书的声音，「人际关系的核心是人，人际关系的核心是人，人际关系的核心是人……」他像复读机一样读着，过了十分钟他还是反复念叨着「人际关系」，我就听不下去了，禁不住走了过去，我问：「同学，你每道题都要读这么多遍吗？都快 20 分钟了！」他回答说：「是呀，我是学理科的，这文科的知识不好背呀，每道题都要读 20 分钟！」我继续问：「那你背完明天还记得吗？」他说：「不记得！」</p>
+<p>我当时就请他把复习资料给我看看，是《大学生思想道德修养与法律基础》，那道题目只有 6 个知识点，我现场教他在身体上找了 6 个部位， 2 分钟就让他记住了，他禁不住惊叹记忆法的神奇！</p>
+<p>这道题目我简单分享一下，讲的是「人际关系的特点」，一共有六点，分别是：</p>
+<p>1.人际关系的核心是人。</p>
+<p>2.人际关系是一个多层次的复杂结构。</p>
+<p>3.人际关系是客观的，是由社会交往形成的。</p>
+<p>4.人际关系是一个纵横交错的网状结构。</p>
+<p>5.人际关系的本质体现在与人的思想品格相联系。</p>
+<p>6.人际关系在人际交往中还要不断发展与变化。</p>
+<p>面对这样相对较长的简答题，我们要学会找到每一点的关键词，比如第一点是「核心」，可以想到核桃雕刻的爱心，与头发联想，可以想到爱心别在头发上做发饰。</p>
+<p>第二点「人际关系是一个多层次的复杂结构」，关键词是「结构」，与眼睛联想，可以想象眼前有一个眼睛的结构解剖图。</p>
+<p>第三点「人际关系是客观的，是由社会交往形成的」，关键词有「客观」「社会交往」，客观想到古代客栈的「客官」，想象用鼻子去闻异性客官身上的味道，如果好闻才会握手和他交往。</p>
+<p>好啦，这道题就示范这么多，以后面对简答题，要使用定桩法，就可以用这种方式，先理解的基础上提炼关键词，再把关键词转化成具体形象，依次与身体的部位进行联想，最后根据记住的形象，多次复习巩固之后，尝试还原出原文的内容。</p>
+<p>这就是「身体定桩法」，简单却好用，你可能会觉得身体部位太少，我刚才举的是每个人的标准配置，特殊人物还可以用他的挂饰、服饰和武器等作为桩子，比如《西游记》里的唐僧，他头上的帽子，身上的袈裟，手握的禅杖、化缘的钵、坐骑等都可以延伸作为桩子。有些题目我们可以根据内容想到相关的人物，比如「甲午战争」，由「甲」想到铠甲勇士，就可以用铠甲勇士的身体部位来定桩。</p>
+<p>另外，我们也还可以用不同的动物来定桩，比如国民喜爱的小龙虾，分为触须、螯足、行足、甲壳、腹部、尾节等部分，记住一些小知识点足够啦，比如记住稻盛合夫的《六项精进》，「要谦虚，不要骄傲」很容易与「触须」联想，「积善行，思利他」与「行足」比较好联想，依次进行联想之后便能够牢牢记住啦！</p>
+<p>好啦，我来总结一下身体定桩法，要点是按顺序在身体上找到一些不同的有突出特征的部位，然后把要记忆的信息依次和部位联想，如果信息比较复杂，可以理解之后提炼关键词再转化成形象。今天我们一起挑战了 24 字社会主义核心价值观，以及分享了在记忆简答题上的运用，请你将其运用在你的学业或工作上吧！下一讲，我们会分享神奇的记忆宫殿，也就是地点定桩法。</p>
+<link rel="stylesheet" href="/css/spoiler.css" type="text/css"><script src="/js/spoiler.js" type="text/javascript" async></script>]]></content>
+  </entry>
+  <entry>
     <title>「数字定桩」海量信息轻松任意点背</title>
     <url>/repost/zhihu/%E8%A2%81%E6%96%87%E9%AD%81%E9%AB%98%E6%95%88%E8%AE%B0%E5%BF%86%E6%9C%AF/6.html</url>
     <content><![CDATA[<p>上一讲我分享了配对联想法，对于成对出现的信息，可以通过联想来更牢固地记住，联想的关键法则有形象、独特、动态和多感官。我还带领大家记住了国家的首都和名著的作者，今天我们将学习到数字定桩法，它是配对联想法的一个升级版本。</p>
@@ -1524,52 +1570,6 @@ z & = & \frac{x}{y}
 <p>第 34 的编码是三丝，也就是三条丝巾，计谋是苦肉计，想象一下用三条丝巾绑住自己，让自己很痛苦，就是苦肉计。</p>
 <p>第 35 的编码是山虎，山上来的老虎，计谋是连环计，想象马戏团的老虎正跳火环，一个个环连着跳，就是连环计。</p>
 <p>最后一计，大家都已经知道了，「走为上计」。</p>
-<link rel="stylesheet" href="/css/spoiler.css" type="text/css"><script src="/js/spoiler.js" type="text/javascript" async></script>]]></content>
-  </entry>
-  <entry>
-    <title>「身体定桩」用身体部位记系列信息</title>
-    <url>/repost/zhihu/%E8%A2%81%E6%96%87%E9%AD%81%E9%AB%98%E6%95%88%E8%AE%B0%E5%BF%86%E6%9C%AF/7.html</url>
-    <content><![CDATA[<p>上一讲我分享了数字定桩法，运用形象的数字编码作为桩子，挑战记忆了《三十六计》、结婚周年的命名等信息，今天我们将一起学习身体定桩法。只要是熟悉的、有顺序的、有特征的一系列形象都可以作为桩子，我们人类的身体部位，当然符合这些特征，将要记忆的信息分别与身体部位来联想，便是「身体定桩法」。</p>
-<p>它随身携带，简单有效，可以用来记忆 12 点以内的信息，特别是需要按照顺序记忆的，比如十二星座、十二生肖、十大元帅、八项规定等，对于一些选项较多的多选题以及问答题，也是非常好用的。</p>
-<p>现在，请跟我一起来挑战，我只说一遍，请你在身体上从上到下找到 12 个部位，当我说到某个部位，你就把注意力放在这个部位上，或者用右手摸一下它，感觉是要全身扫描身体一样。</p>
-<p>这 12 个身体的部位依次是：</p>
-<p>1、头发 2、眼睛 3、鼻子 4、嘴巴 5、脖子 6、胸部</p>
-<p>7、腹部 8、屁股 9、膝盖 10、小腿 11、脚面 12、脚底</p>
-<p>好，身体扫描完毕，现在请自己尝试回忆一遍。如果你刚才用心在听，你一定可以全部想起来，甚至可以倒背如流。接下来，这些身体部位就相当于是一个个储物柜，我们要把需要记忆的信息，依次存放在每一个柜子里，用「联想」作为锁将它们锁起来保存。</p>
-<p>我们先用这些部位来挑战记住 24 个字，这 24 个字在大街小巷都可以看到，几年前我在一家餐厅吃饭，听到收银员聊天说：「今天巡视组又来检察了，我又没有背出来，被抓去学习了半天！」我妹妹是小学体育老师，她有一段时间每天进校门都必须要背诵过关，到底是哪 24 个字这么重要呢？它就是 24 字社会主义核心价值观。</p>
-<p>这 24 个字由 12 个词汇组成，分别是：富强、民主、文明、和谐，自由、平等、公正、法治，爱国、敬业、诚信、友善。核心价值观是2013年底提出来的， 12 个词语记忆的难点，在于相对比较抽象，且已经超过死记硬背的极限，同时要按顺序来背，这样比较容易遗忘。</p>
-<p>我们就依次来和身体的部位做一个联想吧：</p>
-<p>头发对应着富强，由富强我联想到富有的光头强，光头强富有了，就买了一个金子做的安全帽，戴在了我的头发上面。</p>
-<p>眼睛对应着民主，民主谐音想到了明珠，想象眼睛闪闪发亮，冒出金光，就像一颗明珠。</p>
-<p>鼻子对应着文明，由文明的「文」谐音想到鼻子闻的闻，可以想象是在闻茗茶的香味。</p>
-<p>嘴巴对应着和谐，和谐谐音想到「河蟹」，想象嘴巴里叼着一只大河蟹，正在吸河蟹的蟹黄。</p>
-<p>脖子对应着自由，自由想到了自由女神，自由女神手拿着火炬伸向你的脖子，把你的脖子烫伤了。</p>
-<p>胸部对应着平等，联想到男性的胸部是平的，而且两边是对称的，没有高与低之分，非常平等。</p>
-<p>好啦，我们先来复习前面 6 个，头发对应着什么？富强！眼睛对应着什么？民主！鼻子对应着什么？文明！嘴巴对应着什么？和谐！脖子对应着什么？自由！胸部呢？平等！OK，我们继续挑战！</p>
-<p>腹部对应着公正，我由「宰相肚里能撑船」，想象在腹部里面有一个包公正立着，铁面无私地拍下惊堂木，正在公正执法。</p>
-<p>屁股对应着法治，由法治很容易想到法官，你离开座位破坏了法庭的严肃性，法官拿着锤子锤到了你的屁股上，这样治你，好痛呀！</p>
-<p>膝盖对应着爱国，爱国想到了国旗，天安门广场上面升国旗，你膝盖落地就跪在地上，向国旗叩拜，表现你特别爱国。</p>
-<p>小腿对应着敬业，想象自己是站岗的保安，小腿上贴着一张「敬业福」，站到小腿抽筋了还一动不动，非常敬业！</p>
-<p>脚面对应着诚信，想象脚面上面溅了泥巴，李嘉诚拿着一封信帮你擦干净了，你承诺要还他一沓信，你说到做到，非常诚信！</p>
-<p>脚底对应着友善，「友善」可以谐音为「有鳝」，鳝鱼的鳝，想象你的脚底下踩到一只鳝鱼，滑倒在地，善良的朋友把你扶起来！</p>
-<p>好，我已经讲完啦！一起来复习后面 6 个，腹部对应的是？公正！屁股对应的是？法治！膝盖对应的是？爱国！小腿对应的是敬业！脚面对应的是？诚信，脚底对应的是？友善！</p>
-<p>现在，请你暂停一下，在脑海中再复习两遍，然后尝试一下脱口而出吧！以后参加知识竞赛、政治考试或者党校学习，你都可以把这24字的社会主义核心价值观答对啦，平时聊天要是不经意间聊起来，你能够脱口而出，也是很有面子的，你再分享一下怎么用身体定桩法记住，他们就会给你大大的点赞，不信你试试看！</p>
-<p>我十年前有一段故事，我当时刚刚参加完记忆培训班，经常跑到宿舍楼顶上去练习，休息时就安静地眺望远方。有一天，我耳边传来大声背书的声音，「人际关系的核心是人，人际关系的核心是人，人际关系的核心是人……」他像复读机一样读着，过了十分钟他还是反复念叨着「人际关系」，我就听不下去了，禁不住走了过去，我问：「同学，你每道题都要读这么多遍吗？都快 20 分钟了！」他回答说：「是呀，我是学理科的，这文科的知识不好背呀，每道题都要读 20 分钟！」我继续问：「那你背完明天还记得吗？」他说：「不记得！」</p>
-<p>我当时就请他把复习资料给我看看，是《大学生思想道德修养与法律基础》，那道题目只有 6 个知识点，我现场教他在身体上找了 6 个部位， 2 分钟就让他记住了，他禁不住惊叹记忆法的神奇！</p>
-<p>这道题目我简单分享一下，讲的是「人际关系的特点」，一共有六点，分别是：</p>
-<p>1.人际关系的核心是人。</p>
-<p>2.人际关系是一个多层次的复杂结构。</p>
-<p>3.人际关系是客观的，是由社会交往形成的。</p>
-<p>4.人际关系是一个纵横交错的网状结构。</p>
-<p>5.人际关系的本质体现在与人的思想品格相联系。</p>
-<p>6.人际关系在人际交往中还要不断发展与变化。</p>
-<p>面对这样相对较长的简答题，我们要学会找到每一点的关键词，比如第一点是「核心」，可以想到核桃雕刻的爱心，与头发联想，可以想到爱心别在头发上做发饰。</p>
-<p>第二点「人际关系是一个多层次的复杂结构」，关键词是「结构」，与眼睛联想，可以想象眼前有一个眼睛的结构解剖图。</p>
-<p>第三点「人际关系是客观的，是由社会交往形成的」，关键词有「客观」「社会交往」，客观想到古代客栈的「客官」，想象用鼻子去闻异性客官身上的味道，如果好闻才会握手和他交往。</p>
-<p>好啦，这道题就示范这么多，以后面对简答题，要使用定桩法，就可以用这种方式，先理解的基础上提炼关键词，再把关键词转化成具体形象，依次与身体的部位进行联想，最后根据记住的形象，多次复习巩固之后，尝试还原出原文的内容。</p>
-<p>这就是「身体定桩法」，简单却好用，你可能会觉得身体部位太少，我刚才举的是每个人的标准配置，特殊人物还可以用他的挂饰、服饰和武器等作为桩子，比如《西游记》里的唐僧，他头上的帽子，身上的袈裟，手握的禅杖、化缘的钵、坐骑等都可以延伸作为桩子。有些题目我们可以根据内容想到相关的人物，比如「甲午战争」，由「甲」想到铠甲勇士，就可以用铠甲勇士的身体部位来定桩。</p>
-<p>另外，我们也还可以用不同的动物来定桩，比如国民喜爱的小龙虾，分为触须、螯足、行足、甲壳、腹部、尾节等部分，记住一些小知识点足够啦，比如记住稻盛合夫的《六项精进》，「要谦虚，不要骄傲」很容易与「触须」联想，「积善行，思利他」与「行足」比较好联想，依次进行联想之后便能够牢牢记住啦！</p>
-<p>好啦，我来总结一下身体定桩法，要点是按顺序在身体上找到一些不同的有突出特征的部位，然后把要记忆的信息依次和部位联想，如果信息比较复杂，可以理解之后提炼关键词再转化成形象。今天我们一起挑战了 24 字社会主义核心价值观，以及分享了在记忆简答题上的运用，请你将其运用在你的学业或工作上吧！下一讲，我们会分享神奇的记忆宫殿，也就是地点定桩法。</p>
 <link rel="stylesheet" href="/css/spoiler.css" type="text/css"><script src="/js/spoiler.js" type="text/javascript" async></script>]]></content>
   </entry>
   <entry>
