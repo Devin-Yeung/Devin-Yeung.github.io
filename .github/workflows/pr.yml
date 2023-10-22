@@ -1,0 +1,17 @@
+on:
+  pull_request:
+  schedule:
+    - cron: "0 16 * * *" # 0:00 Asia/Shanghai
+
+name: Check Zola Build
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          submodules: true
+      - name: Zola Build
+        uses: shalzz/zola-deploy-action@v0.17.2
+        env:
+          BUILD_ONLY: true
