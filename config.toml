@@ -1,4 +1,4 @@
-base_url           = "https://example.com" # Domain name of your website
+base_url           = "https://devin-yeung.github.io" # Domain name of your website
 title              = "Devin's Blog"
 description        = "Devin's Blog"
 default_language   = "en"
