@@ -1,5 +1,5 @@
 +++
-title = "serene::blog"
+title = "devin::blog"
 description = "The demo blog page for zola theme serene."
 sort_by = "date"
 template = "blog.html"
