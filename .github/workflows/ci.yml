@@ -11,6 +11,29 @@ jobs:
       - uses: actions/checkout@v4
         with:
           submodules: true
+
+      - name: Checkout resume
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GH_PAT }} # `GH_PAT` is a secret that contains your PAT
+          repository: Devin-Yeung/resume
+          path: resume
+          submodules: true
+
+      - name: Compile resume
+        uses: xu-cheng/latex-action@v3
+        with:
+          working_directory: resume
+          root_file: |
+            resume-en.tex
+            resume-cn.tex
+          extra_fonts: fonts/*
+          latexmk_use_xelatex: true
+          pre_compile: |
+            apk add msttcorefonts-installer fontconfig
+            update-ms-fonts
+            fc-cache -f
+
       - name: Build and Deploy
         uses: shalzz/zola-deploy-action@v0.17.2
         env:
