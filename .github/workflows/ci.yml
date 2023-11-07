@@ -34,6 +34,19 @@ jobs:
             update-ms-fonts
             fc-cache -f
 
+      - name: Install pdf2htmlEX
+        run: |
+          wget "https://github.com/pdf2htmlEX/pdf2htmlEX/releases/download/v0.18.8.rc1/pdf2htmlEX-0.18.8.rc1-master-20200630-Ubuntu-focal-x86_64.deb" -O pdf2htmlEX.deb
+          sudo apt install ./pdf2htmlEX.deb
+          sudo apt install -y ttfautohint
+
+      - name: Convert resume to html
+        run: |
+          pdf2htmlEX  --external-hint-tool=ttfautohint \
+                      --font-size-multiplier 1 \
+                      --fit-width 1024 \
+                      resume/resume-en.pdf static/assets/resume/resume-en.html
+
       - name: Use resume as assets
         run: mv resume/resume-en.pdf static/assets/resume
 
