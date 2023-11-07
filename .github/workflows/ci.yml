@@ -34,6 +34,9 @@ jobs:
             update-ms-fonts
             fc-cache -f
 
+      - name: Use resume as assets
+        run: mv resume/resume-en.pdf static/assets/resume
+
       - name: Build and Deploy
         uses: shalzz/zola-deploy-action@v0.17.2
         env:
