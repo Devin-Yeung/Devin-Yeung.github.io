@@ -46,6 +46,7 @@ jobs:
           pdf2htmlEX  --external-hint-tool=ttfautohint \
                       --font-size-multiplier 1 \
                       --fit-width 1024 \
+                      --process-outline 0 \
                       resume/resume-en.pdf static/assets/resume/resume-en.html
 
       - name: Use resume as assets
