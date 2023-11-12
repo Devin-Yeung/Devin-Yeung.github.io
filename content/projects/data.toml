@@ -1,11 +1,11 @@
 [[project]]
 name = "Oxc"
 desc = """
-	A suite of high-performance tools for JavaScript and TypeScript written in Rust.\n
-  I focus on contributing to the [oxlint](https://github.com/web-infra-dev/oxc/tree/main/crates/oxc_linter).
+A suite of high-performance tools for JavaScript and TypeScript written in Rust.\n
+I focus on contributing to the [oxlint](https://github.com/oxc-project/oxc/tree/main/crates/oxc_linter).
 """
 tags = ["Rust", "compiler", "JavaScript"]
 links = [
-    {name = "github", url = "https://github.com/web-infra-dev/oxc"},
-    {name = "playground", url = "https://web-infra-dev.github.io/oxc/playground"},
+    {name = "github", url = "https://github.com/oxc-project/oxc"},
+    {name = "playground", url = "https://oxc-project.github.io/oxc/playground/"},
 ]
