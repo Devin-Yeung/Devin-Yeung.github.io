@@ -18,5 +18,5 @@ emphasizing PID control, kinematics, dynamics, and controller design.
 """
 tags = ["Robotics", "PID", "Control", "Kinematics", "Dynamics"]
 links = [
-    {name = "thesis", url = "assets/thesis/2dof-robot-arm.pdf"},
+    {name = "thesis", url = "/assets/thesis/2dof-robot-arm.pdf"},
 ]
