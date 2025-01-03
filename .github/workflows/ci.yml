@@ -43,6 +43,7 @@ jobs:
           # when there's math formula in typst, it can't be converted successfully
           # use combination of `--dpi 600 --proof 1 --fallback 1` to make sure it can be rendered
           pdf2htmlEX  --external-hint-tool=ttfautohint \
+                      --process-outline 0 \
                       --dpi 600 \
                       --proof 1 \
                       --fallback 1 \
