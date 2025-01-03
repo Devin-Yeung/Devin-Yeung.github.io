@@ -1,7 +1,7 @@
 on:
   workflow_dispatch: # manually trigger CI
   push:
-    branches: [ master ]
+    branches: [master]
 
 name: Build and deploy GH Pages
 jobs:
@@ -17,40 +17,43 @@ jobs:
         uses: actions/checkout@v4
         with:
           token: ${{ secrets.GH_PAT }} # `GH_PAT` is a secret that contains your PAT
-          repository: Devin-Yeung/resume
+          repository: Devin-Yeung/resume-typ
           path: resume
           submodules: true
 
-      - name: Compile resume
-        uses: xu-cheng/latex-action@v3
-        with:
-          working_directory: resume
-          root_file: |
-            resume-en.tex
-            resume-cn.tex
-          extra_fonts: fonts/*
-          latexmk_use_xelatex: true
-          pre_compile: |
-            apk add msttcorefonts-installer fontconfig
-            update-ms-fonts
-            fc-cache -f
+      - name: Install fonts
+        run: |
+          mkdir -p ./fonts
+          wget http://updates-http.cdn-apple.com/2019/ios/041-71823-20190919-727D8F22-D598-11E9-BBB9-A15472111DF7/com_apple_MobileAsset_Font6/7cb72b1f60ccd0551894a1f248aa7c28fa3afb1d.zip -O /tmp/Kai.zip
+          unzip /tmp/Kai.zip -d /tmp
+          mv /tmp/AssetData/Kai.ttf ./fonts/Kai.ttf
+
+      - uses: typst-community/setup-typst@v3
+      - name: Compile Document
+        run: typst c --input profile=oss --input medium=digital --font-path ./fonts resume/resume.typ
 
       - name: Install pdf2htmlEX
         run: |
           wget "https://github.com/pdf2htmlEX/pdf2htmlEX/releases/download/v0.18.8.rc1/pdf2htmlEX-0.18.8.rc1-master-20200630-Ubuntu-focal-x86_64.deb" -O pdf2htmlEX.deb
           sudo apt install ./pdf2htmlEX.deb
           sudo apt install -y ttfautohint
-
-      - name: Convert resume to html
+      - name: Convert pdf to html
         run: |
+          mkdir build
+          # https://github.com/coolwanglu/pdf2htmlEX/issues/455
+          # when there's math formula in typst, it can't be converted successfully
+          # use combination of `--dpi 600 --proof 1 --fallback 1` to make sure it can be rendered
           pdf2htmlEX  --external-hint-tool=ttfautohint \
+                      --dpi 600 \
+                      --proof 1 \
+                      --fallback 1 \
                       --font-size-multiplier 1 \
                       --fit-width 1024 \
-                      --process-outline 0 \
-                      resume/resume-en.pdf static/assets/resume/resume-en.html
+                      --debug 1 \
+                      resume.pdf static/assets/resume/resume.html
 
       - name: Use resume as assets
-        run: mv resume/resume-en.pdf static/assets/resume
+        run: mv resume.pdf static/assets/resume
 
       - name: Build and Deploy
         uses: shalzz/zola-deploy-action@v0.17.2
