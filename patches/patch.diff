@@ -1,0 +1,14 @@
+Submodule themes/serene contains modified content
+diff --git a/themes/serene/sass/main.scss b/themes/serene/sass/main.scss
+index ea4a199..0aea562 100644
+--- a/themes/serene/sass/main.scss
++++ b/themes/serene/sass/main.scss
+@@ -8,6 +8,8 @@
+ }
+ 
+ body {
++  --main-font: 'Signika', ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
++  --code-font: 'Iosevka' ;
+   min-height: 100%;
+   font-family: var(--main-font);
+   background-color: var(--bg-color);

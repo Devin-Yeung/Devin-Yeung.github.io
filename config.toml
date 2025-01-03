@@ -7,8 +7,8 @@ output_dir = "public"
 compile_sass = true
 minify_html = false
 build_search_index = false                                # Keep this false, search is temporarily unsupported
-generate_feed = false                                     # Whether to generate a feed file in root, read docs for more info about rss feed
-feed_filename = "feed.xml"                                # The file name of feed, "feed.xml" / "atom.xml" / "rss.xml", read docs for more info
+generate_feeds = true                 # Whether to generate a feed file in root, read docs for more info about rss feed
+feed_filenames = ["feed.xml"]         # The file name of feed, "feed.xml" / "atom.xml" / "rss.xml", read docs for more info
 taxonomies = [{ name = "tags" }, { name = "categories" }]
 
 [markdown]
@@ -41,6 +41,11 @@ links = [ # Your links
     # { name = "Twitter", icon = "twitter", url = "https://twitter.com/<your-username>" },
     # { name = "Email", icon = "email", url = "mailto:<your-email-address>" },
 ]
+
+force_theme = false                   # false | "light" | "dark"
+reaction = false                      # Whether to show anonymous reactions (Note: You need to set up a working api endpoint to enable anonymous reaction)
+reaction_align = "right"              # "left" | "center" | "right"
+reaction_endpoint = "https://example.com/api/reaction"
 
 homepage_layout = "about" # "about" | "list"
 

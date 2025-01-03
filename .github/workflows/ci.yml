@@ -13,6 +13,10 @@ jobs:
         with:
           submodules: true
 
+      - name: Patching
+        run: |
+          git apply patches/patch.diff
+
       - name: Checkout resume
         uses: actions/checkout@v4
         with:
@@ -56,7 +60,7 @@ jobs:
         run: mv resume.pdf static/assets/resume
 
       - name: Build and Deploy
-        uses: shalzz/zola-deploy-action@v0.17.2
+        uses: shalzz/zola-deploy-action@v0.19.2
         env:
           # Target branch
           PAGES_BRANCH: gh-pages
