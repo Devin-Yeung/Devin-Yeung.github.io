@@ -1,0 +1,22 @@
+[[project]]
+name = "Oxc"
+desc = """
+A suite of high-performance tools for JavaScript and TypeScript written in Rust.\n
+I focus on contributing to the [oxlint](https://github.com/oxc-project/oxc/tree/main/crates/oxc_linter).
+"""
+tags = ["Rust", "compiler", "JavaScript"]
+links = [
+    {name = "github", url = "https://github.com/oxc-project/oxc"},
+    {name = "playground", url = "https://oxc-project.github.io/oxc/playground/"},
+]
+
+[[project]]
+name = "Modeling and Control of 2-DOF Robot Arm"
+desc = """
+Investigated control aspects of a two-degree-of-freedom robotic arm,
+emphasizing PID control, kinematics, dynamics, and controller design.
+"""
+tags = ["Robotics", "PID", "Control", "Kinematics", "Dynamics"]
+links = [
+    {name = "thesis", url = "/assets/thesis/2dof-robot-arm.pdf"},
+]
