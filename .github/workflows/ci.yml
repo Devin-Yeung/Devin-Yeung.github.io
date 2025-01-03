@@ -23,14 +23,13 @@ jobs:
 
       - name: Install fonts
         run: |
-          mkdir -p ./fonts
           wget http://updates-http.cdn-apple.com/2019/ios/041-71823-20190919-727D8F22-D598-11E9-BBB9-A15472111DF7/com_apple_MobileAsset_Font6/7cb72b1f60ccd0551894a1f248aa7c28fa3afb1d.zip -O /tmp/Kai.zip
           unzip /tmp/Kai.zip -d /tmp
-          mv /tmp/AssetData/Kai.ttf ./fonts/Kai.ttf
+          mv /tmp/AssetData/Kai.ttf ./resume/fonts/Kai.ttf
 
       - uses: typst-community/setup-typst@v3
       - name: Compile Document
-        run: typst c --input profile=oss --input medium=digital --font-path ./fonts resume/resume.typ
+        run: typst c --input profile=oss --input medium=digital --font-path ./resume/fonts resume/resume.typ resume.pdf
 
       - name: Install pdf2htmlEX
         run: |
